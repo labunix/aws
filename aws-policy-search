@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -lt 1 ];then
+  echo "Usage: $0 [search-word]"
+  exit 1
+fi
+
+aws iam list-policies --scope AWS | jq -r '.Policies[].PolicyName' | awk -v word="$@" 'BEGIN{IGNORECASE=1}$0 ~ word'
