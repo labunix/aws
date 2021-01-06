@@ -1,0 +1,48 @@
+#!/bin/bash
+
+list-ssh-public-keys-check() {
+  aws iam list-ssh-public-keys --user-name ${awsiamuser} >/dev/null 2>&1
+  if [ $? -eq 0 ];then
+    line=$(aws iam list-ssh-public-keys --user-name ${awsiamuser} | jq -r '.SSHPublicKeys[].SSHPublicKeyId' | wc -l)
+  else
+    echo "Not permit access!"
+    exit 1
+  fi
+}
+
+if [ $# -lt 1 ];then
+  echo "Usage: $0 [aws-iam-user-name]"
+  exit 1
+fi
+
+awsiamuser=$1
+awssshkey=~/.ssh/${awsiamuser}-codecommit
+
+list-ssh-public-keys-check
+
+# for no change check.
+# exit 0
+
+# Not Found Only Action
+if [ ! -f "${awssshkey}.pub" ];then
+  ssh-keygen -f ${awssshkey}
+fi
+
+# Not Found Only Action
+
+list-ssh-public-keys-check
+
+if [ ${line} -eq 0 ];then
+  aws iam upload-ssh-public-key --user-name ${awsiamuser} --ssh-public-key-body "$(cat ${awssshkey}.pub)"
+  sshpubkeyid=$(aws iam list-ssh-public-keys --user-name ${awsiamuser} |  jq -r '.SSHPublicKeys[].SSHPublicKeyId')
+
+  echo "Host git-codecommit.*.amazonaws.com" >> ~/.ssh/config
+  echo "  User ${sshpubkeyid}" >> ~/.ssh/config
+  echo "  IdentityFile ${awssshkey}" >> ~/.ssh/config
+  chmod 600 ~/.ssh/config
+fi
+
+list-ssh-public-keys-check
+if [ ${line} -eq 1 ];then
+  echo "ok"
+fi
