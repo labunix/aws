@@ -5,5 +5,8 @@ if [ $# -lt 1 ];then
   exit 1
 fi
 
+# ^A   for aws-cli/1
+# AVAI for aws-cli/2
+
 $@ help | \
   awk 'BEGIN{a=0}{if($0 ~ /^A|AVAI/){a=1;getline}}{if(a==1 && NF>1){print $NF}}'
