@@ -10,11 +10,16 @@ aws-region-list() {
   fi
 
   if [ ! -f aws-region.txt ];then
-    w3m -cols 240 -dump "https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" | \
+    curl "https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" 2>/dev/null  | \
     awk 'BEGIN{a=0} \
-         {if($1 ~ /コード/&& $2 ~ /名前/){a=1}else{if($1 ~ /詳細/){a=0}}} \
-         {if(a==1&& !/^$|lax-/){gsub("不要|必要|必須|利用不可|オプトインステータス|ローカルゾーン","",$0); \
-           printf "%-18s%s%s%s\n",$1,$2,$3,$4}}' > aws-region.txt
+     /<th>|<td>/ && !/必要|不要|利用不可|必須|-lax-|オプトインステータス|ローカルゾーン/ \
+     {gsub(".*<t[dh]>|</t[dh]>|.*=.code.>|</code>| ","",$0);a++;if(a%2==0){print $0}else{printf $0" "}}' > aws-region.txt
+
+    #w3m -cols 240 -dump "https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" | \
+    #awk 'BEGIN{a=0} \
+    #     {if($1 ~ /コード/&& $2 ~ /名前/){a=1}else{if($1 ~ /詳細/){a=0}}} \
+    #     {if(a==1&& !/^$|lax-/){gsub("不要|必要|必須|利用不可|オプトインステータス|ローカルゾーン","",$0); \
+    #       printf "%-18s%s%s%s\n",$1,$2,$3,$4}}' > aws-region.txt
   fi
 }
 
