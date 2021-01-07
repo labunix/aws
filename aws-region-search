@@ -1,18 +1,39 @@
 #!/bin/bash
 
+aws-region-list() {
+  if [ -f aws-region.txt ];then
+    target=$(ls -l --time-style='+%Y%m%d' aws-region.txt | awk '{print $6}')
+    today=$(date '+%Y%m%d')
+    if [ $(( ${today} - ${target})) -ge 1 ];then
+      rm aws-region.txt
+    fi
+  fi
+
+  if [ ! -f aws-region.txt ];then
+    w3m -cols 240 -dump "https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" | \
+    awk 'BEGIN{a=0} \
+         {if($1 ~ /コード/&& $2 ~ /名前/){a=1}else{if($1 ~ /詳細/){a=0}}} \
+         {if(a==1&& !/^$|lax-/){gsub("不要|必要|必須|利用不可|オプトインステータス|ローカルゾーン","",$0); \
+           printf "%-18s%s%s%s\n",$1,$2,$3,$4}}' > aws-region.txt
+  fi
+}
+
 if [ $# -lt 2 ];then
   echo "Usage  : $0 \"[aws-cli]\" jq-entry"
-  echo "Example: $0 "aws codecommit list-repositories" .repositories[].repositoryName
+  echo "Example: $0 \"aws codecommit list-repositories\" .repositories[].repositoryName"
   exit 1
 fi
 
-aws-cli="aws codecommit list-repositories"
-jq-entry=".repositories[].repositoryName"
+#aws-cli="aws codecommit list-repositories"
+#jq-entry=".repositories[].repositoryName"
 
-aws-cli=$1
-jq-entry=$2
+awscli="$1"
+jqentry="$2"
 
-awk -v aws-cli="${aws-cli}" -v jq-entry="$jq-entry}" \
-  '!/コード/{print "echo \042["$1"\042];" aws-cli " --region "$1" | jq -r \047" jq-entry "\047"}' \
-    aws-region.txt | sh 2>&1 | \
-  awk '{if(/^An error occurred/){print "無効なリージョン"}else{if($0 !~ /^$/){print $0}}}'
+aws-region-list
+test -f aws-region.txt && \
+  awk -v awscli="${awscli}" -v jqentry="${jqentry}" \
+    '!/コード/{print "echo \042["$1"\042];" awscli " --region " $1 " | jq -r \047" jqentry "\047"}' \
+      aws-region.txt | sh 2>&1 | \
+      awk '{if(/^An error occurred/){print "無効なリージョン"}else{if($0 !~ /^$/){print $0}}}'
+
