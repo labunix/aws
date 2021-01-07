@@ -1,0 +1,29 @@
+#!/bin/bash
+
+mylsec() {
+  awk -v key="$@" -v sep="^{" 'BEGIN{f=0} \
+  {if($0 ~ sep){f++;a[f]=$0}else{a[f]=a[f]"___"$0}}\
+  END{for(n in a){if(a[n] ~ key){gsub("___","\n",a[n]);print a[n]}}}'
+}
+
+if [ $# -lt 1 ];then
+  echo "Usage: $0 [search-word]"
+  exit 1
+fi
+
+if [ -f aws_cloudtrail_lookup-events_yesterday.txt ];then
+  trigger=$(TZ=+9 date --date '1 days ago' '+%Y%m%d')
+  base=$(TZ=+9 ls -l --time-style='+%Y%m%d' aws_cloudtrail_lookup-events_yesterday.txt | awk '{print $6}')
+  unset TZ
+  if [ $(( ${base} - ${trigger} )) -le 0 ];then
+    mv aws_cloudtrail_lookup-events_yesterday.txt{,_${base}}
+    gzip aws_cloudtrail_lookup-events_yesterday.txt_${base}
+  fi
+fi
+
+test -f aws_cloudtrail_lookup-events_yesterday.txt || \
+  aws cloudtrail lookup-events \
+    --start-time $(date --date '2 days ago' '+%Y-%m-%dT18:00:00Z' ) \
+    --end-time   $(date --date '1 days ago' '+%Y-%m-%dT09:00:00Z' ) > aws_cloudtrail_lookup-events_yesterday.txt
+key=$@
+cat aws_cloudtrail_lookup-events_yesterday.txt | jq -r '.Events[].CloudTrailEvent' | jq -r . | mylsec ${key}
