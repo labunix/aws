@@ -6,4 +6,4 @@ if [ $# -lt 1 ];then
 fi
 
 $@ help | \
-  awk 'BEGIN{a=0}{if($0 ~ /^A/){a=1;getline}}{if(a==1 && NF>1){print $NF}}'
+  awk 'BEGIN{a=0}{if($0 ~ /^A|AVAI/){a=1;getline}}{if(a==1 && NF>1){print $NF}}'
