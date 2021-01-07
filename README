@@ -1,0 +1,9 @@
+使い方
+
+$ git clone https://github.com/labunix/aws
+$ cd aws
+
+　awscliと組み合わせて使う、長くなるbashスクリプトをコマンド化してみた。
+　https://labunix.hateblo.jp/entry/20210107/1610001966
+
+
