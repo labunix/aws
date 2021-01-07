@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $# -lt 2 ];then
+  echo "Usage  : $0 \"[aws-cli]\" jq-entry"
+  echo "Example: $0 "aws codecommit list-repositories" .repositories[].repositoryName
+  exit 1
+fi
+
+aws-cli="aws codecommit list-repositories"
+jq-entry=".repositories[].repositoryName"
+
+aws-cli=$1
+jq-entry=$2
+
+awk -v aws-cli="${aws-cli}" -v jq-entry="$jq-entry}" \
+  '!/コード/{print "echo \042["$1"\042];" aws-cli " --region "$1" | jq -r \047" jq-entry "\047"}' \
+    aws-region.txt | sh 2>&1 | \
+  awk '{if(/^An error occurred/){print "無効なリージョン"}else{if($0 !~ /^$/){print $0}}}'
