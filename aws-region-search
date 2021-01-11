@@ -26,6 +26,8 @@ aws-region-list() {
 if [ $# -lt 2 ];then
   echo "Usage  : $0 \"[aws-cli]\" jq-entry"
   echo "Example: $0 \"aws codecommit list-repositories\" .repositories[].repositoryName"
+  echo "Output : aws-region-list.txt"
+  aws-region-list
   exit 1
 fi
 
@@ -35,6 +37,7 @@ fi
 awscli="$1"
 jqentry="$2"
 
+echo "Output : aws-region-list.txt"
 aws-region-list
 test -f aws-region.txt && \
   awk -v awscli="${awscli}" -v jqentry="${jqentry}" \
