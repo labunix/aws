@@ -5,8 +5,8 @@ if [ $# -lt 1 ];then
   exit 1
 fi
 
-# ^A   for aws-cli/1
-# AVAI for aws-cli/2
-
 $@ help | \
-  awk 'BEGIN{a=0}{if($0 ~ /^A|AVAI/){a=1;getline}}{if(a==1 && NF>1){print $NF}}'
+  awk  -F'[ \t\f\n\r\v]' 'BEGIN{f=0} \
+       {if($0 ~ /[A-Z].*[A-Z].*[A-Z]/){f++;a[f]=$0}else{a[f]=a[f]"___"$0}}\
+     END{for(n in a){if(a[n] ~ /A.*V.*A.*I/){gsub("___","\n",a[n]);print n,a[n]}}}' | \
+  awk '/o/{print $NF}'
