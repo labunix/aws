@@ -1,0 +1,6 @@
+#!/bin/bash
+
+aws ec2 describe-images --owners self amazon \
+    --filters "Name=name,Values=amzn2-ami-hvm-*x86_64-gp2" \
+    --query 'sort_by(Images[].{YMD:CreationDate,Name:Name,ImageId:ImageId,OwnerId:OwnerId},&YMD)|reverse(@) | [0].ImageId' \
+    --output text

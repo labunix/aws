@@ -1,0 +1,34 @@
+#!/bin/bash
+
+awsuser=labunix
+awsgroup=Administrators
+awspolicy=AdministratorAccess
+
+
+function createuser {
+  user=$(aws iam list-users --output text --query 'Users[?UserName==`'${awsuser}'`].[UserName]')
+
+  if [ "x${user}" != "x" ];then
+    aws iam create-user --user-name ${awsuser}
+
+    output="aws_iam_get-user_--user-name_${awsuser}_$(date '+%Y%m%d-%H%M%S').txt"
+    aws iam get-user --user-name ${awsuser} > ${output} 2>&1
+    user=$(aws iam list-users --output text --query 'Users[?UserName==`'${awsuser}'`].[UserName]')
+  fi
+}
+
+function creategroup {
+  group=$(aws iam list-groups --output text --query 'Groups[?GroupName==`'${awsgroup}'`].[GroupName]')
+
+  if [ "x${group}" != "x" ];then
+    aws iam aws iam create-group --group-name ${awsgroup}
+    aws iam add-user-to-group --user-name ${awsuser} --group-name ${awsgroup}
+
+    aws iam list-policies --query 'Policies[?PolicyName==`'${awspolicy}'`].{ARN:Arn}' --output text
+
+    output="aws_iam_list-groups-for-user_--user-name_${awsuser}_$(date '+%Y%m%d-%H%M%S').txt"
+    aws iam list-groups-for-user --user-name ${awsuser} > ${output} 2>&1
+
+    group=$(aws iam list-groups --output text --query 'Groups[?GroupName==`'${awsgroup}'`].[GroupName]')
+  fi
+}
