@@ -1,0 +1,5 @@
+{
+    "DryRun": true,
+    "InstanceFamily": "t4g",
+    "CpuCredits": ""
+}

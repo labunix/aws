@@ -1,0 +1,39 @@
+{
+    "EndpointConfigName": "",
+    "ProductionVariants": [
+        {
+            "VariantName": "",
+            "ModelName": "",
+            "InitialInstanceCount": 0,
+            "InstanceType": "ml.g4dn.16xlarge",
+            "InitialVariantWeight": 0.0,
+            "AcceleratorType": "ml.eia2.large"
+        }
+    ],
+    "DataCaptureConfig": {
+        "EnableCapture": true,
+        "InitialSamplingPercentage": 0,
+        "DestinationS3Uri": "",
+        "KmsKeyId": "",
+        "CaptureOptions": [
+            {
+                "CaptureMode": "Input"
+            }
+        ],
+        "CaptureContentTypeHeader": {
+            "CsvContentTypes": [
+                ""
+            ],
+            "JsonContentTypes": [
+                ""
+            ]
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "KmsKeyId": ""
+}

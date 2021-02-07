@@ -1,0 +1,11 @@
+{
+    "ProgressUpdateStream": "",
+    "MigrationTaskName": "",
+    "ResourceAttributeList": [
+        {
+            "Type": "MOTHERBOARD_SERIAL_NUMBER",
+            "Value": ""
+        }
+    ],
+    "DryRun": true
+}

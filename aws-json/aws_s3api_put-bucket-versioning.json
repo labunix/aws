@@ -1,0 +1,10 @@
+{
+    "Bucket": "",
+    "ContentMD5": "",
+    "MFA": "",
+    "VersioningConfiguration": {
+        "MFADelete": "Disabled",
+        "Status": "Suspended"
+    },
+    "ExpectedBucketOwner": ""
+}

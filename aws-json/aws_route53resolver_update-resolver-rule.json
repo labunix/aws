@@ -1,0 +1,13 @@
+{
+    "ResolverRuleId": "",
+    "Config": {
+        "Name": "",
+        "TargetIps": [
+            {
+                "Ip": "",
+                "Port": 0
+            }
+        ],
+        "ResolverEndpointId": ""
+    }
+}

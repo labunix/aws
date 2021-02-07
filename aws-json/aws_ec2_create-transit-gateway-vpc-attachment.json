@@ -1,0 +1,24 @@
+{
+    "TransitGatewayId": "",
+    "VpcId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "Options": {
+        "DnsSupport": "disable",
+        "Ipv6Support": "enable",
+        "ApplianceModeSupport": "enable"
+    },
+    "TagSpecifications": [
+        {
+            "ResourceType": "vpc-flow-log",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

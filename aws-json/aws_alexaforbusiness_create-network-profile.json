@@ -1,0 +1,14 @@
+{
+    "NetworkProfileName": "",
+    "Description": "",
+    "Ssid": "",
+    "SecurityType": "OPEN",
+    "EapMethod": "EAP_TLS",
+    "CurrentPassword": "",
+    "NextPassword": "",
+    "CertificateAuthorityArn": "",
+    "TrustAnchors": [
+        ""
+    ],
+    "ClientRequestToken": ""
+}

@@ -1,0 +1,6 @@
+{
+    "GameServerGroupName": "",
+    "ResumeActions": [
+        "REPLACE_INSTANCE_TYPES"
+    ]
+}

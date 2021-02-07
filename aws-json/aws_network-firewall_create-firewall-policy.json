@@ -1,0 +1,44 @@
+{
+    "FirewallPolicyName": "",
+    "FirewallPolicy": {
+        "StatelessRuleGroupReferences": [
+            {
+                "ResourceArn": "",
+                "Priority": 0
+            }
+        ],
+        "StatelessDefaultActions": [
+            ""
+        ],
+        "StatelessFragmentDefaultActions": [
+            ""
+        ],
+        "StatelessCustomActions": [
+            {
+                "ActionName": "",
+                "ActionDefinition": {
+                    "PublishMetricAction": {
+                        "Dimensions": [
+                            {
+                                "Value": ""
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "StatefulRuleGroupReferences": [
+            {
+                "ResourceArn": ""
+            }
+        ]
+    },
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "DryRun": true
+}

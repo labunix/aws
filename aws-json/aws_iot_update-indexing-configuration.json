@@ -1,0 +1,33 @@
+{
+    "thingIndexingConfiguration": {
+        "thingIndexingMode": "REGISTRY_AND_SHADOW",
+        "thingConnectivityIndexingMode": "OFF",
+        "managedFields": [
+            {
+                "name": "",
+                "type": "Boolean"
+            }
+        ],
+        "customFields": [
+            {
+                "name": "",
+                "type": "Boolean"
+            }
+        ]
+    },
+    "thingGroupIndexingConfiguration": {
+        "thingGroupIndexingMode": "OFF",
+        "managedFields": [
+            {
+                "name": "",
+                "type": "Boolean"
+            }
+        ],
+        "customFields": [
+            {
+                "name": "",
+                "type": "String"
+            }
+        ]
+    }
+}

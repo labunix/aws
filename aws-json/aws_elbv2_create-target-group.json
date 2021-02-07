@@ -1,0 +1,26 @@
+{
+    "Name": "",
+    "Protocol": "TLS",
+    "ProtocolVersion": "",
+    "Port": 0,
+    "VpcId": "",
+    "HealthCheckProtocol": "TCP",
+    "HealthCheckPort": "",
+    "HealthCheckEnabled": true,
+    "HealthCheckPath": "",
+    "HealthCheckIntervalSeconds": 0,
+    "HealthCheckTimeoutSeconds": 0,
+    "HealthyThresholdCount": 0,
+    "UnhealthyThresholdCount": 0,
+    "Matcher": {
+        "HttpCode": "",
+        "GrpcCode": ""
+    },
+    "TargetType": "instance",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

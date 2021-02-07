@@ -1,0 +1,11 @@
+{
+    "vpcLinkId": "",
+    "patchOperations": [
+        {
+            "op": "add",
+            "path": "",
+            "value": "",
+            "from": ""
+        }
+    ]
+}

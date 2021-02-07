@@ -1,0 +1,8 @@
+{
+    "DatabaseName": "",
+    "TableName": "",
+    "RetentionProperties": {
+        "MemoryStoreRetentionPeriodInHours": 0,
+        "MagneticStoreRetentionPeriodInDays": 0
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "SchemaId": {
+        "SchemaArn": "",
+        "SchemaName": "",
+        "RegistryName": ""
+    },
+    "SchemaVersionNumber": {
+        "LatestVersion": true,
+        "VersionNumber": 0
+    },
+    "Compatibility": "BACKWARD_ALL",
+    "Description": ""
+}

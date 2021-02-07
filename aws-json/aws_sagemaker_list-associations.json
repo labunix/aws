@@ -1,0 +1,13 @@
+{
+    "SourceArn": "",
+    "DestinationArn": "",
+    "SourceType": "",
+    "DestinationType": "",
+    "AssociationType": "ContributedTo",
+    "CreatedAfter": "1970-01-01T00:00:00",
+    "CreatedBefore": "1970-01-01T00:00:00",
+    "SortBy": "DestinationArn",
+    "SortOrder": "Ascending",
+    "NextToken": "",
+    "MaxResults": 0
+}

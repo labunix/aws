@@ -1,0 +1,23 @@
+{
+    "connectionId": "",
+    "newPublicVirtualInterface": {
+        "virtualInterfaceName": "",
+        "vlan": 0,
+        "asn": 0,
+        "authKey": "",
+        "amazonAddress": "",
+        "customerAddress": "",
+        "addressFamily": "ipv6",
+        "routeFilterPrefixes": [
+            {
+                "cidr": ""
+            }
+        ],
+        "tags": [
+            {
+                "key": "",
+                "value": ""
+            }
+        ]
+    }
+}

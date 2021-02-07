@@ -1,0 +1,12 @@
+{
+    "CertificateArn": "",
+    "Certificate": null,
+    "PrivateKey": null,
+    "CertificateChain": null,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

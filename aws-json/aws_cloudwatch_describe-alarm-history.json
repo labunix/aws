@@ -1,0 +1,12 @@
+{
+    "AlarmName": "",
+    "AlarmTypes": [
+        "CompositeAlarm"
+    ],
+    "HistoryItemType": "ConfigurationUpdate",
+    "StartDate": "1970-01-01T00:00:00",
+    "EndDate": "1970-01-01T00:00:00",
+    "MaxRecords": 0,
+    "NextToken": "",
+    "ScanBy": "TimestampDescending"
+}

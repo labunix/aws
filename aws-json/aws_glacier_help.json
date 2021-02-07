@@ -1,0 +1,114 @@
+GLACIER()                                                            GLACIER()
+
+
+
+NNAAMMEE
+       glacier -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon S3 Glacier (Glacier) is a storage solution for "cold data."
+
+       Glacier  is an extremely low-cost storage service that provides secure,
+       durable, and easy-to-use storage for data  backup  and  archival.  With
+       Glacier,  customers  can  store their data cost effectively for months,
+       years, or decades. Glacier also enables customers to offload the admin-
+       istrative  burdens  of  operating  and  scaling storage to AWS, so they
+       don't have to worry about  capacity  planning,  hardware  provisioning,
+       data  replication,  hardware  failure  and  recovery, or time-consuming
+       hardware migrations.
+
+       Glacier is a great storage choice when low storage  cost  is  paramount
+       and your data is rarely retrieved. If your application requires fast or
+       frequent access to your data, consider using Amazon S3. For more infor-
+       mation, see _A_m_a_z_o_n _S_i_m_p_l_e _S_t_o_r_a_g_e _S_e_r_v_i_c_e _(_A_m_a_z_o_n _S_3_) .
+
+       You can store any kind of data in any format. There is no maximum limit
+       on the total amount of data you can store in Glacier.
+
+       If you are a first-time user of Glacier, we recommend that you begin by
+       reading the following sections in the _A_m_a_z_o_n _S_3 _G_l_a_c_i_e_r _D_e_v_e_l_o_p_e_r _G_u_i_d_e
+       :
+
+       +o _W_h_a_t _i_s _A_m_a_z_o_n _S_3 _G_l_a_c_i_e_r - This section of the Developer  Guide  de-
+         scribes  the  underlying  data model, the operations it supports, and
+         the AWS SDKs that you can use to interact with the service.
+
+       +o _G_e_t_t_i_n_g _S_t_a_r_t_e_d _w_i_t_h _A_m_a_z_o_n _S_3 _G_l_a_c_i_e_r - The Getting Started  section
+         walks  you  through  the  process  of creating a vault, uploading ar-
+         chives, creating jobs to download archives, retrieving the  job  out-
+         put, and deleting archives.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o abort-multipart-upload
+
+       +o abort-vault-lock
+
+       +o add-tags-to-vault
+
+       +o complete-multipart-upload
+
+       +o complete-vault-lock
+
+       +o create-vault
+
+       +o delete-archive
+
+       +o delete-vault
+
+       +o delete-vault-access-policy
+
+       +o delete-vault-notifications
+
+       +o describe-job
+
+       +o describe-vault
+
+       +o get-data-retrieval-policy
+
+       +o get-job-output
+
+       +o get-vault-access-policy
+
+       +o get-vault-lock
+
+       +o get-vault-notifications
+
+       +o help
+
+       +o initiate-job
+
+       +o initiate-multipart-upload
+
+       +o initiate-vault-lock
+
+       +o list-jobs
+
+       +o list-multipart-uploads
+
+       +o list-parts
+
+       +o list-provisioned-capacity
+
+       +o list-tags-for-vault
+
+       +o list-vaults
+
+       +o purchase-provisioned-capacity
+
+       +o remove-tags-from-vault
+
+       +o set-data-retrieval-policy
+
+       +o set-vault-access-policy
+
+       +o set-vault-notifications
+
+       +o upload-archive
+
+       +o upload-multipart-part
+
+       +o wait
+
+
+
+                                                                     GLACIER()

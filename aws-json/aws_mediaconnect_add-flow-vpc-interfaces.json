@@ -1,0 +1,13 @@
+{
+    "FlowArn": "",
+    "VpcInterfaces": [
+        {
+            "Name": "",
+            "RoleArn": "",
+            "SecurityGroupIds": [
+                ""
+            ],
+            "SubnetId": ""
+        }
+    ]
+}

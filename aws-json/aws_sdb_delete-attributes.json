@@ -1,0 +1,17 @@
+{
+    "DomainName": "",
+    "ItemName": "",
+    "Attributes": [
+        {
+            "Name": "",
+            "AlternateNameEncoding": "",
+            "Value": "",
+            "AlternateValueEncoding": ""
+        }
+    ],
+    "Expected": {
+        "Name": "",
+        "Value": "",
+        "Exists": true
+    }
+}

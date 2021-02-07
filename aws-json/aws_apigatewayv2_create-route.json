@@ -1,0 +1,22 @@
+{
+    "ApiId": "",
+    "ApiKeyRequired": true,
+    "AuthorizationScopes": [
+        ""
+    ],
+    "AuthorizationType": "CUSTOM",
+    "AuthorizerId": "",
+    "ModelSelectionExpression": "",
+    "OperationName": "",
+    "RequestModels": {
+        "KeyName": ""
+    },
+    "RequestParameters": {
+        "KeyName": {
+            "Required": true
+        }
+    },
+    "RouteKey": "",
+    "RouteResponseSelectionExpression": "",
+    "Target": ""
+}

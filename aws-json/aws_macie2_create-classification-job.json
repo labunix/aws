@@ -1,0 +1,83 @@
+{
+    "clientToken": "",
+    "customDataIdentifierIds": [
+        ""
+    ],
+    "description": "",
+    "initialRun": true,
+    "jobType": "SCHEDULED",
+    "name": "",
+    "s3JobDefinition": {
+        "bucketDefinitions": [
+            {
+                "accountId": "",
+                "buckets": [
+                    ""
+                ]
+            }
+        ],
+        "scoping": {
+            "excludes": {
+                "and": [
+                    {
+                        "simpleScopeTerm": {
+                            "comparator": "GTE",
+                            "key": "OBJECT_LAST_MODIFIED_DATE",
+                            "values": [
+                                ""
+                            ]
+                        },
+                        "tagScopeTerm": {
+                            "comparator": "NE",
+                            "key": "",
+                            "tagValues": [
+                                {
+                                    "key": "",
+                                    "value": ""
+                                }
+                            ],
+                            "target": "S3_OBJECT"
+                        }
+                    }
+                ]
+            },
+            "includes": {
+                "and": [
+                    {
+                        "simpleScopeTerm": {
+                            "comparator": "GT",
+                            "key": "OBJECT_LAST_MODIFIED_DATE",
+                            "values": [
+                                ""
+                            ]
+                        },
+                        "tagScopeTerm": {
+                            "comparator": "LT",
+                            "key": "",
+                            "tagValues": [
+                                {
+                                    "key": "",
+                                    "value": ""
+                                }
+                            ],
+                            "target": "S3_OBJECT"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "samplingPercentage": 0,
+    "scheduleFrequency": {
+        "dailySchedule": {},
+        "monthlySchedule": {
+            "dayOfMonth": 0
+        },
+        "weeklySchedule": {
+            "dayOfWeek": "WEDNESDAY"
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

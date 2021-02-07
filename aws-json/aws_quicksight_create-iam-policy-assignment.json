@@ -1,0 +1,12 @@
+{
+    "AwsAccountId": "",
+    "AssignmentName": "",
+    "AssignmentStatus": "DRAFT",
+    "PolicyArn": "",
+    "Identities": {
+        "KeyName": [
+            ""
+        ]
+    },
+    "Namespace": ""
+}

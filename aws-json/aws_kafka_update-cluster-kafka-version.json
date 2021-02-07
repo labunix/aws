@@ -1,0 +1,9 @@
+{
+    "ClusterArn": "",
+    "ConfigurationInfo": {
+        "Arn": "",
+        "Revision": 0
+    },
+    "CurrentVersion": "",
+    "TargetKafkaVersion": ""
+}

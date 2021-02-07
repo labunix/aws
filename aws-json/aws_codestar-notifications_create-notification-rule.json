@@ -1,0 +1,19 @@
+{
+    "Name": "",
+    "EventTypeIds": [
+        ""
+    ],
+    "Resource": "",
+    "Targets": [
+        {
+            "TargetType": "",
+            "TargetAddress": ""
+        }
+    ],
+    "DetailType": "BASIC",
+    "ClientRequestToken": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "Status": "DISABLED"
+}

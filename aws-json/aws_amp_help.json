@@ -1,0 +1,26 @@
+AMP()                                                                    AMP()
+
+
+
+NNAAMMEE
+       amp -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon Managed Service for Prometheus
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-workspace
+
+       +o delete-workspace
+
+       +o describe-workspace
+
+       +o help
+
+       +o list-workspaces
+
+       +o update-workspace-alias
+
+
+
+                                                                         AMP()

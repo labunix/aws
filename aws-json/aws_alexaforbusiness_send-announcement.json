@@ -1,0 +1,32 @@
+{
+    "RoomFilters": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "Content": {
+        "TextList": [
+            {
+                "Locale": "en-US",
+                "Value": ""
+            }
+        ],
+        "SsmlList": [
+            {
+                "Locale": "en-US",
+                "Value": ""
+            }
+        ],
+        "AudioList": [
+            {
+                "Locale": "en-US",
+                "Location": ""
+            }
+        ]
+    },
+    "TimeToLiveInSeconds": 0,
+    "ClientRequestToken": ""
+}

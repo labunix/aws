@@ -1,0 +1,11 @@
+{
+    "AccountId": "",
+    "RetentionSettings": {
+        "RoomRetentionSettings": {
+            "RetentionDays": 0
+        },
+        "ConversationRetentionSettings": {
+            "RetentionDays": 0
+        }
+    }
+}

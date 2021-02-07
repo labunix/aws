@@ -1,0 +1,13 @@
+{
+    "ReplayName": "",
+    "Description": "",
+    "EventSourceArn": "",
+    "EventStartTime": "1970-01-01T00:00:00",
+    "EventEndTime": "1970-01-01T00:00:00",
+    "Destination": {
+        "Arn": "",
+        "FilterArns": [
+            ""
+        ]
+    }
+}

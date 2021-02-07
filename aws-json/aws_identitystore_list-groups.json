@@ -1,0 +1,11 @@
+{
+    "IdentityStoreId": "",
+    "MaxResults": 0,
+    "NextToken": "",
+    "Filters": [
+        {
+            "AttributePath": "",
+            "AttributeValue": ""
+        }
+    ]
+}

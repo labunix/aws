@@ -1,0 +1,62 @@
+{
+    "CreateNewVersion": true,
+    "PushNotificationTemplateRequest": {
+        "ADM": {
+            "Action": "DEEP_LINK",
+            "Body": "",
+            "ImageIconUrl": "",
+            "ImageUrl": "",
+            "RawContent": "",
+            "SmallImageIconUrl": "",
+            "Sound": "",
+            "Title": "",
+            "Url": ""
+        },
+        "APNS": {
+            "Action": "OPEN_APP",
+            "Body": "",
+            "MediaUrl": "",
+            "RawContent": "",
+            "Sound": "",
+            "Title": "",
+            "Url": ""
+        },
+        "Baidu": {
+            "Action": "DEEP_LINK",
+            "Body": "",
+            "ImageIconUrl": "",
+            "ImageUrl": "",
+            "RawContent": "",
+            "SmallImageIconUrl": "",
+            "Sound": "",
+            "Title": "",
+            "Url": ""
+        },
+        "Default": {
+            "Action": "URL",
+            "Body": "",
+            "Sound": "",
+            "Title": "",
+            "Url": ""
+        },
+        "DefaultSubstitutions": "",
+        "GCM": {
+            "Action": "OPEN_APP",
+            "Body": "",
+            "ImageIconUrl": "",
+            "ImageUrl": "",
+            "RawContent": "",
+            "SmallImageIconUrl": "",
+            "Sound": "",
+            "Title": "",
+            "Url": ""
+        },
+        "RecommenderId": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateDescription": ""
+    },
+    "TemplateName": "",
+    "Version": ""
+}

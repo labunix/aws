@@ -1,0 +1,23 @@
+{
+    "AutoCreateTasks": true,
+    "Name": "",
+    "Update": {
+        "UpdateDataSource": "",
+        "UpdateDataRole": "",
+        "LoRaWAN": {
+            "UpdateSignature": "",
+            "SigKeyCrc": 0,
+            "CurrentVersion": {
+                "PackageVersion": "",
+                "Model": "",
+                "Station": ""
+            },
+            "UpdateVersion": {
+                "PackageVersion": "",
+                "Model": "",
+                "Station": ""
+            }
+        }
+    },
+    "ClientRequestToken": ""
+}

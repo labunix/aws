@@ -1,0 +1,26 @@
+{
+    "action": "ARCHIVE",
+    "description": "",
+    "findingCriteria": {
+        "criterion": {
+            "KeyName": {
+                "eq": [
+                    ""
+                ],
+                "eqExactMatch": [
+                    ""
+                ],
+                "gt": 0,
+                "gte": 0,
+                "lt": 0,
+                "lte": 0,
+                "neq": [
+                    ""
+                ]
+            }
+        }
+    },
+    "id": "",
+    "name": "",
+    "position": 0
+}

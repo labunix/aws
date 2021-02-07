@@ -1,0 +1,13 @@
+{
+    "cluster": "",
+    "capacityProviders": [
+        ""
+    ],
+    "defaultCapacityProviderStrategy": [
+        {
+            "capacityProvider": "",
+            "weight": 0,
+            "base": 0
+        }
+    ]
+}

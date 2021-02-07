@@ -1,0 +1,5 @@
+{
+    "id": "",
+    "idempotencyToken": "",
+    "retryType": "RETRY_ALL_BUILDS"
+}

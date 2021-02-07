@@ -1,0 +1,8 @@
+{
+    "BusinessCalling": {
+        "CdrBucket": ""
+    },
+    "VoiceConnector": {
+        "CdrBucket": ""
+    }
+}

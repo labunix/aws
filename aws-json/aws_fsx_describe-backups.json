@@ -1,0 +1,15 @@
+{
+    "BackupIds": [
+        ""
+    ],
+    "Filters": [
+        {
+            "Name": "file-system-id",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

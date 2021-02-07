@@ -1,0 +1,17 @@
+{
+    "alarmName": "",
+    "metricName": "BurstCapacityPercentage",
+    "monitoredResourceName": "",
+    "comparisonOperator": "GreaterThanThreshold",
+    "threshold": null,
+    "evaluationPeriods": 0,
+    "datapointsToAlarm": 0,
+    "treatMissingData": "notBreaching",
+    "contactProtocols": [
+        "SMS"
+    ],
+    "notificationTriggers": [
+        "OK"
+    ],
+    "notificationEnabled": true
+}

@@ -1,0 +1,10 @@
+{
+    "DetectorId": "",
+    "Enable": true,
+    "FindingPublishingFrequency": "FIFTEEN_MINUTES",
+    "DataSources": {
+        "S3Logs": {
+            "Enable": true
+        }
+    }
+}

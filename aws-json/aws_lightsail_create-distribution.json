@@ -1,0 +1,49 @@
+{
+    "distributionName": "",
+    "origin": {
+        "name": "",
+        "regionName": "eu-central-1",
+        "protocolPolicy": "https-only"
+    },
+    "defaultCacheBehavior": {
+        "behavior": "cache"
+    },
+    "cacheBehaviorSettings": {
+        "defaultTTL": 0,
+        "minimumTTL": 0,
+        "maximumTTL": 0,
+        "allowedHTTPMethods": "",
+        "cachedHTTPMethods": "",
+        "forwardedCookies": {
+            "option": "all",
+            "cookiesAllowList": [
+                ""
+            ]
+        },
+        "forwardedHeaders": {
+            "option": "allow-list",
+            "headersAllowList": [
+                "Accept-Charset"
+            ]
+        },
+        "forwardedQueryStrings": {
+            "option": true,
+            "queryStringsAllowList": [
+                ""
+            ]
+        }
+    },
+    "cacheBehaviors": [
+        {
+            "path": "",
+            "behavior": "dont-cache"
+        }
+    ],
+    "bundleId": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

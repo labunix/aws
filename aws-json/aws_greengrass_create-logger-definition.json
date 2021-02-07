@@ -1,0 +1,18 @@
+{
+    "AmznClientToken": "",
+    "InitialVersion": {
+        "Loggers": [
+            {
+                "Component": "Lambda",
+                "Id": "",
+                "Level": "WARN",
+                "Space": 0,
+                "Type": "AWSCloudWatch"
+            }
+        ]
+    },
+    "Name": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

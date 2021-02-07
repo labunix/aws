@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "Description": "",
+    "LoRaWAN": {
+        "GatewayEui": "",
+        "RfRegion": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ClientRequestToken": ""
+}

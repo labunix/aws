@@ -1,0 +1,13 @@
+{
+    "AccountId": "",
+    "BudgetName": "",
+    "Notification": {
+        "NotificationType": "ACTUAL",
+        "ComparisonOperator": "GREATER_THAN",
+        "Threshold": null,
+        "ThresholdType": "PERCENTAGE",
+        "NotificationState": "ALARM"
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

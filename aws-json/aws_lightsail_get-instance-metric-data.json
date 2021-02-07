@@ -1,0 +1,11 @@
+{
+    "instanceName": "",
+    "metricName": "BurstCapacityTime",
+    "period": 0,
+    "startTime": "1970-01-01T00:00:00",
+    "endTime": "1970-01-01T00:00:00",
+    "unit": "Kilobytes/Second",
+    "statistics": [
+        "Maximum"
+    ]
+}

@@ -1,0 +1,18 @@
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument operation: Invalid choice, valid choices are:
+
+accept-invitation                        | create-graph                            
+create-members                           | delete-graph                            
+delete-members                           | disassociate-membership                 
+get-members                              | list-graphs                             
+list-invitations                         | list-members                            
+reject-invitation                        | start-monitoring-member                 
+help                                    
+

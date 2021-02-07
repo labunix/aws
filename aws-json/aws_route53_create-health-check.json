@@ -1,0 +1,29 @@
+{
+    "CallerReference": "",
+    "HealthCheckConfig": {
+        "IPAddress": "",
+        "Port": 0,
+        "Type": "HTTP",
+        "ResourcePath": "",
+        "FullyQualifiedDomainName": "",
+        "SearchString": "",
+        "RequestInterval": 0,
+        "FailureThreshold": 0,
+        "MeasureLatency": true,
+        "Inverted": true,
+        "Disabled": true,
+        "HealthThreshold": 0,
+        "ChildHealthChecks": [
+            ""
+        ],
+        "EnableSNI": true,
+        "Regions": [
+            "us-west-2"
+        ],
+        "AlarmIdentifier": {
+            "Region": "eu-west-3",
+            "Name": ""
+        },
+        "InsufficientDataHealthStatus": "Healthy"
+    }
+}

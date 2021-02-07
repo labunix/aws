@@ -1,0 +1,32 @@
+{
+    "ApiKeySelectionExpression": "",
+    "CorsConfiguration": {
+        "AllowCredentials": true,
+        "AllowHeaders": [
+            ""
+        ],
+        "AllowMethods": [
+            ""
+        ],
+        "AllowOrigins": [
+            ""
+        ],
+        "ExposeHeaders": [
+            ""
+        ],
+        "MaxAge": 0
+    },
+    "CredentialsArn": "",
+    "Description": "",
+    "DisableSchemaValidation": true,
+    "DisableExecuteApiEndpoint": true,
+    "Name": "",
+    "ProtocolType": "WEBSOCKET",
+    "RouteKey": "",
+    "RouteSelectionExpression": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "Target": "",
+    "Version": ""
+}

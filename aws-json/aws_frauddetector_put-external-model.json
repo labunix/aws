@@ -1,0 +1,28 @@
+{
+    "modelEndpoint": "",
+    "modelSource": "SAGEMAKER",
+    "invokeModelEndpointRoleArn": "",
+    "inputConfiguration": {
+        "eventTypeName": "",
+        "format": "APPLICATION_JSON",
+        "useEventVariables": true,
+        "jsonInputTemplate": "",
+        "csvInputTemplate": ""
+    },
+    "outputConfiguration": {
+        "format": "TEXT_CSV",
+        "jsonKeyToVariableMap": {
+            "KeyName": ""
+        },
+        "csvIndexToVariableMap": {
+            "KeyName": ""
+        }
+    },
+    "modelEndpointStatus": "DISSOCIATED",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Filters": [
+        {
+            "Key": "TagKey",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

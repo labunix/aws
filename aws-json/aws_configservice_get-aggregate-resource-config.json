@@ -1,0 +1,10 @@
+{
+    "ConfigurationAggregatorName": "",
+    "ResourceIdentifier": {
+        "SourceAccountId": "",
+        "SourceRegion": "",
+        "ResourceId": "",
+        "ResourceType": "AWS::AutoScaling::AutoScalingGroup",
+        "ResourceName": ""
+    }
+}

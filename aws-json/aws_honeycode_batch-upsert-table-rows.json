@@ -1,0 +1,19 @@
+{
+    "workbookId": "",
+    "tableId": "",
+    "rowsToUpsert": [
+        {
+            "batchItemId": "",
+            "filter": {
+                "formula": "",
+                "contextRowId": ""
+            },
+            "cellsToUpdate": {
+                "KeyName": {
+                    "fact": ""
+                }
+            }
+        }
+    ],
+    "clientRequestToken": ""
+}

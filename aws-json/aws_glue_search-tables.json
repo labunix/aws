@@ -1,0 +1,20 @@
+{
+    "CatalogId": "",
+    "NextToken": "",
+    "Filters": [
+        {
+            "Key": "",
+            "Value": "",
+            "Comparator": "LESS_THAN_EQUALS"
+        }
+    ],
+    "SearchText": "",
+    "SortCriteria": [
+        {
+            "FieldName": "",
+            "Sort": "ASC"
+        }
+    ],
+    "MaxResults": 0,
+    "ResourceShareType": "FOREIGN"
+}

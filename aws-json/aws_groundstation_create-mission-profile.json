@@ -1,0 +1,15 @@
+{
+    "contactPostPassDurationSeconds": 0,
+    "contactPrePassDurationSeconds": 0,
+    "dataflowEdges": [
+        [
+            ""
+        ]
+    ],
+    "minimumViableContactDurationSeconds": 0,
+    "name": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "trackingConfigArn": ""
+}

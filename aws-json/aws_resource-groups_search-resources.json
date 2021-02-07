@@ -1,0 +1,8 @@
+{
+    "ResourceQuery": {
+        "Type": "CLOUDFORMATION_STACK_1_0",
+        "Query": ""
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

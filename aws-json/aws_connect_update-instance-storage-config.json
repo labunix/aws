@@ -1,0 +1,31 @@
+{
+    "InstanceId": "",
+    "AssociationId": "",
+    "ResourceType": "CONTACT_TRACE_RECORDS",
+    "StorageConfig": {
+        "AssociationId": "",
+        "StorageType": "KINESIS_VIDEO_STREAM",
+        "S3Config": {
+            "BucketName": "",
+            "BucketPrefix": "",
+            "EncryptionConfig": {
+                "EncryptionType": "KMS",
+                "KeyId": ""
+            }
+        },
+        "KinesisVideoStreamConfig": {
+            "Prefix": "",
+            "RetentionPeriodHours": 0,
+            "EncryptionConfig": {
+                "EncryptionType": "KMS",
+                "KeyId": ""
+            }
+        },
+        "KinesisStreamConfig": {
+            "StreamArn": ""
+        },
+        "KinesisFirehoseConfig": {
+            "FirehoseArn": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "trackingId": "",
+    "userId": "",
+    "sessionId": "",
+    "eventList": [
+        {
+            "eventId": "",
+            "eventType": "",
+            "eventValue": 0.0,
+            "itemId": "",
+            "properties": "",
+            "sentAt": "1970-01-01T00:00:00",
+            "recommendationId": "",
+            "impression": [
+                ""
+            ]
+        }
+    ]
+}

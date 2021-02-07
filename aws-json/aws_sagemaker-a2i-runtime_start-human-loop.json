@@ -1,0 +1,12 @@
+{
+    "HumanLoopName": "",
+    "FlowDefinitionArn": "",
+    "HumanLoopInput": {
+        "InputContent": ""
+    },
+    "DataAttributes": {
+        "ContentClassifiers": [
+            "FreeOfAdultContent"
+        ]
+    }
+}

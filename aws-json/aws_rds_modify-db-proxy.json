@@ -1,0 +1,20 @@
+{
+    "DBProxyName": "",
+    "NewDBProxyName": "",
+    "Auth": [
+        {
+            "Description": "",
+            "UserName": "",
+            "AuthScheme": "SECRETS",
+            "SecretArn": "",
+            "IAMAuth": "REQUIRED"
+        }
+    ],
+    "RequireTLS": true,
+    "IdleClientTimeout": 0,
+    "DebugLogging": true,
+    "RoleArn": "",
+    "SecurityGroups": [
+        ""
+    ]
+}

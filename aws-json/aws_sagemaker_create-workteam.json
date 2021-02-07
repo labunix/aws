@@ -1,0 +1,28 @@
+{
+    "WorkteamName": "",
+    "WorkforceName": "",
+    "MemberDefinitions": [
+        {
+            "CognitoMemberDefinition": {
+                "UserPool": "",
+                "UserGroup": "",
+                "ClientId": ""
+            },
+            "OidcMemberDefinition": {
+                "Groups": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "Description": "",
+    "NotificationConfiguration": {
+        "NotificationTopicArn": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

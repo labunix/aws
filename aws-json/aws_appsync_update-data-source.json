@@ -1,0 +1,45 @@
+{
+    "apiId": "",
+    "name": "",
+    "description": "",
+    "type": "NONE",
+    "serviceRoleArn": "",
+    "dynamodbConfig": {
+        "tableName": "",
+        "awsRegion": "",
+        "useCallerCredentials": true,
+        "deltaSyncConfig": {
+            "baseTableTTL": 0,
+            "deltaSyncTableName": "",
+            "deltaSyncTableTTL": 0
+        },
+        "versioned": true
+    },
+    "lambdaConfig": {
+        "lambdaFunctionArn": ""
+    },
+    "elasticsearchConfig": {
+        "endpoint": "",
+        "awsRegion": ""
+    },
+    "httpConfig": {
+        "endpoint": "",
+        "authorizationConfig": {
+            "authorizationType": "AWS_IAM",
+            "awsIamConfig": {
+                "signingRegion": "",
+                "signingServiceName": ""
+            }
+        }
+    },
+    "relationalDatabaseConfig": {
+        "relationalDatabaseSourceType": "RDS_HTTP_ENDPOINT",
+        "rdsHttpEndpointConfig": {
+            "awsRegion": "",
+            "dbClusterIdentifier": "",
+            "databaseName": "",
+            "schema": "",
+            "awsSecretStoreArn": ""
+        }
+    }
+}

@@ -1,0 +1,88 @@
+APPLICATION-AUTOSCALING()                            APPLICATION-AUTOSCALING()
+
+
+
+NNAAMMEE
+       application-autoscaling -
+
+DDEESSCCRRIIPPTTIIOONN
+       With  Application Auto Scaling, you can configure automatic scaling for
+       the following resources:
+
+       +o Amazon ECS services
+
+       +o Amazon EC2 Spot Fleet requests
+
+       +o Amazon EMR clusters
+
+       +o Amazon AppStream 2.0 fleets
+
+       +o Amazon DynamoDB tables and global secondary indexes throughput capac-
+         ity
+
+       +o Amazon Aurora Replicas
+
+       +o Amazon SageMaker endpoint variants
+
+       +o Custom resources provided by your own applications or services
+
+       +o Amazon  Comprehend document classification and entity recognizer end-
+         points
+
+       +o AWS Lambda function provisioned concurrency
+
+       +o Amazon Keyspaces (for Apache Cassandra) tables
+
+       +o Amazon Managed Streaming for Apache Kafka cluster storage
+          AAPPII SSuummmmaarryy
+
+       The Application Auto Scaling service API includes three key sets of ac-
+       tions:
+
+       +o Register  and  manage  scalable  targets - Register AWS or custom re-
+         sources as scalable targets (a resource that Application Auto Scaling
+         can scale), set minimum and maximum capacity limits, and retrieve in-
+         formation on existing scalable targets.
+
+       +o Configure and manage automatic scaling - Define scaling  policies  to
+         dynamically  scale  your  resources in response to CloudWatch alarms,
+         schedule one-time or recurring scaling actions, and retrieve your re-
+         cent scaling activity history.
+
+       +o Suspend and resume scaling - Temporarily suspend and later resume au-
+         tomatic scaling by calling the _R_e_g_i_s_t_e_r_S_c_a_l_a_b_l_e_T_a_r_g_e_t API action  for
+         any Application Auto Scaling scalable target. You can suspend and re-
+         sume (individually or in combination) scale-out activities  that  are
+         triggered by a scaling policy, scale-in activities that are triggered
+         by a scaling policy, and scheduled scaling.
+
+       To learn more about Application  Auto  Scaling,  including  information
+       about  granting  IAM  users  required  permissions for Application Auto
+       Scaling actions, see the _A_p_p_l_i_c_a_t_i_o_n _A_u_t_o _S_c_a_l_i_n_g _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o delete-scaling-policy
+
+       +o delete-scheduled-action
+
+       +o deregister-scalable-target
+
+       +o describe-scalable-targets
+
+       +o describe-scaling-activities
+
+       +o describe-scaling-policies
+
+       +o describe-scheduled-actions
+
+       +o help
+
+       +o put-scaling-policy
+
+       +o put-scheduled-action
+
+       +o register-scalable-target
+
+
+
+                                                     APPLICATION-AUTOSCALING()

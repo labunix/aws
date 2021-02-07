@@ -1,0 +1,27 @@
+{
+    "apiId": "",
+    "typeName": "",
+    "fieldName": "",
+    "dataSourceName": "",
+    "requestMappingTemplate": "",
+    "responseMappingTemplate": "",
+    "kind": "UNIT",
+    "pipelineConfig": {
+        "functions": [
+            ""
+        ]
+    },
+    "syncConfig": {
+        "conflictHandler": "NONE",
+        "conflictDetection": "NONE",
+        "lambdaConflictHandlerConfig": {
+            "lambdaConflictHandlerArn": ""
+        }
+    },
+    "cachingConfig": {
+        "ttl": 0,
+        "cachingKeys": [
+            ""
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "CreateNewVersion": true,
+    "TemplateName": "",
+    "Version": "",
+    "VoiceTemplateRequest": {
+        "Body": "",
+        "DefaultSubstitutions": "",
+        "LanguageCode": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateDescription": "",
+        "VoiceId": ""
+    }
+}

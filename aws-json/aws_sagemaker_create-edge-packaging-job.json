@@ -1,0 +1,18 @@
+{
+    "EdgePackagingJobName": "",
+    "CompilationJobName": "",
+    "ModelName": "",
+    "ModelVersion": "",
+    "RoleArn": "",
+    "OutputConfig": {
+        "S3OutputLocation": "",
+        "KmsKeyId": ""
+    },
+    "ResourceKey": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

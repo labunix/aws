@@ -1,0 +1,12 @@
+{
+    "endTime": "1970-01-01T00:00:00",
+    "groundStation": "",
+    "maxResults": 0,
+    "missionProfileArn": "",
+    "nextToken": "",
+    "satelliteArn": "",
+    "startTime": "1970-01-01T00:00:00",
+    "statusList": [
+        "PREPASS"
+    ]
+}

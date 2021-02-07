@@ -1,0 +1,10 @@
+{
+    "StandardsSubscriptionRequests": [
+        {
+            "StandardsArn": "",
+            "StandardsInput": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "AwsAccountId": "",
+    "AnalysisId": "",
+    "RecoveryWindowInDays": 0,
+    "ForceDeleteWithoutRecovery": true
+}

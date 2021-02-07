@@ -1,0 +1,71 @@
+{
+    "ScalingPlanName": "",
+    "ScalingPlanVersion": 0,
+    "ApplicationSource": {
+        "CloudFormationStackARN": "",
+        "TagFilters": [
+            {
+                "Key": "",
+                "Values": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "ScalingInstructions": [
+        {
+            "ServiceNamespace": "dynamodb",
+            "ResourceId": "",
+            "ScalableDimension": "ecs:service:DesiredCount",
+            "MinCapacity": 0,
+            "MaxCapacity": 0,
+            "TargetTrackingConfigurations": [
+                {
+                    "PredefinedScalingMetricSpecification": {
+                        "PredefinedScalingMetricType": "DynamoDBReadCapacityUtilization",
+                        "ResourceLabel": ""
+                    },
+                    "CustomizedScalingMetricSpecification": {
+                        "MetricName": "",
+                        "Namespace": "",
+                        "Dimensions": [
+                            {
+                                "Name": "",
+                                "Value": ""
+                            }
+                        ],
+                        "Statistic": "Average",
+                        "Unit": ""
+                    },
+                    "TargetValue": null,
+                    "DisableScaleIn": true,
+                    "ScaleOutCooldown": 0,
+                    "ScaleInCooldown": 0,
+                    "EstimatedInstanceWarmup": 0
+                }
+            ],
+            "PredefinedLoadMetricSpecification": {
+                "PredefinedLoadMetricType": "ALBTargetGroupRequestCount",
+                "ResourceLabel": ""
+            },
+            "CustomizedLoadMetricSpecification": {
+                "MetricName": "",
+                "Namespace": "",
+                "Dimensions": [
+                    {
+                        "Name": "",
+                        "Value": ""
+                    }
+                ],
+                "Statistic": "SampleCount",
+                "Unit": ""
+            },
+            "ScheduledActionBufferTime": 0,
+            "PredictiveScalingMaxCapacityBehavior": "SetMaxCapacityAboveForecastCapacity",
+            "PredictiveScalingMaxCapacityBuffer": 0,
+            "PredictiveScalingMode": "ForecastOnly",
+            "ScalingPolicyUpdateBehavior": "KeepExternalPolicies",
+            "DisableDynamicScaling": true
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "templateName": "",
+    "description": "",
+    "enabled": true,
+    "defaultVersionId": 0,
+    "provisioningRoleArn": "",
+    "preProvisioningHook": {
+        "payloadVersion": "",
+        "targetArn": ""
+    },
+    "removePreProvisioningHook": true
+}

@@ -1,0 +1,19 @@
+{
+    "ContactArn": "",
+    "DisplayName": "",
+    "FirstName": "",
+    "LastName": "",
+    "PhoneNumber": "",
+    "PhoneNumbers": [
+        {
+            "Number": "",
+            "Type": "WORK"
+        }
+    ],
+    "SipAddresses": [
+        {
+            "Uri": "",
+            "Type": "WORK"
+        }
+    ]
+}

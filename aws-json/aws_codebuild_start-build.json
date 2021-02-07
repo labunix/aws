@@ -1,0 +1,115 @@
+{
+    "projectName": "",
+    "secondarySourcesOverride": [
+        {
+            "type": "NO_SOURCE",
+            "location": "",
+            "gitCloneDepth": 0,
+            "gitSubmodulesConfig": {
+                "fetchSubmodules": true
+            },
+            "buildspec": "",
+            "auth": {
+                "type": "OAUTH",
+                "resource": ""
+            },
+            "reportBuildStatus": true,
+            "buildStatusConfig": {
+                "context": "",
+                "targetUrl": ""
+            },
+            "insecureSsl": true,
+            "sourceIdentifier": ""
+        }
+    ],
+    "secondarySourcesVersionOverride": [
+        {
+            "sourceIdentifier": "",
+            "sourceVersion": ""
+        }
+    ],
+    "sourceVersion": "",
+    "artifactsOverride": {
+        "type": "NO_ARTIFACTS",
+        "location": "",
+        "path": "",
+        "namespaceType": "BUILD_ID",
+        "name": "",
+        "packaging": "NONE",
+        "overrideArtifactName": true,
+        "encryptionDisabled": true,
+        "artifactIdentifier": ""
+    },
+    "secondaryArtifactsOverride": [
+        {
+            "type": "NO_ARTIFACTS",
+            "location": "",
+            "path": "",
+            "namespaceType": "BUILD_ID",
+            "name": "",
+            "packaging": "ZIP",
+            "overrideArtifactName": true,
+            "encryptionDisabled": true,
+            "artifactIdentifier": ""
+        }
+    ],
+    "environmentVariablesOverride": [
+        {
+            "name": "",
+            "value": "",
+            "type": "PARAMETER_STORE"
+        }
+    ],
+    "sourceTypeOverride": "S3",
+    "sourceLocationOverride": "",
+    "sourceAuthOverride": {
+        "type": "OAUTH",
+        "resource": ""
+    },
+    "gitCloneDepthOverride": 0,
+    "gitSubmodulesConfigOverride": {
+        "fetchSubmodules": true
+    },
+    "buildspecOverride": "",
+    "insecureSslOverride": true,
+    "reportBuildStatusOverride": true,
+    "buildStatusConfigOverride": {
+        "context": "",
+        "targetUrl": ""
+    },
+    "environmentTypeOverride": "LINUX_CONTAINER",
+    "imageOverride": "",
+    "computeTypeOverride": "BUILD_GENERAL1_2XLARGE",
+    "certificateOverride": "",
+    "cacheOverride": {
+        "type": "LOCAL",
+        "location": "",
+        "modes": [
+            "LOCAL_SOURCE_CACHE"
+        ]
+    },
+    "serviceRoleOverride": "",
+    "privilegedModeOverride": true,
+    "timeoutInMinutesOverride": 0,
+    "queuedTimeoutInMinutesOverride": 0,
+    "encryptionKeyOverride": "",
+    "idempotencyToken": "",
+    "logsConfigOverride": {
+        "cloudWatchLogs": {
+            "status": "ENABLED",
+            "groupName": "",
+            "streamName": ""
+        },
+        "s3Logs": {
+            "status": "DISABLED",
+            "location": "",
+            "encryptionDisabled": true
+        }
+    },
+    "registryCredentialOverride": {
+        "credential": "",
+        "credentialProvider": "SECRETS_MANAGER"
+    },
+    "imagePullCredentialsTypeOverride": "SERVICE_ROLE",
+    "debugSessionEnabled": true
+}

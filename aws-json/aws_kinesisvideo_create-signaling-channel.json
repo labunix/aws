@@ -1,0 +1,13 @@
+{
+    "ChannelName": "",
+    "ChannelType": "SINGLE_MASTER",
+    "SingleMasterConfiguration": {
+        "MessageTtlSeconds": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

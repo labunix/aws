@@ -1,0 +1,11 @@
+{
+    "status": "InProgress",
+    "platformId": "",
+    "requestedBy": "",
+    "maxResults": 0,
+    "nextToken": "",
+    "isRevoked": true,
+    "signatureExpiresBefore": "1970-01-01T00:00:00",
+    "signatureExpiresAfter": "1970-01-01T00:00:00",
+    "jobInvoker": ""
+}

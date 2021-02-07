@@ -1,0 +1,10 @@
+{
+    "LanguageCode": "en-US",
+    "BaseModelName": "NarrowBand",
+    "ModelName": "",
+    "InputDataConfig": {
+        "S3Uri": "",
+        "TuningDataS3Uri": "",
+        "DataAccessRoleArn": ""
+    }
+}

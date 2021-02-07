@@ -1,0 +1,14 @@
+{
+    "Name": "",
+    "MetricName": "",
+    "DefaultAction": {
+        "Type": "BLOCK"
+    },
+    "ChangeToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

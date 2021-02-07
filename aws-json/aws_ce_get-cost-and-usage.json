@@ -1,0 +1,53 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Granularity": "MONTHLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "PURCHASE_TYPE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "EQUALS"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_INSENSITIVE"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ENDS_WITH"
+            ]
+        }
+    },
+    "Metrics": [
+        ""
+    ],
+    "GroupBy": [
+        {
+            "Type": "TAG",
+            "Key": ""
+        }
+    ],
+    "NextPageToken": ""
+}

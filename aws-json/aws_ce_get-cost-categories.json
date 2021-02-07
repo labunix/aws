@@ -1,0 +1,52 @@
+{
+    "SearchString": "",
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "CostCategoryName": "",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "PAYMENT_OPTION",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_INSENSITIVE"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        }
+    },
+    "SortBy": [
+        {
+            "Key": "",
+            "SortOrder": "DESCENDING"
+        }
+    ],
+    "MaxResults": 0,
+    "NextPageToken": ""
+}

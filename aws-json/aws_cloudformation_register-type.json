@@ -1,0 +1,11 @@
+{
+    "Type": "RESOURCE",
+    "TypeName": "",
+    "SchemaHandlerPackage": "",
+    "LoggingConfig": {
+        "LogRoleArn": "",
+        "LogGroupName": ""
+    },
+    "ExecutionRoleArn": "",
+    "ClientRequestToken": ""
+}

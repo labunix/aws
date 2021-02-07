@@ -1,0 +1,20 @@
+{
+    "connectionId": "",
+    "newTransitVirtualInterface": {
+        "virtualInterfaceName": "",
+        "vlan": 0,
+        "asn": 0,
+        "mtu": 0,
+        "authKey": "",
+        "amazonAddress": "",
+        "customerAddress": "",
+        "addressFamily": "ipv4",
+        "directConnectGatewayId": "",
+        "tags": [
+            {
+                "key": "",
+                "value": ""
+            }
+        ]
+    }
+}

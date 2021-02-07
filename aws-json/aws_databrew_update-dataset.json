@@ -1,0 +1,31 @@
+{
+    "Name": "",
+    "FormatOptions": {
+        "Json": {
+            "MultiLine": true
+        },
+        "Excel": {
+            "SheetNames": [
+                ""
+            ],
+            "SheetIndexes": [
+                0
+            ]
+        }
+    },
+    "Input": {
+        "S3InputDefinition": {
+            "Bucket": "",
+            "Key": ""
+        },
+        "DataCatalogInputDefinition": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "TableName": "",
+            "TempDirectory": {
+                "Bucket": "",
+                "Key": ""
+            }
+        }
+    }
+}

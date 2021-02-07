@@ -1,0 +1,33 @@
+{
+    "FlowArn": "",
+    "Outputs": [
+        {
+            "CidrAllowList": [
+                ""
+            ],
+            "Description": "",
+            "Destination": "",
+            "Encryption": {
+                "Algorithm": "aes192",
+                "ConstantInitializationVector": "",
+                "DeviceId": "",
+                "KeyType": "speke",
+                "Region": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SecretArn": "",
+                "Url": ""
+            },
+            "MaxLatency": 0,
+            "Name": "",
+            "Port": 0,
+            "Protocol": "rist",
+            "RemoteId": "",
+            "SmoothingLatency": 0,
+            "StreamId": "",
+            "VpcInterfaceAttachment": {
+                "VpcInterfaceName": ""
+            }
+        }
+    ]
+}

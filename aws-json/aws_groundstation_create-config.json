@@ -1,0 +1,65 @@
+{
+    "configData": {
+        "antennaDownlinkConfig": {
+            "spectrumConfig": {
+                "bandwidth": {
+                    "units": "kHz",
+                    "value": null
+                },
+                "centerFrequency": {
+                    "units": "kHz",
+                    "value": null
+                },
+                "polarization": "NONE"
+            }
+        },
+        "antennaDownlinkDemodDecodeConfig": {
+            "decodeConfig": {
+                "unvalidatedJSON": ""
+            },
+            "demodulationConfig": {
+                "unvalidatedJSON": ""
+            },
+            "spectrumConfig": {
+                "bandwidth": {
+                    "units": "GHz",
+                    "value": null
+                },
+                "centerFrequency": {
+                    "units": "MHz",
+                    "value": null
+                },
+                "polarization": "NONE"
+            }
+        },
+        "antennaUplinkConfig": {
+            "spectrumConfig": {
+                "centerFrequency": {
+                    "units": "GHz",
+                    "value": null
+                },
+                "polarization": "RIGHT_HAND"
+            },
+            "targetEirp": {
+                "units": "dBW",
+                "value": null
+            },
+            "transmitDisabled": true
+        },
+        "dataflowEndpointConfig": {
+            "dataflowEndpointName": "",
+            "dataflowEndpointRegion": ""
+        },
+        "trackingConfig": {
+            "autotrack": "REQUIRED"
+        },
+        "uplinkEchoConfig": {
+            "antennaUplinkConfigArn": "",
+            "enabled": true
+        }
+    },
+    "name": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

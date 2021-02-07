@@ -1,0 +1,94 @@
+S3CONTROL()                                                        S3CONTROL()
+
+
+
+NNAAMMEE
+       s3control -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS S3 Control provides access to Amazon S3 control plane operations.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-access-point
+
+       +o create-bucket
+
+       +o create-job
+
+       +o delete-access-point
+
+       +o delete-access-point-policy
+
+       +o delete-bucket
+
+       +o delete-bucket-lifecycle-configuration
+
+       +o delete-bucket-policy
+
+       +o delete-bucket-tagging
+
+       +o delete-job-tagging
+
+       +o delete-public-access-block
+
+       +o delete-storage-lens-configuration
+
+       +o delete-storage-lens-configuration-tagging
+
+       +o describe-job
+
+       +o get-access-point
+
+       +o get-access-point-policy
+
+       +o get-access-point-policy-status
+
+       +o get-bucket
+
+       +o get-bucket-lifecycle-configuration
+
+       +o get-bucket-policy
+
+       +o get-bucket-tagging
+
+       +o get-job-tagging
+
+       +o get-public-access-block
+
+       +o get-storage-lens-configuration
+
+       +o get-storage-lens-configuration-tagging
+
+       +o help
+
+       +o list-access-points
+
+       +o list-jobs
+
+       +o list-regional-buckets
+
+       +o list-storage-lens-configurations
+
+       +o put-access-point-policy
+
+       +o put-bucket-lifecycle-configuration
+
+       +o put-bucket-policy
+
+       +o put-bucket-tagging
+
+       +o put-job-tagging
+
+       +o put-public-access-block
+
+       +o put-storage-lens-configuration
+
+       +o put-storage-lens-configuration-tagging
+
+       +o update-job-priority
+
+       +o update-job-status
+
+
+
+                                                                   S3CONTROL()

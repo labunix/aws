@@ -1,0 +1,9 @@
+{
+    "cluster": "",
+    "service": "",
+    "taskSet": "",
+    "scale": {
+        "value": null,
+        "unit": "PERCENT"
+    }
+}

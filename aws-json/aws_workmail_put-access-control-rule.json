@@ -1,0 +1,24 @@
+{
+    "Name": "",
+    "Effect": "ALLOW",
+    "Description": "",
+    "IpRanges": [
+        ""
+    ],
+    "NotIpRanges": [
+        ""
+    ],
+    "Actions": [
+        ""
+    ],
+    "NotActions": [
+        ""
+    ],
+    "UserIds": [
+        ""
+    ],
+    "NotUserIds": [
+        ""
+    ],
+    "OrganizationId": ""
+}

@@ -1,0 +1,42 @@
+{
+    "CachePolicyConfig": {
+        "Comment": "",
+        "Name": "",
+        "DefaultTTL": 0,
+        "MaxTTL": 0,
+        "MinTTL": 0,
+        "ParametersInCacheKeyAndForwardedToOrigin": {
+            "EnableAcceptEncodingGzip": true,
+            "EnableAcceptEncodingBrotli": true,
+            "HeadersConfig": {
+                "HeaderBehavior": "none",
+                "Headers": {
+                    "Quantity": 0,
+                    "Items": [
+                        ""
+                    ]
+                }
+            },
+            "CookiesConfig": {
+                "CookieBehavior": "allExcept",
+                "Cookies": {
+                    "Quantity": 0,
+                    "Items": [
+                        ""
+                    ]
+                }
+            },
+            "QueryStringsConfig": {
+                "QueryStringBehavior": "allExcept",
+                "QueryStrings": {
+                    "Quantity": 0,
+                    "Items": [
+                        ""
+                    ]
+                }
+            }
+        }
+    },
+    "Id": "",
+    "IfMatch": ""
+}

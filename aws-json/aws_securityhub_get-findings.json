@@ -1,0 +1,565 @@
+{
+    "Filters": {
+        "ProductArn": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "AwsAccountId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "Id": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "GeneratorId": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "Type": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "FirstObservedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "LastObservedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "CreatedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "UpdatedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "SeverityProduct": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "SeverityNormalized": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "SeverityLabel": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "Confidence": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "Criticality": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "Title": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "Description": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "RecommendationText": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "SourceUrl": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "ProductFields": [
+            {
+                "Key": "",
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ProductName": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "CompanyName": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "UserDefinedFields": [
+            {
+                "Key": "",
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "MalwareName": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "MalwareType": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "MalwarePath": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "MalwareState": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "NetworkDirection": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "NetworkProtocol": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "NetworkSourceIpV4": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "NetworkSourceIpV6": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "NetworkSourcePort": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "NetworkSourceDomain": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "NetworkSourceMac": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "NetworkDestinationIpV4": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "NetworkDestinationIpV6": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "NetworkDestinationPort": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "NetworkDestinationDomain": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ProcessName": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ProcessPath": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "ProcessPid": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "ProcessParentPid": [
+            {
+                "Gte": null,
+                "Lte": null,
+                "Eq": null
+            }
+        ],
+        "ProcessLaunchedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ProcessTerminatedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ThreatIntelIndicatorType": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ThreatIntelIndicatorValue": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ThreatIntelIndicatorCategory": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ThreatIntelIndicatorLastObservedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ThreatIntelIndicatorSource": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ThreatIntelIndicatorSourceUrl": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceType": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourcePartition": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceRegion": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceTags": [
+            {
+                "Key": "",
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsEc2InstanceType": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsEc2InstanceImageId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsEc2InstanceIpV4Addresses": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "ResourceAwsEc2InstanceIpV6Addresses": [
+            {
+                "Cidr": ""
+            }
+        ],
+        "ResourceAwsEc2InstanceKeyName": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceAwsEc2InstanceIamInstanceProfileArn": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsEc2InstanceVpcId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceAwsEc2InstanceSubnetId": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsEc2InstanceLaunchedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ResourceAwsS3BucketOwnerId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceAwsS3BucketOwnerName": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceAwsIamAccessKeyUserName": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsIamAccessKeyStatus": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceAwsIamAccessKeyCreatedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ResourceContainerName": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "ResourceContainerImageId": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "ResourceContainerImageName": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ResourceContainerLaunchedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "ResourceDetailsOther": [
+            {
+                "Key": "",
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "ComplianceStatus": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "VerificationState": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX"
+            }
+        ],
+        "WorkflowState": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "WorkflowStatus": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "RecordState": [
+            {
+                "Value": "",
+                "Comparison": "EQUALS"
+            }
+        ],
+        "RelatedFindingsProductArn": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "RelatedFindingsId": [
+            {
+                "Value": "",
+                "Comparison": "NOT_EQUALS"
+            }
+        ],
+        "NoteText": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "NoteUpdatedAt": [
+            {
+                "Start": "",
+                "End": "",
+                "DateRange": {
+                    "Value": 0,
+                    "Unit": "DAYS"
+                }
+            }
+        ],
+        "NoteUpdatedBy": [
+            {
+                "Value": "",
+                "Comparison": "PREFIX_NOT_EQUALS"
+            }
+        ],
+        "Keyword": [
+            {
+                "Value": ""
+            }
+        ]
+    },
+    "SortCriteria": [
+        {
+            "Field": "",
+            "SortOrder": "desc"
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

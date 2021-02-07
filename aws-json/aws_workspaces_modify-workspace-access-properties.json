@@ -1,0 +1,12 @@
+{
+    "ResourceId": "",
+    "WorkspaceAccessProperties": {
+        "DeviceTypeWindows": "ALLOW",
+        "DeviceTypeOsx": "ALLOW",
+        "DeviceTypeWeb": "ALLOW",
+        "DeviceTypeIos": "ALLOW",
+        "DeviceTypeAndroid": "ALLOW",
+        "DeviceTypeChromeOs": "ALLOW",
+        "DeviceTypeZeroClient": "DENY"
+    }
+}

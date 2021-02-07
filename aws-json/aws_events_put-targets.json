@@ -1,0 +1,89 @@
+{
+    "Rule": "",
+    "EventBusName": "",
+    "Targets": [
+        {
+            "Id": "",
+            "Arn": "",
+            "RoleArn": "",
+            "Input": "",
+            "InputPath": "",
+            "InputTransformer": {
+                "InputPathsMap": {
+                    "KeyName": ""
+                },
+                "InputTemplate": ""
+            },
+            "KinesisParameters": {
+                "PartitionKeyPath": ""
+            },
+            "RunCommandParameters": {
+                "RunCommandTargets": [
+                    {
+                        "Key": "",
+                        "Values": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            "EcsParameters": {
+                "TaskDefinitionArn": "",
+                "TaskCount": 0,
+                "LaunchType": "FARGATE",
+                "NetworkConfiguration": {
+                    "awsvpcConfiguration": {
+                        "Subnets": [
+                            ""
+                        ],
+                        "SecurityGroups": [
+                            ""
+                        ],
+                        "AssignPublicIp": "DISABLED"
+                    }
+                },
+                "PlatformVersion": "",
+                "Group": ""
+            },
+            "BatchParameters": {
+                "JobDefinition": "",
+                "JobName": "",
+                "ArrayProperties": {
+                    "Size": 0
+                },
+                "RetryStrategy": {
+                    "Attempts": 0
+                }
+            },
+            "SqsParameters": {
+                "MessageGroupId": ""
+            },
+            "HttpParameters": {
+                "PathParameterValues": [
+                    ""
+                ],
+                "HeaderParameters": {
+                    "KeyName": ""
+                },
+                "QueryStringParameters": {
+                    "KeyName": ""
+                }
+            },
+            "RedshiftDataParameters": {
+                "SecretManagerArn": "",
+                "Database": "",
+                "DbUser": "",
+                "Sql": "",
+                "StatementName": "",
+                "WithEvent": true
+            },
+            "DeadLetterConfig": {
+                "Arn": ""
+            },
+            "RetryPolicy": {
+                "MaximumRetryAttempts": 0,
+                "MaximumEventAgeInSeconds": 0
+            }
+        }
+    ]
+}

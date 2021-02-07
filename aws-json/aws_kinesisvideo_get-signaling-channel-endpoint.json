@@ -1,0 +1,9 @@
+{
+    "ChannelARN": "",
+    "SingleMasterChannelEndpointConfiguration": {
+        "Protocols": [
+            "WSS"
+        ],
+        "Role": "MASTER"
+    }
+}

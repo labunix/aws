@@ -1,0 +1,28 @@
+ELASTIC-INFERENCE()                                        ELASTIC-INFERENCE()
+
+
+
+NNAAMMEE
+       elastic-inference -
+
+DDEESSCCRRIIPPTTIIOONN
+       Elastic Inference public APIs.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-accelerator-offerings
+
+       +o describe-accelerator-types
+
+       +o describe-accelerators
+
+       +o help
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                           ELASTIC-INFERENCE()

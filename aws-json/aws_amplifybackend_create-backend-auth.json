@@ -1,0 +1,72 @@
+{
+    "AppId": "",
+    "BackendEnvironmentName": "",
+    "ResourceConfig": {
+        "AuthResources": "IDENTITY_POOL_AND_USER_POOL",
+        "IdentityPoolConfigs": {
+            "IdentityPoolName": "",
+            "UnauthenticatedLogin": true
+        },
+        "Service": "COGNITO",
+        "UserPoolConfigs": {
+            "ForgotPassword": {
+                "DeliveryMethod": "EMAIL",
+                "EmailSettings": {
+                    "EmailMessage": "",
+                    "EmailSubject": ""
+                },
+                "SmsSettings": {
+                    "SmsMessage": ""
+                }
+            },
+            "Mfa": {
+                "MFAMode": "ON",
+                "Settings": {
+                    "MfaTypes": [
+                        "TOTP"
+                    ],
+                    "SmsMessage": ""
+                }
+            },
+            "OAuth": {
+                "DomainPrefix": "",
+                "OAuthGrantType": "CODE",
+                "OAuthScopes": [
+                    "PROFILE"
+                ],
+                "RedirectSignInURIs": [
+                    ""
+                ],
+                "RedirectSignOutURIs": [
+                    ""
+                ],
+                "SocialProviderSettings": {
+                    "Facebook": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    },
+                    "Google": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    },
+                    "LoginWithAmazon": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    }
+                }
+            },
+            "PasswordPolicy": {
+                "AdditionalConstraints": [
+                    "REQUIRE_UPPERCASE"
+                ],
+                "MinimumLength": null
+            },
+            "RequiredSignUpAttributes": [
+                "ZONE_INFO"
+            ],
+            "SignInMethod": "PHONE_NUMBER",
+            "UserPoolName": ""
+        }
+    },
+    "ResourceName": ""
+}

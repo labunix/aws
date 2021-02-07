@@ -1,0 +1,13 @@
+{
+    "DirectoryId": "",
+    "Alias": "",
+    "ClientToken": "",
+    "Domains": [
+        {
+            "DomainName": "",
+            "HostedZoneId": ""
+        }
+    ],
+    "KmsKeyArn": "",
+    "EnableInteroperability": true
+}

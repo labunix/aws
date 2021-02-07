@@ -1,0 +1,25 @@
+{
+    "AvailabilityZones": [
+        ""
+    ],
+    "DBClusterIdentifier": "",
+    "SnapshotIdentifier": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "Port": 0,
+    "DBSubnetGroupName": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "KmsKeyId": "",
+    "EnableCloudwatchLogsExports": [
+        ""
+    ],
+    "DeletionProtection": true
+}

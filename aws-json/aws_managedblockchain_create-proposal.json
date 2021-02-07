@@ -1,0 +1,18 @@
+{
+    "ClientRequestToken": "",
+    "NetworkId": "",
+    "MemberId": "",
+    "Actions": {
+        "Invitations": [
+            {
+                "Principal": ""
+            }
+        ],
+        "Removals": [
+            {
+                "MemberId": ""
+            }
+        ]
+    },
+    "Description": ""
+}

@@ -1,0 +1,16 @@
+{
+    "AvailabilityZones": [
+        ""
+    ],
+    "MultiplexSettings": {
+        "MaximumVideoBufferDelayMilliseconds": 0,
+        "TransportStreamBitrate": 0,
+        "TransportStreamId": 0,
+        "TransportStreamReservedBitrate": 0
+    },
+    "Name": "",
+    "RequestId": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

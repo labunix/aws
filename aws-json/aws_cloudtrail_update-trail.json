@@ -1,0 +1,13 @@
+{
+    "Name": "",
+    "S3BucketName": "",
+    "S3KeyPrefix": "",
+    "SnsTopicName": "",
+    "IncludeGlobalServiceEvents": true,
+    "IsMultiRegionTrail": true,
+    "EnableLogFileValidation": true,
+    "CloudWatchLogsLogGroupArn": "",
+    "CloudWatchLogsRoleArn": "",
+    "KmsKeyId": "",
+    "IsOrganizationTrail": true
+}

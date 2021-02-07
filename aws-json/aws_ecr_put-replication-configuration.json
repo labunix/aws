@@ -1,0 +1,14 @@
+{
+    "replicationConfiguration": {
+        "rules": [
+            {
+                "destinations": [
+                    {
+                        "region": "",
+                        "registryId": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

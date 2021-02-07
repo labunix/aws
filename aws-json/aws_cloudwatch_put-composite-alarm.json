@@ -1,0 +1,21 @@
+{
+    "ActionsEnabled": true,
+    "AlarmActions": [
+        ""
+    ],
+    "AlarmDescription": "",
+    "AlarmName": "",
+    "AlarmRule": "",
+    "InsufficientDataActions": [
+        ""
+    ],
+    "OKActions": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

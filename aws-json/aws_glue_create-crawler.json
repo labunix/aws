@@ -1,0 +1,68 @@
+{
+    "Name": "",
+    "Role": "",
+    "DatabaseName": "",
+    "Description": "",
+    "Targets": {
+        "S3Targets": [
+            {
+                "Path": "",
+                "Exclusions": [
+                    ""
+                ],
+                "ConnectionName": ""
+            }
+        ],
+        "JdbcTargets": [
+            {
+                "ConnectionName": "",
+                "Path": "",
+                "Exclusions": [
+                    ""
+                ]
+            }
+        ],
+        "MongoDBTargets": [
+            {
+                "ConnectionName": "",
+                "Path": "",
+                "ScanAll": true
+            }
+        ],
+        "DynamoDBTargets": [
+            {
+                "Path": "",
+                "scanAll": true,
+                "scanRate": null
+            }
+        ],
+        "CatalogTargets": [
+            {
+                "DatabaseName": "",
+                "Tables": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "Schedule": "",
+    "Classifiers": [
+        ""
+    ],
+    "TablePrefix": "",
+    "SchemaChangePolicy": {
+        "UpdateBehavior": "LOG",
+        "DeleteBehavior": "DEPRECATE_IN_DATABASE"
+    },
+    "RecrawlPolicy": {
+        "RecrawlBehavior": "CRAWL_NEW_FOLDERS_ONLY"
+    },
+    "LineageConfiguration": {
+        "CrawlerLineageSettings": "DISABLE"
+    },
+    "Configuration": "",
+    "CrawlerSecurityConfiguration": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

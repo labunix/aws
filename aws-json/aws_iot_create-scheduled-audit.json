@@ -1,0 +1,15 @@
+{
+    "frequency": "BIWEEKLY",
+    "dayOfMonth": "",
+    "dayOfWeek": "SUN",
+    "targetCheckNames": [
+        ""
+    ],
+    "scheduledAuditName": "",
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

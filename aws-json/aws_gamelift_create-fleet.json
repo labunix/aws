@@ -1,0 +1,52 @@
+{
+    "Name": "",
+    "Description": "",
+    "BuildId": "",
+    "ScriptId": "",
+    "ServerLaunchPath": "",
+    "ServerLaunchParameters": "",
+    "LogPaths": [
+        ""
+    ],
+    "EC2InstanceType": "r5a.12xlarge",
+    "EC2InboundPermissions": [
+        {
+            "FromPort": 0,
+            "ToPort": 0,
+            "IpRange": "",
+            "Protocol": "TCP"
+        }
+    ],
+    "NewGameSessionProtectionPolicy": "FullProtection",
+    "RuntimeConfiguration": {
+        "ServerProcesses": [
+            {
+                "LaunchPath": "",
+                "Parameters": "",
+                "ConcurrentExecutions": 0
+            }
+        ],
+        "MaxConcurrentGameSessionActivations": 0,
+        "GameSessionActivationTimeoutSeconds": 0
+    },
+    "ResourceCreationLimitPolicy": {
+        "NewGameSessionsPerCreator": 0,
+        "PolicyPeriodInMinutes": 0
+    },
+    "MetricGroups": [
+        ""
+    ],
+    "PeerVpcAwsAccountId": "",
+    "PeerVpcId": "",
+    "FleetType": "SPOT",
+    "InstanceRoleArn": "",
+    "CertificateConfiguration": {
+        "CertificateType": "GENERATED"
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

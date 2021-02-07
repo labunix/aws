@@ -1,0 +1,51 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "INSTANCE_TYPE_FAMILY",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "EQUALS"
+            ]
+        }
+    },
+    "DataType": [
+        "UTILIZATION"
+    ],
+    "NextToken": "",
+    "MaxResults": 0,
+    "SortBy": {
+        "Key": "",
+        "SortOrder": "ASCENDING"
+    }
+}

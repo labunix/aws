@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "containerProvider": {
+        "type": "EKS",
+        "id": "",
+        "info": {
+            "eksInfo": {
+                "namespace": ""
+            }
+        }
+    },
+    "clientToken": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

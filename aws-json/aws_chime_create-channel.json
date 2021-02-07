@@ -1,0 +1,14 @@
+{
+    "AppInstanceArn": "",
+    "Name": "",
+    "Mode": "UNRESTRICTED",
+    "Privacy": "PUBLIC",
+    "Metadata": "",
+    "ClientRequestToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

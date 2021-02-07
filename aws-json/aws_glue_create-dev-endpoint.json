@@ -1,0 +1,25 @@
+{
+    "EndpointName": "",
+    "RoleArn": "",
+    "SecurityGroupIds": [
+        ""
+    ],
+    "SubnetId": "",
+    "PublicKey": "",
+    "PublicKeys": [
+        ""
+    ],
+    "NumberOfNodes": 0,
+    "WorkerType": "Standard",
+    "GlueVersion": "",
+    "NumberOfWorkers": 0,
+    "ExtraPythonLibsS3Path": "",
+    "ExtraJarsS3Path": "",
+    "SecurityConfiguration": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "Arguments": {
+        "KeyName": ""
+    }
+}

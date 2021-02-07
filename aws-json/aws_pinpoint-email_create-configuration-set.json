@@ -1,0 +1,23 @@
+{
+    "ConfigurationSetName": "",
+    "TrackingOptions": {
+        "CustomRedirectDomain": ""
+    },
+    "DeliveryOptions": {
+        "TlsPolicy": "OPTIONAL",
+        "SendingPoolName": ""
+    },
+    "ReputationOptions": {
+        "ReputationMetricsEnabled": true,
+        "LastFreshStart": "1970-01-01T00:00:00"
+    },
+    "SendingOptions": {
+        "SendingEnabled": true
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "SavingsPlansType": "COMPUTE_SP",
+    "TermInYears": "ONE_YEAR",
+    "PaymentOption": "MEDIUM_UTILIZATION",
+    "AccountScope": "PAYER",
+    "NextPageToken": "",
+    "PageSize": 0,
+    "LookbackPeriodInDays": "THIRTY_DAYS",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "OPERATING_SYSTEM",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_INSENSITIVE"
+            ]
+        }
+    }
+}

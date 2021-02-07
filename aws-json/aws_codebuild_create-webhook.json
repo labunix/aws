@@ -1,0 +1,14 @@
+{
+    "projectName": "",
+    "branchFilter": "",
+    "filterGroups": [
+        [
+            {
+                "type": "COMMIT_MESSAGE",
+                "pattern": "",
+                "excludeMatchedPattern": true
+            }
+        ]
+    ],
+    "buildType": "BUILD_BATCH"
+}

@@ -1,0 +1,6 @@
+{
+    "ServiceNamespace": "dynamodb",
+    "ScheduledActionName": "",
+    "ResourceId": "",
+    "ScalableDimension": "appstream:fleet:DesiredCapacity"
+}

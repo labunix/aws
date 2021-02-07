@@ -1,0 +1,21 @@
+{
+    "thingGroupName": "",
+    "thingGroupProperties": {
+        "thingGroupDescription": "",
+        "attributePayload": {
+            "attributes": {
+                "KeyName": ""
+            },
+            "merge": true
+        }
+    },
+    "indexName": "",
+    "queryString": "",
+    "queryVersion": "",
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

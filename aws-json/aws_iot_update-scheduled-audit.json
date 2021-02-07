@@ -1,0 +1,9 @@
+{
+    "frequency": "WEEKLY",
+    "dayOfMonth": "",
+    "dayOfWeek": "SAT",
+    "targetCheckNames": [
+        ""
+    ],
+    "scheduledAuditName": ""
+}

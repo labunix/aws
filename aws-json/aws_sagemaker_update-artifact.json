@@ -1,0 +1,10 @@
+{
+    "ArtifactArn": "",
+    "ArtifactName": "",
+    "Properties": {
+        "KeyName": ""
+    },
+    "PropertiesToRemove": [
+        ""
+    ]
+}

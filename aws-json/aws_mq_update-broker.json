@@ -1,0 +1,33 @@
+{
+    "AuthenticationStrategy": "SIMPLE",
+    "AutoMinorVersionUpgrade": true,
+    "BrokerId": "",
+    "Configuration": {
+        "Id": "",
+        "Revision": 0
+    },
+    "EngineVersion": "",
+    "HostInstanceType": "",
+    "LdapServerMetadata": {
+        "Hosts": [
+            ""
+        ],
+        "RoleBase": "",
+        "RoleName": "",
+        "RoleSearchMatching": "",
+        "RoleSearchSubtree": true,
+        "ServiceAccountPassword": "",
+        "ServiceAccountUsername": "",
+        "UserBase": "",
+        "UserRoleName": "",
+        "UserSearchMatching": "",
+        "UserSearchSubtree": true
+    },
+    "Logs": {
+        "Audit": true,
+        "General": true
+    },
+    "SecurityGroups": [
+        ""
+    ]
+}

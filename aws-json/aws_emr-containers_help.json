@@ -1,0 +1,67 @@
+EMR-CONTAINERS()                                              EMR-CONTAINERS()
+
+
+
+NNAAMMEE
+       emr-containers -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon  EMR on EKS provides a deployment option for Amazon EMR that al-
+       lows you to run open-source big data frameworks on Amazon  Elastic  Ku-
+       bernetes Service (Amazon EKS). With this deployment option, you can fo-
+       cus on running analytics workloads while Amazon EMR on EKS builds, con-
+       figures,  and manages containers for open-source applications. For more
+       information about Amazon EMR on EKS concepts and  tasks,  see  _W_h_a_t  _i_s
+       _A_m_a_z_o_n _E_M_R _o_n _E_K_S .
+          _A_m_a_z_o_n  _E_M_R  _c_o_n_t_a_i_n_e_r_s  is  the API name for Amazon EMR on EKS. The
+          eemmrr--ccoonnttaaiinneerrss prefix is used in the following scenarios:
+
+       +o It is the prefix in the CLI commands for Amazon EMR on EKS. For exam-
+         ple, aawwss eemmrr--ccoonnttaaiinneerrss ssttaarrtt--jjoobb--rruunn .
+
+       +o It is the prefix before IAM policy actions for Amazon EMR on EKS. For
+         example, ""AAccttiioonn"":: [[ ""eemmrr--ccoonnttaaiinneerrss::SSttaarrttJJoobbRRuunn""]] . For more  infor-
+         mation, see _P_o_l_i_c_y _a_c_t_i_o_n_s _f_o_r _A_m_a_z_o_n _E_M_R _o_n _E_K_S .
+
+       +o It is the prefix used in Amazon EMR on EKS service endpoints. For ex-
+         ample, eemmrr--ccoonnttaaiinneerrss..uuss--eeaasstt--22..aammaazzoonnaawwss..ccoomm . For more information,
+         see _A_m_a_z_o_n _E_M_R _o_n _E_K_S _S_e_r_v_i_c_e _E_n_d_p_o_i_n_t_s .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o cancel-job-run
+
+       +o create-managed-endpoint
+
+       +o create-virtual-cluster
+
+       +o delete-managed-endpoint
+
+       +o delete-virtual-cluster
+
+       +o describe-job-run
+
+       +o describe-managed-endpoint
+
+       +o describe-virtual-cluster
+
+       +o help
+
+       +o list-job-runs
+
+       +o list-managed-endpoints
+
+       +o list-tags-for-resource
+
+       +o list-virtual-clusters
+
+       +o start-job-run
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-role-trust-policy
+
+
+
+                                                              EMR-CONTAINERS()

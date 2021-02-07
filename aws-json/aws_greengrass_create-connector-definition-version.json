@@ -1,0 +1,13 @@
+{
+    "AmznClientToken": "",
+    "ConnectorDefinitionId": "",
+    "Connectors": [
+        {
+            "ConnectorArn": "",
+            "Id": "",
+            "Parameters": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "ServiceNamespace": "ec2",
+    "ResourceId": "",
+    "ScalableDimension": "cassandra:table:WriteCapacityUnits"
+}

@@ -1,0 +1,15 @@
+{
+    "ProductSKU": "",
+    "CheckoutType": "PROVISIONAL",
+    "KeyFingerprint": "",
+    "Entitlements": [
+        {
+            "Name": "",
+            "Value": "",
+            "Unit": "Kilobits"
+        }
+    ],
+    "ClientToken": "",
+    "Beneficiary": "",
+    "NodeId": ""
+}

@@ -1,0 +1,16 @@
+{
+    "DBInstanceIdentifier": "",
+    "DBInstanceClass": "",
+    "Engine": "",
+    "AvailabilityZone": "",
+    "PreferredMaintenanceWindow": "",
+    "AutoMinorVersionUpgrade": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "DBClusterIdentifier": "",
+    "PromotionTier": 0
+}

@@ -1,0 +1,13 @@
+{
+    "resourceOwner": "OTHER-ACCOUNTS",
+    "resourceArn": "",
+    "principals": [
+        ""
+    ],
+    "resourceType": "",
+    "resourceShareArns": [
+        ""
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

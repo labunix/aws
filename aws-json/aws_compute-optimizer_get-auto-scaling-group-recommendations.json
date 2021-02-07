@@ -1,0 +1,18 @@
+{
+    "accountIds": [
+        ""
+    ],
+    "autoScalingGroupArns": [
+        ""
+    ],
+    "nextToken": "",
+    "maxResults": 0,
+    "filters": [
+        {
+            "name": "Finding",
+            "values": [
+                ""
+            ]
+        }
+    ]
+}

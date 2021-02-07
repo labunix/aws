@@ -1,0 +1,20 @@
+{
+    "projectName": "",
+    "description": "",
+    "placementTemplate": {
+        "defaultAttributes": {
+            "KeyName": ""
+        },
+        "deviceTemplates": {
+            "KeyName": {
+                "deviceType": "",
+                "callbackOverrides": {
+                    "KeyName": ""
+                }
+            }
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

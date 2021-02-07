@@ -1,0 +1,80 @@
+HEALTH()                                                              HEALTH()
+
+
+
+NNAAMMEE
+       health -
+
+DDEESSCCRRIIPPTTIIOONN
+       The  AWS  Health API provides programmatic access to the AWS Health in-
+       formation that appears in the _A_W_S _P_e_r_s_o_n_a_l _H_e_a_l_t_h _D_a_s_h_b_o_a_r_d .  You  can
+       use  the API operations to get information about AWS Health events that
+       affect your AWS services and resources.
+
+       NNOOTTEE::
+          You must have a Business or Enterprise support plan from _A_W_S _S_u_p_p_o_r_t
+          to  use  the  AWS Health API. If you call the AWS Health API from an
+          AWS account that doesn't have a Business or Enterprise support plan,
+          you receive a SSuubbssccrriippttiioonnRReeqquuiirreeddEExxcceeppttiioonn error.
+
+       AWS   Health  has  a  single  endpoint:  health.us-east-1.amazonaws.com
+       (HTTPS). Use this endpoint to call the AWS Health API operations.
+
+       For authentication of requests, AWS Health uses the _S_i_g_n_a_t_u_r_e _V_e_r_s_i_o_n _4
+       _S_i_g_n_i_n_g _P_r_o_c_e_s_s .
+
+       If  your  AWS account is part of AWS Organizations, you can use the AWS
+       Health organizational view feature. This feature provides a centralized
+       view of AWS Health events across all accounts in your organization. You
+       can aggregate AWS Health events in real time to  identify  accounts  in
+       your  organization that are affected by an operational event or get no-
+       tified of security vulnerabilities. Use the organizational view API op-
+       erations  to enable this feature and return event information. For more
+       information, see _A_g_g_r_e_g_a_t_i_n_g _A_W_S _H_e_a_l_t_h _e_v_e_n_t_s in the _A_W_S  _H_e_a_l_t_h  _U_s_e_r
+       _G_u_i_d_e .
+
+       NNOOTTEE::
+          When  you  use  the  AWS  Health API operations to return AWS Health
+          events, see the following recommendations:
+
+          +o Use the _e_v_e_n_t_S_c_o_p_e_C_o_d_e parameter to specify whether to return  AWS
+            Health events that are public or account-specific.
+
+          +o Use  pagination to view all events from the response. For example,
+            if you call the DDeessccrriibbeeEEvveennttssFFoorrOOrrggaanniizzaattiioonn operation to get all
+            events  in  your  organization, you might receive several page re-
+            sults. Specify the nneexxttTTookkeenn in the next request  to  return  more
+            results.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-affected-accounts-for-organization
+
+       +o describe-affected-entities
+
+       +o describe-affected-entities-for-organization
+
+       +o describe-entity-aggregates
+
+       +o describe-event-aggregates
+
+       +o describe-event-details
+
+       +o describe-event-details-for-organization
+
+       +o describe-event-types
+
+       +o describe-events
+
+       +o describe-events-for-organization
+
+       +o describe-health-service-status-for-organization
+
+       +o disable-health-service-access-for-organization
+
+       +o enable-health-service-access-for-organization
+
+       +o help
+
+
+
+                                                                      HEALTH()

@@ -1,0 +1,28 @@
+{
+    "GrokClassifier": {
+        "Name": "",
+        "Classification": "",
+        "GrokPattern": "",
+        "CustomPatterns": ""
+    },
+    "XMLClassifier": {
+        "Name": "",
+        "Classification": "",
+        "RowTag": ""
+    },
+    "JsonClassifier": {
+        "Name": "",
+        "JsonPath": ""
+    },
+    "CsvClassifier": {
+        "Name": "",
+        "Delimiter": "",
+        "QuoteSymbol": "",
+        "ContainsHeader": "UNKNOWN",
+        "Header": [
+            ""
+        ],
+        "DisableValueTrimming": true,
+        "AllowSingleColumn": true
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "CatalogId": "",
+    "Filter": {
+        "MatchCriteria": [
+            ""
+        ],
+        "ConnectionType": "NETWORK"
+    },
+    "HidePassword": true,
+    "NextToken": "",
+    "MaxResults": 0
+}

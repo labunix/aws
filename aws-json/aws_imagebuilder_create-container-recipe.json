@@ -1,0 +1,26 @@
+{
+    "containerType": "DOCKER",
+    "name": "",
+    "description": "",
+    "semanticVersion": "",
+    "components": [
+        {
+            "componentArn": ""
+        }
+    ],
+    "dockerfileTemplateData": "",
+    "dockerfileTemplateUri": "",
+    "platformOverride": "Linux",
+    "imageOsVersionOverride": "",
+    "parentImage": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "workingDirectory": "",
+    "targetRepository": {
+        "service": "ECR",
+        "repositoryName": ""
+    },
+    "kmsKeyId": "",
+    "clientToken": ""
+}

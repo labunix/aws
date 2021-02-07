@@ -1,0 +1,58 @@
+{
+    "JobType": "IMPORT",
+    "Resources": {
+        "S3Resources": [
+            {
+                "BucketArn": "",
+                "KeyRange": {
+                    "BeginMarker": "",
+                    "EndMarker": ""
+                }
+            }
+        ],
+        "LambdaResources": [
+            {
+                "LambdaArn": "",
+                "EventTriggers": [
+                    {
+                        "EventResourceARN": ""
+                    }
+                ]
+            }
+        ],
+        "Ec2AmiResources": [
+            {
+                "AmiId": "",
+                "SnowballAmiId": ""
+            }
+        ]
+    },
+    "Description": "",
+    "AddressId": "",
+    "KmsKeyARN": "",
+    "RoleARN": "",
+    "SnowballCapacityPreference": "T50",
+    "ShippingOption": "STANDARD",
+    "Notification": {
+        "SnsTopicARN": "",
+        "JobStatesToNotify": [
+            "Pending"
+        ],
+        "NotifyAll": true
+    },
+    "ClusterId": "",
+    "SnowballType": "EDGE",
+    "ForwardingAddressId": "",
+    "TaxDocuments": {
+        "IND": {
+            "GSTIN": ""
+        }
+    },
+    "DeviceConfiguration": {
+        "SnowconeDeviceConfiguration": {
+            "WirelessConnection": {
+                "IsWifiEnabled": true
+            }
+        }
+    }
+}

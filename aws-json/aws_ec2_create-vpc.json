@@ -1,0 +1,20 @@
+{
+    "CidrBlock": "",
+    "AmazonProvidedIpv6CidrBlock": true,
+    "Ipv6Pool": "",
+    "Ipv6CidrBlock": "",
+    "DryRun": true,
+    "InstanceTenancy": "default",
+    "Ipv6CidrBlockNetworkBorderGroup": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "route-table",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

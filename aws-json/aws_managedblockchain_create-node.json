@@ -1,0 +1,24 @@
+{
+    "ClientRequestToken": "",
+    "NetworkId": "",
+    "MemberId": "",
+    "NodeConfiguration": {
+        "InstanceType": "",
+        "AvailabilityZone": "",
+        "LogPublishingConfiguration": {
+            "Fabric": {
+                "ChaincodeLogs": {
+                    "Cloudwatch": {
+                        "Enabled": true
+                    }
+                },
+                "PeerLogs": {
+                    "Cloudwatch": {
+                        "Enabled": true
+                    }
+                }
+            }
+        },
+        "StateDB": "CouchDB"
+    }
+}

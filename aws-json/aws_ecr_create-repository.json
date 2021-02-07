@@ -1,0 +1,17 @@
+{
+    "repositoryName": "",
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "imageTagMutability": "MUTABLE",
+    "imageScanningConfiguration": {
+        "scanOnPush": true
+    },
+    "encryptionConfiguration": {
+        "encryptionType": "KMS",
+        "kmsKey": ""
+    }
+}

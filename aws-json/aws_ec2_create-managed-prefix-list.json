@@ -1,0 +1,24 @@
+{
+    "DryRun": true,
+    "PrefixListName": "",
+    "Entries": [
+        {
+            "Cidr": "",
+            "Description": ""
+        }
+    ],
+    "MaxEntries": 0,
+    "TagSpecifications": [
+        {
+            "ResourceType": "traffic-mirror-target",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "AddressFamily": "",
+    "ClientToken": ""
+}

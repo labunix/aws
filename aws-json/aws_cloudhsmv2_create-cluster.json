@@ -1,0 +1,17 @@
+{
+    "BackupRetentionPolicy": {
+        "Type": "DAYS",
+        "Value": ""
+    },
+    "HsmType": "",
+    "SourceBackupId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "TagList": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

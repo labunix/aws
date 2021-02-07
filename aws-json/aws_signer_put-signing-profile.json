@@ -1,0 +1,24 @@
+{
+    "profileName": "",
+    "signingMaterial": {
+        "certificateArn": ""
+    },
+    "signatureValidityPeriod": {
+        "value": 0,
+        "type": "DAYS"
+    },
+    "platformId": "",
+    "overrides": {
+        "signingConfiguration": {
+            "encryptionAlgorithm": "RSA",
+            "hashAlgorithm": "SHA256"
+        },
+        "signingImageFormat": "JSONDetached"
+    },
+    "signingParameters": {
+        "KeyName": ""
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

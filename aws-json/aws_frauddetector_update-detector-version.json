@@ -1,0 +1,24 @@
+{
+    "detectorId": "",
+    "detectorVersionId": "",
+    "externalModelEndpoints": [
+        ""
+    ],
+    "rules": [
+        {
+            "detectorId": "",
+            "ruleId": "",
+            "ruleVersion": ""
+        }
+    ],
+    "description": "",
+    "modelVersions": [
+        {
+            "modelId": "",
+            "modelType": "ONLINE_FRAUD_INSIGHTS",
+            "modelVersionNumber": "",
+            "arn": ""
+        }
+    ],
+    "ruleExecutionMode": "ALL_MATCHED"
+}

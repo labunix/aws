@@ -1,0 +1,17 @@
+{
+    "Subdirectory": "",
+    "S3BucketArn": "",
+    "S3StorageClass": "GLACIER",
+    "S3Config": {
+        "BucketAccessRoleArn": ""
+    },
+    "AgentArns": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

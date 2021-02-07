@@ -1,0 +1,39 @@
+{
+    "DisplayName": "",
+    "Description": "",
+    "Name": "",
+    "StorageConnectors": [
+        {
+            "ConnectorType": "HOMEFOLDERS",
+            "ResourceIdentifier": "",
+            "Domains": [
+                ""
+            ]
+        }
+    ],
+    "DeleteStorageConnectors": true,
+    "RedirectURL": "",
+    "FeedbackURL": "",
+    "AttributesToDelete": [
+        "STORAGE_CONNECTOR_GOOGLE_DRIVE"
+    ],
+    "UserSettings": [
+        {
+            "Action": "PRINTING_TO_LOCAL_DEVICE",
+            "Permission": "DISABLED"
+        }
+    ],
+    "ApplicationSettings": {
+        "Enabled": true,
+        "SettingsGroup": ""
+    },
+    "AccessEndpoints": [
+        {
+            "EndpointType": "STREAMING",
+            "VpceId": ""
+        }
+    ],
+    "EmbedHostDomains": [
+        ""
+    ]
+}

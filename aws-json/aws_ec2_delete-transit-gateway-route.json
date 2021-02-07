@@ -1,0 +1,5 @@
+{
+    "TransitGatewayRouteTableId": "",
+    "DestinationCidrBlock": "",
+    "DryRun": true
+}

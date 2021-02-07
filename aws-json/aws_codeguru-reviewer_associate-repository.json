@@ -1,0 +1,21 @@
+{
+    "Repository": {
+        "CodeCommit": {
+            "Name": ""
+        },
+        "Bitbucket": {
+            "Name": "",
+            "ConnectionArn": "",
+            "Owner": ""
+        },
+        "GitHubEnterpriseServer": {
+            "Name": "",
+            "ConnectionArn": "",
+            "Owner": ""
+        }
+    },
+    "ClientRequestToken": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

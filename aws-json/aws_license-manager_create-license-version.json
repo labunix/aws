@@ -1,0 +1,43 @@
+{
+    "LicenseArn": "",
+    "LicenseName": "",
+    "ProductName": "",
+    "Issuer": {
+        "Name": "",
+        "SignKey": ""
+    },
+    "HomeRegion": "",
+    "Validity": {
+        "Begin": "",
+        "End": ""
+    },
+    "LicenseMetadata": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "Entitlements": [
+        {
+            "Name": "",
+            "Value": "",
+            "MaxCount": 0,
+            "Overage": true,
+            "Unit": "Terabits",
+            "AllowCheckIn": true
+        }
+    ],
+    "ConsumptionConfiguration": {
+        "RenewType": "Weekly",
+        "ProvisionalConfiguration": {
+            "MaxTimeToLiveInMinutes": 0
+        },
+        "BorrowConfiguration": {
+            "AllowEarlyCheckIn": true,
+            "MaxTimeToLiveInMinutes": 0
+        }
+    },
+    "Status": "PENDING_AVAILABLE",
+    "ClientToken": "",
+    "SourceVersion": ""
+}

@@ -1,0 +1,27 @@
+{
+    "Description": "",
+    "Options": {
+        "AmazonSideAsn": 0,
+        "AutoAcceptSharedAttachments": "disable",
+        "DefaultRouteTableAssociation": "enable",
+        "DefaultRouteTablePropagation": "disable",
+        "VpnEcmpSupport": "disable",
+        "DnsSupport": "enable",
+        "MulticastSupport": "disable",
+        "TransitGatewayCidrBlocks": [
+            ""
+        ]
+    },
+    "TagSpecifications": [
+        {
+            "ResourceType": "export-image-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

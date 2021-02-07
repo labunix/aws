@@ -1,0 +1,10 @@
+{
+    "directConnectGatewayId": "",
+    "gatewayId": "",
+    "addAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ],
+    "virtualGatewayId": ""
+}

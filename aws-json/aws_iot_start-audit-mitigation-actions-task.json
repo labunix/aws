@@ -1,0 +1,20 @@
+{
+    "taskId": "",
+    "target": {
+        "auditTaskId": "",
+        "findingIds": [
+            ""
+        ],
+        "auditCheckToReasonCodeFilter": {
+            "KeyName": [
+                ""
+            ]
+        }
+    },
+    "auditCheckToActionsMapping": {
+        "KeyName": [
+            ""
+        ]
+    },
+    "clientRequestToken": ""
+}

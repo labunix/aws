@@ -1,0 +1,14 @@
+{
+    "AuthenticationToken": "",
+    "UserId": "",
+    "GivenName": "",
+    "Surname": "",
+    "Type": "POWERUSER",
+    "StorageRule": {
+        "StorageAllocatedInBytes": 0,
+        "StorageType": "UNLIMITED"
+    },
+    "TimeZoneId": "",
+    "Locale": "ko",
+    "GrantPoweruserPrivileges": "FALSE"
+}

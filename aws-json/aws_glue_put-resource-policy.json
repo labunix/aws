@@ -1,0 +1,7 @@
+{
+    "PolicyInJson": "",
+    "ResourceArn": "",
+    "PolicyHashCondition": "",
+    "PolicyExistsCondition": "NOT_EXIST",
+    "EnableHybrid": "TRUE"
+}

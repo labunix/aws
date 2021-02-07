@@ -1,0 +1,16 @@
+{
+    "portInfos": [
+        {
+            "fromPort": 0,
+            "toPort": 0,
+            "protocol": "udp",
+            "cidrs": [
+                ""
+            ],
+            "cidrListAliases": [
+                ""
+            ]
+        }
+    ],
+    "instanceName": ""
+}

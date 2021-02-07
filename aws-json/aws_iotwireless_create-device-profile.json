@@ -1,0 +1,33 @@
+{
+    "Name": "",
+    "LoRaWAN": {
+        "SupportsClassB": true,
+        "ClassBTimeout": 0,
+        "PingSlotPeriod": 0,
+        "PingSlotDr": 0,
+        "PingSlotFreq": 0,
+        "SupportsClassC": true,
+        "ClassCTimeout": 0,
+        "MacVersion": "",
+        "RegParamsRevision": "",
+        "RxDelay1": 0,
+        "RxDrOffset1": 0,
+        "RxDataRate2": 0,
+        "RxFreq2": 0,
+        "FactoryPresetFreqsList": [
+            0
+        ],
+        "MaxEirp": 0,
+        "MaxDutyCycle": 0,
+        "RfRegion": "",
+        "SupportsJoin": true,
+        "Supports32BitFCnt": true
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ClientRequestToken": ""
+}

@@ -1,0 +1,34 @@
+{
+    "AwsAccountId": "",
+    "TemplateId": "",
+    "Name": "",
+    "Permissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ],
+    "SourceEntity": {
+        "SourceAnalysis": {
+            "Arn": "",
+            "DataSetReferences": [
+                {
+                    "DataSetPlaceholder": "",
+                    "DataSetArn": ""
+                }
+            ]
+        },
+        "SourceTemplate": {
+            "Arn": ""
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "VersionDescription": ""
+}

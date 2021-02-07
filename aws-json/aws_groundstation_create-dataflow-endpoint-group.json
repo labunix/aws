@@ -1,0 +1,27 @@
+{
+    "endpointDetails": [
+        {
+            "endpoint": {
+                "address": {
+                    "name": "",
+                    "port": 0
+                },
+                "mtu": 0,
+                "name": "",
+                "status": "created"
+            },
+            "securityDetails": {
+                "roleArn": "",
+                "securityGroupIds": [
+                    ""
+                ],
+                "subnetIds": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    }
+}

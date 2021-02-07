@@ -1,0 +1,58 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "GroupBy": [
+        {
+            "Type": "COST_CATEGORY",
+            "Key": ""
+        }
+    ],
+    "Granularity": "MONTHLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "TENANCY",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_INSENSITIVE"
+            ]
+        }
+    },
+    "Metrics": [
+        ""
+    ],
+    "NextToken": "",
+    "MaxResults": 0,
+    "SortBy": {
+        "Key": "",
+        "SortOrder": "ASCENDING"
+    }
+}

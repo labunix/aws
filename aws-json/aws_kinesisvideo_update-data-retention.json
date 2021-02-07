@@ -1,0 +1,7 @@
+{
+    "StreamName": "",
+    "StreamARN": "",
+    "CurrentVersion": "",
+    "Operation": "INCREASE_DATA_RETENTION",
+    "DataRetentionChangeInHours": 0
+}

@@ -1,0 +1,42 @@
+{
+    "Destinations": [
+        {
+            "StreamName": ""
+        }
+    ],
+    "InputDevices": [
+        {
+            "Id": ""
+        }
+    ],
+    "InputSecurityGroups": [
+        ""
+    ],
+    "MediaConnectFlows": [
+        {
+            "FlowArn": ""
+        }
+    ],
+    "Name": "",
+    "RequestId": "",
+    "RoleArn": "",
+    "Sources": [
+        {
+            "PasswordParam": "",
+            "Url": "",
+            "Username": ""
+        }
+    ],
+    "Tags": {
+        "KeyName": ""
+    },
+    "Type": "RTMP_PUSH",
+    "Vpc": {
+        "SecurityGroupIds": [
+            ""
+        ],
+        "SubnetIds": [
+            ""
+        ]
+    }
+}

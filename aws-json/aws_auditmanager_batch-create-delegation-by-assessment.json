@@ -1,0 +1,11 @@
+{
+    "createDelegationRequests": [
+        {
+            "comment": "",
+            "controlSetId": "",
+            "roleArn": "",
+            "roleType": "PROCESS_OWNER"
+        }
+    ],
+    "assessmentId": ""
+}

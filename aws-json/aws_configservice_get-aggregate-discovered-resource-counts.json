@@ -1,0 +1,11 @@
+{
+    "ConfigurationAggregatorName": "",
+    "Filters": {
+        "ResourceType": "AWS::EC2::Subnet",
+        "AccountId": "",
+        "Region": ""
+    },
+    "GroupByKey": "ACCOUNT_ID",
+    "Limit": 0,
+    "NextToken": ""
+}

@@ -1,0 +1,31 @@
+{
+    "EndpointName": "",
+    "EndpointConfigName": "",
+    "RetainAllVariantProperties": true,
+    "ExcludeRetainedVariantProperties": [
+        {
+            "VariantPropertyType": "DesiredWeight"
+        }
+    ],
+    "DeploymentConfig": {
+        "BlueGreenUpdatePolicy": {
+            "TrafficRoutingConfiguration": {
+                "Type": "ALL_AT_ONCE",
+                "WaitIntervalInSeconds": 0,
+                "CanarySize": {
+                    "Type": "CAPACITY_PERCENT",
+                    "Value": 0
+                }
+            },
+            "TerminationWaitInSeconds": 0,
+            "MaximumExecutionTimeoutInSeconds": 0
+        },
+        "AutoRollbackConfiguration": {
+            "Alarms": [
+                {
+                    "AlarmName": ""
+                }
+            ]
+        }
+    }
+}

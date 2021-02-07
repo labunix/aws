@@ -1,0 +1,33 @@
+{
+    "QueueUrl": "",
+    "MessageBody": "",
+    "DelaySeconds": 0,
+    "MessageAttributes": {
+        "KeyName": {
+            "StringValue": "",
+            "BinaryValue": null,
+            "StringListValues": [
+                ""
+            ],
+            "BinaryListValues": [
+                null
+            ],
+            "DataType": ""
+        }
+    },
+    "MessageSystemAttributes": {
+        "KeyName": {
+            "StringValue": "",
+            "BinaryValue": null,
+            "StringListValues": [
+                ""
+            ],
+            "BinaryListValues": [
+                null
+            ],
+            "DataType": ""
+        }
+    },
+    "MessageDeduplicationId": "",
+    "MessageGroupId": ""
+}

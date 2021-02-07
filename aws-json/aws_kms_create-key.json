@@ -1,0 +1,15 @@
+{
+    "Policy": "",
+    "Description": "",
+    "KeyUsage": "ENCRYPT_DECRYPT",
+    "CustomerMasterKeySpec": "ECC_NIST_P384",
+    "Origin": "AWS_CLOUDHSM",
+    "CustomKeyStoreId": "",
+    "BypassPolicyLockoutSafetyCheck": true,
+    "Tags": [
+        {
+            "TagKey": "",
+            "TagValue": ""
+        }
+    ]
+}

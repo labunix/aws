@@ -1,0 +1,32 @@
+{
+    "ClusterArn": "",
+    "CurrentVersion": "",
+    "EnhancedMonitoring": "PER_TOPIC_PER_PARTITION",
+    "OpenMonitoring": {
+        "Prometheus": {
+            "JmxExporter": {
+                "EnabledInBroker": true
+            },
+            "NodeExporter": {
+                "EnabledInBroker": true
+            }
+        }
+    },
+    "LoggingInfo": {
+        "BrokerLogs": {
+            "CloudWatchLogs": {
+                "Enabled": true,
+                "LogGroup": ""
+            },
+            "Firehose": {
+                "DeliveryStream": "",
+                "Enabled": true
+            },
+            "S3": {
+                "Bucket": "",
+                "Enabled": true,
+                "Prefix": ""
+            }
+        }
+    }
+}

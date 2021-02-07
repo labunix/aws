@@ -1,0 +1,9 @@
+{
+    "ProtectionGroupId": "",
+    "Aggregation": "MEAN",
+    "Pattern": "BY_RESOURCE_TYPE",
+    "ResourceType": "CLASSIC_LOAD_BALANCER",
+    "Members": [
+        ""
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "CertificateStatuses": [
+        "REVOKED"
+    ],
+    "Includes": {
+        "extendedKeyUsage": [
+            "TLS_WEB_SERVER_AUTHENTICATION"
+        ],
+        "keyUsage": [
+            "DATA_ENCIPHERMENT"
+        ],
+        "keyTypes": [
+            "RSA_2048"
+        ]
+    },
+    "NextToken": "",
+    "MaxItems": 0
+}

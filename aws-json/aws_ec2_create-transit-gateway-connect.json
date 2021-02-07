@@ -1,0 +1,18 @@
+{
+    "TransportTransitGatewayAttachmentId": "",
+    "Options": {
+        "Protocol": "gre"
+    },
+    "TagSpecifications": [
+        {
+            "ResourceType": "vpc-peering-connection",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

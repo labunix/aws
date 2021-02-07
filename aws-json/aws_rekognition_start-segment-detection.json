@@ -1,0 +1,26 @@
+{
+    "Video": {
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "ClientRequestToken": "",
+    "NotificationChannel": {
+        "SNSTopicArn": "",
+        "RoleArn": ""
+    },
+    "JobTag": "",
+    "Filters": {
+        "TechnicalCueFilter": {
+            "MinSegmentConfidence": 0.0
+        },
+        "ShotFilter": {
+            "MinSegmentConfidence": 0.0
+        }
+    },
+    "SegmentTypes": [
+        "TECHNICAL_CUE"
+    ]
+}

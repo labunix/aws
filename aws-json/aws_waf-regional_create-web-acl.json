@@ -1,0 +1,14 @@
+{
+    "Name": "",
+    "MetricName": "",
+    "DefaultAction": {
+        "Type": "ALLOW"
+    },
+    "ChangeToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

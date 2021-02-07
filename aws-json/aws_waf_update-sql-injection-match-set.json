@@ -1,0 +1,16 @@
+{
+    "SqlInjectionMatchSetId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "SqlInjectionMatchTuple": {
+                "FieldToMatch": {
+                    "Type": "URI",
+                    "Data": ""
+                },
+                "TextTransformation": "NONE"
+            }
+        }
+    ]
+}

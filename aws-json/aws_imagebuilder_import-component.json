@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "semanticVersion": "",
+    "description": "",
+    "changeDescription": "",
+    "type": "BUILD",
+    "format": "SHELL",
+    "platform": "Windows",
+    "data": "",
+    "uri": "",
+    "kmsKeyId": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "clientToken": ""
+}

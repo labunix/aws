@@ -1,0 +1,74 @@
+CLOUDTRAIL()                                                      CLOUDTRAIL()
+
+
+
+NNAAMMEE
+       cloudtrail -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is  the CloudTrail API Reference. It provides descriptions of ac-
+       tions, data types, common parameters, and common errors for CloudTrail.
+
+       CloudTrail is a web service that records AWS API calls for your AWS ac-
+       count  and  delivers log files to an Amazon S3 bucket. The recorded in-
+       formation includes the identity of the user, the start time of the  AWS
+       API  call,  the  source IP address, the request parameters, and the re-
+       sponse elements returned by the service.
+
+       NNOOTTEE::
+          As an alternative to the API, you can use one of the AWS SDKs, which
+          consist  of  libraries  and sample code for various programming lan-
+          guages and platforms (Java, Ruby, .NET,  iOS,  Android,  etc.).  The
+          SDKs  provide  a  convenient  way  to  create programmatic access to
+          AWSCloudTrail. For example, the SDKs take care of  cryptographically
+          signing  requests,  managing errors, and retrying requests automati-
+          cally. For information about the AWS SDKs, including how to download
+          and install them, see the _T_o_o_l_s _f_o_r _A_m_a_z_o_n _W_e_b _S_e_r_v_i_c_e_s _p_a_g_e .
+
+       See  the  _A_W_S _C_l_o_u_d_T_r_a_i_l _U_s_e_r _G_u_i_d_e for information about the data that
+       is included with each AWS API call listed in the log files.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-tags
+
+       +o create-trail
+
+       +o delete-trail
+
+       +o describe-trails
+
+       +o get-event-selectors
+
+       +o get-insight-selectors
+
+       +o get-trail
+
+       +o get-trail-status
+
+       +o help
+
+       +o list-public-keys
+
+       +o list-tags
+
+       +o list-trails
+
+       +o lookup-events
+
+       +o put-event-selectors
+
+       +o put-insight-selectors
+
+       +o remove-tags
+
+       +o start-logging
+
+       +o stop-logging
+
+       +o update-trail
+
+       +o validate-logs
+
+
+
+                                                                  CLOUDTRAIL()

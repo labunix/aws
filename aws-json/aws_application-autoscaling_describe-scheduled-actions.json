@@ -1,0 +1,10 @@
+{
+    "ScheduledActionNames": [
+        ""
+    ],
+    "ServiceNamespace": "kafka",
+    "ResourceId": "",
+    "ScalableDimension": "appstream:fleet:DesiredCapacity",
+    "MaxResults": 0,
+    "NextToken": ""
+}

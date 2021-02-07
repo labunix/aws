@@ -1,0 +1,10 @@
+{
+    "cluster": "",
+    "service": "",
+    "taskSets": [
+        ""
+    ],
+    "include": [
+        "TAGS"
+    ]
+}

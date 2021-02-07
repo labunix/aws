@@ -1,0 +1,33 @@
+{
+    "AvailabilityZones": [
+        ""
+    ],
+    "BackupRetentionPeriod": 0,
+    "DBClusterIdentifier": "",
+    "DBClusterParameterGroupName": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "DBSubnetGroupName": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "Port": 0,
+    "MasterUsername": "",
+    "MasterUserPassword": "",
+    "PreferredBackupWindow": "",
+    "PreferredMaintenanceWindow": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "StorageEncrypted": true,
+    "KmsKeyId": "",
+    "PreSignedUrl": "",
+    "EnableCloudwatchLogsExports": [
+        ""
+    ],
+    "DeletionProtection": true,
+    "SourceRegion": ""
+}

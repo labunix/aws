@@ -1,0 +1,11 @@
+{
+    "AccountId": "",
+    "UserId": "",
+    "UserSettings": {
+        "Telephony": {
+            "InboundCalling": true,
+            "OutboundCalling": true,
+            "SMS": true
+        }
+    }
+}

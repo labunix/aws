@@ -1,0 +1,9 @@
+{
+    "AutoMLJobName": "",
+    "StatusEquals": "Completed",
+    "CandidateNameEquals": "",
+    "SortOrder": "Ascending",
+    "SortBy": "CreationTime",
+    "MaxResults": 0,
+    "NextToken": ""
+}

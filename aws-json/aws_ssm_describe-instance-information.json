@@ -1,0 +1,20 @@
+{
+    "InstanceInformationFilterList": [
+        {
+            "key": "AssociationStatus",
+            "valueSet": [
+                ""
+            ]
+        }
+    ],
+    "Filters": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

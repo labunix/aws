@@ -1,0 +1,9 @@
+{
+    "DetectorId": "",
+    "AutoEnable": true,
+    "DataSources": {
+        "S3Logs": {
+            "AutoEnable": true
+        }
+    }
+}

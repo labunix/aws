@@ -1,0 +1,35 @@
+{
+    "FindingIdentifiers": [
+        {
+            "Id": "",
+            "ProductArn": ""
+        }
+    ],
+    "Note": {
+        "Text": "",
+        "UpdatedBy": ""
+    },
+    "Severity": {
+        "Normalized": 0,
+        "Product": null,
+        "Label": "HIGH"
+    },
+    "VerificationState": "UNKNOWN",
+    "Confidence": 0,
+    "Criticality": 0,
+    "Types": [
+        ""
+    ],
+    "UserDefinedFields": {
+        "KeyName": ""
+    },
+    "Workflow": {
+        "Status": "NOTIFIED"
+    },
+    "RelatedFindings": [
+        {
+            "ProductArn": "",
+            "Id": ""
+        }
+    ]
+}

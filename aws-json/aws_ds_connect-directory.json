@@ -1,0 +1,23 @@
+{
+    "Name": "",
+    "ShortName": "",
+    "Password": "",
+    "Description": "",
+    "Size": "Large",
+    "ConnectSettings": {
+        "VpcId": "",
+        "SubnetIds": [
+            ""
+        ],
+        "CustomerDnsIps": [
+            ""
+        ],
+        "CustomerUserName": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

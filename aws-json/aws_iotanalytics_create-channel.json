@@ -1,0 +1,21 @@
+{
+    "channelName": "",
+    "channelStorage": {
+        "serviceManagedS3": {},
+        "customerManagedS3": {
+            "bucket": "",
+            "keyPrefix": "",
+            "roleArn": ""
+        }
+    },
+    "retentionPeriod": {
+        "unlimited": true,
+        "numberOfDays": 0
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

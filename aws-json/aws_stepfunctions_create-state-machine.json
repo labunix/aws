@@ -1,0 +1,26 @@
+{
+    "name": "",
+    "definition": "",
+    "roleArn": "",
+    "type": "EXPRESS",
+    "loggingConfiguration": {
+        "level": "ERROR",
+        "includeExecutionData": true,
+        "destinations": [
+            {
+                "cloudWatchLogsLogGroup": {
+                    "logGroupArn": ""
+                }
+            }
+        ]
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "tracingConfiguration": {
+        "enabled": true
+    }
+}

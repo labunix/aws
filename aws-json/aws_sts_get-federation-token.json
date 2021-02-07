@@ -1,0 +1,16 @@
+{
+    "Name": "",
+    "Policy": "",
+    "PolicyArns": [
+        {
+            "arn": ""
+        }
+    ],
+    "DurationSeconds": 0,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

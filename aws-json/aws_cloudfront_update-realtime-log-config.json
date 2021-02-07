@@ -1,0 +1,17 @@
+{
+    "EndPoints": [
+        {
+            "StreamType": "",
+            "KinesisStreamConfig": {
+                "RoleARN": "",
+                "StreamARN": ""
+            }
+        }
+    ],
+    "Fields": [
+        ""
+    ],
+    "Name": "",
+    "ARN": "",
+    "SamplingRate": 0
+}

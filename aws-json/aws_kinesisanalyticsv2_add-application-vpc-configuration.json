@@ -1,0 +1,12 @@
+{
+    "ApplicationName": "",
+    "CurrentApplicationVersionId": 0,
+    "VpcConfiguration": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    }
+}

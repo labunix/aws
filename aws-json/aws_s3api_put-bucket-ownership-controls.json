@@ -1,0 +1,12 @@
+{
+    "Bucket": "",
+    "ContentMD5": "",
+    "ExpectedBucketOwner": "",
+    "OwnershipControls": {
+        "Rules": [
+            {
+                "ObjectOwnership": "ObjectWriter"
+            }
+        ]
+    }
+}

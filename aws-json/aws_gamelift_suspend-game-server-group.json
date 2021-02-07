@@ -1,0 +1,6 @@
+{
+    "GameServerGroupName": "",
+    "SuspendActions": [
+        "REPLACE_INSTANCE_TYPES"
+    ]
+}

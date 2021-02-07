@@ -1,0 +1,27 @@
+{
+    "restApiId": "",
+    "resourceId": "",
+    "httpMethod": "",
+    "type": "MOCK",
+    "integrationHttpMethod": "",
+    "uri": "",
+    "connectionType": "VPC_LINK",
+    "connectionId": "",
+    "credentials": "",
+    "requestParameters": {
+        "KeyName": ""
+    },
+    "requestTemplates": {
+        "KeyName": ""
+    },
+    "passthroughBehavior": "",
+    "cacheNamespace": "",
+    "cacheKeyParameters": [
+        ""
+    ],
+    "contentHandling": "CONVERT_TO_TEXT",
+    "timeoutInMillis": 0,
+    "tlsConfig": {
+        "insecureSkipVerification": true
+    }
+}

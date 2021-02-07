@@ -1,0 +1,33 @@
+{
+    "CatalogId": "",
+    "DataLakeSettings": {
+        "DataLakeAdmins": [
+            {
+                "DataLakePrincipalIdentifier": ""
+            }
+        ],
+        "CreateDatabaseDefaultPermissions": [
+            {
+                "Principal": {
+                    "DataLakePrincipalIdentifier": ""
+                },
+                "Permissions": [
+                    "DELETE"
+                ]
+            }
+        ],
+        "CreateTableDefaultPermissions": [
+            {
+                "Principal": {
+                    "DataLakePrincipalIdentifier": ""
+                },
+                "Permissions": [
+                    "ALTER"
+                ]
+            }
+        ],
+        "TrustedResourceOwners": [
+            ""
+        ]
+    }
+}

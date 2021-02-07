@@ -1,0 +1,11 @@
+{
+    "ConfigurationAggregatorName": "",
+    "Filters": {
+        "ConfigRuleName": "",
+        "ComplianceType": "NOT_APPLICABLE",
+        "AccountId": "",
+        "AwsRegion": ""
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

@@ -1,0 +1,49 @@
+{
+    "Id": "",
+    "Name": "",
+    "RoleArn": "",
+    "Description": "",
+    "DocumentMetadataConfigurationUpdates": [
+        {
+            "Name": "",
+            "Type": "DATE_VALUE",
+            "Relevance": {
+                "Freshness": true,
+                "Importance": 0,
+                "Duration": "",
+                "RankOrder": "ASCENDING",
+                "ValueImportanceMap": {
+                    "KeyName": 0
+                }
+            },
+            "Search": {
+                "Facetable": true,
+                "Searchable": true,
+                "Displayable": true,
+                "Sortable": true
+            }
+        }
+    ],
+    "CapacityUnits": {
+        "StorageCapacityUnits": 0,
+        "QueryCapacityUnits": 0
+    },
+    "UserTokenConfigurations": [
+        {
+            "JwtTokenTypeConfiguration": {
+                "KeyLocation": "SECRET_MANAGER",
+                "URL": "",
+                "SecretManagerArn": "",
+                "UserNameAttributeField": "",
+                "GroupAttributeField": "",
+                "Issuer": "",
+                "ClaimRegex": ""
+            },
+            "JsonTokenTypeConfiguration": {
+                "UserNameAttributeField": "",
+                "GroupAttributeField": ""
+            }
+        }
+    ],
+    "UserContextPolicy": "USER_TOKEN"
+}

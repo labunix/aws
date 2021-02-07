@@ -1,0 +1,13 @@
+{
+    "OpsItemFilters": [
+        {
+            "Key": "ChangeRequestByTargetsResourceGroup",
+            "Values": [
+                ""
+            ],
+            "Operator": "Equal"
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

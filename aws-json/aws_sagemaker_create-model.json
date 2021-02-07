@@ -1,0 +1,47 @@
+{
+    "ModelName": "",
+    "PrimaryContainer": {
+        "ContainerHostname": "",
+        "Image": "",
+        "ImageConfig": {
+            "RepositoryAccessMode": "Vpc"
+        },
+        "Mode": "MultiModel",
+        "ModelDataUrl": "",
+        "Environment": {
+            "KeyName": ""
+        },
+        "ModelPackageName": ""
+    },
+    "Containers": [
+        {
+            "ContainerHostname": "",
+            "Image": "",
+            "ImageConfig": {
+                "RepositoryAccessMode": "Platform"
+            },
+            "Mode": "MultiModel",
+            "ModelDataUrl": "",
+            "Environment": {
+                "KeyName": ""
+            },
+            "ModelPackageName": ""
+        }
+    ],
+    "ExecutionRoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "VpcConfig": {
+        "SecurityGroupIds": [
+            ""
+        ],
+        "Subnets": [
+            ""
+        ]
+    },
+    "EnableNetworkIsolation": true
+}

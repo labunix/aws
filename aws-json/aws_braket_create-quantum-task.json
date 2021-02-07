@@ -1,0 +1,12 @@
+{
+    "action": "",
+    "clientToken": "",
+    "deviceArn": "",
+    "deviceParameters": "",
+    "outputS3Bucket": "",
+    "outputS3KeyPrefix": "",
+    "shots": 0,
+    "tags": {
+        "KeyName": ""
+    }
+}

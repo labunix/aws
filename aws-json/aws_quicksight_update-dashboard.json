@@ -1,0 +1,63 @@
+{
+    "AwsAccountId": "",
+    "DashboardId": "",
+    "Name": "",
+    "SourceEntity": {
+        "SourceTemplate": {
+            "DataSetReferences": [
+                {
+                    "DataSetPlaceholder": "",
+                    "DataSetArn": ""
+                }
+            ],
+            "Arn": ""
+        }
+    },
+    "Parameters": {
+        "StringParameters": [
+            {
+                "Name": "",
+                "Values": [
+                    ""
+                ]
+            }
+        ],
+        "IntegerParameters": [
+            {
+                "Name": "",
+                "Values": [
+                    0
+                ]
+            }
+        ],
+        "DecimalParameters": [
+            {
+                "Name": "",
+                "Values": [
+                    null
+                ]
+            }
+        ],
+        "DateTimeParameters": [
+            {
+                "Name": "",
+                "Values": [
+                    "1970-01-01T00:00:00"
+                ]
+            }
+        ]
+    },
+    "VersionDescription": "",
+    "DashboardPublishOptions": {
+        "AdHocFilteringOption": {
+            "AvailabilityStatus": "DISABLED"
+        },
+        "ExportToCSVOption": {
+            "AvailabilityStatus": "ENABLED"
+        },
+        "SheetControlsOption": {
+            "VisibilityState": "EXPANDED"
+        }
+    },
+    "ThemeArn": ""
+}

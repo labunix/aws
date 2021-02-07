@@ -1,0 +1,10 @@
+{
+    "TrafficMirrorFilterId": "",
+    "AddNetworkServices": [
+        "amazon-dns"
+    ],
+    "RemoveNetworkServices": [
+        "amazon-dns"
+    ],
+    "DryRun": true
+}

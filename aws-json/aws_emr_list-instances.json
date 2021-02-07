@@ -1,0 +1,13 @@
+{
+    "ClusterId": "",
+    "InstanceGroupId": "",
+    "InstanceGroupTypes": [
+        "TASK"
+    ],
+    "InstanceFleetId": "",
+    "InstanceFleetType": "TASK",
+    "InstanceStates": [
+        "TERMINATED"
+    ],
+    "Marker": ""
+}

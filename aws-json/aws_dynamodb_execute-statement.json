@@ -1,0 +1,29 @@
+{
+    "Statement": "",
+    "Parameters": [
+        {
+            "S": "",
+            "N": "",
+            "B": null,
+            "SS": [
+                ""
+            ],
+            "NS": [
+                ""
+            ],
+            "BS": [
+                null
+            ],
+            "M": {
+                "KeyName": {}
+            },
+            "L": [
+                {}
+            ],
+            "NULL": true,
+            "BOOL": true
+        }
+    ],
+    "ConsistentRead": true,
+    "NextToken": ""
+}

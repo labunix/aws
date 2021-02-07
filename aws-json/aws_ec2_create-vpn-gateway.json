@@ -1,0 +1,17 @@
+{
+    "AvailabilityZone": "",
+    "Type": "ipsec.1",
+    "TagSpecifications": [
+        {
+            "ResourceType": "egress-only-internet-gateway",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "AmazonSideAsn": 0,
+    "DryRun": true
+}

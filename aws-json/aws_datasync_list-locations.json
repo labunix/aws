@@ -1,0 +1,13 @@
+{
+    "MaxResults": 0,
+    "NextToken": "",
+    "Filters": [
+        {
+            "Name": "CreationTime",
+            "Values": [
+                ""
+            ],
+            "Operator": "NotContains"
+        }
+    ]
+}

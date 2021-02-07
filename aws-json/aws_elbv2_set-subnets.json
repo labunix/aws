@@ -1,0 +1,15 @@
+{
+    "LoadBalancerArn": "",
+    "Subnets": [
+        ""
+    ],
+    "SubnetMappings": [
+        {
+            "SubnetId": "",
+            "AllocationId": "",
+            "PrivateIPv4Address": "",
+            "IPv6Address": ""
+        }
+    ],
+    "IpAddressType": "dualstack"
+}

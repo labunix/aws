@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "Scope": "CLOUDFRONT",
+    "Description": "",
+    "IPAddressVersion": "IPV6",
+    "Addresses": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

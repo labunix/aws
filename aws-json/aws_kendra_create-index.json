@@ -1,0 +1,34 @@
+{
+    "Name": "",
+    "Edition": "DEVELOPER_EDITION",
+    "RoleArn": "",
+    "ServerSideEncryptionConfiguration": {
+        "KmsKeyId": ""
+    },
+    "Description": "",
+    "ClientToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "UserTokenConfigurations": [
+        {
+            "JwtTokenTypeConfiguration": {
+                "KeyLocation": "SECRET_MANAGER",
+                "URL": "",
+                "SecretManagerArn": "",
+                "UserNameAttributeField": "",
+                "GroupAttributeField": "",
+                "Issuer": "",
+                "ClaimRegex": ""
+            },
+            "JsonTokenTypeConfiguration": {
+                "UserNameAttributeField": "",
+                "GroupAttributeField": ""
+            }
+        }
+    ],
+    "UserContextPolicy": "USER_TOKEN"
+}

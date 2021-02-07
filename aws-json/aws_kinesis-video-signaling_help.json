@@ -1,0 +1,23 @@
+KINESIS-VIDEO-SIGNALING()                            KINESIS-VIDEO-SIGNALING()
+
+
+
+NNAAMMEE
+       kinesis-video-signaling -
+
+DDEESSCCRRIIPPTTIIOONN
+       Kinesis  Video Streams Signaling Service is a intermediate service that
+       establishes a communication channel for discovering peers, transmitting
+       offers and answers in order to establish peer-to-peer connection in we-
+       bRTC technology.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o get-ice-server-config
+
+       +o help
+
+       +o send-alexa-offer-to-master
+
+
+
+                                                     KINESIS-VIDEO-SIGNALING()

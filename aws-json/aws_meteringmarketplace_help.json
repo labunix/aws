@@ -1,0 +1,63 @@
+METERINGMARKETPLACE()                                    METERINGMARKETPLACE()
+
+
+
+NNAAMMEE
+       meteringmarketplace -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  reference  provides descriptions of the low-level AWS Marketplace
+       Metering Service API.
+
+       AWS Marketplace sellers can use this API to submit usage data for  cus-
+       tom usage dimensions.
+
+       For  information  on  the permissions you need to use this API, see _A_W_S
+       _M_a_r_k_e_t_i_n_g _m_e_t_e_r_i_n_g _a_n_d _e_n_t_i_t_l_e_m_e_n_t _A_P_I _p_e_r_m_i_s_s_i_o_n_s in the  _A_W_S  _M_a_r_k_e_t_-
+       _p_l_a_c_e _S_e_l_l_e_r _G_u_i_d_e_.
+          SSuubbmmiittttiinngg MMeetteerriinngg RReeccoorrddss
+
+       +o _M_e_t_e_r_U_s_a_g_e  -  Submits the metering record for a Marketplace product.
+         MeterUsage is called from an EC2 instance or a container  running  on
+         EKS or ECS.
+
+       +o _B_a_t_c_h_M_e_t_e_r_U_s_a_g_e - Submits the metering record for a set of customers.
+         BatchMeterUsage is called from a software-as-a-service (SaaS)  appli-
+         cation.
+          AAcccceeppttiinngg NNeeww CCuussttoommeerrss
+
+       +o _R_e_s_o_l_v_e_C_u_s_t_o_m_e_r  -  Called by a SaaS application during the registra-
+         tion process. When a buyer visits your website during  the  registra-
+         tion  process,  the  buyer  submits  a Registration Token through the
+         browser. The Registration Token is resolved through this API  to  ob-
+         tain a CustomerIdentifier and Product Code.
+          EEnnttiittlleemmeenntt aanndd MMeetteerriinngg ffoorr PPaaiidd CCoonnttaaiinneerr PPrroodduuccttss
+
+       +o Paid  container  software  products sold through AWS Marketplace must
+         integrate with the AWS Marketplace Metering Service and call the Reg-
+         isterUsage  operation for software entitlement and metering. Free and
+         BYOL products for Amazon ECS or Amazon EKS aren't  required  to  call
+         RegisterUsage, but you can do so if you want to receive usage data in
+         your seller reports. For more information on using the  RegisterUsage
+         operation, see _C_o_n_t_a_i_n_e_r_-_B_a_s_e_d _P_r_o_d_u_c_t_s .
+
+       BatchMeterUsage  API  calls are captured by AWS CloudTrail. You can use
+       Cloudtrail to verify that the SaaS metering records that you  sent  are
+       accurate  by  searching  for  records  with  the  eventName of BatchMe-
+       terUsage. You can also use CloudTrail to audit records over  time.  For
+       more information, see the * _A_W_S _C_l_o_u_d_T_r_a_i_l _U_s_e_r _G_u_i_d_e * .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o batch-meter-usage
+
+       +o help
+
+       +o meter-usage
+
+       +o register-usage
+
+       +o resolve-customer
+
+
+
+                                                         METERINGMARKETPLACE()

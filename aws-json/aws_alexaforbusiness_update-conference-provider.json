@@ -1,0 +1,17 @@
+{
+    "ConferenceProviderArn": "",
+    "ConferenceProviderType": "CUSTOM",
+    "IPDialIn": {
+        "Endpoint": "",
+        "CommsProtocol": "H323"
+    },
+    "PSTNDialIn": {
+        "CountryCode": "",
+        "PhoneNumber": "",
+        "OneClickIdDelay": "",
+        "OneClickPinDelay": ""
+    },
+    "MeetingSetting": {
+        "RequirePin": "OPTIONAL"
+    }
+}

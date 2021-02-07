@@ -1,0 +1,7 @@
+{
+    "OperatingSystem": "REDHAT_ENTERPRISE_LINUX",
+    "Property": "PRIORITY",
+    "PatchSet": "APPLICATION",
+    "MaxResults": 0,
+    "NextToken": ""
+}

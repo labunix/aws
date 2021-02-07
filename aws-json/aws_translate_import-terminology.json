@@ -1,0 +1,13 @@
+{
+    "Name": "",
+    "MergeStrategy": "OVERWRITE",
+    "Description": "",
+    "TerminologyData": {
+        "File": null,
+        "Format": "CSV"
+    },
+    "EncryptionKey": {
+        "Type": "KMS",
+        "Id": ""
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "",
+    "latencyMode": "LOW",
+    "type": "STANDARD",
+    "authorized": true,
+    "tags": {
+        "KeyName": ""
+    }
+}

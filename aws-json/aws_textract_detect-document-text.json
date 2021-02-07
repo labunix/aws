@@ -1,0 +1,10 @@
+{
+    "Document": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "platform": {
+        "name": "",
+        "attributes": {
+            "KeyName": ""
+        }
+    },
+    "componentCandidates": [
+        {
+            "componentName": "",
+            "componentVersion": "",
+            "versionRequirements": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

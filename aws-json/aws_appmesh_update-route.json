@@ -1,0 +1,190 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "meshOwner": "",
+    "routeName": "",
+    "spec": {
+        "grpcRoute": {
+            "action": {
+                "weightedTargets": [
+                    {
+                        "virtualNode": "",
+                        "weight": 0
+                    }
+                ]
+            },
+            "match": {
+                "metadata": [
+                    {
+                        "invert": true,
+                        "match": {
+                            "exact": "",
+                            "prefix": "",
+                            "range": {
+                                "end": 0,
+                                "start": 0
+                            },
+                            "regex": "",
+                            "suffix": ""
+                        },
+                        "name": ""
+                    }
+                ],
+                "methodName": "",
+                "serviceName": ""
+            },
+            "retryPolicy": {
+                "grpcRetryEvents": [
+                    "unavailable"
+                ],
+                "httpRetryEvents": [
+                    ""
+                ],
+                "maxRetries": 0,
+                "perRetryTimeout": {
+                    "unit": "s",
+                    "value": 0
+                },
+                "tcpRetryEvents": [
+                    "connection-error"
+                ]
+            },
+            "timeout": {
+                "idle": {
+                    "unit": "ms",
+                    "value": 0
+                },
+                "perRequest": {
+                    "unit": "s",
+                    "value": 0
+                }
+            }
+        },
+        "http2Route": {
+            "action": {
+                "weightedTargets": [
+                    {
+                        "virtualNode": "",
+                        "weight": 0
+                    }
+                ]
+            },
+            "match": {
+                "headers": [
+                    {
+                        "invert": true,
+                        "match": {
+                            "exact": "",
+                            "prefix": "",
+                            "range": {
+                                "end": 0,
+                                "start": 0
+                            },
+                            "regex": "",
+                            "suffix": ""
+                        },
+                        "name": ""
+                    }
+                ],
+                "method": "GET",
+                "prefix": "",
+                "scheme": "https"
+            },
+            "retryPolicy": {
+                "httpRetryEvents": [
+                    ""
+                ],
+                "maxRetries": 0,
+                "perRetryTimeout": {
+                    "unit": "ms",
+                    "value": 0
+                },
+                "tcpRetryEvents": [
+                    "connection-error"
+                ]
+            },
+            "timeout": {
+                "idle": {
+                    "unit": "s",
+                    "value": 0
+                },
+                "perRequest": {
+                    "unit": "ms",
+                    "value": 0
+                }
+            }
+        },
+        "httpRoute": {
+            "action": {
+                "weightedTargets": [
+                    {
+                        "virtualNode": "",
+                        "weight": 0
+                    }
+                ]
+            },
+            "match": {
+                "headers": [
+                    {
+                        "invert": true,
+                        "match": {
+                            "exact": "",
+                            "prefix": "",
+                            "range": {
+                                "end": 0,
+                                "start": 0
+                            },
+                            "regex": "",
+                            "suffix": ""
+                        },
+                        "name": ""
+                    }
+                ],
+                "method": "OPTIONS",
+                "prefix": "",
+                "scheme": "http"
+            },
+            "retryPolicy": {
+                "httpRetryEvents": [
+                    ""
+                ],
+                "maxRetries": 0,
+                "perRetryTimeout": {
+                    "unit": "s",
+                    "value": 0
+                },
+                "tcpRetryEvents": [
+                    "connection-error"
+                ]
+            },
+            "timeout": {
+                "idle": {
+                    "unit": "ms",
+                    "value": 0
+                },
+                "perRequest": {
+                    "unit": "ms",
+                    "value": 0
+                }
+            }
+        },
+        "priority": 0,
+        "tcpRoute": {
+            "action": {
+                "weightedTargets": [
+                    {
+                        "virtualNode": "",
+                        "weight": 0
+                    }
+                ]
+            },
+            "timeout": {
+                "idle": {
+                    "unit": "ms",
+                    "value": 0
+                }
+            }
+        }
+    },
+    "virtualRouterName": ""
+}

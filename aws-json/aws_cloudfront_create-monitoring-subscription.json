@@ -1,0 +1,8 @@
+{
+    "DistributionId": "",
+    "MonitoringSubscription": {
+        "RealtimeMetricsSubscriptionConfig": {
+            "RealtimeMetricsSubscriptionStatus": "Enabled"
+        }
+    }
+}

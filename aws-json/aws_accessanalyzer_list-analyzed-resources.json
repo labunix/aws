@@ -1,0 +1,6 @@
+{
+    "analyzerArn": "",
+    "maxResults": 0,
+    "nextToken": "",
+    "resourceType": "AWS::Lambda::LayerVersion"
+}

@@ -1,0 +1,10 @@
+{
+    "workbookId": "",
+    "tableId": "",
+    "filterFormula": {
+        "formula": "",
+        "contextRowId": ""
+    },
+    "maxResults": 0,
+    "nextToken": ""
+}

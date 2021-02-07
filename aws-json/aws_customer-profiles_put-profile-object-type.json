@@ -1,0 +1,31 @@
+{
+    "DomainName": "",
+    "ObjectTypeName": "",
+    "Description": "",
+    "TemplateId": "",
+    "ExpirationDays": 0,
+    "EncryptionKey": "",
+    "AllowProfileCreation": true,
+    "Fields": {
+        "KeyName": {
+            "Source": "",
+            "Target": "",
+            "ContentType": "PHONE_NUMBER"
+        }
+    },
+    "Keys": {
+        "KeyName": [
+            {
+                "StandardIdentifiers": [
+                    "NEW_ONLY"
+                ],
+                "FieldNames": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

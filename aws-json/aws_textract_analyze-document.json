@@ -1,0 +1,22 @@
+{
+    "Document": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "FeatureTypes": [
+        "FORMS"
+    ],
+    "HumanLoopConfig": {
+        "HumanLoopName": "",
+        "FlowDefinitionArn": "",
+        "DataAttributes": {
+            "ContentClassifiers": [
+                "FreeOfPersonallyIdentifiableInformation"
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "clientRequestToken": "",
+    "template": "",
+    "worldCount": {
+        "floorplanCount": 0,
+        "interiorCountPerFloorplan": 0
+    },
+    "tags": {
+        "KeyName": ""
+    },
+    "worldTags": {
+        "KeyName": ""
+    }
+}

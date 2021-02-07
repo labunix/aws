@@ -1,0 +1,10 @@
+{
+    "ClientToken": "",
+    "GrantArn": "",
+    "GrantName": "",
+    "AllowedOperations": [
+        "CreateGrant"
+    ],
+    "Status": "REJECTED",
+    "SourceVersion": ""
+}

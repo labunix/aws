@@ -1,0 +1,25 @@
+{
+    "ClientToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "FileSystemId": "",
+    "PosixUser": {
+        "Uid": 0,
+        "Gid": 0,
+        "SecondaryGids": [
+            0
+        ]
+    },
+    "RootDirectory": {
+        "Path": "",
+        "CreationInfo": {
+            "OwnerUid": 0,
+            "OwnerGid": 0,
+            "Permissions": ""
+        }
+    }
+}

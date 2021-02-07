@@ -1,0 +1,20 @@
+{
+    "Type": "EXPORT_TO_REPOSITORY",
+    "Paths": [
+        ""
+    ],
+    "FileSystemId": "",
+    "Report": {
+        "Enabled": true,
+        "Path": "",
+        "Format": "REPORT_CSV_20191124",
+        "Scope": "FAILED_FILES_ONLY"
+    },
+    "ClientRequestToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

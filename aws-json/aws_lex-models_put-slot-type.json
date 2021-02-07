@@ -1,0 +1,23 @@
+{
+    "name": "",
+    "description": "",
+    "enumerationValues": [
+        {
+            "value": "",
+            "synonyms": [
+                ""
+            ]
+        }
+    ],
+    "checksum": "",
+    "valueSelectionStrategy": "TOP_RESOLUTION",
+    "createVersion": true,
+    "parentSlotTypeSignature": "",
+    "slotTypeConfigurations": [
+        {
+            "regexConfiguration": {
+                "pattern": ""
+            }
+        }
+    ]
+}

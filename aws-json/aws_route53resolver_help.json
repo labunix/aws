@@ -1,0 +1,121 @@
+ROUTE53RESOLVER()                                            ROUTE53RESOLVER()
+
+
+
+NNAAMMEE
+       route53resolver -
+
+DDEESSCCRRIIPPTTIIOONN
+       When you create a VPC using Amazon VPC, you automatically get DNS reso-
+       lution within the VPC from Route 53 Resolver. By default, Resolver  an-
+       swers DNS queries for VPC domain names such as domain names for EC2 in-
+       stances or ELB load  balancers.  Resolver  performs  recursive  lookups
+       against public name servers for all other domain names.
+
+       You can also configure DNS resolution between your VPC and your network
+       over a Direct Connect or VPN connection:
+          FFoorrwwaarrdd DDNNSS qquueerriieess ffrroomm rreessoollvveerrss oonn yyoouurr nneettwwoorrkk ttoo RRoouuttee  5533  RRee--
+          ssoollvveerr
+
+       DNS  resolvers on your network can forward DNS queries to Resolver in a
+       specified VPC. This allows your DNS resolvers to easily resolve  domain
+       names  for AWS resources such as EC2 instances or records in a Route 53
+       private hosted zone. For more information, see  _H_o_w  _D_N_S  _R_e_s_o_l_v_e_r_s  _o_n
+       _Y_o_u_r  _N_e_t_w_o_r_k  _F_o_r_w_a_r_d  _D_N_S  _Q_u_e_r_i_e_s _t_o _R_o_u_t_e _5_3 _R_e_s_o_l_v_e_r in the _A_m_a_z_o_n
+       _R_o_u_t_e _5_3 _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+          CCoonnddiittiioonnaallllyy ffoorrwwaarrdd qquueerriieess ffrroomm aa VVPPCC ttoo rreessoollvveerrss oonn  yyoouurr  nneett--
+          wwoorrkk
+
+       You can configure Resolver to forward queries that it receives from EC2
+       instances in your VPCs to DNS resolvers on your network. To forward se-
+       lected queries, you create Resolver rules that specify the domain names
+       for the DNS queries that you want to forward (such as example.com), and
+       the  IP addresses of the DNS resolvers on your network that you want to
+       forward the queries to. If a query matches multiple rules (example.com,
+       acme.example.com),  Resolver  chooses  the  rule with the most specific
+       match (acme.example.com) and forwards the query  to  the  IP  addresses
+       that you specified in that rule. For more information, see _H_o_w _R_o_u_t_e _5_3
+       _R_e_s_o_l_v_e_r _F_o_r_w_a_r_d_s _D_N_S _Q_u_e_r_i_e_s _f_r_o_m _Y_o_u_r _V_P_C_s _t_o  _Y_o_u_r  _N_e_t_w_o_r_k  in  the
+       _A_m_a_z_o_n _R_o_u_t_e _5_3 _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+       Like  Amazon  VPC,  Resolver is regional. In each region where you have
+       VPCs, you can choose whether to forward queries from your VPCs to  your
+       network  (outbound  queries),  from  your network to your VPCs (inbound
+       queries), or both.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-resolver-endpoint-ip-address
+
+       +o associate-resolver-query-log-config
+
+       +o associate-resolver-rule
+
+       +o create-resolver-endpoint
+
+       +o create-resolver-query-log-config
+
+       +o create-resolver-rule
+
+       +o delete-resolver-endpoint
+
+       +o delete-resolver-query-log-config
+
+       +o delete-resolver-rule
+
+       +o disassociate-resolver-endpoint-ip-address
+
+       +o disassociate-resolver-query-log-config
+
+       +o disassociate-resolver-rule
+
+       +o get-resolver-dnssec-config
+
+       +o get-resolver-endpoint
+
+       +o get-resolver-query-log-config
+
+       +o get-resolver-query-log-config-association
+
+       +o get-resolver-query-log-config-policy
+
+       +o get-resolver-rule
+
+       +o get-resolver-rule-association
+
+       +o get-resolver-rule-policy
+
+       +o help
+
+       +o list-resolver-dnssec-configs
+
+       +o list-resolver-endpoint-ip-addresses
+
+       +o list-resolver-endpoints
+
+       +o list-resolver-query-log-config-associations
+
+       +o list-resolver-query-log-configs
+
+       +o list-resolver-rule-associations
+
+       +o list-resolver-rules
+
+       +o list-tags-for-resource
+
+       +o put-resolver-query-log-config-policy
+
+       +o put-resolver-rule-policy
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-resolver-dnssec-config
+
+       +o update-resolver-endpoint
+
+       +o update-resolver-rule
+
+
+
+                                                             ROUTE53RESOLVER()

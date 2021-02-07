@@ -1,0 +1,12 @@
+{
+    "actionTypeId": {
+        "category": "Test",
+        "owner": "ThirdParty",
+        "provider": "",
+        "version": ""
+    },
+    "maxBatchSize": 0,
+    "queryParam": {
+        "KeyName": ""
+    }
+}

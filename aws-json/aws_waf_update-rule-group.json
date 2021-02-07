@@ -1,0 +1,25 @@
+{
+    "RuleGroupId": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "ActivatedRule": {
+                "Priority": 0,
+                "RuleId": "",
+                "Action": {
+                    "Type": "BLOCK"
+                },
+                "OverrideAction": {
+                    "Type": "NONE"
+                },
+                "Type": "GROUP",
+                "ExcludedRules": [
+                    {
+                        "RuleId": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "ChangeToken": ""
+}

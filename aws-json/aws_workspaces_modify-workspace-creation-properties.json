@@ -1,0 +1,11 @@
+{
+    "ResourceId": "",
+    "WorkspaceCreationProperties": {
+        "EnableWorkDocs": true,
+        "EnableInternetAccess": true,
+        "DefaultOu": "",
+        "CustomSecurityGroupId": "",
+        "UserEnabledAsLocalAdministrator": true,
+        "EnableMaintenanceMode": true
+    }
+}

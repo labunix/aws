@@ -1,0 +1,23 @@
+{
+    "application": "",
+    "sources": [
+        {
+            "s3Bucket": "",
+            "s3Key": "",
+            "architecture": "ARMHF"
+        }
+    ],
+    "simulationSoftwareSuite": {
+        "name": "RosbagPlay",
+        "version": ""
+    },
+    "robotSoftwareSuite": {
+        "name": "ROS",
+        "version": "Melodic"
+    },
+    "renderingEngine": {
+        "name": "OGRE",
+        "version": ""
+    },
+    "currentRevisionId": ""
+}

@@ -1,0 +1,14 @@
+{
+    "campaignArn": "",
+    "inputList": [
+        ""
+    ],
+    "userId": "",
+    "context": {
+        "KeyName": ""
+    },
+    "filterArn": "",
+    "filterValues": {
+        "KeyName": ""
+    }
+}

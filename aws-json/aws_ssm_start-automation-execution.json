@@ -1,0 +1,48 @@
+{
+    "DocumentName": "",
+    "DocumentVersion": "",
+    "Parameters": {
+        "KeyName": [
+            ""
+        ]
+    },
+    "ClientToken": "",
+    "Mode": "Auto",
+    "TargetParameterName": "",
+    "Targets": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "TargetMaps": [
+        {
+            "KeyName": [
+                ""
+            ]
+        }
+    ],
+    "MaxConcurrency": "",
+    "MaxErrors": "",
+    "TargetLocations": [
+        {
+            "Accounts": [
+                ""
+            ],
+            "Regions": [
+                ""
+            ],
+            "TargetLocationMaxConcurrency": "",
+            "TargetLocationMaxErrors": "",
+            "ExecutionRoleName": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "domainName": "",
+    "certificateName": "",
+    "certificateBody": "",
+    "certificatePrivateKey": "",
+    "certificateChain": "",
+    "certificateArn": "",
+    "regionalCertificateName": "",
+    "regionalCertificateArn": "",
+    "endpointConfiguration": {
+        "types": [
+            "PRIVATE"
+        ],
+        "vpcEndpointIds": [
+            ""
+        ]
+    },
+    "tags": {
+        "KeyName": ""
+    },
+    "securityPolicy": "TLS_1_2",
+    "mutualTlsAuthentication": {
+        "truststoreUri": "",
+        "truststoreVersion": ""
+    }
+}

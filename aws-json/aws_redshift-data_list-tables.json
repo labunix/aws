@@ -1,0 +1,10 @@
+{
+    "ClusterIdentifier": "",
+    "Database": "",
+    "DbUser": "",
+    "MaxResults": 0,
+    "NextToken": "",
+    "SchemaPattern": "",
+    "SecretArn": "",
+    "TablePattern": ""
+}

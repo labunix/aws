@@ -1,0 +1,19 @@
+{
+    "analyzerName": "",
+    "clientToken": "",
+    "filter": {
+        "KeyName": {
+            "contains": [
+                ""
+            ],
+            "eq": [
+                ""
+            ],
+            "exists": true,
+            "neq": [
+                ""
+            ]
+        }
+    },
+    "ruleName": ""
+}

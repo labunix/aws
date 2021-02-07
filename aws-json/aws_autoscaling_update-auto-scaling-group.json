@@ -1,0 +1,55 @@
+{
+    "AutoScalingGroupName": "",
+    "LaunchConfigurationName": "",
+    "LaunchTemplate": {
+        "LaunchTemplateId": "",
+        "LaunchTemplateName": "",
+        "Version": ""
+    },
+    "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+            "LaunchTemplateSpecification": {
+                "LaunchTemplateId": "",
+                "LaunchTemplateName": "",
+                "Version": ""
+            },
+            "Overrides": [
+                {
+                    "InstanceType": "",
+                    "WeightedCapacity": "",
+                    "LaunchTemplateSpecification": {
+                        "LaunchTemplateId": "",
+                        "LaunchTemplateName": "",
+                        "Version": ""
+                    }
+                }
+            ]
+        },
+        "InstancesDistribution": {
+            "OnDemandAllocationStrategy": "",
+            "OnDemandBaseCapacity": 0,
+            "OnDemandPercentageAboveBaseCapacity": 0,
+            "SpotAllocationStrategy": "",
+            "SpotInstancePools": 0,
+            "SpotMaxPrice": ""
+        }
+    },
+    "MinSize": 0,
+    "MaxSize": 0,
+    "DesiredCapacity": 0,
+    "DefaultCooldown": 0,
+    "AvailabilityZones": [
+        ""
+    ],
+    "HealthCheckType": "",
+    "HealthCheckGracePeriod": 0,
+    "PlacementGroup": "",
+    "VPCZoneIdentifier": "",
+    "TerminationPolicies": [
+        ""
+    ],
+    "NewInstancesProtectedFromScaleIn": true,
+    "ServiceLinkedRoleARN": "",
+    "MaxInstanceLifetime": 0,
+    "CapacityRebalance": true
+}

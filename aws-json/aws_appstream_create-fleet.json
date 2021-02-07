@@ -1,0 +1,33 @@
+{
+    "Name": "",
+    "ImageName": "",
+    "ImageArn": "",
+    "InstanceType": "",
+    "FleetType": "ON_DEMAND",
+    "ComputeCapacity": {
+        "DesiredInstances": 0
+    },
+    "VpcConfig": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "MaxUserDurationInSeconds": 0,
+    "DisconnectTimeoutInSeconds": 0,
+    "Description": "",
+    "DisplayName": "",
+    "EnableDefaultInternetAccess": true,
+    "DomainJoinInfo": {
+        "DirectoryName": "",
+        "OrganizationalUnitDistinguishedName": ""
+    },
+    "Tags": {
+        "KeyName": ""
+    },
+    "IdleDisconnectTimeoutInSeconds": 0,
+    "IamRoleArn": "",
+    "StreamView": "APP"
+}

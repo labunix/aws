@@ -1,0 +1,14 @@
+{
+    "GlobalNetworkId": "",
+    "DeviceId": "",
+    "ConnectedDeviceId": "",
+    "LinkId": "",
+    "ConnectedLinkId": "",
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

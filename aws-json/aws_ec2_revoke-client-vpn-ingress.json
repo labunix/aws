@@ -1,0 +1,7 @@
+{
+    "ClientVpnEndpointId": "",
+    "TargetNetworkCidr": "",
+    "AccessGroupId": "",
+    "RevokeAllGroups": true,
+    "DryRun": true
+}

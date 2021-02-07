@@ -1,0 +1,8 @@
+{
+    "resourceKeys": [
+        {
+            "resourceType": "AWS::WAFv2::ManagedRuleSet",
+            "resourceId": ""
+        }
+    ]
+}

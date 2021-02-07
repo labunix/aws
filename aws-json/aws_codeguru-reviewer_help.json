@@ -1,0 +1,59 @@
+CODEGURU-REVIEWER()                                        CODEGURU-REVIEWER()
+
+
+
+NNAAMMEE
+       codeguru-reviewer -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  section  provides  documentation for the Amazon CodeGuru Reviewer
+       API operations. CodeGuru Reviewer is a service that uses program analy-
+       sis and machine learning to detect potential defects that are difficult
+       for developers to find and recommends fixes in your Java code.
+
+       By proactively detecting and providing recommendations  for  addressing
+       code  defects  and  implementing  best practices, CodeGuru Reviewer im-
+       proves the overall quality and maintainability of your code base during
+       the  code  review  stage. For more information about CodeGuru Reviewer,
+       see the * _A_m_a_z_o_n _C_o_d_e_G_u_r_u _R_e_v_i_e_w_e_r _U_s_e_r _G_u_i_d_e .*
+
+       To improve the security of your CodeGuru Reviewer API  calls,  you  can
+       establish  a  private connection between your VPC and CodeGuru Reviewer
+       by creating an _i_n_t_e_r_f_a_c_e _V_P_C  _e_n_d_p_o_i_n_t  .  For  more  information,  see
+       _C_o_d_e_G_u_r_u  _R_e_v_i_e_w_e_r _a_n_d _i_n_t_e_r_f_a_c_e _V_P_C _e_n_d_p_o_i_n_t_s _(_A_W_S _P_r_i_v_a_t_e_L_i_n_k_) in the
+       _A_m_a_z_o_n _C_o_d_e_G_u_r_u _R_e_v_i_e_w_e_r _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-repository
+
+       +o create-code-review
+
+       +o describe-code-review
+
+       +o describe-recommendation-feedback
+
+       +o describe-repository-association
+
+       +o disassociate-repository
+
+       +o help
+
+       +o list-code-reviews
+
+       +o list-recommendation-feedback
+
+       +o list-recommendations
+
+       +o list-repository-associations
+
+       +o list-tags-for-resource
+
+       +o put-recommendation-feedback
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                           CODEGURU-REVIEWER()

@@ -1,0 +1,16 @@
+{
+    "authorizerName": "",
+    "authorizerFunctionArn": "",
+    "tokenKeyName": "",
+    "tokenSigningPublicKeys": {
+        "KeyName": ""
+    },
+    "status": "ACTIVE",
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "signingDisabled": true
+}

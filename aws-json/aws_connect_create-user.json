@@ -1,0 +1,25 @@
+{
+    "Username": "",
+    "Password": "",
+    "IdentityInfo": {
+        "FirstName": "",
+        "LastName": "",
+        "Email": ""
+    },
+    "PhoneConfig": {
+        "PhoneType": "SOFT_PHONE",
+        "AutoAccept": true,
+        "AfterContactWorkTimeLimit": 0,
+        "DeskPhoneNumber": ""
+    },
+    "DirectoryUserId": "",
+    "SecurityProfileIds": [
+        ""
+    ],
+    "RoutingProfileId": "",
+    "HierarchyGroupId": "",
+    "InstanceId": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "",
+    "description": "",
+    "distributions": [
+        {
+            "region": "",
+            "amiDistributionConfiguration": {
+                "name": "",
+                "description": "",
+                "targetAccountIds": [
+                    ""
+                ],
+                "amiTags": {
+                    "KeyName": ""
+                },
+                "kmsKeyId": "",
+                "launchPermission": {
+                    "userIds": [
+                        ""
+                    ],
+                    "userGroups": [
+                        ""
+                    ]
+                }
+            },
+            "containerDistributionConfiguration": {
+                "description": "",
+                "containerTags": [
+                    ""
+                ],
+                "targetRepository": {
+                    "service": "ECR",
+                    "repositoryName": ""
+                }
+            },
+            "licenseConfigurationArns": [
+                ""
+            ]
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    },
+    "clientToken": ""
+}

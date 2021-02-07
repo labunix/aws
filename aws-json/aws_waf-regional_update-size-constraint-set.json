@@ -1,0 +1,18 @@
+{
+    "SizeConstraintSetId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "SizeConstraint": {
+                "FieldToMatch": {
+                    "Type": "QUERY_STRING",
+                    "Data": ""
+                },
+                "TextTransformation": "COMPRESS_WHITE_SPACE",
+                "ComparisonOperator": "LT",
+                "Size": 0
+            }
+        }
+    ]
+}

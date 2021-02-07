@@ -1,0 +1,7 @@
+{
+    "DestinationCidrBlock": "",
+    "TransitGatewayRouteTableId": "",
+    "TransitGatewayAttachmentId": "",
+    "Blackhole": true,
+    "DryRun": true
+}

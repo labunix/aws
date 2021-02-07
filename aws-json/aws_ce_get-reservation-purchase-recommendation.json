@@ -1,0 +1,51 @@
+{
+    "AccountId": "",
+    "Service": "",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "RESERVATION_ID",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        }
+    },
+    "AccountScope": "LINKED",
+    "LookbackPeriodInDays": "SEVEN_DAYS",
+    "TermInYears": "ONE_YEAR",
+    "PaymentOption": "HEAVY_UTILIZATION",
+    "ServiceSpecification": {
+        "EC2Specification": {
+            "OfferingClass": "CONVERTIBLE"
+        }
+    },
+    "PageSize": 0,
+    "NextPageToken": ""
+}

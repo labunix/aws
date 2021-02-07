@@ -1,0 +1,24 @@
+{
+    "jobName": "",
+    "solutionVersionArn": "",
+    "filterArn": "",
+    "numResults": 0,
+    "jobInput": {
+        "s3DataSource": {
+            "path": "",
+            "kmsKeyArn": ""
+        }
+    },
+    "jobOutput": {
+        "s3DataDestination": {
+            "path": "",
+            "kmsKeyArn": ""
+        }
+    },
+    "roleArn": "",
+    "batchInferenceJobConfig": {
+        "itemExplorationConfig": {
+            "KeyName": ""
+        }
+    }
+}

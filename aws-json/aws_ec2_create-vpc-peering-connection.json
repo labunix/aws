@@ -1,0 +1,18 @@
+{
+    "DryRun": true,
+    "PeerOwnerId": "",
+    "PeerVpcId": "",
+    "VpcId": "",
+    "PeerRegion": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "spot-instances-request",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

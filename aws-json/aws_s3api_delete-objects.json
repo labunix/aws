@@ -1,0 +1,16 @@
+{
+    "Bucket": "",
+    "Delete": {
+        "Objects": [
+            {
+                "Key": "",
+                "VersionId": ""
+            }
+        ],
+        "Quiet": true
+    },
+    "MFA": "",
+    "RequestPayer": "requester",
+    "BypassGovernanceRetention": true,
+    "ExpectedBucketOwner": ""
+}

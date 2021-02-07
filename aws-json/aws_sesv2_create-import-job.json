@@ -1,0 +1,15 @@
+{
+    "ImportDestination": {
+        "SuppressionListDestination": {
+            "SuppressionListImportAction": "PUT"
+        },
+        "ContactListDestination": {
+            "ContactListName": "",
+            "ContactListImportAction": "DELETE"
+        }
+    },
+    "ImportDataSource": {
+        "S3Url": "",
+        "DataFormat": "JSON"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Catalog": "",
+    "EntityType": "",
+    "FilterList": [
+        {
+            "Name": "",
+            "ValueList": [
+                ""
+            ]
+        }
+    ],
+    "Sort": {
+        "SortBy": "",
+        "SortOrder": "DESCENDING"
+    },
+    "NextToken": "",
+    "MaxResults": 0
+}

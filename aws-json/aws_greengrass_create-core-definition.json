@@ -1,0 +1,17 @@
+{
+    "AmznClientToken": "",
+    "InitialVersion": {
+        "Cores": [
+            {
+                "CertificateArn": "",
+                "Id": "",
+                "SyncShadow": true,
+                "ThingArn": ""
+            }
+        ]
+    },
+    "Name": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

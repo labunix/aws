@@ -1,0 +1,53 @@
+{
+    "ClientCidrBlock": "",
+    "ServerCertificateArn": "",
+    "AuthenticationOptions": [
+        {
+            "Type": "federated-authentication",
+            "ActiveDirectory": {
+                "DirectoryId": ""
+            },
+            "MutualAuthentication": {
+                "ClientRootCertificateChainArn": ""
+            },
+            "FederatedAuthentication": {
+                "SAMLProviderArn": "",
+                "SelfServiceSAMLProviderArn": ""
+            }
+        }
+    ],
+    "ConnectionLogOptions": {
+        "Enabled": true,
+        "CloudwatchLogGroup": "",
+        "CloudwatchLogStream": ""
+    },
+    "DnsServers": [
+        ""
+    ],
+    "TransportProtocol": "tcp",
+    "VpnPort": 0,
+    "Description": "",
+    "SplitTunnel": true,
+    "DryRun": true,
+    "ClientToken": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "reserved-instances",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "VpcId": "",
+    "SelfServicePortal": "disabled",
+    "ClientConnectOptions": {
+        "Enabled": true,
+        "LambdaFunctionArn": ""
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "instanceNames": [
+        ""
+    ],
+    "availabilityZone": "",
+    "customImageName": "",
+    "blueprintId": "",
+    "bundleId": "",
+    "userData": "",
+    "keyPairName": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "addOns": [
+        {
+            "addOnType": "AutoSnapshot",
+            "autoSnapshotAddOnRequest": {
+                "snapshotTimeOfDay": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "FeatureGroupName": "",
+    "RecordIdentifierFeatureName": "",
+    "EventTimeFeatureName": "",
+    "FeatureDefinitions": [
+        {
+            "FeatureName": "",
+            "FeatureType": "Integral"
+        }
+    ],
+    "OnlineStoreConfig": {
+        "SecurityConfig": {
+            "KmsKeyId": ""
+        },
+        "EnableOnlineStore": true
+    },
+    "OfflineStoreConfig": {
+        "S3StorageConfig": {
+            "S3Uri": "",
+            "KmsKeyId": ""
+        },
+        "DisableGlueTableCreation": true,
+        "DataCatalogConfig": {
+            "TableName": "",
+            "Catalog": "",
+            "Database": ""
+        }
+    },
+    "RoleArn": "",
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

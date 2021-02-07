@@ -1,0 +1,468 @@
+{
+    "detectorModelName": "",
+    "detectorModelDefinition": {
+        "states": [
+            {
+                "stateName": "",
+                "onInput": {
+                    "events": [
+                        {
+                            "eventName": "",
+                            "condition": "",
+                            "actions": [
+                                {
+                                    "setVariable": {
+                                        "variableName": "",
+                                        "value": ""
+                                    },
+                                    "sns": {
+                                        "targetArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotTopicPublish": {
+                                        "mqttTopic": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "setTimer": {
+                                        "timerName": "",
+                                        "seconds": 0,
+                                        "durationExpression": ""
+                                    },
+                                    "clearTimer": {
+                                        "timerName": ""
+                                    },
+                                    "resetTimer": {
+                                        "timerName": ""
+                                    },
+                                    "lambda": {
+                                        "functionArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "iotEvents": {
+                                        "inputName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "sqs": {
+                                        "queueUrl": "",
+                                        "useBase64": true,
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "firehose": {
+                                        "deliveryStreamName": "",
+                                        "separator": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "dynamoDB": {
+                                        "hashKeyType": "",
+                                        "hashKeyField": "",
+                                        "hashKeyValue": "",
+                                        "rangeKeyType": "",
+                                        "rangeKeyField": "",
+                                        "rangeKeyValue": "",
+                                        "operation": "",
+                                        "payloadField": "",
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "dynamoDBv2": {
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "iotSiteWise": {
+                                        "entryId": "",
+                                        "assetId": "",
+                                        "propertyId": "",
+                                        "propertyAlias": "",
+                                        "propertyValue": {
+                                            "value": {
+                                                "stringValue": "",
+                                                "integerValue": "",
+                                                "doubleValue": "",
+                                                "booleanValue": ""
+                                            },
+                                            "timestamp": {
+                                                "timeInSeconds": "",
+                                                "offsetInNanos": ""
+                                            },
+                                            "quality": ""
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "transitionEvents": [
+                        {
+                            "eventName": "",
+                            "condition": "",
+                            "actions": [
+                                {
+                                    "setVariable": {
+                                        "variableName": "",
+                                        "value": ""
+                                    },
+                                    "sns": {
+                                        "targetArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotTopicPublish": {
+                                        "mqttTopic": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "setTimer": {
+                                        "timerName": "",
+                                        "seconds": 0,
+                                        "durationExpression": ""
+                                    },
+                                    "clearTimer": {
+                                        "timerName": ""
+                                    },
+                                    "resetTimer": {
+                                        "timerName": ""
+                                    },
+                                    "lambda": {
+                                        "functionArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "iotEvents": {
+                                        "inputName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "sqs": {
+                                        "queueUrl": "",
+                                        "useBase64": true,
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "firehose": {
+                                        "deliveryStreamName": "",
+                                        "separator": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "dynamoDB": {
+                                        "hashKeyType": "",
+                                        "hashKeyField": "",
+                                        "hashKeyValue": "",
+                                        "rangeKeyType": "",
+                                        "rangeKeyField": "",
+                                        "rangeKeyValue": "",
+                                        "operation": "",
+                                        "payloadField": "",
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "dynamoDBv2": {
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotSiteWise": {
+                                        "entryId": "",
+                                        "assetId": "",
+                                        "propertyId": "",
+                                        "propertyAlias": "",
+                                        "propertyValue": {
+                                            "value": {
+                                                "stringValue": "",
+                                                "integerValue": "",
+                                                "doubleValue": "",
+                                                "booleanValue": ""
+                                            },
+                                            "timestamp": {
+                                                "timeInSeconds": "",
+                                                "offsetInNanos": ""
+                                            },
+                                            "quality": ""
+                                        }
+                                    }
+                                }
+                            ],
+                            "nextState": ""
+                        }
+                    ]
+                },
+                "onEnter": {
+                    "events": [
+                        {
+                            "eventName": "",
+                            "condition": "",
+                            "actions": [
+                                {
+                                    "setVariable": {
+                                        "variableName": "",
+                                        "value": ""
+                                    },
+                                    "sns": {
+                                        "targetArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotTopicPublish": {
+                                        "mqttTopic": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "setTimer": {
+                                        "timerName": "",
+                                        "seconds": 0,
+                                        "durationExpression": ""
+                                    },
+                                    "clearTimer": {
+                                        "timerName": ""
+                                    },
+                                    "resetTimer": {
+                                        "timerName": ""
+                                    },
+                                    "lambda": {
+                                        "functionArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotEvents": {
+                                        "inputName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "sqs": {
+                                        "queueUrl": "",
+                                        "useBase64": true,
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "firehose": {
+                                        "deliveryStreamName": "",
+                                        "separator": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "dynamoDB": {
+                                        "hashKeyType": "",
+                                        "hashKeyField": "",
+                                        "hashKeyValue": "",
+                                        "rangeKeyType": "",
+                                        "rangeKeyField": "",
+                                        "rangeKeyValue": "",
+                                        "operation": "",
+                                        "payloadField": "",
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "dynamoDBv2": {
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotSiteWise": {
+                                        "entryId": "",
+                                        "assetId": "",
+                                        "propertyId": "",
+                                        "propertyAlias": "",
+                                        "propertyValue": {
+                                            "value": {
+                                                "stringValue": "",
+                                                "integerValue": "",
+                                                "doubleValue": "",
+                                                "booleanValue": ""
+                                            },
+                                            "timestamp": {
+                                                "timeInSeconds": "",
+                                                "offsetInNanos": ""
+                                            },
+                                            "quality": ""
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "onExit": {
+                    "events": [
+                        {
+                            "eventName": "",
+                            "condition": "",
+                            "actions": [
+                                {
+                                    "setVariable": {
+                                        "variableName": "",
+                                        "value": ""
+                                    },
+                                    "sns": {
+                                        "targetArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "iotTopicPublish": {
+                                        "mqttTopic": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "setTimer": {
+                                        "timerName": "",
+                                        "seconds": 0,
+                                        "durationExpression": ""
+                                    },
+                                    "clearTimer": {
+                                        "timerName": ""
+                                    },
+                                    "resetTimer": {
+                                        "timerName": ""
+                                    },
+                                    "lambda": {
+                                        "functionArn": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "iotEvents": {
+                                        "inputName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "sqs": {
+                                        "queueUrl": "",
+                                        "useBase64": true,
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "firehose": {
+                                        "deliveryStreamName": "",
+                                        "separator": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "dynamoDB": {
+                                        "hashKeyType": "",
+                                        "hashKeyField": "",
+                                        "hashKeyValue": "",
+                                        "rangeKeyType": "",
+                                        "rangeKeyField": "",
+                                        "rangeKeyValue": "",
+                                        "operation": "",
+                                        "payloadField": "",
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "JSON"
+                                        }
+                                    },
+                                    "dynamoDBv2": {
+                                        "tableName": "",
+                                        "payload": {
+                                            "contentExpression": "",
+                                            "type": "STRING"
+                                        }
+                                    },
+                                    "iotSiteWise": {
+                                        "entryId": "",
+                                        "assetId": "",
+                                        "propertyId": "",
+                                        "propertyAlias": "",
+                                        "propertyValue": {
+                                            "value": {
+                                                "stringValue": "",
+                                                "integerValue": "",
+                                                "doubleValue": "",
+                                                "booleanValue": ""
+                                            },
+                                            "timestamp": {
+                                                "timeInSeconds": "",
+                                                "offsetInNanos": ""
+                                            },
+                                            "quality": ""
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "initialStateName": ""
+    },
+    "detectorModelDescription": "",
+    "key": "",
+    "roleArn": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "evaluationMethod": "BATCH"
+}

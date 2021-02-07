@@ -1,0 +1,5 @@
+{
+    "EmailIdentity": "",
+    "MailFromDomain": "",
+    "BehaviorOnMxFailure": "USE_DEFAULT_VALUE"
+}

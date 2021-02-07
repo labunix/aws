@@ -1,0 +1,15 @@
+{
+    "modelId": "",
+    "modelType": "ONLINE_FRAUD_INSIGHTS",
+    "majorVersionNumber": "",
+    "externalEventsDetail": {
+        "dataLocation": "",
+        "dataAccessRoleArn": ""
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

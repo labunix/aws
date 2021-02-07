@@ -1,0 +1,37 @@
+{
+    "ProfileName": "",
+    "Timezone": "",
+    "Address": "",
+    "DistanceUnit": "METRIC",
+    "TemperatureUnit": "CELSIUS",
+    "WakeWord": "AMAZON",
+    "Locale": "",
+    "ClientRequestToken": "",
+    "SetupModeDisabled": true,
+    "MaxVolumeLimit": 0,
+    "PSTNEnabled": true,
+    "MeetingRoomConfiguration": {
+        "RoomUtilizationMetricsEnabled": true,
+        "EndOfMeetingReminder": {
+            "ReminderAtMinutes": [
+                0
+            ],
+            "ReminderType": "ANNOUNCEMENT_TIME_CHECK",
+            "Enabled": true
+        },
+        "InstantBooking": {
+            "DurationInMinutes": 0,
+            "Enabled": true
+        },
+        "RequireCheckIn": {
+            "ReleaseAfterMinutes": 0,
+            "Enabled": true
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

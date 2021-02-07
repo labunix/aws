@@ -1,0 +1,14 @@
+{
+    "DryRun": true,
+    "LocationType": "region",
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

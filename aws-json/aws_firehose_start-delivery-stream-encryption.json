@@ -1,0 +1,7 @@
+{
+    "DeliveryStreamName": "",
+    "DeliveryStreamEncryptionConfigurationInput": {
+        "KeyARN": "",
+        "KeyType": "AWS_OWNED_CMK"
+    }
+}

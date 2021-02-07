@@ -1,0 +1,22 @@
+{
+    "EndpointGroupArn": "",
+    "EndpointConfigurations": [
+        {
+            "EndpointId": "",
+            "Weight": 0,
+            "ClientIPPreservationEnabled": true
+        }
+    ],
+    "TrafficDialPercentage": 0.0,
+    "HealthCheckPort": 0,
+    "HealthCheckProtocol": "HTTP",
+    "HealthCheckPath": "",
+    "HealthCheckIntervalSeconds": 0,
+    "ThresholdCount": 0,
+    "PortOverrides": [
+        {
+            "ListenerPort": 0,
+            "EndpointPort": 0
+        }
+    ]
+}

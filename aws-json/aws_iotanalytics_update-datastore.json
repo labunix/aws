@@ -1,0 +1,28 @@
+{
+    "datastoreName": "",
+    "retentionPeriod": {
+        "unlimited": true,
+        "numberOfDays": 0
+    },
+    "datastoreStorage": {
+        "serviceManagedS3": {},
+        "customerManagedS3": {
+            "bucket": "",
+            "keyPrefix": "",
+            "roleArn": ""
+        }
+    },
+    "fileFormatConfiguration": {
+        "jsonConfiguration": {},
+        "parquetConfiguration": {
+            "schemaDefinition": {
+                "columns": [
+                    {
+                        "name": "",
+                        "type": ""
+                    }
+                ]
+            }
+        }
+    }
+}

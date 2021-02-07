@@ -1,0 +1,24 @@
+{
+    "FileSystemId": "",
+    "ClientRequestToken": "",
+    "StorageCapacity": 0,
+    "WindowsConfiguration": {
+        "WeeklyMaintenanceStartTime": "",
+        "DailyAutomaticBackupStartTime": "",
+        "AutomaticBackupRetentionDays": 0,
+        "ThroughputCapacity": 0,
+        "SelfManagedActiveDirectoryConfiguration": {
+            "UserName": "",
+            "Password": "",
+            "DnsIps": [
+                ""
+            ]
+        }
+    },
+    "LustreConfiguration": {
+        "WeeklyMaintenanceStartTime": "",
+        "DailyAutomaticBackupStartTime": "",
+        "AutomaticBackupRetentionDays": 0,
+        "AutoImportPolicy": "NEW_CHANGED"
+    }
+}

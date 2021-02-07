@@ -1,0 +1,19 @@
+{
+    "ApplicationName": "",
+    "CurrentApplicationVersionId": 0,
+    "Output": {
+        "Name": "",
+        "KinesisStreamsOutput": {
+            "ResourceARN": ""
+        },
+        "KinesisFirehoseOutput": {
+            "ResourceARN": ""
+        },
+        "LambdaOutput": {
+            "ResourceARN": ""
+        },
+        "DestinationSchema": {
+            "RecordFormatType": "CSV"
+        }
+    }
+}

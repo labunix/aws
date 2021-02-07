@@ -1,0 +1,19 @@
+{
+    "NetworkId": "",
+    "MemberId": "",
+    "NodeId": "",
+    "LogPublishingConfiguration": {
+        "Fabric": {
+            "ChaincodeLogs": {
+                "Cloudwatch": {
+                    "Enabled": true
+                }
+            },
+            "PeerLogs": {
+                "Cloudwatch": {
+                    "Enabled": true
+                }
+            }
+        }
+    }
+}

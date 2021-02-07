@@ -1,0 +1,45 @@
+{
+    "AccountId": "",
+    "BudgetName": "",
+    "NotificationType": "ACTUAL",
+    "ActionType": "APPLY_IAM_POLICY",
+    "ActionThreshold": {
+        "ActionThresholdValue": null,
+        "ActionThresholdType": "ABSOLUTE_VALUE"
+    },
+    "Definition": {
+        "IamActionDefinition": {
+            "PolicyArn": "",
+            "Roles": [
+                ""
+            ],
+            "Groups": [
+                ""
+            ],
+            "Users": [
+                ""
+            ]
+        },
+        "ScpActionDefinition": {
+            "PolicyId": "",
+            "TargetIds": [
+                ""
+            ]
+        },
+        "SsmActionDefinition": {
+            "ActionSubType": "STOP_RDS_INSTANCES",
+            "Region": "",
+            "InstanceIds": [
+                ""
+            ]
+        }
+    },
+    "ExecutionRoleArn": "",
+    "ApprovalModel": "MANUAL",
+    "Subscribers": [
+        {
+            "SubscriptionType": "EMAIL",
+            "Address": ""
+        }
+    ]
+}

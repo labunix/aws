@@ -1,0 +1,14 @@
+{
+    "CodeRepositoryName": "",
+    "GitConfig": {
+        "RepositoryUrl": "",
+        "Branch": "",
+        "SecretArn": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

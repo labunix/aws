@@ -1,0 +1,14 @@
+{
+    "HostArn": "",
+    "ProviderEndpoint": "",
+    "VpcConfiguration": {
+        "VpcId": "",
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ],
+        "TlsCertificate": ""
+    }
+}

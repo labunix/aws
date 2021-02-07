@@ -1,0 +1,21 @@
+{
+    "SourceIp": "",
+    "DestinationIp": "",
+    "Source": "",
+    "Destination": "",
+    "Protocol": "tcp",
+    "DestinationPort": 0,
+    "TagSpecifications": [
+        {
+            "ResourceType": "placement-group",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true,
+    "ClientToken": ""
+}

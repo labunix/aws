@@ -1,0 +1,14 @@
+{
+    "VoiceConnectorId": "",
+    "Termination": {
+        "CpsLimit": 0,
+        "DefaultPhoneNumber": "",
+        "CallingRegions": [
+            ""
+        ],
+        "CidrAllowedList": [
+            ""
+        ],
+        "Disabled": true
+    }
+}

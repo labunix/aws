@@ -1,0 +1,33 @@
+{
+    "repositoryName": "",
+    "sourceCommitSpecifier": "",
+    "destinationCommitSpecifier": "",
+    "targetBranch": "",
+    "conflictDetailLevel": "LINE_LEVEL",
+    "conflictResolutionStrategy": "ACCEPT_DESTINATION",
+    "authorName": "",
+    "email": "",
+    "commitMessage": "",
+    "keepEmptyFolders": true,
+    "conflictResolution": {
+        "replaceContents": [
+            {
+                "filePath": "",
+                "replacementType": "KEEP_SOURCE",
+                "content": null,
+                "fileMode": "EXECUTABLE"
+            }
+        ],
+        "deleteFiles": [
+            {
+                "filePath": ""
+            }
+        ],
+        "setFileModes": [
+            {
+                "filePath": "",
+                "fileMode": "SYMLINK"
+            }
+        ]
+    }
+}

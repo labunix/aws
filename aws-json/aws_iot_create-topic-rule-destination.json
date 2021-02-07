@@ -1,0 +1,17 @@
+{
+    "destinationConfiguration": {
+        "httpUrlConfiguration": {
+            "confirmationUrl": ""
+        },
+        "vpcConfiguration": {
+            "subnetIds": [
+                ""
+            ],
+            "securityGroups": [
+                ""
+            ],
+            "vpcId": "",
+            "roleArn": ""
+        }
+    }
+}

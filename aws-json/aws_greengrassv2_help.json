@@ -1,0 +1,71 @@
+GREENGRASSV2()                                                  GREENGRASSV2()
+
+
+
+NNAAMMEE
+       greengrassv2 -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  IoT  Greengrass  brings local compute, messaging, data management,
+       sync, and ML inference capabilities to edge devices. This  enables  de-
+       vices  to collect and analyze data closer to the source of information,
+       react autonomously to local events, and communicate securely with  each
+       other  on  local  networks. Local devices can also communicate securely
+       with AWS IoT Core and export IoT data to the AWS Cloud. AWS IoT  Green-
+       grass  developers can use AWS Lambda functions and components to create
+       and deploy applications to fleets of edge devices for local operation.
+
+       AWS IoT Greengrass Version 2 provides a new major version  of  the  AWS
+       IoT Greengrass Core software, new APIs, and a new console. Use this API
+       reference to learn how to use the AWS IoT Greengrass V2 API  operations
+       to manage components, manage deployments, and core devices.
+
+       For  more  information,  see _W_h_a_t _i_s _A_W_S _I_o_T _G_r_e_e_n_g_r_a_s_s_? in the _A_W_S _I_o_T
+       _G_r_e_e_n_g_r_a_s_s _V_2 _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o cancel-deployment
+
+       +o create-component-version
+
+       +o create-deployment
+
+       +o delete-component
+
+       +o delete-core-device
+
+       +o describe-component
+
+       +o get-component
+
+       +o get-component-version-artifact
+
+       +o get-core-device
+
+       +o get-deployment
+
+       +o help
+
+       +o list-component-versions
+
+       +o list-components
+
+       +o list-core-devices
+
+       +o list-deployments
+
+       +o list-effective-deployments
+
+       +o list-installed-components
+
+       +o list-tags-for-resource
+
+       +o resolve-component-candidates
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                                GREENGRASSV2()

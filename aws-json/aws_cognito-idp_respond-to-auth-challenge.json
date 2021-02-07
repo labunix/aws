@@ -1,0 +1,17 @@
+{
+    "ClientId": "",
+    "ChallengeName": "PASSWORD_VERIFIER",
+    "Session": "",
+    "ChallengeResponses": {
+        "KeyName": ""
+    },
+    "AnalyticsMetadata": {
+        "AnalyticsEndpointId": ""
+    },
+    "UserContextData": {
+        "EncodedData": ""
+    },
+    "ClientMetadata": {
+        "KeyName": ""
+    }
+}

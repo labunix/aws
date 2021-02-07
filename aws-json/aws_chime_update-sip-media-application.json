@@ -1,0 +1,9 @@
+{
+    "SipMediaApplicationId": "",
+    "Name": "",
+    "Endpoints": [
+        {
+            "LambdaArn": ""
+        }
+    ]
+}

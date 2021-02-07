@@ -1,0 +1,17 @@
+{
+    "DryRun": true,
+    "PrefixListId": "",
+    "CurrentVersion": 0,
+    "PrefixListName": "",
+    "AddEntries": [
+        {
+            "Cidr": "",
+            "Description": ""
+        }
+    ],
+    "RemoveEntries": [
+        {
+            "Cidr": ""
+        }
+    ]
+}

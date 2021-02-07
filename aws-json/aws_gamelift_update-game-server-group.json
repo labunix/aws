@@ -1,0 +1,12 @@
+{
+    "GameServerGroupName": "",
+    "RoleArn": "",
+    "InstanceDefinitions": [
+        {
+            "InstanceType": "c5.4xlarge",
+            "WeightedCapacity": ""
+        }
+    ],
+    "GameServerProtectionPolicy": "NO_PROTECTION",
+    "BalancingStrategy": "SPOT_ONLY"
+}

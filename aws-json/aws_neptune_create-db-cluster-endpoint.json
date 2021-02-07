@@ -1,0 +1,17 @@
+{
+    "DBClusterIdentifier": "",
+    "DBClusterEndpointIdentifier": "",
+    "EndpointType": "",
+    "StaticMembers": [
+        ""
+    ],
+    "ExcludedMembers": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

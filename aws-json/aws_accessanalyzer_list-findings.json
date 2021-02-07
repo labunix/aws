@@ -1,0 +1,23 @@
+{
+    "analyzerArn": "",
+    "filter": {
+        "KeyName": {
+            "contains": [
+                ""
+            ],
+            "eq": [
+                ""
+            ],
+            "exists": true,
+            "neq": [
+                ""
+            ]
+        }
+    },
+    "maxResults": 0,
+    "nextToken": "",
+    "sort": {
+        "attributeName": "",
+        "orderBy": "ASC"
+    }
+}

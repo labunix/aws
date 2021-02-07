@@ -1,0 +1,9 @@
+{
+    "organizationEventDetailFilters": [
+        {
+            "eventArn": "",
+            "awsAccountId": ""
+        }
+    ],
+    "locale": ""
+}

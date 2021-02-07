@@ -1,0 +1,90 @@
+{
+    "CertificateAuthorityConfiguration": {
+        "KeyAlgorithm": "RSA_2048",
+        "SigningAlgorithm": "SHA384WITHECDSA",
+        "Subject": {
+            "Country": "",
+            "Organization": "",
+            "OrganizationalUnit": "",
+            "DistinguishedNameQualifier": "",
+            "State": "",
+            "CommonName": "",
+            "SerialNumber": "",
+            "Locality": "",
+            "Title": "",
+            "Surname": "",
+            "GivenName": "",
+            "Initials": "",
+            "Pseudonym": "",
+            "GenerationQualifier": ""
+        },
+        "CsrExtensions": {
+            "KeyUsage": {
+                "DigitalSignature": true,
+                "NonRepudiation": true,
+                "KeyEncipherment": true,
+                "DataEncipherment": true,
+                "KeyAgreement": true,
+                "KeyCertSign": true,
+                "CRLSign": true,
+                "EncipherOnly": true,
+                "DecipherOnly": true
+            },
+            "SubjectInformationAccess": [
+                {
+                    "AccessMethod": {
+                        "CustomObjectIdentifier": "",
+                        "AccessMethodType": "RESOURCE_PKI_NOTIFY"
+                    },
+                    "AccessLocation": {
+                        "OtherName": {
+                            "TypeId": "",
+                            "Value": ""
+                        },
+                        "Rfc822Name": "",
+                        "DnsName": "",
+                        "DirectoryName": {
+                            "Country": "",
+                            "Organization": "",
+                            "OrganizationalUnit": "",
+                            "DistinguishedNameQualifier": "",
+                            "State": "",
+                            "CommonName": "",
+                            "SerialNumber": "",
+                            "Locality": "",
+                            "Title": "",
+                            "Surname": "",
+                            "GivenName": "",
+                            "Initials": "",
+                            "Pseudonym": "",
+                            "GenerationQualifier": ""
+                        },
+                        "EdiPartyName": {
+                            "PartyName": "",
+                            "NameAssigner": ""
+                        },
+                        "UniformResourceIdentifier": "",
+                        "IpAddress": "",
+                        "RegisteredId": ""
+                    }
+                }
+            ]
+        }
+    },
+    "RevocationConfiguration": {
+        "CrlConfiguration": {
+            "Enabled": true,
+            "ExpirationInDays": 0,
+            "CustomCname": "",
+            "S3BucketName": ""
+        }
+    },
+    "CertificateAuthorityType": "SUBORDINATE",
+    "IdempotencyToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

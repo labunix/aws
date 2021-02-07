@@ -1,0 +1,45 @@
+{
+    "CostCategoryArn": "",
+    "RuleVersion": "CostCategoryExpression.v1",
+    "Rules": [
+        {
+            "Value": "",
+            "Rule": {
+                "Or": [
+                    {}
+                ],
+                "And": [
+                    {}
+                ],
+                "Not": {},
+                "Dimensions": {
+                    "Key": "USAGE_TYPE",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "CASE_INSENSITIVE"
+                    ]
+                },
+                "Tags": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "ABSENT"
+                    ]
+                },
+                "CostCategories": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "CASE_INSENSITIVE"
+                    ]
+                }
+            }
+        }
+    ]
+}

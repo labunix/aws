@@ -1,0 +1,19 @@
+WORKMAILMESSAGEFLOW()                                    WORKMAILMESSAGEFLOW()
+
+
+
+NNAAMMEE
+       workmailmessageflow -
+
+DDEESSCCRRIIPPTTIIOONN
+       The WorkMail Message Flow API provides access to email messages as they
+       are being sent and received by a WorkMail organization.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o get-raw-message-content
+
+       +o help
+
+
+
+                                                         WORKMAILMESSAGEFLOW()

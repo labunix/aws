@@ -1,0 +1,35 @@
+{
+    "DetectorId": "",
+    "FindingCriteria": {
+        "Criterion": {
+            "KeyName": {
+                "Eq": [
+                    ""
+                ],
+                "Neq": [
+                    ""
+                ],
+                "Gt": 0,
+                "Gte": 0,
+                "Lt": 0,
+                "Lte": 0,
+                "Equals": [
+                    ""
+                ],
+                "NotEquals": [
+                    ""
+                ],
+                "GreaterThan": 0,
+                "GreaterThanOrEqual": 0,
+                "LessThan": 0,
+                "LessThanOrEqual": 0
+            }
+        }
+    },
+    "SortCriteria": {
+        "AttributeName": "",
+        "OrderBy": "DESC"
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

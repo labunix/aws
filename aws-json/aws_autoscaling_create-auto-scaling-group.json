@@ -1,0 +1,82 @@
+{
+    "AutoScalingGroupName": "",
+    "LaunchConfigurationName": "",
+    "LaunchTemplate": {
+        "LaunchTemplateId": "",
+        "LaunchTemplateName": "",
+        "Version": ""
+    },
+    "MixedInstancesPolicy": {
+        "LaunchTemplate": {
+            "LaunchTemplateSpecification": {
+                "LaunchTemplateId": "",
+                "LaunchTemplateName": "",
+                "Version": ""
+            },
+            "Overrides": [
+                {
+                    "InstanceType": "",
+                    "WeightedCapacity": "",
+                    "LaunchTemplateSpecification": {
+                        "LaunchTemplateId": "",
+                        "LaunchTemplateName": "",
+                        "Version": ""
+                    }
+                }
+            ]
+        },
+        "InstancesDistribution": {
+            "OnDemandAllocationStrategy": "",
+            "OnDemandBaseCapacity": 0,
+            "OnDemandPercentageAboveBaseCapacity": 0,
+            "SpotAllocationStrategy": "",
+            "SpotInstancePools": 0,
+            "SpotMaxPrice": ""
+        }
+    },
+    "InstanceId": "",
+    "MinSize": 0,
+    "MaxSize": 0,
+    "DesiredCapacity": 0,
+    "DefaultCooldown": 0,
+    "AvailabilityZones": [
+        ""
+    ],
+    "LoadBalancerNames": [
+        ""
+    ],
+    "TargetGroupARNs": [
+        ""
+    ],
+    "HealthCheckType": "",
+    "HealthCheckGracePeriod": 0,
+    "PlacementGroup": "",
+    "VPCZoneIdentifier": "",
+    "TerminationPolicies": [
+        ""
+    ],
+    "NewInstancesProtectedFromScaleIn": true,
+    "CapacityRebalance": true,
+    "LifecycleHookSpecificationList": [
+        {
+            "LifecycleHookName": "",
+            "LifecycleTransition": "",
+            "NotificationMetadata": "",
+            "HeartbeatTimeout": 0,
+            "DefaultResult": "",
+            "NotificationTargetARN": "",
+            "RoleARN": ""
+        }
+    ],
+    "Tags": [
+        {
+            "ResourceId": "",
+            "ResourceType": "",
+            "Key": "",
+            "Value": "",
+            "PropagateAtLaunch": true
+        }
+    ],
+    "ServiceLinkedRoleARN": "",
+    "MaxInstanceLifetime": 0
+}

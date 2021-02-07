@@ -1,0 +1,16 @@
+{
+    "cursor": "",
+    "expr": "",
+    "facet": "",
+    "filterQuery": "",
+    "highlight": "",
+    "partial": true,
+    "query": "",
+    "queryOptions": "",
+    "queryParser": "lucene",
+    "return": "",
+    "size": 0,
+    "sort": "",
+    "start": 0,
+    "stats": ""
+}

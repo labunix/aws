@@ -1,0 +1,80 @@
+{
+    "DryRun": true,
+    "ClientToken": "",
+    "SpotOptions": {
+        "AllocationStrategy": "diversified",
+        "MaintenanceStrategies": {
+            "CapacityRebalance": {
+                "ReplacementStrategy": "launch"
+            }
+        },
+        "InstanceInterruptionBehavior": "terminate",
+        "InstancePoolsToUseCount": 0,
+        "SingleInstanceType": true,
+        "SingleAvailabilityZone": true,
+        "MinTargetCapacity": 0,
+        "MaxTotalPrice": ""
+    },
+    "OnDemandOptions": {
+        "AllocationStrategy": "prioritized",
+        "CapacityReservationOptions": {
+            "UsageStrategy": "use-capacity-reservations-first"
+        },
+        "SingleInstanceType": true,
+        "SingleAvailabilityZone": true,
+        "MinTargetCapacity": 0,
+        "MaxTotalPrice": ""
+    },
+    "ExcessCapacityTerminationPolicy": "termination",
+    "LaunchTemplateConfigs": [
+        {
+            "LaunchTemplateSpecification": {
+                "LaunchTemplateId": "",
+                "LaunchTemplateName": "",
+                "Version": ""
+            },
+            "Overrides": [
+                {
+                    "InstanceType": "r5dn.2xlarge",
+                    "MaxPrice": "",
+                    "SubnetId": "",
+                    "AvailabilityZone": "",
+                    "WeightedCapacity": null,
+                    "Priority": null,
+                    "Placement": {
+                        "AvailabilityZone": "",
+                        "Affinity": "",
+                        "GroupName": "",
+                        "PartitionNumber": 0,
+                        "HostId": "",
+                        "Tenancy": "default",
+                        "SpreadDomain": "",
+                        "HostResourceGroupArn": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "TargetCapacitySpecification": {
+        "TotalTargetCapacity": 0,
+        "OnDemandTargetCapacity": 0,
+        "SpotTargetCapacity": 0,
+        "DefaultTargetCapacityType": "spot"
+    },
+    "TerminateInstancesWithExpiration": true,
+    "Type": "request",
+    "ValidFrom": "1970-01-01T00:00:00",
+    "ValidUntil": "1970-01-01T00:00:00",
+    "ReplaceUnhealthyInstances": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "transit-gateway-multicast-domain",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

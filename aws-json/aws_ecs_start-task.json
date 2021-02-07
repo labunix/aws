@@ -1,0 +1,70 @@
+{
+    "cluster": "",
+    "containerInstances": [
+        ""
+    ],
+    "enableECSManagedTags": true,
+    "group": "",
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                ""
+            ],
+            "securityGroups": [
+                ""
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "overrides": {
+        "containerOverrides": [
+            {
+                "name": "",
+                "command": [
+                    ""
+                ],
+                "environment": [
+                    {
+                        "name": "",
+                        "value": ""
+                    }
+                ],
+                "environmentFiles": [
+                    {
+                        "value": "",
+                        "type": "s3"
+                    }
+                ],
+                "cpu": 0,
+                "memory": 0,
+                "memoryReservation": 0,
+                "resourceRequirements": [
+                    {
+                        "value": "",
+                        "type": "GPU"
+                    }
+                ]
+            }
+        ],
+        "cpu": "",
+        "inferenceAcceleratorOverrides": [
+            {
+                "deviceName": "",
+                "deviceType": ""
+            }
+        ],
+        "executionRoleArn": "",
+        "memory": "",
+        "taskRoleArn": ""
+    },
+    "propagateTags": "SERVICE",
+    "referenceId": "",
+    "startedBy": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "taskDefinition": ""
+}

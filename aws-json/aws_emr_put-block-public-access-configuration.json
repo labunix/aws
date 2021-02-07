@@ -1,0 +1,11 @@
+{
+    "BlockPublicAccessConfiguration": {
+        "BlockPublicSecurityGroupRules": true,
+        "PermittedPublicSecurityGroupRuleRanges": [
+            {
+                "MinRange": 0,
+                "MaxRange": 0
+            }
+        ]
+    }
+}

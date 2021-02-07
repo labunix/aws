@@ -1,0 +1,13 @@
+{
+    "TransitGatewayRouteTableId": "",
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "S3Bucket": "",
+    "DryRun": true
+}

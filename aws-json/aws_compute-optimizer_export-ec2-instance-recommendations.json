@@ -1,0 +1,22 @@
+{
+    "accountIds": [
+        ""
+    ],
+    "filters": [
+        {
+            "name": "Finding",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "fieldsToExport": [
+        "RecommendationOptionsProjectedUtilizationMetricsMemoryMaximum"
+    ],
+    "s3DestinationConfig": {
+        "bucket": "",
+        "keyPrefix": ""
+    },
+    "fileFormat": "Csv",
+    "includeMemberAccounts": true
+}

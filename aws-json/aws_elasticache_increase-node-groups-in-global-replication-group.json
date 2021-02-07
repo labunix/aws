@@ -1,0 +1,19 @@
+{
+    "GlobalReplicationGroupId": "",
+    "NodeGroupCount": 0,
+    "RegionalConfigurations": [
+        {
+            "ReplicationGroupId": "",
+            "ReplicationGroupRegion": "",
+            "ReshardingConfiguration": [
+                {
+                    "NodeGroupId": "",
+                    "PreferredAvailabilityZones": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "ApplyImmediately": true
+}

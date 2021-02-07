@@ -1,0 +1,14 @@
+{
+    "LayerName": "",
+    "Description": "",
+    "Content": {
+        "S3Bucket": "",
+        "S3Key": "",
+        "S3ObjectVersion": "",
+        "ZipFile": null
+    },
+    "CompatibleRuntimes": [
+        "java11"
+    ],
+    "LicenseInfo": ""
+}

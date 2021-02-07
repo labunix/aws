@@ -1,0 +1,8 @@
+{
+    "connectorProfileNames": [
+        ""
+    ],
+    "connectorType": "Dynatrace",
+    "maxResults": 0,
+    "nextToken": ""
+}

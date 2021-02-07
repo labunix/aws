@@ -1,0 +1,258 @@
+CODEARTIFACT()                                                  CODEARTIFACT()
+
+
+
+NNAAMMEE
+       codeartifact -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS CodeArtifact is a fully managed artifact repository compatible with
+       language-native package managers and build tools such  as  npm,  Apache
+       Maven,  NuGet, and pip. You can use CodeArtifact to share packages with
+       development teams and pull packages. Packages can be pulled  from  both
+       public  and  CodeArtifact repositories. You can also create an upstream
+       relationship between a CodeArtifact repository and another  repository,
+       which  effectively  merges  their  contents from the point of view of a
+       package manager client.
+          AAWWSS CCooddeeAArrttiiffaacctt CCoommppoonneennttss
+
+       Use the information in this guide to help you work with  the  following
+       CodeArtifact components:
+
+       +o RReeppoossiittoorryy : A CodeArtifact repository contains a set of _p_a_c_k_a_g_e _v_e_r_-
+         _s_i_o_n_s , each of which maps to a set of assets, or files. Repositories
+         are polyglot, so a single repository can contain packages of any sup-
+         ported type. Each repository exposes endpoints for fetching and  pub-
+         lishing  packages using tools like the ** nnppmm ** CLI, the ** NNuuGGeett **
+         CLI, the Maven CLI (** mmvvnn ** ), and ** ppiipp ** .
+
+       +o DDoommaaiinn : Repositories are aggregated into a higher-level entity known
+         as  a  _d_o_m_a_i_n . All package assets and metadata are stored in the do-
+         main, but are consumed through repositories. A given  package  asset,
+         such  as  a  Maven JAR file, is stored once per domain, no matter how
+         many repositories it's present in. All of the assets and metadata  in
+         a domain are encrypted with the same customer master key (CMK) stored
+         in AWS Key Management Service (AWS KMS). Each repository is a  member
+         of  a single domain and can't be moved to a different domain. The do-
+         main allows organizational  policy  to  be  applied  across  multiple
+         repositories,  such  as which accounts can access repositories in the
+         domain, and which public repositories can be used as sources of pack-
+         ages.  Although  an organization can have multiple domains, we recom-
+         mend a single production domain that contains all published artifacts
+         so that teams can find and share packages across their organization.
+
+       +o PPaacckkaaggee : A _p_a_c_k_a_g_e is a bundle of software and the metadata required
+         to resolve dependencies and install the software.  CodeArtifact  sup-
+         ports  _n_p_m  ,  _P_y_P_I , _M_a_v_e_n , and _N_u_G_e_t package formats. In CodeArti-
+         fact, a package consists of:
+
+         +o A _n_a_m_e (for example, wweebbppaacckk is the name of a popular npm package)
+
+         +o An optional namespace (for example, @@ttyyppeess in @@ttyyppeess//nnooddee )
+
+         +o A set of versions (for example, 11..00..00 , 11..00..11 , 11..00..22 , etc.)
+
+         +o Package-level metadata (for example, npm tags)
+
+       +o PPaacckkaaggee vveerrssiioonn : A version of a package, such as @@ttyyppeess//nnooddee  1122..66..99
+         .  The version number format and semantics vary for different package
+         formats. For example,  npm  package  versions  must  conform  to  the
+         _S_e_m_a_n_t_i_c  _V_e_r_s_i_o_n_i_n_g  _s_p_e_c_i_f_i_c_a_t_i_o_n . In CodeArtifact, a package ver-
+         sion consists of the version identifier, metadata at the package ver-
+         sion level, and a set of assets.
+
+       +o UUppssttrreeaamm  rreeppoossiittoorryy : One repository is _u_p_s_t_r_e_a_m of another when the
+         package versions in it can be accessed from the  repository  endpoint
+         of the downstream repository, effectively merging the contents of the
+         two repositories from the point of view of a client. CodeArtifact al-
+         lows creating an upstream relationship between two repositories.
+
+       +o AAsssseett  :  An individual file stored in CodeArtifact associated with a
+         package version, such as an npm ..ttggzz file or Maven POM and JAR files.
+
+       CodeArtifact supports these operations:
+
+       +o AAssssoocciiaatteeEExxtteerrnnaallCCoonnnneeccttiioonn : Adds an existing external connection to
+         a repository.
+
+       +o CCooppyyPPaacckkaaggeeVVeerrssiioonnss  : Copies package versions from one repository to
+         another repository in the same domain.
+
+       +o CCrreeaatteeDDoommaaiinn : Creates a domain
+
+       +o CCrreeaatteeRReeppoossiittoorryy : Creates a CodeArtifact repository in a domain.
+
+       +o DDeelleetteeDDoommaaiinn : Deletes a domain. You cannot delete a domain that con-
+         tains repositories.
+
+       +o DDeelleetteeDDoommaaiinnPPeerrmmiissssiioonnssPPoolliiccyy  :  Deletes the resource policy that is
+         set on a domain.
+
+       +o DDeelleetteePPaacckkaaggeeVVeerrssiioonnss : Deletes versions of a package. After a  pack-
+         age has been deleted, it can be republished, but its assets and meta-
+         data cannot be restored because they have  been  permanently  removed
+         from storage.
+
+       +o DDeelleetteeRReeppoossiittoorryy : Deletes a repository.
+
+       +o DDeelleetteeRReeppoossiittoorryyPPeerrmmiissssiioonnssPPoolliiccyy  : Deletes the resource policy that
+         is set on a repository.
+
+       +o DDeessccrriibbeeDDoommaaiinn : Returns a DDoommaaiinnDDeessccrriippttiioonn object that contains in-
+         formation about the requested domain.
+
+       +o DDeessccrriibbeePPaacckkaaggeeVVeerrssiioonn  :  Returns  a `` _P_a_c_k_a_g_e_V_e_r_s_i_o_n_D_e_s_c_r_i_p_t_i_o_n ``
+         object that contains details about a package version.
+
+       +o DDeessccrriibbeeRReeppoossiittoorryy : Returns a RReeppoossiittoorryyDDeessccrriippttiioonn object that con-
+         tains detailed information about the requested repository.
+
+       +o DDiissppoosseePPaacckkaaggeeVVeerrssiioonnss  :  Disposes  versions of a package. A package
+         version with the status DDiissppoosseedd cannot be restored because they have
+         been permanently removed from storage.
+
+       +o DDiissaassssoocciiaatteeEExxtteerrnnaallCCoonnnneeccttiioonn : Removes an existing external connec-
+         tion from a repository.
+
+       +o GGeettAAuutthhoorriizzaattiioonnTTookkeenn : Generates a temporary authorization token for
+         accessing  repositories  in  the domain. The token expires the autho-
+         rization period has passed. The default authorization  period  is  12
+         hours and can be customized to any length with a maximum of 12 hours.
+
+       +o GGeettDDoommaaiinnPPeerrmmiissssiioonnssPPoolliiccyy : Returns the policy of a resource that is
+         attached to the specified domain.
+
+       +o GGeettPPaacckkaaggeeVVeerrssiioonnAAsssseett : Returns the contents of an asset that is  in
+         a package version.
+
+       +o GGeettPPaacckkaaggeeVVeerrssiioonnRReeaaddmmee  :  Gets  the readme file or descriptive text
+         for a package version.
+
+       +o GGeettRReeppoossiittoorryyEEnnddppooiinntt : Returns the endpoint of a  repository  for  a
+         specific package format. A repository has one endpoint for each pack-
+         age format:
+
+         +o nnppmm
+
+         +o ppyyppii
+
+         +o mmaavveenn
+
+         +o nnuuggeett
+
+       +o GGeettRReeppoossiittoorryyPPeerrmmiissssiioonnssPPoolliiccyy : Returns the resource policy that  is
+         set on a repository.
+
+       +o LLiissttDDoommaaiinnss  : Returns a list of DDoommaaiinnSSuummmmaarryy objects. Each returned
+         DDoommaaiinnSSuummmmaarryy object contains information about a domain.
+
+       +o LLiissttPPaacckkaaggeess : Lists the packages in a repository.
+
+       +o LLiissttPPaacckkaaggeeVVeerrssiioonnAAsssseettss : Lists the assets for a given package  ver-
+         sion.
+
+       +o LLiissttPPaacckkaaggeeVVeerrssiioonnDDeeppeennddeenncciieess  : Returns a list of the direct depen-
+         dencies for a package version.
+
+       +o LLiissttPPaacckkaaggeeVVeerrssiioonnss : Returns a list of package versions for a speci-
+         fied package in a repository.
+
+       +o LLiissttRReeppoossiittoorriieess  :  Returns  a list of repositories owned by the AWS
+         account that called this method.
+
+       +o LLiissttRReeppoossiittoorriieessIInnDDoommaaiinn : Returns a list of the  repositories  in  a
+         domain.
+
+       +o LLiissttTTaaggssFFoorrRReessoouurrccee  :  Returns  a list of the tags associated with a
+         resource.
+
+       +o PPuuttDDoommaaiinnPPeerrmmiissssiioonnssPPoolliiccyy : Attaches a resource policy to a domain.
+
+       +o PPuuttRReeppoossiittoorryyPPeerrmmiissssiioonnssPPoolliiccyy : Sets the resource policy on a repos-
+         itory that specifies permissions to access it.
+
+       +o TTaaggRReessoouurrccee : Adds or updates tags for a resource.
+
+       +o UUnnttaaggRReessoouurrccee : Removes a tag from a resource.
+
+       +o UUppddaatteePPaacckkaaggeeVVeerrssiioonnssSSttaattuuss  : Updates the status of one or more ver-
+         sions of a package.
+
+       +o UUppddaatteeRReeppoossiittoorryy : Updates the properties of a repository.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-external-connection
+
+       +o copy-package-versions
+
+       +o create-domain
+
+       +o create-repository
+
+       +o delete-domain
+
+       +o delete-domain-permissions-policy
+
+       +o delete-package-versions
+
+       +o delete-repository
+
+       +o delete-repository-permissions-policy
+
+       +o describe-domain
+
+       +o describe-package-version
+
+       +o describe-repository
+
+       +o disassociate-external-connection
+
+       +o dispose-package-versions
+
+       +o get-authorization-token
+
+       +o get-domain-permissions-policy
+
+       +o get-package-version-asset
+
+       +o get-package-version-readme
+
+       +o get-repository-endpoint
+
+       +o get-repository-permissions-policy
+
+       +o help
+
+       +o list-domains
+
+       +o list-package-version-assets
+
+       +o list-package-version-dependencies
+
+       +o list-package-versions
+
+       +o list-packages
+
+       +o list-repositories
+
+       +o list-repositories-in-domain
+
+       +o list-tags-for-resource
+
+       +o login
+
+       +o put-domain-permissions-policy
+
+       +o put-repository-permissions-policy
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-package-versions-status
+
+       +o update-repository
+
+
+
+                                                                CODEARTIFACT()

@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "ProviderType": "GitHub",
+    "ProviderEndpoint": "",
+    "VpcConfiguration": {
+        "VpcId": "",
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ],
+        "TlsCertificate": ""
+    }
+}

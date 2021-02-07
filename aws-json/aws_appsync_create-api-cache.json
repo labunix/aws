@@ -1,0 +1,8 @@
+{
+    "apiId": "",
+    "ttl": 0,
+    "transitEncryptionEnabled": true,
+    "atRestEncryptionEnabled": true,
+    "apiCachingBehavior": "FULL_REQUEST_CACHING",
+    "type": "SMALL"
+}

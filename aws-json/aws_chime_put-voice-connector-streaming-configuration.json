@@ -1,0 +1,12 @@
+{
+    "VoiceConnectorId": "",
+    "StreamingConfiguration": {
+        "DataRetentionInHours": 0,
+        "Disabled": true,
+        "StreamingNotificationTargets": [
+            {
+                "NotificationTarget": "EventBridge"
+            }
+        ]
+    }
+}

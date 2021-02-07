@@ -1,0 +1,28 @@
+{
+    "Preview": true,
+    "Name": "",
+    "RecipeStep": {
+        "Action": {
+            "Operation": "",
+            "Parameters": {
+                "KeyName": ""
+            }
+        },
+        "ConditionExpressions": [
+            {
+                "Condition": "",
+                "Value": "",
+                "TargetColumn": ""
+            }
+        ]
+    },
+    "StepIndex": 0,
+    "ClientSessionId": "",
+    "ViewFrame": {
+        "StartColumnIndex": 0,
+        "ColumnRange": 0,
+        "HiddenColumns": [
+            ""
+        ]
+    }
+}

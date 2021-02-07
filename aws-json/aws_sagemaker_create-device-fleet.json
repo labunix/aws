@@ -1,0 +1,15 @@
+{
+    "DeviceFleetName": "",
+    "RoleArn": "",
+    "Description": "",
+    "OutputConfig": {
+        "S3OutputLocation": "",
+        "KmsKeyId": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

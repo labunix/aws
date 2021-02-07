@@ -1,0 +1,130 @@
+APPSTREAM()                                                        APPSTREAM()
+
+
+
+NNAAMMEE
+       appstream -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is  the  _A_m_a_z_o_n  _A_p_p_S_t_r_e_a_m _2_._0 _A_P_I _R_e_f_e_r_e_n_c_e . This documentation
+       provides descriptions and syntax for each of the actions and data types
+       in  AppStream 2.0. AppStream 2.0 is a fully managed, secure application
+       streaming service that lets you stream desktop  applications  to  users
+       without rewriting applications. AppStream 2.0 manages the AWS resources
+       that are required to host and run your applications,  scales  automati-
+       cally, and provides access to your users on demand.
+
+       NNOOTTEE::
+          You  can call the AppStream 2.0 API operations by using an interface
+          VPC endpoint (interface endpoint). For more information, see  _A_c_c_e_s_s
+          _A_p_p_S_t_r_e_a_m  _2_._0  _A_P_I _O_p_e_r_a_t_i_o_n_s _a_n_d _C_L_I _C_o_m_m_a_n_d_s _T_h_r_o_u_g_h _a_n _I_n_t_e_r_f_a_c_e
+          _V_P_C _E_n_d_p_o_i_n_t in the _A_m_a_z_o_n _A_p_p_S_t_r_e_a_m _2_._0 _A_d_m_i_n_i_s_t_r_a_t_i_o_n _G_u_i_d_e .
+
+       To learn more about AppStream 2.0, see the following resources:
+
+       +o _A_m_a_z_o_n _A_p_p_S_t_r_e_a_m _2_._0 _p_r_o_d_u_c_t _p_a_g_e
+
+       +o _A_m_a_z_o_n _A_p_p_S_t_r_e_a_m _2_._0 _d_o_c_u_m_e_n_t_a_t_i_o_n
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-fleet
+
+       +o batch-associate-user-stack
+
+       +o batch-disassociate-user-stack
+
+       +o copy-image
+
+       +o create-directory-config
+
+       +o create-fleet
+
+       +o create-image-builder
+
+       +o create-image-builder-streaming-url
+
+       +o create-stack
+
+       +o create-streaming-url
+
+       +o create-usage-report-subscription
+
+       +o create-user
+
+       +o delete-directory-config
+
+       +o delete-fleet
+
+       +o delete-image
+
+       +o delete-image-builder
+
+       +o delete-image-permissions
+
+       +o delete-stack
+
+       +o delete-usage-report-subscription
+
+       +o delete-user
+
+       +o describe-directory-configs
+
+       +o describe-fleets
+
+       +o describe-image-builders
+
+       +o describe-image-permissions
+
+       +o describe-images
+
+       +o describe-sessions
+
+       +o describe-stacks
+
+       +o describe-usage-report-subscriptions
+
+       +o describe-user-stack-associations
+
+       +o describe-users
+
+       +o disable-user
+
+       +o disassociate-fleet
+
+       +o enable-user
+
+       +o expire-session
+
+       +o help
+
+       +o list-associated-fleets
+
+       +o list-associated-stacks
+
+       +o list-tags-for-resource
+
+       +o start-fleet
+
+       +o start-image-builder
+
+       +o stop-fleet
+
+       +o stop-image-builder
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-directory-config
+
+       +o update-fleet
+
+       +o update-image-permissions
+
+       +o update-stack
+
+       +o wait
+
+
+
+                                                                   APPSTREAM()

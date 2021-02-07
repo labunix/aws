@@ -1,0 +1,34 @@
+{
+    "RemediationConfigurations": [
+        {
+            "ConfigRuleName": "",
+            "TargetType": "SSM_DOCUMENT",
+            "TargetId": "",
+            "TargetVersion": "",
+            "Parameters": {
+                "KeyName": {
+                    "ResourceValue": {
+                        "Value": "RESOURCE_ID"
+                    },
+                    "StaticValue": {
+                        "Values": [
+                            ""
+                        ]
+                    }
+                }
+            },
+            "ResourceType": "",
+            "Automatic": true,
+            "ExecutionControls": {
+                "SsmControls": {
+                    "ConcurrentExecutionRatePercentage": 0,
+                    "ErrorPercentage": 0
+                }
+            },
+            "MaximumAutomaticAttempts": 0,
+            "RetryAttemptSeconds": 0,
+            "Arn": "",
+            "CreatedByService": ""
+        }
+    ]
+}

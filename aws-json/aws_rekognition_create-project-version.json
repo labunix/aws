@@ -1,0 +1,35 @@
+{
+    "ProjectArn": "",
+    "VersionName": "",
+    "OutputConfig": {
+        "S3Bucket": "",
+        "S3KeyPrefix": ""
+    },
+    "TrainingData": {
+        "Assets": [
+            {
+                "GroundTruthManifest": {
+                    "S3Object": {
+                        "Bucket": "",
+                        "Name": "",
+                        "Version": ""
+                    }
+                }
+            }
+        ]
+    },
+    "TestingData": {
+        "Assets": [
+            {
+                "GroundTruthManifest": {
+                    "S3Object": {
+                        "Bucket": "",
+                        "Name": "",
+                        "Version": ""
+                    }
+                }
+            }
+        ],
+        "AutoCreate": true
+    }
+}

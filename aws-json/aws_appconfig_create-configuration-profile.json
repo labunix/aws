@@ -1,0 +1,16 @@
+{
+    "ApplicationId": "",
+    "Name": "",
+    "Description": "",
+    "LocationUri": "",
+    "RetrievalRoleArn": "",
+    "Validators": [
+        {
+            "Type": "LAMBDA",
+            "Content": ""
+        }
+    ],
+    "Tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Description": "",
+    "DestinationRegion": "",
+    "Encrypted": true,
+    "KmsKeyId": "",
+    "PresignedUrl": "",
+    "SourceRegion": "",
+    "SourceSnapshotId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "local-gateway-route-table-vpc-association",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

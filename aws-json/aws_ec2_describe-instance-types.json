@@ -1,0 +1,16 @@
+{
+    "DryRun": true,
+    "InstanceTypes": [
+        "t3a.medium"
+    ],
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

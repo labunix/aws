@@ -1,0 +1,8 @@
+{
+    "ConfigRuleName": "",
+    "ComplianceTypes": [
+        "INSUFFICIENT_DATA"
+    ],
+    "Limit": 0,
+    "NextToken": ""
+}

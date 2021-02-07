@@ -1,0 +1,17 @@
+{
+    "templateName": "",
+    "description": "",
+    "templateBody": "",
+    "enabled": true,
+    "provisioningRoleArn": "",
+    "preProvisioningHook": {
+        "payloadVersion": "",
+        "targetArn": ""
+    },
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

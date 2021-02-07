@@ -1,0 +1,11 @@
+{
+    "Bucket": "",
+    "Key": "",
+    "LegalHold": {
+        "Status": "OFF"
+    },
+    "RequestPayer": "requester",
+    "VersionId": "",
+    "ContentMD5": "",
+    "ExpectedBucketOwner": ""
+}

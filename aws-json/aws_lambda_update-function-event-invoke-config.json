@@ -1,0 +1,14 @@
+{
+    "FunctionName": "",
+    "Qualifier": "",
+    "MaximumRetryAttempts": 0,
+    "MaximumEventAgeInSeconds": 0,
+    "DestinationConfig": {
+        "OnSuccess": {
+            "Destination": ""
+        },
+        "OnFailure": {
+            "Destination": ""
+        }
+    }
+}

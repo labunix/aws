@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "sources": [
+        {
+            "s3Bucket": "",
+            "s3Key": "",
+            "architecture": "ARMHF"
+        }
+    ],
+    "robotSoftwareSuite": {
+        "name": "ROS",
+        "version": "Dashing"
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

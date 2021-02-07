@@ -1,0 +1,18 @@
+{
+    "IndexId": "",
+    "Name": "",
+    "Description": "",
+    "S3Path": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "FileFormat": "JSON",
+    "ClientToken": ""
+}

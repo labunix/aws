@@ -1,0 +1,12 @@
+{
+    "EndpointName": "",
+    "ModelArn": "",
+    "DesiredInferenceUnits": 0,
+    "ClientRequestToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

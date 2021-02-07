@@ -1,0 +1,51 @@
+{
+    "AccountId": "",
+    "NewBudget": {
+        "BudgetName": "",
+        "BudgetLimit": {
+            "Amount": "",
+            "Unit": ""
+        },
+        "PlannedBudgetLimits": {
+            "KeyName": {
+                "Amount": "",
+                "Unit": ""
+            }
+        },
+        "CostFilters": {
+            "KeyName": [
+                ""
+            ]
+        },
+        "CostTypes": {
+            "IncludeTax": true,
+            "IncludeSubscription": true,
+            "UseBlended": true,
+            "IncludeRefund": true,
+            "IncludeCredit": true,
+            "IncludeUpfront": true,
+            "IncludeRecurring": true,
+            "IncludeOtherSubscription": true,
+            "IncludeSupport": true,
+            "IncludeDiscount": true,
+            "UseAmortized": true
+        },
+        "TimeUnit": "MONTHLY",
+        "TimePeriod": {
+            "Start": "1970-01-01T00:00:00",
+            "End": "1970-01-01T00:00:00"
+        },
+        "CalculatedSpend": {
+            "ActualSpend": {
+                "Amount": "",
+                "Unit": ""
+            },
+            "ForecastedSpend": {
+                "Amount": "",
+                "Unit": ""
+            }
+        },
+        "BudgetType": "RI_COVERAGE",
+        "LastUpdatedTime": "1970-01-01T00:00:00"
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "ApplicationName": "",
+    "ApplicationDescription": "",
+    "RuntimeEnvironment": "SQL-1_0",
+    "ServiceExecutionRole": "",
+    "ApplicationConfiguration": {
+        "SqlApplicationConfiguration": {
+            "Inputs": [
+                {
+                    "NamePrefix": "",
+                    "InputProcessingConfiguration": {
+                        "InputLambdaProcessor": {
+                            "ResourceARN": ""
+                        }
+                    },
+                    "KinesisStreamsInput": {
+                        "ResourceARN": ""
+                    },
+                    "KinesisFirehoseInput": {
+                        "ResourceARN": ""
+                    },
+                    "InputParallelism": {
+                        "Count": 0
+                    },
+                    "InputSchema": {
+                        "RecordFormat": {
+                            "RecordFormatType": "CSV",
+                            "MappingParameters": {
+                                "JSONMappingParameters": {
+                                    "RecordRowPath": ""
+                                },
+                                "CSVMappingParameters": {
+                                    "RecordRowDelimiter": "",
+                                    "RecordColumnDelimiter": ""
+                                }
+                            }
+                        },
+                        "RecordEncoding": "",
+                        "RecordColumns": [
+                            {
+                                "Name": "",
+                                "Mapping": "",
+                                "SqlType": ""
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Outputs": [
+                {
+                    "Name": "",
+                    "KinesisStreamsOutput": {
+                        "ResourceARN": ""
+                    },
+                    "KinesisFirehoseOutput": {
+                        "ResourceARN": ""
+                    },
+                    "LambdaOutput": {
+                        "ResourceARN": ""
+                    },
+                    "DestinationSchema": {
+                        "RecordFormatType": "JSON"
+                    }
+                }
+            ],
+            "ReferenceDataSources": [
+                {
+                    "TableName": "",
+                    "S3ReferenceDataSource": {
+                        "BucketARN": "",
+                        "FileKey": ""
+                    },
+                    "ReferenceSchema": {
+                        "RecordFormat": {
+                            "RecordFormatType": "JSON",
+                            "MappingParameters": {
+                                "JSONMappingParameters": {
+                                    "RecordRowPath": ""
+                                },
+                                "CSVMappingParameters": {
+                                    "RecordRowDelimiter": "",
+                                    "RecordColumnDelimiter": ""
+                                }
+                            }
+                        },
+                        "RecordEncoding": "",
+                        "RecordColumns": [
+                            {
+                                "Name": "",
+                                "Mapping": "",
+                                "SqlType": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "FlinkApplicationConfiguration": {
+            "CheckpointConfiguration": {
+                "ConfigurationType": "CUSTOM",
+                "CheckpointingEnabled": true,
+                "CheckpointInterval": 0,
+                "MinPauseBetweenCheckpoints": 0
+            },
+            "MonitoringConfiguration": {
+                "ConfigurationType": "DEFAULT",
+                "MetricsLevel": "TASK",
+                "LogLevel": "INFO"
+            },
+            "ParallelismConfiguration": {
+                "ConfigurationType": "DEFAULT",
+                "Parallelism": 0,
+                "ParallelismPerKPU": 0,
+                "AutoScalingEnabled": true
+            }
+        },
+        "EnvironmentProperties": {
+            "PropertyGroups": [
+                {
+                    "PropertyGroupId": "",
+                    "PropertyMap": {
+                        "KeyName": ""
+                    }
+                }
+            ]
+        },
+        "ApplicationCodeConfiguration": {
+            "CodeContent": {
+                "TextContent": "",
+                "ZipFileContent": null,
+                "S3ContentLocation": {
+                    "BucketARN": "",
+                    "FileKey": "",
+                    "ObjectVersion": ""
+                }
+            },
+            "CodeContentType": "PLAINTEXT"
+        },
+        "ApplicationSnapshotConfiguration": {
+            "SnapshotsEnabled": true
+        },
+        "VpcConfigurations": [
+            {
+                "SubnetIds": [
+                    ""
+                ],
+                "SecurityGroupIds": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "CloudWatchLoggingOptions": [
+        {
+            "LogStreamARN": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

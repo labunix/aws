@@ -1,0 +1,34 @@
+{
+    "ClientToken": "",
+    "NFSFileShareDefaults": {
+        "FileMode": "",
+        "DirectoryMode": "",
+        "GroupId": 0,
+        "OwnerId": 0
+    },
+    "GatewayARN": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "Role": "",
+    "LocationARN": "",
+    "DefaultStorageClass": "",
+    "ObjectACL": "bucket-owner-full-control",
+    "ClientList": [
+        ""
+    ],
+    "Squash": "",
+    "ReadOnly": true,
+    "GuessMIMETypeEnabled": true,
+    "RequesterPays": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "FileShareName": "",
+    "CacheAttributes": {
+        "CacheStaleTimeoutInSeconds": 0
+    },
+    "NotificationPolicy": ""
+}

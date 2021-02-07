@@ -1,0 +1,12 @@
+{
+    "filters": [
+        {
+            "name": "GREENGRASS_GROUP_NAME",
+            "value": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

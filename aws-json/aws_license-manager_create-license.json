@@ -1,0 +1,42 @@
+{
+    "LicenseName": "",
+    "ProductName": "",
+    "ProductSKU": "",
+    "Issuer": {
+        "Name": "",
+        "SignKey": ""
+    },
+    "HomeRegion": "",
+    "Validity": {
+        "Begin": "",
+        "End": ""
+    },
+    "Entitlements": [
+        {
+            "Name": "",
+            "Value": "",
+            "MaxCount": 0,
+            "Overage": true,
+            "Unit": "Bits/Second",
+            "AllowCheckIn": true
+        }
+    ],
+    "Beneficiary": "",
+    "ConsumptionConfiguration": {
+        "RenewType": "Weekly",
+        "ProvisionalConfiguration": {
+            "MaxTimeToLiveInMinutes": 0
+        },
+        "BorrowConfiguration": {
+            "AllowEarlyCheckIn": true,
+            "MaxTimeToLiveInMinutes": 0
+        }
+    },
+    "LicenseMetadata": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ClientToken": ""
+}

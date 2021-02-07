@@ -1,0 +1,14 @@
+{
+    "Name": "",
+    "InclusiveStartTime": "1970-01-01T00:00:00",
+    "ExclusiveEndTime": "1970-01-01T00:00:00",
+    "S3ExportConfiguration": {
+        "Bucket": "",
+        "Prefix": "",
+        "EncryptionConfiguration": {
+            "ObjectEncryptionType": "NO_ENCRYPTION",
+            "KmsKeyArn": ""
+        }
+    },
+    "RoleArn": ""
+}

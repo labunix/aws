@@ -1,0 +1,16 @@
+{
+    "ClientRequestToken": "",
+    "ExternalMeetingId": "",
+    "MeetingHostId": "",
+    "MediaRegion": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "NotificationsConfiguration": {
+        "SnsTopicArn": "",
+        "SqsQueueArn": ""
+    }
+}

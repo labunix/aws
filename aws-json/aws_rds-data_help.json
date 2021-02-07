@@ -1,0 +1,35 @@
+RDS-DATA()                                                          RDS-DATA()
+
+
+
+NNAAMMEE
+       rds-data -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon RDS provides an HTTP endpoint to run SQL statements on an Amazon
+       Aurora Serverless DB cluster. To run these statements,  you  work  with
+       the Data Service API.
+
+       For more information about the Data Service API, see _U_s_i_n_g _t_h_e _D_a_t_a _A_P_I
+       _f_o_r _A_u_r_o_r_a _S_e_r_v_e_r_l_e_s_s in the _A_m_a_z_o_n _A_u_r_o_r_a _U_s_e_r _G_u_i_d_e .
+
+       NNOOTTEE::
+          If you have questions or comments related  to  the  Data  API,  send
+          email to _R_d_s_-_d_a_t_a_-_a_p_i_-_f_e_e_d_b_a_c_k_@_a_m_a_z_o_n_._c_o_m .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o batch-execute-statement
+
+       +o begin-transaction
+
+       +o commit-transaction
+
+       +o execute-statement
+
+       +o help
+
+       +o rollback-transaction
+
+
+
+                                                                    RDS-DATA()

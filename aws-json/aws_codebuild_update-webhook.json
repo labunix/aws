@@ -1,0 +1,15 @@
+{
+    "projectName": "",
+    "branchFilter": "",
+    "rotateSecret": true,
+    "filterGroups": [
+        [
+            {
+                "type": "BASE_REF",
+                "pattern": "",
+                "excludeMatchedPattern": true
+            }
+        ]
+    ],
+    "buildType": "BUILD"
+}

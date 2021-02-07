@@ -1,0 +1,43 @@
+{
+    "distributionName": "",
+    "origin": {
+        "name": "",
+        "regionName": "us-west-1",
+        "protocolPolicy": "https-only"
+    },
+    "defaultCacheBehavior": {
+        "behavior": "dont-cache"
+    },
+    "cacheBehaviorSettings": {
+        "defaultTTL": 0,
+        "minimumTTL": 0,
+        "maximumTTL": 0,
+        "allowedHTTPMethods": "",
+        "cachedHTTPMethods": "",
+        "forwardedCookies": {
+            "option": "none",
+            "cookiesAllowList": [
+                ""
+            ]
+        },
+        "forwardedHeaders": {
+            "option": "none",
+            "headersAllowList": [
+                "CloudFront-Is-SmartTV-Viewer"
+            ]
+        },
+        "forwardedQueryStrings": {
+            "option": true,
+            "queryStringsAllowList": [
+                ""
+            ]
+        }
+    },
+    "cacheBehaviors": [
+        {
+            "path": "",
+            "behavior": "cache"
+        }
+    ],
+    "isEnabled": true
+}

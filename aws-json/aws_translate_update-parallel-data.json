@@ -1,0 +1,9 @@
+{
+    "Name": "",
+    "Description": "",
+    "ParallelDataConfig": {
+        "S3Uri": "",
+        "Format": "TSV"
+    },
+    "ClientToken": ""
+}

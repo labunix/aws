@@ -1,0 +1,33 @@
+{
+    "jobId": "",
+    "description": "",
+    "presignedUrlConfig": {
+        "roleArn": "",
+        "expiresInSec": 0
+    },
+    "jobExecutionsRolloutConfig": {
+        "maximumPerMinute": 0,
+        "exponentialRate": {
+            "baseRatePerMinute": 0,
+            "incrementFactor": null,
+            "rateIncreaseCriteria": {
+                "numberOfNotifiedThings": 0,
+                "numberOfSucceededThings": 0
+            }
+        }
+    },
+    "abortConfig": {
+        "criteriaList": [
+            {
+                "failureType": "TIMED_OUT",
+                "action": "CANCEL",
+                "thresholdPercentage": null,
+                "minNumberOfExecutedThings": 0
+            }
+        ]
+    },
+    "timeoutConfig": {
+        "inProgressTimeoutInMinutes": 0
+    },
+    "namespaceId": ""
+}

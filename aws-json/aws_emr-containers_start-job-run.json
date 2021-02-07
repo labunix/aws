@@ -1,0 +1,42 @@
+{
+    "name": "",
+    "virtualClusterId": "",
+    "clientToken": "",
+    "executionRoleArn": "",
+    "releaseLabel": "",
+    "jobDriver": {
+        "sparkSubmitJobDriver": {
+            "entryPoint": "",
+            "entryPointArguments": [
+                ""
+            ],
+            "sparkSubmitParameters": ""
+        }
+    },
+    "configurationOverrides": {
+        "applicationConfiguration": [
+            {
+                "classification": "",
+                "properties": {
+                    "KeyName": ""
+                },
+                "configurations": [
+                    {}
+                ]
+            }
+        ],
+        "monitoringConfiguration": {
+            "persistentAppUI": "DISABLED",
+            "cloudWatchMonitoringConfiguration": {
+                "logGroupName": "",
+                "logStreamNamePrefix": ""
+            },
+            "s3MonitoringConfiguration": {
+                "logUri": ""
+            }
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

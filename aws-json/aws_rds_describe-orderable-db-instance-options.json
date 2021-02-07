@@ -1,0 +1,18 @@
+{
+    "Engine": "",
+    "EngineVersion": "",
+    "DBInstanceClass": "",
+    "LicenseModel": "",
+    "AvailabilityZoneGroup": "",
+    "Vpc": true,
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxRecords": 0,
+    "Marker": ""
+}

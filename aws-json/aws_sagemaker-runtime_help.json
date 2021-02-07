@@ -1,0 +1,18 @@
+SAGEMAKER-RUNTIME()                                        SAGEMAKER-RUNTIME()
+
+
+
+NNAAMMEE
+       sagemaker-runtime -
+
+DDEESSCCRRIIPPTTIIOONN
+       The Amazon SageMaker runtime API.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o help
+
+       +o invoke-endpoint
+
+
+
+                                                           SAGEMAKER-RUNTIME()

@@ -1,0 +1,39 @@
+{
+    "DocumentClassifierName": "",
+    "DataAccessRoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "InputDataConfig": {
+        "DataFormat": "AUGMENTED_MANIFEST",
+        "S3Uri": "",
+        "LabelDelimiter": "",
+        "AugmentedManifests": [
+            {
+                "S3Uri": "",
+                "AttributeNames": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "OutputDataConfig": {
+        "S3Uri": "",
+        "KmsKeyId": ""
+    },
+    "ClientRequestToken": "",
+    "LanguageCode": "en",
+    "VolumeKmsKeyId": "",
+    "VpcConfig": {
+        "SecurityGroupIds": [
+            ""
+        ],
+        "Subnets": [
+            ""
+        ]
+    },
+    "Mode": "MULTI_CLASS"
+}

@@ -1,0 +1,10 @@
+{
+    "InstanceCount": 0,
+    "ReservedInstancesOfferingId": "",
+    "DryRun": true,
+    "LimitPrice": {
+        "Amount": null,
+        "CurrencyCode": "USD"
+    },
+    "PurchaseTime": "1970-01-01T00:00:00"
+}

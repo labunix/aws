@@ -1,0 +1,9 @@
+{
+    "RecoveryPointArn": "",
+    "Metadata": {
+        "KeyName": ""
+    },
+    "IamRoleArn": "",
+    "IdempotencyToken": "",
+    "ResourceType": ""
+}

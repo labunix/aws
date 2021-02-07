@@ -1,0 +1,24 @@
+{
+    "DBClusterIdentifier": "",
+    "NewDBClusterIdentifier": "",
+    "ApplyImmediately": true,
+    "BackupRetentionPeriod": 0,
+    "DBClusterParameterGroupName": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "Port": 0,
+    "MasterUserPassword": "",
+    "PreferredBackupWindow": "",
+    "PreferredMaintenanceWindow": "",
+    "CloudwatchLogsExportConfiguration": {
+        "EnableLogTypes": [
+            ""
+        ],
+        "DisableLogTypes": [
+            ""
+        ]
+    },
+    "EngineVersion": "",
+    "DeletionProtection": true
+}

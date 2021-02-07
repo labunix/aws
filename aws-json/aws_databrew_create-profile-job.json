@@ -1,0 +1,18 @@
+{
+    "DatasetName": "",
+    "EncryptionKeyArn": "",
+    "EncryptionMode": "SSE-KMS",
+    "Name": "",
+    "LogSubscription": "DISABLE",
+    "MaxCapacity": 0,
+    "MaxRetries": 0,
+    "OutputLocation": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "RoleArn": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "Timeout": 0
+}

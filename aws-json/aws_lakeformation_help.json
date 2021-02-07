@@ -1,0 +1,42 @@
+LAKEFORMATION()                                                LAKEFORMATION()
+
+
+
+NNAAMMEE
+       lakeformation -
+
+DDEESSCCRRIIPPTTIIOONN
+       Defines the public endpoint for the AWS Lake Formation service.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o batch-grant-permissions
+
+       +o batch-revoke-permissions
+
+       +o deregister-resource
+
+       +o describe-resource
+
+       +o get-data-lake-settings
+
+       +o get-effective-permissions-for-path
+
+       +o grant-permissions
+
+       +o help
+
+       +o list-permissions
+
+       +o list-resources
+
+       +o put-data-lake-settings
+
+       +o register-resource
+
+       +o revoke-permissions
+
+       +o update-resource
+
+
+
+                                                               LAKEFORMATION()

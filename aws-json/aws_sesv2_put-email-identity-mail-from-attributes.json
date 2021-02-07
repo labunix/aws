@@ -1,0 +1,5 @@
+{
+    "EmailIdentity": "",
+    "MailFromDomain": "",
+    "BehaviorOnMxFailure": "REJECT_MESSAGE"
+}

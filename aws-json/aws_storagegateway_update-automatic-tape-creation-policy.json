@@ -1,0 +1,12 @@
+{
+    "AutomaticTapeCreationRules": [
+        {
+            "TapeBarcodePrefix": "",
+            "PoolId": "",
+            "TapeSizeInBytes": 0,
+            "MinimumNumTapes": 0,
+            "Worm": true
+        }
+    ],
+    "GatewayARN": ""
+}

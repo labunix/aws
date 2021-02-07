@@ -1,0 +1,16 @@
+{
+    "loadBalancerName": "",
+    "instancePort": 0,
+    "healthCheckPath": "",
+    "certificateName": "",
+    "certificateDomainName": "",
+    "certificateAlternativeNames": [
+        ""
+    ],
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

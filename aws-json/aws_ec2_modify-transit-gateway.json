@@ -1,0 +1,20 @@
+{
+    "TransitGatewayId": "",
+    "Description": "",
+    "Options": {
+        "AddTransitGatewayCidrBlocks": [
+            ""
+        ],
+        "RemoveTransitGatewayCidrBlocks": [
+            ""
+        ],
+        "VpnEcmpSupport": "enable",
+        "DnsSupport": "disable",
+        "AutoAcceptSharedAttachments": "disable",
+        "DefaultRouteTableAssociation": "enable",
+        "AssociationDefaultRouteTableId": "",
+        "DefaultRouteTablePropagation": "enable",
+        "PropagationDefaultRouteTableId": ""
+    },
+    "DryRun": true
+}

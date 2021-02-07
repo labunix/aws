@@ -1,0 +1,46 @@
+{
+    "AmznClientToken": "",
+    "DefaultConfig": {
+        "Execution": {
+            "IsolationMode": "GreengrassContainer",
+            "RunAs": {
+                "Gid": 0,
+                "Uid": 0
+            }
+        }
+    },
+    "FunctionDefinitionId": "",
+    "Functions": [
+        {
+            "FunctionArn": "",
+            "FunctionConfiguration": {
+                "EncodingType": "binary",
+                "Environment": {
+                    "AccessSysfs": true,
+                    "Execution": {
+                        "IsolationMode": "NoContainer",
+                        "RunAs": {
+                            "Gid": 0,
+                            "Uid": 0
+                        }
+                    },
+                    "ResourceAccessPolicies": [
+                        {
+                            "Permission": "rw",
+                            "ResourceId": ""
+                        }
+                    ],
+                    "Variables": {
+                        "KeyName": ""
+                    }
+                },
+                "ExecArgs": "",
+                "Executable": "",
+                "MemorySize": 0,
+                "Pinned": true,
+                "Timeout": 0
+            },
+            "Id": ""
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "Attribute": "createVolumePermission",
+    "CreateVolumePermission": {
+        "Add": [
+            {
+                "Group": "all",
+                "UserId": ""
+            }
+        ],
+        "Remove": [
+            {
+                "Group": "all",
+                "UserId": ""
+            }
+        ]
+    },
+    "GroupNames": [
+        ""
+    ],
+    "OperationType": "remove",
+    "SnapshotId": "",
+    "UserIds": [
+        ""
+    ],
+    "DryRun": true
+}

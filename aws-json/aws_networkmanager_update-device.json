@@ -1,0 +1,19 @@
+{
+    "GlobalNetworkId": "",
+    "DeviceId": "",
+    "AWSLocation": {
+        "Zone": "",
+        "SubnetArn": ""
+    },
+    "Description": "",
+    "Type": "",
+    "Vendor": "",
+    "Model": "",
+    "SerialNumber": "",
+    "Location": {
+        "Address": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    "SiteId": ""
+}

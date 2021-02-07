@@ -1,0 +1,24 @@
+{
+    "Decryption": {
+        "Algorithm": "aes128",
+        "ConstantInitializationVector": "",
+        "DeviceId": "",
+        "KeyType": "speke",
+        "Region": "",
+        "ResourceId": "",
+        "RoleArn": "",
+        "SecretArn": "",
+        "Url": ""
+    },
+    "Description": "",
+    "EntitlementArn": "",
+    "FlowArn": "",
+    "IngestPort": 0,
+    "MaxBitrate": 0,
+    "MaxLatency": 0,
+    "Protocol": "rist",
+    "SourceArn": "",
+    "StreamId": "",
+    "VpcInterfaceName": "",
+    "WhitelistCidr": ""
+}

@@ -1,0 +1,11 @@
+{
+    "InputSecurityGroupId": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "WhitelistRules": [
+        {
+            "Cidr": ""
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "",
+    "description": "",
+    "assessmentReportsDestination": {
+        "destinationType": "S3",
+        "destination": ""
+    },
+    "scope": {
+        "awsAccounts": [
+            {
+                "id": "",
+                "emailAddress": "",
+                "name": ""
+            }
+        ],
+        "awsServices": [
+            {
+                "serviceName": ""
+            }
+        ]
+    },
+    "roles": [
+        {
+            "roleType": "RESOURCE_OWNER",
+            "roleArn": ""
+        }
+    ],
+    "frameworkId": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "DestinationCidrBlock": "",
+    "DestinationIpv6CidrBlock": "",
+    "DestinationPrefixListId": "",
+    "DryRun": true,
+    "VpcEndpointId": "",
+    "EgressOnlyInternetGatewayId": "",
+    "GatewayId": "",
+    "InstanceId": "",
+    "LocalTarget": true,
+    "NatGatewayId": "",
+    "TransitGatewayId": "",
+    "LocalGatewayId": "",
+    "CarrierGatewayId": "",
+    "NetworkInterfaceId": "",
+    "RouteTableId": "",
+    "VpcPeeringConnectionId": ""
+}

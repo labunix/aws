@@ -1,0 +1,9 @@
+{
+    "reportArn": "",
+    "nextToken": "",
+    "maxResults": 0,
+    "filter": {
+        "status": "",
+        "keyword": ""
+    }
+}

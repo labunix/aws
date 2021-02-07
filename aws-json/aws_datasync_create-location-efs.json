@@ -1,0 +1,16 @@
+{
+    "Subdirectory": "",
+    "EfsFilesystemArn": "",
+    "Ec2Config": {
+        "SubnetArn": "",
+        "SecurityGroupArns": [
+            ""
+        ]
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

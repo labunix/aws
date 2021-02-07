@@ -1,0 +1,11 @@
+{
+    "MLModelId": "",
+    "MLModelName": "",
+    "MLModelType": "REGRESSION",
+    "Parameters": {
+        "KeyName": ""
+    },
+    "TrainingDataSourceId": "",
+    "Recipe": "",
+    "RecipeUri": ""
+}

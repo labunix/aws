@@ -1,0 +1,47 @@
+{
+    "devicePoolArn": "",
+    "appArn": "",
+    "testType": "APPIUM_JAVA_JUNIT",
+    "test": {
+        "type": "APPIUM_JAVA_JUNIT",
+        "testPackageArn": "",
+        "testSpecArn": "",
+        "filter": "",
+        "parameters": {
+            "KeyName": ""
+        }
+    },
+    "configuration": {
+        "extraDataPackageArn": "",
+        "networkProfileArn": "",
+        "locale": "",
+        "location": {
+            "latitude": null,
+            "longitude": null
+        },
+        "vpceConfigurationArns": [
+            ""
+        ],
+        "customerArtifactPaths": {
+            "iosPaths": [
+                ""
+            ],
+            "androidPaths": [
+                ""
+            ],
+            "deviceHostPaths": [
+                ""
+            ]
+        },
+        "radios": {
+            "wifi": true,
+            "bluetooth": true,
+            "nfc": true,
+            "gps": true
+        },
+        "auxiliaryApps": [
+            ""
+        ],
+        "billingMethod": "UNMETERED"
+    }
+}

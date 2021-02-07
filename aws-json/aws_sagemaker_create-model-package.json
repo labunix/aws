@@ -1,0 +1,129 @@
+{
+    "ModelPackageName": "",
+    "ModelPackageGroupName": "",
+    "ModelPackageDescription": "",
+    "InferenceSpecification": {
+        "Containers": [
+            {
+                "ContainerHostname": "",
+                "Image": "",
+                "ImageDigest": "",
+                "ModelDataUrl": "",
+                "ProductId": ""
+            }
+        ],
+        "SupportedTransformInstanceTypes": [
+            "ml.m5.2xlarge"
+        ],
+        "SupportedRealtimeInferenceInstanceTypes": [
+            "ml.m5.xlarge"
+        ],
+        "SupportedContentTypes": [
+            ""
+        ],
+        "SupportedResponseMIMETypes": [
+            ""
+        ]
+    },
+    "ValidationSpecification": {
+        "ValidationRole": "",
+        "ValidationProfiles": [
+            {
+                "ProfileName": "",
+                "TransformJobDefinition": {
+                    "MaxConcurrentTransforms": 0,
+                    "MaxPayloadInMB": 0,
+                    "BatchStrategy": "SingleRecord",
+                    "Environment": {
+                        "KeyName": ""
+                    },
+                    "TransformInput": {
+                        "DataSource": {
+                            "S3DataSource": {
+                                "S3DataType": "ManifestFile",
+                                "S3Uri": ""
+                            }
+                        },
+                        "ContentType": "",
+                        "CompressionType": "Gzip",
+                        "SplitType": "TFRecord"
+                    },
+                    "TransformOutput": {
+                        "S3OutputPath": "",
+                        "Accept": "",
+                        "AssembleWith": "None",
+                        "KmsKeyId": ""
+                    },
+                    "TransformResources": {
+                        "InstanceType": "ml.m4.10xlarge",
+                        "InstanceCount": 0,
+                        "VolumeKmsKeyId": ""
+                    }
+                }
+            }
+        ]
+    },
+    "SourceAlgorithmSpecification": {
+        "SourceAlgorithms": [
+            {
+                "ModelDataUrl": "",
+                "AlgorithmName": ""
+            }
+        ]
+    },
+    "CertifyForMarketplace": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ModelApprovalStatus": "Rejected",
+    "MetadataProperties": {
+        "CommitId": "",
+        "Repository": "",
+        "GeneratedBy": "",
+        "ProjectId": ""
+    },
+    "ModelMetrics": {
+        "ModelQuality": {
+            "Statistics": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            },
+            "Constraints": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            }
+        },
+        "ModelDataQuality": {
+            "Statistics": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            },
+            "Constraints": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            }
+        },
+        "Bias": {
+            "Report": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            }
+        },
+        "Explainability": {
+            "Report": {
+                "ContentType": "",
+                "ContentDigest": "",
+                "S3Uri": ""
+            }
+        }
+    },
+    "ClientToken": ""
+}

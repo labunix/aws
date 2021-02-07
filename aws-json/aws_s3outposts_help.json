@@ -1,0 +1,22 @@
+S3OUTPOSTS()                                                      S3OUTPOSTS()
+
+
+
+NNAAMMEE
+       s3outposts -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon S3 on Outposts provides access to S3 on Outposts operations.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-endpoint
+
+       +o delete-endpoint
+
+       +o help
+
+       +o list-endpoints
+
+
+
+                                                                  S3OUTPOSTS()

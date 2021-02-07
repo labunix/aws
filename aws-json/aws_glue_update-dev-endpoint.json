@@ -1,0 +1,21 @@
+{
+    "EndpointName": "",
+    "PublicKey": "",
+    "AddPublicKeys": [
+        ""
+    ],
+    "DeletePublicKeys": [
+        ""
+    ],
+    "CustomLibraries": {
+        "ExtraPythonLibsS3Path": "",
+        "ExtraJarsS3Path": ""
+    },
+    "UpdateEtlLibraries": true,
+    "DeleteArguments": [
+        ""
+    ],
+    "AddArguments": {
+        "KeyName": ""
+    }
+}

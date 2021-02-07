@@ -1,0 +1,12 @@
+{
+    "ConfigurationAggregatorName": "",
+    "ResourceType": "AWS::Lambda::Function",
+    "Filters": {
+        "AccountId": "",
+        "ResourceId": "",
+        "ResourceName": "",
+        "Region": ""
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

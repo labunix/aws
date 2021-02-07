@@ -1,0 +1,19 @@
+{
+    "ReportDefinition": {
+        "ReportName": "",
+        "TimeUnit": "HOURLY",
+        "Format": "textORcsv",
+        "Compression": "Parquet",
+        "AdditionalSchemaElements": [
+            "RESOURCES"
+        ],
+        "S3Bucket": "",
+        "S3Prefix": "",
+        "S3Region": "ap-east-1",
+        "AdditionalArtifacts": [
+            "REDSHIFT"
+        ],
+        "RefreshClosedReports": true,
+        "ReportVersioning": "OVERWRITE_REPORT"
+    }
+}

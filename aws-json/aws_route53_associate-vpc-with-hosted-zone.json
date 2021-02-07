@@ -1,0 +1,8 @@
+{
+    "HostedZoneId": "",
+    "VPC": {
+        "VPCRegion": "sa-east-1",
+        "VPCId": ""
+    },
+    "Comment": ""
+}

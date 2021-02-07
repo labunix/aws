@@ -1,0 +1,35 @@
+{
+    "ReportName": "",
+    "FromEmailAddress": "",
+    "Content": {
+        "Simple": {
+            "Subject": {
+                "Data": "",
+                "Charset": ""
+            },
+            "Body": {
+                "Text": {
+                    "Data": "",
+                    "Charset": ""
+                },
+                "Html": {
+                    "Data": "",
+                    "Charset": ""
+                }
+            }
+        },
+        "Raw": {
+            "Data": null
+        },
+        "Template": {
+            "TemplateArn": "",
+            "TemplateData": ""
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

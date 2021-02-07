@@ -1,0 +1,25 @@
+{
+    "FileShareARN": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "NFSFileShareDefaults": {
+        "FileMode": "",
+        "DirectoryMode": "",
+        "GroupId": 0,
+        "OwnerId": 0
+    },
+    "DefaultStorageClass": "",
+    "ObjectACL": "public-read",
+    "ClientList": [
+        ""
+    ],
+    "Squash": "",
+    "ReadOnly": true,
+    "GuessMIMETypeEnabled": true,
+    "RequesterPays": true,
+    "FileShareName": "",
+    "CacheAttributes": {
+        "CacheStaleTimeoutInSeconds": 0
+    },
+    "NotificationPolicy": ""
+}

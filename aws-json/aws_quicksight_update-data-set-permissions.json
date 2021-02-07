@@ -1,0 +1,20 @@
+{
+    "AwsAccountId": "",
+    "DataSetId": "",
+    "GrantPermissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ],
+    "RevokePermissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ]
+}

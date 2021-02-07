@@ -1,0 +1,63 @@
+{
+    "AlarmName": "",
+    "AlarmDescription": "",
+    "ActionsEnabled": true,
+    "OKActions": [
+        ""
+    ],
+    "AlarmActions": [
+        ""
+    ],
+    "InsufficientDataActions": [
+        ""
+    ],
+    "MetricName": "",
+    "Namespace": "",
+    "Statistic": "Sum",
+    "ExtendedStatistic": "",
+    "Dimensions": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "Period": 0,
+    "Unit": "Kilobits/Second",
+    "EvaluationPeriods": 0,
+    "DatapointsToAlarm": 0,
+    "Threshold": null,
+    "ComparisonOperator": "GreaterThanUpperThreshold",
+    "TreatMissingData": "",
+    "EvaluateLowSampleCountPercentile": "",
+    "Metrics": [
+        {
+            "Id": "",
+            "MetricStat": {
+                "Metric": {
+                    "Namespace": "",
+                    "MetricName": "",
+                    "Dimensions": [
+                        {
+                            "Name": "",
+                            "Value": ""
+                        }
+                    ]
+                },
+                "Period": 0,
+                "Stat": "",
+                "Unit": "Seconds"
+            },
+            "Expression": "",
+            "Label": "",
+            "ReturnData": true,
+            "Period": 0
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ThresholdMetricId": ""
+}

@@ -1,0 +1,34 @@
+{
+    "actionName": "",
+    "roleArn": "",
+    "actionParams": {
+        "updateDeviceCertificateParams": {
+            "action": "DEACTIVATE"
+        },
+        "updateCACertificateParams": {
+            "action": "DEACTIVATE"
+        },
+        "addThingsToThingGroupParams": {
+            "thingGroupNames": [
+                ""
+            ],
+            "overrideDynamicGroups": true
+        },
+        "replaceDefaultPolicyVersionParams": {
+            "templateName": "BLANK_POLICY"
+        },
+        "enableIoTLoggingParams": {
+            "roleArnForLogging": "",
+            "logLevel": "WARN"
+        },
+        "publishFindingToSnsParams": {
+            "topicArn": ""
+        }
+    },
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

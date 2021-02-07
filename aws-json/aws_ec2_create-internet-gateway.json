@@ -1,0 +1,14 @@
+{
+    "TagSpecifications": [
+        {
+            "ResourceType": "security-group",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

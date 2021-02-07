@@ -1,0 +1,13 @@
+{
+    "ApplicationId": "",
+    "ConfigurationProfileId": "",
+    "Name": "",
+    "Description": "",
+    "RetrievalRoleArn": "",
+    "Validators": [
+        {
+            "Type": "LAMBDA",
+            "Content": ""
+        }
+    ]
+}

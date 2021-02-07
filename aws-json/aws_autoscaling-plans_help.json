@@ -1,0 +1,39 @@
+AUTOSCALING-PLANS()                                        AUTOSCALING-PLANS()
+
+
+
+NNAAMMEE
+       autoscaling-plans -
+
+DDEESSCCRRIIPPTTIIOONN
+       Use AWS Auto Scaling to quickly discover all the scalable AWS resources
+       for your application and configure dynamic scaling and predictive scal-
+       ing  for  your  resources using scaling plans. Use this service in con-
+       junction with the Amazon EC2 Auto Scaling,  Application  Auto  Scaling,
+       Amazon CloudWatch, and AWS CloudFormation services.
+
+       Currently,  predictive  scaling  is  only available for Amazon EC2 Auto
+       Scaling groups.
+
+       For more information about  AWS  Auto  Scaling,  including  information
+       about  granting IAM users required permissions for AWS Auto Scaling ac-
+       tions, see the _A_W_S _A_u_t_o _S_c_a_l_i_n_g _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-scaling-plan
+
+       +o delete-scaling-plan
+
+       +o describe-scaling-plan-resources
+
+       +o describe-scaling-plans
+
+       +o get-scaling-plan-resource-forecast-data
+
+       +o help
+
+       +o update-scaling-plan
+
+
+
+                                                           AUTOSCALING-PLANS()

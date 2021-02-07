@@ -1,0 +1,12 @@
+{
+    "NextToken": "",
+    "MaxResults": 0,
+    "Namespace": "",
+    "MetricName": "",
+    "Dimensions": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ]
+}

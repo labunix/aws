@@ -1,0 +1,53 @@
+{
+    "service": "",
+    "cluster": "",
+    "externalId": "",
+    "taskDefinition": "",
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                ""
+            ],
+            "securityGroups": [
+                ""
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "loadBalancers": [
+        {
+            "targetGroupArn": "",
+            "loadBalancerName": "",
+            "containerName": "",
+            "containerPort": 0
+        }
+    ],
+    "serviceRegistries": [
+        {
+            "registryArn": "",
+            "port": 0,
+            "containerName": "",
+            "containerPort": 0
+        }
+    ],
+    "launchType": "FARGATE",
+    "capacityProviderStrategy": [
+        {
+            "capacityProvider": "",
+            "weight": 0,
+            "base": 0
+        }
+    ],
+    "platformVersion": "",
+    "scale": {
+        "value": null,
+        "unit": "PERCENT"
+    },
+    "clientToken": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

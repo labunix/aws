@@ -1,0 +1,20 @@
+{
+    "Name": "",
+    "Description": "",
+    "AuthMode": "SSO",
+    "VpcId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "ServiceRole": "",
+    "UserRole": "",
+    "WorkspaceSecurityGroupId": "",
+    "EngineSecurityGroupId": "",
+    "DefaultS3Location": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

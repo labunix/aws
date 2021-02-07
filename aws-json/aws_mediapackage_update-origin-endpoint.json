@@ -1,0 +1,140 @@
+{
+    "Authorization": {
+        "CdnIdentifierSecret": "",
+        "SecretsRoleArn": ""
+    },
+    "CmafPackage": {
+        "Encryption": {
+            "KeyRotationIntervalSeconds": 0,
+            "SpekeKeyProvider": {
+                "CertificateArn": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SystemIds": [
+                    ""
+                ],
+                "Url": ""
+            }
+        },
+        "HlsManifests": [
+            {
+                "AdMarkers": "NONE",
+                "AdTriggers": [
+                    "PROVIDER_OVERLAY_PLACEMENT_OPPORTUNITY"
+                ],
+                "AdsOnDeliveryRestrictions": "NONE",
+                "Id": "",
+                "IncludeIframeOnlyStream": true,
+                "ManifestName": "",
+                "PlaylistType": "NONE",
+                "PlaylistWindowSeconds": 0,
+                "ProgramDateTimeIntervalSeconds": 0
+            }
+        ],
+        "SegmentDurationSeconds": 0,
+        "SegmentPrefix": "",
+        "StreamSelection": {
+            "MaxVideoBitsPerSecond": 0,
+            "MinVideoBitsPerSecond": 0,
+            "StreamOrder": "VIDEO_BITRATE_ASCENDING"
+        }
+    },
+    "DashPackage": {
+        "AdTriggers": [
+            "DISTRIBUTOR_PLACEMENT_OPPORTUNITY"
+        ],
+        "AdsOnDeliveryRestrictions": "UNRESTRICTED",
+        "Encryption": {
+            "KeyRotationIntervalSeconds": 0,
+            "SpekeKeyProvider": {
+                "CertificateArn": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SystemIds": [
+                    ""
+                ],
+                "Url": ""
+            }
+        },
+        "ManifestLayout": "COMPACT",
+        "ManifestWindowSeconds": 0,
+        "MinBufferTimeSeconds": 0,
+        "MinUpdatePeriodSeconds": 0,
+        "PeriodTriggers": [
+            "ADS"
+        ],
+        "Profile": "HBBTV_1_5",
+        "SegmentDurationSeconds": 0,
+        "SegmentTemplateFormat": "TIME_WITH_TIMELINE",
+        "StreamSelection": {
+            "MaxVideoBitsPerSecond": 0,
+            "MinVideoBitsPerSecond": 0,
+            "StreamOrder": "VIDEO_BITRATE_DESCENDING"
+        },
+        "SuggestedPresentationDelaySeconds": 0,
+        "UtcTiming": "HTTP-HEAD",
+        "UtcTimingUri": ""
+    },
+    "Description": "",
+    "HlsPackage": {
+        "AdMarkers": "DATERANGE",
+        "AdTriggers": [
+            "DISTRIBUTOR_ADVERTISEMENT"
+        ],
+        "AdsOnDeliveryRestrictions": "RESTRICTED",
+        "Encryption": {
+            "ConstantInitializationVector": "",
+            "EncryptionMethod": "AES_128",
+            "KeyRotationIntervalSeconds": 0,
+            "RepeatExtXKey": true,
+            "SpekeKeyProvider": {
+                "CertificateArn": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SystemIds": [
+                    ""
+                ],
+                "Url": ""
+            }
+        },
+        "IncludeIframeOnlyStream": true,
+        "PlaylistType": "EVENT",
+        "PlaylistWindowSeconds": 0,
+        "ProgramDateTimeIntervalSeconds": 0,
+        "SegmentDurationSeconds": 0,
+        "StreamSelection": {
+            "MaxVideoBitsPerSecond": 0,
+            "MinVideoBitsPerSecond": 0,
+            "StreamOrder": "VIDEO_BITRATE_DESCENDING"
+        },
+        "UseAudioRenditionGroup": true
+    },
+    "Id": "",
+    "ManifestName": "",
+    "MssPackage": {
+        "Encryption": {
+            "SpekeKeyProvider": {
+                "CertificateArn": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SystemIds": [
+                    ""
+                ],
+                "Url": ""
+            }
+        },
+        "ManifestWindowSeconds": 0,
+        "SegmentDurationSeconds": 0,
+        "StreamSelection": {
+            "MaxVideoBitsPerSecond": 0,
+            "MinVideoBitsPerSecond": 0,
+            "StreamOrder": "VIDEO_BITRATE_DESCENDING"
+        }
+    },
+    "Origination": "ALLOW",
+    "StartoverWindowSeconds": 0,
+    "TimeDelaySeconds": 0,
+    "Whitelist": [
+        ""
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "PoolIds": [
+        ""
+    ],
+    "NextToken": "",
+    "MaxResults": 0,
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ]
+}

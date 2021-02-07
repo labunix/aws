@@ -1,0 +1,45 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Metric": "NET_UNBLENDED_COST",
+    "Granularity": "HOURLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "DATABASE_ENGINE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ENDS_WITH"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "EQUALS"
+            ]
+        }
+    },
+    "PredictionIntervalLevel": 0
+}

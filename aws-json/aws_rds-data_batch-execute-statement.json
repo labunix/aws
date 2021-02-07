@@ -1,0 +1,41 @@
+{
+    "database": "",
+    "parameterSets": [
+        [
+            {
+                "name": "",
+                "typeHint": "DECIMAL",
+                "value": {
+                    "arrayValue": {
+                        "arrayValues": [
+                            {}
+                        ],
+                        "booleanValues": [
+                            true
+                        ],
+                        "doubleValues": [
+                            null
+                        ],
+                        "longValues": [
+                            0
+                        ],
+                        "stringValues": [
+                            ""
+                        ]
+                    },
+                    "blobValue": null,
+                    "booleanValue": true,
+                    "doubleValue": null,
+                    "isNull": true,
+                    "longValue": 0,
+                    "stringValue": ""
+                }
+            }
+        ]
+    ],
+    "resourceArn": "",
+    "schema": "",
+    "secretArn": "",
+    "sql": "",
+    "transactionId": ""
+}

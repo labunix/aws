@@ -1,0 +1,40 @@
+{
+    "TrialComponentName": "",
+    "DisplayName": "",
+    "Status": {
+        "PrimaryStatus": "Stopping",
+        "Message": ""
+    },
+    "StartTime": "1970-01-01T00:00:00",
+    "EndTime": "1970-01-01T00:00:00",
+    "Parameters": {
+        "KeyName": {
+            "StringValue": "",
+            "NumberValue": null
+        }
+    },
+    "InputArtifacts": {
+        "KeyName": {
+            "MediaType": "",
+            "Value": ""
+        }
+    },
+    "OutputArtifacts": {
+        "KeyName": {
+            "MediaType": "",
+            "Value": ""
+        }
+    },
+    "MetadataProperties": {
+        "CommitId": "",
+        "Repository": "",
+        "GeneratedBy": "",
+        "ProjectId": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

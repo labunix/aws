@@ -1,0 +1,18 @@
+{
+    "WorkforceName": "",
+    "SourceIpConfig": {
+        "Cidrs": [
+            ""
+        ]
+    },
+    "OidcConfig": {
+        "ClientId": "",
+        "ClientSecret": "",
+        "Issuer": "",
+        "AuthorizationEndpoint": "",
+        "TokenEndpoint": "",
+        "UserInfoEndpoint": "",
+        "LogoutEndpoint": "",
+        "JwksUri": ""
+    }
+}

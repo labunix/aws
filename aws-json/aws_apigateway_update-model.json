@@ -1,0 +1,12 @@
+{
+    "restApiId": "",
+    "modelName": "",
+    "patchOperations": [
+        {
+            "op": "add",
+            "path": "",
+            "value": "",
+            "from": ""
+        }
+    ]
+}

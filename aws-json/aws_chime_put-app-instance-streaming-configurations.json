@@ -1,0 +1,9 @@
+{
+    "AppInstanceArn": "",
+    "AppInstanceStreamingConfigurations": [
+        {
+            "AppInstanceDataType": "Channel",
+            "ResourceArn": ""
+        }
+    ]
+}

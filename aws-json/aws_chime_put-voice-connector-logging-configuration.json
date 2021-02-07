@@ -1,0 +1,6 @@
+{
+    "VoiceConnectorId": "",
+    "LoggingConfiguration": {
+        "EnableSIPLogs": true
+    }
+}

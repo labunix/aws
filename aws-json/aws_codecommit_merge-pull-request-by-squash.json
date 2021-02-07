@@ -1,0 +1,32 @@
+{
+    "pullRequestId": "",
+    "repositoryName": "",
+    "sourceCommitId": "",
+    "conflictDetailLevel": "FILE_LEVEL",
+    "conflictResolutionStrategy": "ACCEPT_DESTINATION",
+    "commitMessage": "",
+    "authorName": "",
+    "email": "",
+    "keepEmptyFolders": true,
+    "conflictResolution": {
+        "replaceContents": [
+            {
+                "filePath": "",
+                "replacementType": "USE_NEW_CONTENT",
+                "content": null,
+                "fileMode": "EXECUTABLE"
+            }
+        ],
+        "deleteFiles": [
+            {
+                "filePath": ""
+            }
+        ],
+        "setFileModes": [
+            {
+                "filePath": "",
+                "fileMode": "EXECUTABLE"
+            }
+        ]
+    }
+}

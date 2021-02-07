@@ -1,0 +1,13 @@
+{
+    "TrafficMirrorSessionId": "",
+    "TrafficMirrorTargetId": "",
+    "TrafficMirrorFilterId": "",
+    "PacketLength": 0,
+    "SessionNumber": 0,
+    "VirtualNetworkId": 0,
+    "Description": "",
+    "RemoveFields": [
+        "virtual-network-id"
+    ],
+    "DryRun": true
+}

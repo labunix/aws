@@ -1,0 +1,7 @@
+{
+    "FlowArn": "",
+    "SourceFailoverConfig": {
+        "RecoveryWindow": 0,
+        "State": "ENABLED"
+    }
+}

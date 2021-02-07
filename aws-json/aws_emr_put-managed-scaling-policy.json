@@ -1,0 +1,12 @@
+{
+    "ClusterId": "",
+    "ManagedScalingPolicy": {
+        "ComputeLimits": {
+            "UnitType": "Instances",
+            "MinimumCapacityUnits": 0,
+            "MaximumCapacityUnits": 0,
+            "MaximumOnDemandCapacityUnits": 0,
+            "MaximumCoreCapacityUnits": 0
+        }
+    }
+}

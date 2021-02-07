@@ -1,0 +1,15 @@
+{
+    "portalId": "",
+    "portalName": "",
+    "portalDescription": "",
+    "portalContactEmail": "",
+    "portalLogoImage": {
+        "id": "",
+        "file": {
+            "data": null,
+            "type": "PNG"
+        }
+    },
+    "roleArn": "",
+    "clientToken": ""
+}

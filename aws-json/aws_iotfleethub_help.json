@@ -1,0 +1,37 @@
+IOTFLEETHUB()                                                    IOTFLEETHUB()
+
+
+
+NNAAMMEE
+       iotfleethub -
+
+DDEESSCCRRIIPPTTIIOONN
+       With  Fleet Hub for AWS IoT Device Management you can build stand-alone
+       web applications for monitoring the health of your device fleets.
+
+       NNOOTTEE::
+          Fleet Hub for AWS IoT Device Management is in public preview and  is
+          subject to change.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-application
+
+       +o delete-application
+
+       +o describe-application
+
+       +o help
+
+       +o list-applications
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-application
+
+
+
+                                                                 IOTFLEETHUB()

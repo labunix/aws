@@ -1,0 +1,45 @@
+{
+    "DBInstanceIdentifier": "",
+    "DBSnapshotIdentifier": "",
+    "DBInstanceClass": "",
+    "Port": 0,
+    "AvailabilityZone": "",
+    "DBSubnetGroupName": "",
+    "MultiAZ": true,
+    "PubliclyAccessible": true,
+    "AutoMinorVersionUpgrade": true,
+    "LicenseModel": "",
+    "DBName": "",
+    "Engine": "",
+    "Iops": 0,
+    "OptionGroupName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "StorageType": "",
+    "TdeCredentialArn": "",
+    "TdeCredentialPassword": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "Domain": "",
+    "CopyTagsToSnapshot": true,
+    "DomainIAMRoleName": "",
+    "EnableIAMDatabaseAuthentication": true,
+    "EnableCloudwatchLogsExports": [
+        ""
+    ],
+    "ProcessorFeatures": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "UseDefaultProcessorFeatures": true,
+    "DBParameterGroupName": "",
+    "DeletionProtection": true,
+    "EnableCustomerOwnedIp": true
+}

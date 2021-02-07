@@ -1,0 +1,8 @@
+{
+    "CertificateAuthorityArn": "",
+    "Principal": "",
+    "SourceAccount": "",
+    "Actions": [
+        "GetCertificate"
+    ]
+}

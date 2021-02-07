@@ -1,0 +1,23 @@
+{
+    "diskName": "",
+    "diskSnapshotName": "",
+    "availabilityZone": "",
+    "sizeInGb": 0,
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "addOns": [
+        {
+            "addOnType": "AutoSnapshot",
+            "autoSnapshotAddOnRequest": {
+                "snapshotTimeOfDay": ""
+            }
+        }
+    ],
+    "sourceDiskName": "",
+    "restoreDate": "",
+    "useLatestRestorableAutoSnapshot": true
+}

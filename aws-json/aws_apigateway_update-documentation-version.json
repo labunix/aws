@@ -1,0 +1,12 @@
+{
+    "restApiId": "",
+    "documentationVersion": "",
+    "patchOperations": [
+        {
+            "op": "remove",
+            "path": "",
+            "value": "",
+            "from": ""
+        }
+    ]
+}

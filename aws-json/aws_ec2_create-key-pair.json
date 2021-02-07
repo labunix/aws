@@ -1,0 +1,15 @@
+{
+    "KeyName": "",
+    "DryRun": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "dedicated-host",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

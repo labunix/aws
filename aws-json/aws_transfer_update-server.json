@@ -1,0 +1,28 @@
+{
+    "Certificate": "",
+    "EndpointDetails": {
+        "AddressAllocationIds": [
+            ""
+        ],
+        "SubnetIds": [
+            ""
+        ],
+        "VpcEndpointId": "",
+        "VpcId": "",
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "EndpointType": "VPC",
+    "HostKey": "",
+    "IdentityProviderDetails": {
+        "Url": "",
+        "InvocationRole": ""
+    },
+    "LoggingRole": "",
+    "Protocols": [
+        "FTPS"
+    ],
+    "SecurityPolicyName": "",
+    "ServerId": ""
+}

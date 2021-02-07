@@ -1,0 +1,33 @@
+{
+    "ImageLocation": "",
+    "Architecture": "i386",
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "",
+            "VirtualName": "",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "Iops": 0,
+                "SnapshotId": "",
+                "VolumeSize": 0,
+                "VolumeType": "io2",
+                "KmsKeyId": "",
+                "Throughput": 0,
+                "Encrypted": true
+            },
+            "NoDevice": ""
+        }
+    ],
+    "Description": "",
+    "DryRun": true,
+    "EnaSupport": true,
+    "KernelId": "",
+    "Name": "",
+    "BillingProducts": [
+        ""
+    ],
+    "RamdiskId": "",
+    "RootDeviceName": "",
+    "SriovNetSupport": "",
+    "VirtualizationType": ""
+}

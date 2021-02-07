@@ -1,0 +1,10 @@
+{
+    "AssociationFilterList": [
+        {
+            "key": "AssociationStatusName",
+            "value": ""
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

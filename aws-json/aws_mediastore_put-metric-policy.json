@@ -1,0 +1,12 @@
+{
+    "ContainerName": "",
+    "MetricPolicy": {
+        "ContainerLevelMetrics": "DISABLED",
+        "MetricPolicyRules": [
+            {
+                "ObjectGroup": "",
+                "ObjectGroupName": ""
+            }
+        ]
+    }
+}

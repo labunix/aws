@@ -1,0 +1,72 @@
+{
+    "DomainName": "",
+    "IdnLangCode": "",
+    "DurationInYears": 0,
+    "AutoRenew": true,
+    "AdminContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "PUBLIC_BODY",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "MO",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "CA_LEGAL_TYPE",
+                "Value": ""
+            }
+        ]
+    },
+    "RegistrantContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "PUBLIC_BODY",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "BM",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "CA_LEGAL_REPRESENTATIVE_CAPACITY",
+                "Value": ""
+            }
+        ]
+    },
+    "TechContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "PUBLIC_BODY",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "BO",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "CA_LEGAL_REPRESENTATIVE_CAPACITY",
+                "Value": ""
+            }
+        ]
+    },
+    "PrivacyProtectAdminContact": true,
+    "PrivacyProtectRegistrantContact": true,
+    "PrivacyProtectTechContact": true
+}

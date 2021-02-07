@@ -1,0 +1,15 @@
+{
+    "AuthenticationToken": "",
+    "ResourceId": "",
+    "Principals": [
+        {
+            "Id": "",
+            "Type": "USER",
+            "Role": "OWNER"
+        }
+    ],
+    "NotificationOptions": {
+        "SendEmail": true,
+        "EmailMessage": ""
+    }
+}

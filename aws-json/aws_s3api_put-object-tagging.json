@@ -1,0 +1,16 @@
+{
+    "Bucket": "",
+    "Key": "",
+    "VersionId": "",
+    "ContentMD5": "",
+    "Tagging": {
+        "TagSet": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ]
+    },
+    "ExpectedBucketOwner": "",
+    "RequestPayer": "requester"
+}

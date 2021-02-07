@@ -1,0 +1,17 @@
+{
+    "ClientVpnEndpointId": "",
+    "AssociationIds": [
+        ""
+    ],
+    "MaxResults": 0,
+    "NextToken": "",
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "DryRun": true
+}

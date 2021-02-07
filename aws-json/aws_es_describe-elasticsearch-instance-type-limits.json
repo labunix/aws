@@ -1,0 +1,5 @@
+{
+    "DomainName": "",
+    "InstanceType": "r3.xlarge.elasticsearch",
+    "ElasticsearchVersion": ""
+}

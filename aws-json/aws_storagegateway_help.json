@@ -1,0 +1,239 @@
+STORAGEGATEWAY()                                              STORAGEGATEWAY()
+
+
+
+NNAAMMEE
+       storagegateway -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Storage  Gateway is the service that connects an on-premises soft-
+       ware appliance with cloud-based storage to provide seamless and  secure
+       integration  between  an  organization's on-premises IT environment and
+       the AWS storage infrastructure. The service enables you to securely up-
+       load data to the AWS Cloud for cost effective backup and rapid disaster
+       recovery.
+
+       Use the following links to get started using the  _A_W_S  _S_t_o_r_a_g_e  _G_a_t_e_w_a_y
+       _S_e_r_v_i_c_e _A_P_I _R_e_f_e_r_e_n_c_e :
+
+       +o _A_W_S _S_t_o_r_a_g_e _G_a_t_e_w_a_y _r_e_q_u_i_r_e_d _r_e_q_u_e_s_t _h_e_a_d_e_r_s : Describes the required
+         headers that you must send with every POST  request  to  AWS  Storage
+         Gateway.
+
+       +o _S_i_g_n_i_n_g _r_e_q_u_e_s_t_s : AWS Storage Gateway requires that you authenticate
+         every request you send; this topic describes how sign such a request.
+
+       +o _E_r_r_o_r _r_e_s_p_o_n_s_e_s : Provides reference information  about  AWS  Storage
+         Gateway errors.
+
+       +o _O_p_e_r_a_t_i_o_n_s _i_n _A_W_S _S_t_o_r_a_g_e _G_a_t_e_w_a_y : Contains detailed descriptions of
+         all AWS Storage Gateway operations,  their  request  parameters,  re-
+         sponse  elements,  possible  errors, and examples of requests and re-
+         sponses.
+
+       +o _A_W_S _S_t_o_r_a_g_e _G_a_t_e_w_a_y _e_n_d_p_o_i_n_t_s _a_n_d _q_u_o_t_a_s : Provides a  list  of  each
+         AWS Region and the endpoints available for use with AWS Storage Gate-
+         way.
+
+       NNOOTTEE::
+          AWS Storage Gateway resource IDs are  in  uppercase.  When  you  use
+          these resource IDs with the Amazon EC2 API, EC2 expects resource IDs
+          in lowercase. You must change your resource ID to lowercase  to  use
+          it  with  the  EC2 API. For example, in Storage Gateway the ID for a
+          volume might be vvooll--AAAA2222BBBB001122334455DDAAFF667700 . When you use this  ID  with
+          the  EC2  API, you must change it to vvooll--aaaa2222bbbb001122334455ddaaff667700 . Other-
+          wise, the EC2 API might not behave as expected.
+
+       WWAARRNNIINNGG::
+          IDs for Storage Gateway volumes and  Amazon  EBS  snapshots  created
+          from  gateway  volumes  are changing to a longer format. Starting in
+          December 2016, all new volumes and snapshots will be created with  a
+          17-character string. Starting in April 2016, you will be able to use
+          these longer IDs so you can test your systems with the  new  format.
+          For more information, see _L_o_n_g_e_r _E_C_2 _a_n_d _E_B_S _r_e_s_o_u_r_c_e _I_D_s .
+
+          For  example,  a  volume  Amazon Resource Name (ARN) with the longer
+          volume ID format looks like the following:
+              aarrnn::aawwss::ssttoorraaggeeggaatteewwaayy::uuss--wweesstt--22::111111112222222233333333::ggaattee--
+              wwaayy//ssggww--1122AA33445566BB//vvoolluummee//vvooll--11112222AAAABBBBCCCCDDDDEEEEFFFFGG .
+
+          A  snapshot  ID  with the longer ID format looks like the following:
+          ssnnaapp--7788ee222266663333444455556666eeee .
+
+          For more information, see _A_n_n_o_u_n_c_e_m_e_n_t_: _H_e_a_d_s_-_u_p  _L_o_n_g_e_r _A_W_S _S_t_o_r_a_g_e
+          _G_a_t_e_w_a_y _v_o_l_u_m_e _a_n_d _s_n_a_p_s_h_o_t _I_D_s _c_o_m_i_n_g _i_n _2_0_1_6 .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o activate-gateway
+
+       +o add-cache
+
+       +o add-tags-to-resource
+
+       +o add-upload-buffer
+
+       +o add-working-storage
+
+       +o assign-tape-pool
+
+       +o attach-volume
+
+       +o cancel-archival
+
+       +o cancel-retrieval
+
+       +o create-cached-iscsi-volume
+
+       +o create-nfs-file-share
+
+       +o create-smb-file-share
+
+       +o create-snapshot
+
+       +o create-snapshot-from-volume-recovery-point
+
+       +o create-stored-iscsi-volume
+
+       +o create-tape-pool
+
+       +o create-tape-with-barcode
+
+       +o create-tapes
+
+       +o delete-automatic-tape-creation-policy
+
+       +o delete-bandwidth-rate-limit
+
+       +o delete-chap-credentials
+
+       +o delete-file-share
+
+       +o delete-gateway
+
+       +o delete-snapshot-schedule
+
+       +o delete-tape
+
+       +o delete-tape-archive
+
+       +o delete-tape-pool
+
+       +o delete-volume
+
+       +o describe-availability-monitor-test
+
+       +o describe-bandwidth-rate-limit
+
+       +o describe-bandwidth-rate-limit-schedule
+
+       +o describe-cache
+
+       +o describe-cached-iscsi-volumes
+
+       +o describe-chap-credentials
+
+       +o describe-gateway-information
+
+       +o describe-maintenance-start-time
+
+       +o describe-nfs-file-shares
+
+       +o describe-smb-file-shares
+
+       +o describe-smb-settings
+
+       +o describe-snapshot-schedule
+
+       +o describe-stored-iscsi-volumes
+
+       +o describe-tape-archives
+
+       +o describe-tape-recovery-points
+
+       +o describe-tapes
+
+       +o describe-upload-buffer
+
+       +o describe-vtl-devices
+
+       +o describe-working-storage
+
+       +o detach-volume
+
+       +o disable-gateway
+
+       +o help
+
+       +o join-domain
+
+       +o list-automatic-tape-creation-policies
+
+       +o list-file-shares
+
+       +o list-gateways
+
+       +o list-local-disks
+
+       +o list-tags-for-resource
+
+       +o list-tape-pools
+
+       +o list-tapes
+
+       +o list-volume-initiators
+
+       +o list-volume-recovery-points
+
+       +o list-volumes
+
+       +o notify-when-uploaded
+
+       +o refresh-cache
+
+       +o remove-tags-from-resource
+
+       +o reset-cache
+
+       +o retrieve-tape-archive
+
+       +o retrieve-tape-recovery-point
+
+       +o set-local-console-password
+
+       +o set-smb-guest-password
+
+       +o shutdown-gateway
+
+       +o start-availability-monitor-test
+
+       +o start-gateway
+
+       +o update-automatic-tape-creation-policy
+
+       +o update-bandwidth-rate-limit
+
+       +o update-bandwidth-rate-limit-schedule
+
+       +o update-chap-credentials
+
+       +o update-gateway-information
+
+       +o update-gateway-software-now
+
+       +o update-maintenance-start-time
+
+       +o update-nfs-file-share
+
+       +o update-smb-file-share
+
+       +o update-smb-file-share-visibility
+
+       +o update-smb-security-strategy
+
+       +o update-snapshot-schedule
+
+       +o update-vtl-device-type
+
+
+
+                                                              STORAGEGATEWAY()

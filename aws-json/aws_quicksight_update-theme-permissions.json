@@ -1,0 +1,20 @@
+{
+    "AwsAccountId": "",
+    "ThemeId": "",
+    "GrantPermissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ],
+    "RevokePermissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ]
+}

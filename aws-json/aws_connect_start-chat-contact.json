@@ -1,0 +1,15 @@
+{
+    "InstanceId": "",
+    "ContactFlowId": "",
+    "Attributes": {
+        "KeyName": ""
+    },
+    "ParticipantDetails": {
+        "DisplayName": ""
+    },
+    "InitialMessage": {
+        "ContentType": "",
+        "Content": ""
+    },
+    "ClientToken": ""
+}

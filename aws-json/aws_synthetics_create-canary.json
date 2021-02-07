@@ -1,0 +1,38 @@
+{
+    "Name": "",
+    "Code": {
+        "S3Bucket": "",
+        "S3Key": "",
+        "S3Version": "",
+        "ZipFile": null,
+        "Handler": ""
+    },
+    "ArtifactS3Location": "",
+    "ExecutionRoleArn": "",
+    "Schedule": {
+        "Expression": "",
+        "DurationInSeconds": 0
+    },
+    "RunConfig": {
+        "TimeoutInSeconds": 0,
+        "MemoryInMB": 0,
+        "ActiveTracing": true,
+        "EnvironmentVariables": {
+            "KeyName": ""
+        }
+    },
+    "SuccessRetentionPeriodInDays": 0,
+    "FailureRetentionPeriodInDays": 0,
+    "RuntimeVersion": "",
+    "VpcConfig": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

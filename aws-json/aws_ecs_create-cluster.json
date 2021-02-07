@@ -1,0 +1,25 @@
+{
+    "clusterName": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "settings": [
+        {
+            "name": "containerInsights",
+            "value": ""
+        }
+    ],
+    "capacityProviders": [
+        ""
+    ],
+    "defaultCapacityProviderStrategy": [
+        {
+            "capacityProvider": "",
+            "weight": 0,
+            "base": 0
+        }
+    ]
+}

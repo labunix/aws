@@ -1,0 +1,54 @@
+{
+    "AmznClientToken": "",
+    "InitialVersion": {
+        "Resources": [
+            {
+                "Id": "",
+                "Name": "",
+                "ResourceDataContainer": {
+                    "LocalDeviceResourceData": {
+                        "GroupOwnerSetting": {
+                            "AutoAddGroupOwner": true,
+                            "GroupOwner": ""
+                        },
+                        "SourcePath": ""
+                    },
+                    "LocalVolumeResourceData": {
+                        "DestinationPath": "",
+                        "GroupOwnerSetting": {
+                            "AutoAddGroupOwner": true,
+                            "GroupOwner": ""
+                        },
+                        "SourcePath": ""
+                    },
+                    "S3MachineLearningModelResourceData": {
+                        "DestinationPath": "",
+                        "OwnerSetting": {
+                            "GroupOwner": "",
+                            "GroupPermission": "rw"
+                        },
+                        "S3Uri": ""
+                    },
+                    "SageMakerMachineLearningModelResourceData": {
+                        "DestinationPath": "",
+                        "OwnerSetting": {
+                            "GroupOwner": "",
+                            "GroupPermission": "ro"
+                        },
+                        "SageMakerJobArn": ""
+                    },
+                    "SecretsManagerSecretResourceData": {
+                        "ARN": "",
+                        "AdditionalStagingLabelsToDownload": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Name": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

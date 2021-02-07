@@ -1,0 +1,26 @@
+{
+    "WorkloadName": "",
+    "Description": "",
+    "Environment": "PREPRODUCTION",
+    "AccountIds": [
+        ""
+    ],
+    "AwsRegions": [
+        ""
+    ],
+    "NonAwsRegions": [
+        ""
+    ],
+    "PillarPriorities": [
+        ""
+    ],
+    "ArchitecturalDesign": "",
+    "ReviewOwner": "",
+    "IndustryType": "",
+    "Industry": "",
+    "Lenses": [
+        ""
+    ],
+    "Notes": "",
+    "ClientRequestToken": ""
+}

@@ -1,0 +1,45 @@
+{
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "LINKED_ACCOUNT_NAME",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "EQUALS"
+            ]
+        }
+    },
+    "Configuration": {
+        "RecommendationTarget": "SAME_INSTANCE_FAMILY",
+        "BenefitsConsidered": true
+    },
+    "Service": "",
+    "PageSize": 0,
+    "NextPageToken": ""
+}

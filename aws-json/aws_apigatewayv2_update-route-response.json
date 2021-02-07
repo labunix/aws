@@ -1,0 +1,15 @@
+{
+    "ApiId": "",
+    "ModelSelectionExpression": "",
+    "ResponseModels": {
+        "KeyName": ""
+    },
+    "ResponseParameters": {
+        "KeyName": {
+            "Required": true
+        }
+    },
+    "RouteId": "",
+    "RouteResponseId": "",
+    "RouteResponseKey": ""
+}

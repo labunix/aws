@@ -1,0 +1,9 @@
+{
+    "BearerToken": "",
+    "OperationStatus": "PENDING",
+    "CurrentOperationStatus": "SUCCESS",
+    "StatusMessage": "",
+    "ErrorCode": "NotUpdatable",
+    "ResourceModel": "",
+    "ClientRequestToken": ""
+}

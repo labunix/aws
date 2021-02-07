@@ -1,0 +1,136 @@
+{
+    "AwsAccountId": "",
+    "DataSetId": "",
+    "Name": "",
+    "PhysicalTableMap": {
+        "KeyName": {
+            "RelationalTable": {
+                "DataSourceArn": "",
+                "Catalog": "",
+                "Schema": "",
+                "Name": "",
+                "InputColumns": [
+                    {
+                        "Name": "",
+                        "Type": "DATETIME"
+                    }
+                ]
+            },
+            "CustomSql": {
+                "DataSourceArn": "",
+                "Name": "",
+                "SqlQuery": "",
+                "Columns": [
+                    {
+                        "Name": "",
+                        "Type": "DECIMAL"
+                    }
+                ]
+            },
+            "S3Source": {
+                "DataSourceArn": "",
+                "UploadSettings": {
+                    "Format": "CSV",
+                    "StartFromRow": 0,
+                    "ContainsHeader": true,
+                    "TextQualifier": "DOUBLE_QUOTE",
+                    "Delimiter": ""
+                },
+                "InputColumns": [
+                    {
+                        "Name": "",
+                        "Type": "JSON"
+                    }
+                ]
+            }
+        }
+    },
+    "LogicalTableMap": {
+        "KeyName": {
+            "Alias": "",
+            "DataTransforms": [
+                {
+                    "ProjectOperation": {
+                        "ProjectedColumns": [
+                            ""
+                        ]
+                    },
+                    "FilterOperation": {
+                        "ConditionExpression": ""
+                    },
+                    "CreateColumnsOperation": {
+                        "Columns": [
+                            {
+                                "ColumnName": "",
+                                "ColumnId": "",
+                                "Expression": ""
+                            }
+                        ]
+                    },
+                    "RenameColumnOperation": {
+                        "ColumnName": "",
+                        "NewColumnName": ""
+                    },
+                    "CastColumnTypeOperation": {
+                        "ColumnName": "",
+                        "NewColumnType": "INTEGER",
+                        "Format": ""
+                    },
+                    "TagColumnOperation": {
+                        "ColumnName": "",
+                        "Tags": [
+                            {
+                                "ColumnGeographicRole": "COUNTY",
+                                "ColumnDescription": {
+                                    "Text": ""
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Source": {
+                "JoinInstruction": {
+                    "LeftOperand": "",
+                    "RightOperand": "",
+                    "LeftJoinKeyProperties": {
+                        "UniqueKey": true
+                    },
+                    "RightJoinKeyProperties": {
+                        "UniqueKey": true
+                    },
+                    "Type": "INNER",
+                    "OnClause": ""
+                },
+                "PhysicalTableId": ""
+            }
+        }
+    },
+    "ImportMode": "SPICE",
+    "ColumnGroups": [
+        {
+            "GeoSpatialColumnGroup": {
+                "Name": "",
+                "CountryCode": "US",
+                "Columns": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "RowLevelPermissionDataSet": {
+        "Namespace": "",
+        "Arn": "",
+        "PermissionPolicy": "GRANT_ACCESS"
+    },
+    "ColumnLevelPermissionRules": [
+        {
+            "Principals": [
+                ""
+            ],
+            "ColumnNames": [
+                ""
+            ]
+        }
+    ]
+}

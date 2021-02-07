@@ -1,0 +1,23 @@
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument operation: Invalid choice, valid choices are:
+
+batch-get-channel                        | batch-get-stream-key                    
+create-channel                           | create-stream-key                       
+delete-channel                           | delete-playback-key-pair                
+delete-stream-key                        | get-channel                             
+get-playback-key-pair                    | get-stream                              
+get-stream-key                           | import-playback-key-pair                
+list-channels                            | list-playback-key-pairs                 
+list-stream-keys                         | list-streams                            
+list-tags-for-resource                   | put-metadata                            
+stop-stream                              | tag-resource                            
+untag-resource                           | update-channel                          
+help                                    
+

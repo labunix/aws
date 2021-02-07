@@ -1,0 +1,16 @@
+{
+    "WindowId": "",
+    "ResourceType": "RESOURCE_GROUP",
+    "Targets": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "OwnerInformation": "",
+    "Name": "",
+    "Description": "",
+    "ClientToken": ""
+}

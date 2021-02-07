@@ -1,0 +1,14 @@
+{
+    "TargetGroupName": "",
+    "DBProxyName": "",
+    "ConnectionPoolConfig": {
+        "MaxConnectionsPercent": 0,
+        "MaxIdleConnectionsPercent": 0,
+        "ConnectionBorrowTimeout": 0,
+        "SessionPinningFilters": [
+            ""
+        ],
+        "InitQuery": ""
+    },
+    "NewName": ""
+}

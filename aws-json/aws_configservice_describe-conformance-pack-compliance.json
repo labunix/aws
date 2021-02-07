@@ -1,0 +1,11 @@
+{
+    "ConformancePackName": "",
+    "Filters": {
+        "ConfigRuleNames": [
+            ""
+        ],
+        "ComplianceType": "COMPLIANT"
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

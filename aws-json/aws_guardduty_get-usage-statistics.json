@@ -1,0 +1,18 @@
+{
+    "DetectorId": "",
+    "UsageStatisticType": "SUM_BY_ACCOUNT",
+    "UsageCriteria": {
+        "AccountIds": [
+            ""
+        ],
+        "DataSources": [
+            "CLOUD_TRAIL"
+        ],
+        "Resources": [
+            ""
+        ]
+    },
+    "Unit": "",
+    "MaxResults": 0,
+    "NextToken": ""
+}

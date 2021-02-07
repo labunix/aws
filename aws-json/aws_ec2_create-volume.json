@@ -1,0 +1,24 @@
+{
+    "AvailabilityZone": "",
+    "Encrypted": true,
+    "Iops": 0,
+    "KmsKeyId": "",
+    "OutpostArn": "",
+    "Size": 0,
+    "SnapshotId": "",
+    "VolumeType": "sc1",
+    "DryRun": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "export-instance-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "MultiAttachEnabled": true,
+    "Throughput": 0
+}

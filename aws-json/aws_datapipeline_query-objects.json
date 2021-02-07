@@ -1,0 +1,19 @@
+{
+    "pipelineId": "",
+    "query": {
+        "selectors": [
+            {
+                "fieldName": "",
+                "operator": {
+                    "type": "BETWEEN",
+                    "values": [
+                        ""
+                    ]
+                }
+            }
+        ]
+    },
+    "sphere": "",
+    "marker": "",
+    "limit": 0
+}

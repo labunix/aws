@@ -1,0 +1,20 @@
+{
+    "TrafficMirrorFilterId": "",
+    "TrafficDirection": "egress",
+    "RuleNumber": 0,
+    "RuleAction": "reject",
+    "DestinationPortRange": {
+        "FromPort": 0,
+        "ToPort": 0
+    },
+    "SourcePortRange": {
+        "FromPort": 0,
+        "ToPort": 0
+    },
+    "Protocol": 0,
+    "DestinationCidrBlock": "",
+    "SourceCidrBlock": "",
+    "Description": "",
+    "DryRun": true,
+    "ClientToken": ""
+}

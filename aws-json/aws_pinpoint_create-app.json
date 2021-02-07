@@ -1,0 +1,8 @@
+{
+    "CreateApplicationRequest": {
+        "Name": "",
+        "tags": {
+            "KeyName": ""
+        }
+    }
+}

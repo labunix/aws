@@ -1,0 +1,10 @@
+{
+    "ControlId": "",
+    "HomeRegion": "",
+    "Target": {
+        "Type": "ACCOUNT",
+        "Id": ""
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

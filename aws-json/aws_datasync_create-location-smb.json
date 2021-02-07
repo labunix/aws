@@ -1,0 +1,19 @@
+{
+    "Subdirectory": "",
+    "ServerHostname": "",
+    "User": "",
+    "Domain": "",
+    "Password": "",
+    "AgentArns": [
+        ""
+    ],
+    "MountOptions": {
+        "Version": "AUTOMATIC"
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

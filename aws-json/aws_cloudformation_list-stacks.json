@@ -1,0 +1,6 @@
+{
+    "NextToken": "",
+    "StackStatusFilter": [
+        "IMPORT_ROLLBACK_COMPLETE"
+    ]
+}

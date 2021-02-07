@@ -1,0 +1,25 @@
+{
+    "Entitlements": [
+        {
+            "DataTransferSubscriberFeePercent": 0,
+            "Description": "",
+            "Encryption": {
+                "Algorithm": "aes192",
+                "ConstantInitializationVector": "",
+                "DeviceId": "",
+                "KeyType": "speke",
+                "Region": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SecretArn": "",
+                "Url": ""
+            },
+            "EntitlementStatus": "DISABLED",
+            "Name": "",
+            "Subscribers": [
+                ""
+            ]
+        }
+    ],
+    "FlowArn": ""
+}

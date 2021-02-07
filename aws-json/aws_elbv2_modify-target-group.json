@@ -1,0 +1,15 @@
+{
+    "TargetGroupArn": "",
+    "HealthCheckProtocol": "GENEVE",
+    "HealthCheckPort": "",
+    "HealthCheckPath": "",
+    "HealthCheckEnabled": true,
+    "HealthCheckIntervalSeconds": 0,
+    "HealthCheckTimeoutSeconds": 0,
+    "HealthyThresholdCount": 0,
+    "UnhealthyThresholdCount": 0,
+    "Matcher": {
+        "HttpCode": "",
+        "GrpcCode": ""
+    }
+}

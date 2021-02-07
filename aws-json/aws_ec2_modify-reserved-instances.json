@@ -1,0 +1,15 @@
+{
+    "ReservedInstancesIds": [
+        ""
+    ],
+    "ClientToken": "",
+    "TargetConfigurations": [
+        {
+            "AvailabilityZone": "",
+            "InstanceCount": 0,
+            "InstanceType": "c5a.8xlarge",
+            "Platform": "",
+            "Scope": "Availability Zone"
+        }
+    ]
+}

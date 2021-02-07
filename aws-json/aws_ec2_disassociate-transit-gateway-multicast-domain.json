@@ -1,0 +1,8 @@
+{
+    "TransitGatewayMulticastDomainId": "",
+    "TransitGatewayAttachmentId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "DryRun": true
+}

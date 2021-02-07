@@ -1,0 +1,29 @@
+{
+    "InstanceId": "",
+    "StartTime": "1970-01-01T00:00:00",
+    "EndTime": "1970-01-01T00:00:00",
+    "Filters": {
+        "Queues": [
+            ""
+        ],
+        "Channels": [
+            "TASK"
+        ]
+    },
+    "Groupings": [
+        "CHANNEL"
+    ],
+    "HistoricalMetrics": [
+        {
+            "Name": "SERVICE_LEVEL",
+            "Threshold": {
+                "Comparison": "LT",
+                "ThresholdValue": null
+            },
+            "Statistic": "SUM",
+            "Unit": "PERCENT"
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

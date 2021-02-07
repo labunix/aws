@@ -1,0 +1,114 @@
+{
+    "PoolName": "",
+    "Policies": {
+        "PasswordPolicy": {
+            "MinimumLength": 0,
+            "RequireUppercase": true,
+            "RequireLowercase": true,
+            "RequireNumbers": true,
+            "RequireSymbols": true,
+            "TemporaryPasswordValidityDays": 0
+        }
+    },
+    "LambdaConfig": {
+        "PreSignUp": "",
+        "CustomMessage": "",
+        "PostConfirmation": "",
+        "PreAuthentication": "",
+        "PostAuthentication": "",
+        "DefineAuthChallenge": "",
+        "CreateAuthChallenge": "",
+        "VerifyAuthChallengeResponse": "",
+        "PreTokenGeneration": "",
+        "UserMigration": "",
+        "CustomSMSSender": {
+            "LambdaVersion": "V1_0",
+            "LambdaArn": ""
+        },
+        "CustomEmailSender": {
+            "LambdaVersion": "V1_0",
+            "LambdaArn": ""
+        },
+        "KMSKeyID": ""
+    },
+    "AutoVerifiedAttributes": [
+        "email"
+    ],
+    "AliasAttributes": [
+        "preferred_username"
+    ],
+    "UsernameAttributes": [
+        "email"
+    ],
+    "SmsVerificationMessage": "",
+    "EmailVerificationMessage": "",
+    "EmailVerificationSubject": "",
+    "VerificationMessageTemplate": {
+        "SmsMessage": "",
+        "EmailMessage": "",
+        "EmailSubject": "",
+        "EmailMessageByLink": "",
+        "EmailSubjectByLink": "",
+        "DefaultEmailOption": "CONFIRM_WITH_CODE"
+    },
+    "SmsAuthenticationMessage": "",
+    "MfaConfiguration": "OFF",
+    "DeviceConfiguration": {
+        "ChallengeRequiredOnNewDevice": true,
+        "DeviceOnlyRememberedOnUserPrompt": true
+    },
+    "EmailConfiguration": {
+        "SourceArn": "",
+        "ReplyToEmailAddress": "",
+        "EmailSendingAccount": "DEVELOPER",
+        "From": "",
+        "ConfigurationSet": ""
+    },
+    "SmsConfiguration": {
+        "SnsCallerArn": "",
+        "ExternalId": ""
+    },
+    "UserPoolTags": {
+        "KeyName": ""
+    },
+    "AdminCreateUserConfig": {
+        "AllowAdminCreateUserOnly": true,
+        "UnusedAccountValidityDays": 0,
+        "InviteMessageTemplate": {
+            "SMSMessage": "",
+            "EmailMessage": "",
+            "EmailSubject": ""
+        }
+    },
+    "Schema": [
+        {
+            "Name": "",
+            "AttributeDataType": "Number",
+            "DeveloperOnlyAttribute": true,
+            "Mutable": true,
+            "Required": true,
+            "NumberAttributeConstraints": {
+                "MinValue": "",
+                "MaxValue": ""
+            },
+            "StringAttributeConstraints": {
+                "MinLength": "",
+                "MaxLength": ""
+            }
+        }
+    ],
+    "UserPoolAddOns": {
+        "AdvancedSecurityMode": "AUDIT"
+    },
+    "UsernameConfiguration": {
+        "CaseSensitive": true
+    },
+    "AccountRecoverySetting": {
+        "RecoveryMechanisms": [
+            {
+                "Priority": 0,
+                "Name": "verified_email"
+            }
+        ]
+    }
+}

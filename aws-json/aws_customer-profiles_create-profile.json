@@ -1,0 +1,70 @@
+{
+    "DomainName": "",
+    "AccountNumber": "",
+    "AdditionalInformation": "",
+    "PartyType": "BUSINESS",
+    "BusinessName": "",
+    "FirstName": "",
+    "MiddleName": "",
+    "LastName": "",
+    "BirthDate": "",
+    "Gender": "MALE",
+    "PhoneNumber": "",
+    "MobilePhoneNumber": "",
+    "HomePhoneNumber": "",
+    "BusinessPhoneNumber": "",
+    "EmailAddress": "",
+    "PersonalEmailAddress": "",
+    "BusinessEmailAddress": "",
+    "Address": {
+        "Address1": "",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "City": "",
+        "County": "",
+        "State": "",
+        "Province": "",
+        "Country": "",
+        "PostalCode": ""
+    },
+    "ShippingAddress": {
+        "Address1": "",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "City": "",
+        "County": "",
+        "State": "",
+        "Province": "",
+        "Country": "",
+        "PostalCode": ""
+    },
+    "MailingAddress": {
+        "Address1": "",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "City": "",
+        "County": "",
+        "State": "",
+        "Province": "",
+        "Country": "",
+        "PostalCode": ""
+    },
+    "BillingAddress": {
+        "Address1": "",
+        "Address2": "",
+        "Address3": "",
+        "Address4": "",
+        "City": "",
+        "County": "",
+        "State": "",
+        "Province": "",
+        "Country": "",
+        "PostalCode": ""
+    },
+    "Attributes": {
+        "KeyName": ""
+    }
+}

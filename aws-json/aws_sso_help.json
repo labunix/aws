@@ -1,0 +1,44 @@
+SSO()                                                                    SSO()
+
+
+
+NNAAMMEE
+       sso -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Single  Sign-On Portal is a web service that makes it easy for you
+       to assign user access to AWS SSO resources such  as  the  user  portal.
+       Users  can  get AWS account applications and roles assigned to them and
+       get federated into the application.
+
+       For general information about AWS SSO, see _W_h_a_t _i_s _A_W_S _S_i_n_g_l_e  _S_i_g_n_-_O_n_?
+       in the _A_W_S _S_S_O _U_s_e_r _G_u_i_d_e .
+
+       This  API  reference guide describes the AWS SSO Portal operations that
+       you can call programatically and includes detailed information on  data
+       types and errors.
+
+       NNOOTTEE::
+          AWS provides SDKs that consist of libraries and sample code for var-
+          ious programming languages and platforms, such as Java, Ruby,  .Net,
+          iOS,  or  Android.  The SDKs provide a convenient way to create pro-
+          grammatic access to AWS SSO and other AWS services. For more  infor-
+          mation  about  the  AWS  SDKs, including how to download and install
+          them, see _T_o_o_l_s _f_o_r _A_m_a_z_o_n _W_e_b _S_e_r_v_i_c_e_s .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o get-role-credentials
+
+       +o help
+
+       +o list-account-roles
+
+       +o list-accounts
+
+       +o login
+
+       +o logout
+
+
+
+                                                                         SSO()

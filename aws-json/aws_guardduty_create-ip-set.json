@@ -1,0 +1,11 @@
+{
+    "DetectorId": "",
+    "Name": "",
+    "Format": "TXT",
+    "Location": "",
+    "Activate": true,
+    "ClientToken": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

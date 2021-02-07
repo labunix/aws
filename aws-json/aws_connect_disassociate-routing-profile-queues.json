@@ -1,0 +1,10 @@
+{
+    "InstanceId": "",
+    "RoutingProfileId": "",
+    "QueueReferences": [
+        {
+            "QueueId": "",
+            "Channel": "CHAT"
+        }
+    ]
+}

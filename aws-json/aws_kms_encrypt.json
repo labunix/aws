@@ -1,0 +1,11 @@
+{
+    "KeyId": "",
+    "Plaintext": null,
+    "EncryptionContext": {
+        "KeyName": ""
+    },
+    "GrantTokens": [
+        ""
+    ],
+    "EncryptionAlgorithm": "RSAES_OAEP_SHA_1"
+}

@@ -1,0 +1,104 @@
+ES()                                                                      ES()
+
+
+
+NNAAMMEE
+       es -
+
+DDEESSCCRRIIPPTTIIOONN
+       Use  the  Amazon  Elasticsearch Configuration API to create, configure,
+       and manage Elasticsearch domains.
+
+       For sample code that uses the Configuration API, see the  _A_m_a_z_o_n  _E_l_a_s_-
+       _t_i_c_s_e_a_r_c_h _S_e_r_v_i_c_e _D_e_v_e_l_o_p_e_r _G_u_i_d_e . The guide also contains _s_a_m_p_l_e _c_o_d_e
+       _f_o_r _s_e_n_d_i_n_g _s_i_g_n_e_d _H_T_T_P _r_e_q_u_e_s_t_s _t_o _t_h_e _E_l_a_s_t_i_c_s_e_a_r_c_h _A_P_I_s .
+
+       The endpoint for configuration  service  requests  is  region-specific:
+       es.*region*  .amazonaws.com.  For  example, es.us-east-1.amazonaws.com.
+       For a current list of supported regions and endpoints, see _R_e_g_i_o_n_s  _a_n_d
+       _E_n_d_p_o_i_n_t_s .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o accept-inbound-cross-cluster-search-connection
+
+       +o add-tags
+
+       +o associate-package
+
+       +o cancel-elasticsearch-service-software-update
+
+       +o create-elasticsearch-domain
+
+       +o create-outbound-cross-cluster-search-connection
+
+       +o create-package
+
+       +o delete-elasticsearch-domain
+
+       +o delete-elasticsearch-service-role
+
+       +o delete-inbound-cross-cluster-search-connection
+
+       +o delete-outbound-cross-cluster-search-connection
+
+       +o delete-package
+
+       +o describe-elasticsearch-domain
+
+       +o describe-elasticsearch-domain-config
+
+       +o describe-elasticsearch-domains
+
+       +o describe-elasticsearch-instance-type-limits
+
+       +o describe-inbound-cross-cluster-search-connections
+
+       +o describe-outbound-cross-cluster-search-connections
+
+       +o describe-packages
+
+       +o describe-reserved-elasticsearch-instance-offerings
+
+       +o describe-reserved-elasticsearch-instances
+
+       +o dissociate-package
+
+       +o get-compatible-elasticsearch-versions
+
+       +o get-package-version-history
+
+       +o get-upgrade-history
+
+       +o get-upgrade-status
+
+       +o help
+
+       +o list-domain-names
+
+       +o list-domains-for-package
+
+       +o list-elasticsearch-instance-types
+
+       +o list-elasticsearch-versions
+
+       +o list-packages-for-domain
+
+       +o list-tags
+
+       +o purchase-reserved-elasticsearch-instance-offering
+
+       +o reject-inbound-cross-cluster-search-connection
+
+       +o remove-tags
+
+       +o start-elasticsearch-service-software-update
+
+       +o update-elasticsearch-domain-config
+
+       +o update-package
+
+       +o upgrade-elasticsearch-domain
+
+
+
+                                                                          ES()

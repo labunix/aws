@@ -1,0 +1,14 @@
+{
+    "AwsAccountId": "",
+    "DashboardId": "",
+    "IdentityType": "ANONYMOUS",
+    "SessionLifetimeInMinutes": 0,
+    "UndoRedoDisabled": true,
+    "ResetDisabled": true,
+    "StatePersistenceEnabled": true,
+    "UserArn": "",
+    "Namespace": "",
+    "AdditionalDashboardIds": [
+        ""
+    ]
+}

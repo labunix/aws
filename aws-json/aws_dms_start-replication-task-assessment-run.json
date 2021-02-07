@@ -1,0 +1,15 @@
+{
+    "ReplicationTaskArn": "",
+    "ServiceAccessRoleArn": "",
+    "ResultLocationBucket": "",
+    "ResultLocationFolder": "",
+    "ResultEncryptionMode": "",
+    "ResultKmsKeyArn": "",
+    "AssessmentRunName": "",
+    "IncludeOnly": [
+        ""
+    ],
+    "Exclude": [
+        ""
+    ]
+}

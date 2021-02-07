@@ -1,0 +1,78 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "meshOwner": "",
+    "spec": {
+        "backendDefaults": {
+            "clientPolicy": {
+                "tls": {
+                    "enforce": true,
+                    "ports": [
+                        0
+                    ],
+                    "validation": {
+                        "trust": {
+                            "acm": {
+                                "certificateAuthorityArns": [
+                                    ""
+                                ]
+                            },
+                            "file": {
+                                "certificateChain": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "listeners": [
+            {
+                "connectionPool": {
+                    "grpc": {
+                        "maxRequests": 0
+                    },
+                    "http": {
+                        "maxConnections": 0,
+                        "maxPendingRequests": 0
+                    },
+                    "http2": {
+                        "maxRequests": 0
+                    }
+                },
+                "healthCheck": {
+                    "healthyThreshold": 0,
+                    "intervalMillis": 0,
+                    "path": "",
+                    "port": 0,
+                    "protocol": "http",
+                    "timeoutMillis": 0,
+                    "unhealthyThreshold": 0
+                },
+                "portMapping": {
+                    "port": 0,
+                    "protocol": "http"
+                },
+                "tls": {
+                    "certificate": {
+                        "acm": {
+                            "certificateArn": ""
+                        },
+                        "file": {
+                            "certificateChain": "",
+                            "privateKey": ""
+                        }
+                    },
+                    "mode": "DISABLED"
+                }
+            }
+        ],
+        "logging": {
+            "accessLog": {
+                "file": {
+                    "path": ""
+                }
+            }
+        }
+    },
+    "virtualGatewayName": ""
+}

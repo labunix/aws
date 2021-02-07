@@ -1,0 +1,14 @@
+{
+    "ProviderTypes": [
+        "Bitbucket"
+    ],
+    "States": [
+        "Pending"
+    ],
+    "RepositoryNames": [
+        ""
+    ],
+    "Type": "PullRequest",
+    "MaxResults": 0,
+    "NextToken": ""
+}

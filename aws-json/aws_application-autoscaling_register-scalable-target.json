@@ -1,0 +1,13 @@
+{
+    "ServiceNamespace": "dynamodb",
+    "ResourceId": "",
+    "ScalableDimension": "appstream:fleet:DesiredCapacity",
+    "MinCapacity": 0,
+    "MaxCapacity": 0,
+    "RoleARN": "",
+    "SuspendedState": {
+        "DynamicScalingInSuspended": true,
+        "DynamicScalingOutSuspended": true,
+        "ScheduledScalingSuspended": true
+    }
+}

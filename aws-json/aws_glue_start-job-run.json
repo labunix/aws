@@ -1,0 +1,16 @@
+{
+    "JobName": "",
+    "JobRunId": "",
+    "Arguments": {
+        "KeyName": ""
+    },
+    "AllocatedCapacity": 0,
+    "Timeout": 0,
+    "MaxCapacity": null,
+    "SecurityConfiguration": "",
+    "NotificationProperty": {
+        "NotifyDelayAfter": 0
+    },
+    "WorkerType": "G.2X",
+    "NumberOfWorkers": 0
+}

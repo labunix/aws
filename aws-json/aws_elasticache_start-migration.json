@@ -1,0 +1,9 @@
+{
+    "ReplicationGroupId": "",
+    "CustomerNodeEndpointList": [
+        {
+            "Address": "",
+            "Port": 0
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "",
+            "AttributeType": "N"
+        }
+    ],
+    "TableName": "",
+    "BillingMode": "PROVISIONED",
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 0,
+        "WriteCapacityUnits": 0
+    },
+    "GlobalSecondaryIndexUpdates": [
+        {
+            "Update": {
+                "IndexName": "",
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": 0,
+                    "WriteCapacityUnits": 0
+                }
+            },
+            "Create": {
+                "IndexName": "",
+                "KeySchema": [
+                    {
+                        "AttributeName": "",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "KEYS_ONLY",
+                    "NonKeyAttributes": [
+                        ""
+                    ]
+                },
+                "ProvisionedThroughput": {
+                    "ReadCapacityUnits": 0,
+                    "WriteCapacityUnits": 0
+                }
+            },
+            "Delete": {
+                "IndexName": ""
+            }
+        }
+    ],
+    "StreamSpecification": {
+        "StreamEnabled": true,
+        "StreamViewType": "KEYS_ONLY"
+    },
+    "SSESpecification": {
+        "Enabled": true,
+        "SSEType": "KMS",
+        "KMSMasterKeyId": ""
+    },
+    "ReplicaUpdates": [
+        {
+            "Create": {
+                "RegionName": "",
+                "KMSMasterKeyId": "",
+                "ProvisionedThroughputOverride": {
+                    "ReadCapacityUnits": 0
+                },
+                "GlobalSecondaryIndexes": [
+                    {
+                        "IndexName": "",
+                        "ProvisionedThroughputOverride": {
+                            "ReadCapacityUnits": 0
+                        }
+                    }
+                ]
+            },
+            "Update": {
+                "RegionName": "",
+                "KMSMasterKeyId": "",
+                "ProvisionedThroughputOverride": {
+                    "ReadCapacityUnits": 0
+                },
+                "GlobalSecondaryIndexes": [
+                    {
+                        "IndexName": "",
+                        "ProvisionedThroughputOverride": {
+                            "ReadCapacityUnits": 0
+                        }
+                    }
+                ]
+            },
+            "Delete": {
+                "RegionName": ""
+            }
+        }
+    ]
+}

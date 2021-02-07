@@ -1,0 +1,7 @@
+{
+    "ServiceNamespace": "elasticmapreduce",
+    "ResourceId": "",
+    "ScalableDimension": "elasticmapreduce:instancegroup:InstanceCount",
+    "MaxResults": 0,
+    "NextToken": ""
+}

@@ -1,0 +1,10 @@
+{
+    "Authorization": {
+        "CdnIdentifierSecret": "",
+        "SecretsRoleArn": ""
+    },
+    "Id": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

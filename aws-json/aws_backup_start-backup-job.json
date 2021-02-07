@@ -1,0 +1,18 @@
+{
+    "BackupVaultName": "",
+    "ResourceArn": "",
+    "IamRoleArn": "",
+    "IdempotencyToken": "",
+    "StartWindowMinutes": 0,
+    "CompleteWindowMinutes": 0,
+    "Lifecycle": {
+        "MoveToColdStorageAfterDays": 0,
+        "DeleteAfterDays": 0
+    },
+    "RecoveryPointTags": {
+        "KeyName": ""
+    },
+    "BackupOptions": {
+        "KeyName": ""
+    }
+}

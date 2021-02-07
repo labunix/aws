@@ -1,0 +1,53 @@
+EBS()                                                                    EBS()
+
+
+
+NNAAMMEE
+       ebs -
+
+DDEESSCCRRIIPPTTIIOONN
+       You  can use the Amazon Elastic Block Store (Amazon EBS) direct APIs to
+       create EBS snapshots, write data directly to your snapshots, read  data
+       on  your snapshots, and identify the differences or changes between two
+       snapshots. If youre an independent software  vendor  (ISV)  who  offers
+       backup  services for Amazon EBS, the EBS direct APIs make it more effi-
+       cient and cost-effective to track incremental changes on your EBS  vol-
+       umes  through  snapshots. This can be done without having to create new
+       volumes from snapshots, and then use Amazon Elastic Compute Cloud (Ama-
+       zon EC2) instances to compare the differences.
+
+       You  can  create  incremental  snapshots directly from data on-premises
+       into EBS volumes and the cloud to use for quick disaster recovery. With
+       the ability to write and read snapshots, you can write your on-premises
+       data to an EBS snapshot during a disaster. Then after recovery, you can
+       restore  it back to AWS or on-premises from the snapshot. You no longer
+       need to build and maintain complex mechanisms to copy data to and  from
+       Amazon EBS.
+
+       This  API  reference  provides  detailed information about the actions,
+       data types, parameters, and errors of the EBS direct APIs. For more in-
+       formation  about the elements that make up the EBS direct APIs, and ex-
+       amples of how to use them effectively, see _A_c_c_e_s_s_i_n_g _t_h_e _C_o_n_t_e_n_t_s _o_f _a_n
+       _E_B_S  _S_n_a_p_s_h_o_t in the _A_m_a_z_o_n _E_l_a_s_t_i_c _C_o_m_p_u_t_e _C_l_o_u_d _U_s_e_r _G_u_i_d_e . For more
+       information about the supported AWS  Regions,  endpoints,  and  service
+       quotas  for  the  EBS  direct APIs, see _A_m_a_z_o_n _E_l_a_s_t_i_c _B_l_o_c_k _S_t_o_r_e _E_n_d_-
+       _p_o_i_n_t_s _a_n_d _Q_u_o_t_a_s in the _A_W_S _G_e_n_e_r_a_l _R_e_f_e_r_e_n_c_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o complete-snapshot
+
+       +o get-snapshot-block
+
+       +o help
+
+       +o list-changed-blocks
+
+       +o list-snapshot-blocks
+
+       +o put-snapshot-block
+
+       +o start-snapshot
+
+
+
+                                                                         EBS()

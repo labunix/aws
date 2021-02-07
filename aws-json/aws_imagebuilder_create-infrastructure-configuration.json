@@ -1,0 +1,28 @@
+{
+    "name": "",
+    "description": "",
+    "instanceTypes": [
+        ""
+    ],
+    "instanceProfileName": "",
+    "securityGroupIds": [
+        ""
+    ],
+    "subnetId": "",
+    "logging": {
+        "s3Logs": {
+            "s3BucketName": "",
+            "s3KeyPrefix": ""
+        }
+    },
+    "keyPair": "",
+    "terminateInstanceOnFailure": true,
+    "snsTopicArn": "",
+    "resourceTags": {
+        "KeyName": ""
+    },
+    "tags": {
+        "KeyName": ""
+    },
+    "clientToken": ""
+}

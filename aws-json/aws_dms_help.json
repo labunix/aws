@@ -1,0 +1,135 @@
+DMS()                                                                    DMS()
+
+
+
+NNAAMMEE
+       dms -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Database  Migration Service (AWS DMS) can migrate your data to and
+       from the most widely used commercial and open-source databases such  as
+       Oracle,  PostgreSQL,  Microsoft  SQL  Server, Amazon Redshift, MariaDB,
+       Amazon Aurora, MySQL, and SAP Adaptive  Server  Enterprise  (ASE).  The
+       service  supports  homogeneous  migrations such as Oracle to Oracle, as
+       well as heterogeneous migrations between different database  platforms,
+       such as Oracle to MySQL or SQL Server to PostgreSQL.
+
+       For  more information about AWS DMS, see _W_h_a_t _I_s _A_W_S _D_a_t_a_b_a_s_e _M_i_g_r_a_t_i_o_n
+       _S_e_r_v_i_c_e_? in the _A_W_S _D_a_t_a_b_a_s_e _M_i_g_r_a_t_i_o_n _U_s_e_r _G_u_i_d_e_.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-tags-to-resource
+
+       +o apply-pending-maintenance-action
+
+       +o cancel-replication-task-assessment-run
+
+       +o create-endpoint
+
+       +o create-event-subscription
+
+       +o create-replication-instance
+
+       +o create-replication-subnet-group
+
+       +o create-replication-task
+
+       +o delete-certificate
+
+       +o delete-connection
+
+       +o delete-endpoint
+
+       +o delete-event-subscription
+
+       +o delete-replication-instance
+
+       +o delete-replication-subnet-group
+
+       +o delete-replication-task
+
+       +o delete-replication-task-assessment-run
+
+       +o describe-account-attributes
+
+       +o describe-applicable-individual-assessments
+
+       +o describe-certificates
+
+       +o describe-connections
+
+       +o describe-endpoint-types
+
+       +o describe-endpoints
+
+       +o describe-event-categories
+
+       +o describe-event-subscriptions
+
+       +o describe-events
+
+       +o describe-orderable-replication-instances
+
+       +o describe-pending-maintenance-actions
+
+       +o describe-refresh-schemas-status
+
+       +o describe-replication-instance-task-logs
+
+       +o describe-replication-instances
+
+       +o describe-replication-subnet-groups
+
+       +o describe-replication-task-assessment-results
+
+       +o describe-replication-task-assessment-runs
+
+       +o describe-replication-task-individual-assessments
+
+       +o describe-replication-tasks
+
+       +o describe-schemas
+
+       +o describe-table-statistics
+
+       +o help
+
+       +o import-certificate
+
+       +o list-tags-for-resource
+
+       +o modify-endpoint
+
+       +o modify-event-subscription
+
+       +o modify-replication-instance
+
+       +o modify-replication-subnet-group
+
+       +o modify-replication-task
+
+       +o move-replication-task
+
+       +o reboot-replication-instance
+
+       +o refresh-schemas
+
+       +o reload-tables
+
+       +o remove-tags-from-resource
+
+       +o start-replication-task
+
+       +o start-replication-task-assessment
+
+       +o start-replication-task-assessment-run
+
+       +o stop-replication-task
+
+       +o test-connection
+
+       +o wait
+
+
+
+                                                                         DMS()

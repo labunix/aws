@@ -1,0 +1,47 @@
+{
+    "UserPoolId": "",
+    "ClientId": "",
+    "ClientName": "",
+    "RefreshTokenValidity": 0,
+    "AccessTokenValidity": 0,
+    "IdTokenValidity": 0,
+    "TokenValidityUnits": {
+        "AccessToken": "minutes",
+        "IdToken": "seconds",
+        "RefreshToken": "minutes"
+    },
+    "ReadAttributes": [
+        ""
+    ],
+    "WriteAttributes": [
+        ""
+    ],
+    "ExplicitAuthFlows": [
+        "ALLOW_ADMIN_USER_PASSWORD_AUTH"
+    ],
+    "SupportedIdentityProviders": [
+        ""
+    ],
+    "CallbackURLs": [
+        ""
+    ],
+    "LogoutURLs": [
+        ""
+    ],
+    "DefaultRedirectURI": "",
+    "AllowedOAuthFlows": [
+        "client_credentials"
+    ],
+    "AllowedOAuthScopes": [
+        ""
+    ],
+    "AllowedOAuthFlowsUserPoolClient": true,
+    "AnalyticsConfiguration": {
+        "ApplicationId": "",
+        "ApplicationArn": "",
+        "RoleArn": "",
+        "ExternalId": "",
+        "UserDataShared": true
+    },
+    "PreventUserExistenceErrors": "LEGACY"
+}

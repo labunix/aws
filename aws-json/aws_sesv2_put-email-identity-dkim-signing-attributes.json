@@ -1,0 +1,8 @@
+{
+    "EmailIdentity": "",
+    "SigningAttributesOrigin": "EXTERNAL",
+    "SigningAttributes": {
+        "DomainSigningSelector": "",
+        "DomainSigningPrivateKey": ""
+    }
+}

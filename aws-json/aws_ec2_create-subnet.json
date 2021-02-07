@@ -1,0 +1,20 @@
+{
+    "TagSpecifications": [
+        {
+            "ResourceType": "network-acl",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "AvailabilityZone": "",
+    "AvailabilityZoneId": "",
+    "CidrBlock": "",
+    "Ipv6CidrBlock": "",
+    "OutpostArn": "",
+    "VpcId": "",
+    "DryRun": true
+}

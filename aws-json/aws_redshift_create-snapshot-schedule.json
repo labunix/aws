@@ -1,0 +1,15 @@
+{
+    "ScheduleDefinitions": [
+        ""
+    ],
+    "ScheduleIdentifier": "",
+    "ScheduleDescription": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "DryRun": true,
+    "NextInvocations": 0
+}

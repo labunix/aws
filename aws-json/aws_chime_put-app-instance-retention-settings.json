@@ -1,0 +1,8 @@
+{
+    "AppInstanceArn": "",
+    "AppInstanceRetentionSettings": {
+        "ChannelRetentionSettings": {
+            "RetentionDays": 0
+        }
+    }
+}

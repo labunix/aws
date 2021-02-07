@@ -1,0 +1,17 @@
+{
+    "DomainId": "",
+    "UserProfileName": "",
+    "AppType": "JupyterServer",
+    "AppName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ResourceSpec": {
+        "SageMakerImageArn": "",
+        "SageMakerImageVersionArn": "",
+        "InstanceType": "ml.m5.large"
+    }
+}

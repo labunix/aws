@@ -1,0 +1,10 @@
+{
+    "ResourceId": "",
+    "SelfservicePermissions": {
+        "RestartWorkspace": "DISABLED",
+        "IncreaseVolumeSize": "DISABLED",
+        "ChangeComputeType": "DISABLED",
+        "SwitchRunningMode": "ENABLED",
+        "RebuildWorkspace": "ENABLED"
+    }
+}

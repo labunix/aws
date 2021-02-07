@@ -1,0 +1,22 @@
+{
+    "MedicalTranscriptionJobName": "",
+    "LanguageCode": "en-US",
+    "MediaSampleRateHertz": 0,
+    "MediaFormat": "amr",
+    "Media": {
+        "MediaFileUri": ""
+    },
+    "OutputBucketName": "",
+    "OutputKey": "",
+    "OutputEncryptionKMSKeyId": "",
+    "Settings": {
+        "ShowSpeakerLabels": true,
+        "MaxSpeakerLabels": 0,
+        "ChannelIdentification": true,
+        "ShowAlternatives": true,
+        "MaxAlternatives": 0,
+        "VocabularyName": ""
+    },
+    "Specialty": "PRIMARYCARE",
+    "Type": "CONVERSATION"
+}

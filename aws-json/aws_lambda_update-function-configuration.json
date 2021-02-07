@@ -1,0 +1,48 @@
+{
+    "FunctionName": "",
+    "Role": "",
+    "Handler": "",
+    "Description": "",
+    "Timeout": 0,
+    "MemorySize": 0,
+    "VpcConfig": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "Environment": {
+        "Variables": {
+            "KeyName": ""
+        }
+    },
+    "Runtime": "dotnetcore1.0",
+    "DeadLetterConfig": {
+        "TargetArn": ""
+    },
+    "KMSKeyArn": "",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "",
+    "Layers": [
+        ""
+    ],
+    "FileSystemConfigs": [
+        {
+            "Arn": "",
+            "LocalMountPath": ""
+        }
+    ],
+    "ImageConfig": {
+        "EntryPoint": [
+            ""
+        ],
+        "Command": [
+            ""
+        ],
+        "WorkingDirectory": ""
+    }
+}

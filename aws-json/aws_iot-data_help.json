@@ -1,0 +1,45 @@
+IOT-DATA()                                                          IOT-DATA()
+
+
+
+NNAAMMEE
+       iot-data -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  IoT-Data  enables secure, bi-directional communication between In-
+       ternet-connected things (such as sensors, actuators, embedded  devices,
+       or  smart appliances) and the AWS cloud. It implements a broker for ap-
+       plications and things to publish messages over HTTP (Publish)  and  re-
+       trieve,  update, and delete shadows. A shadow is a persistent represen-
+       tation of your things and their state in the AWS cloud.
+
+       Find the endpoint address for actions in the AWS IoT data plane by run-
+       ning this CLI command:
+          aawwss iioott ddeessccrriibbee--eennddppooiinntt ----eennddppooiinntt--ttyyppee iioott::DDaattaa--AATTSS
+
+       The  service  name used by _A_W_S _S_i_g_n_a_t_u_r_e _V_e_r_s_i_o_n _4 to sign requests is:
+       _i_o_t_d_e_v_i_c_e_g_a_t_e_w_a_y .
+
+       NNOOTTEE::
+          The default endpoint data.iot.[region].amazonaws.com is intended for
+          testing  purposes  only.  For  production code it is strongly recom-
+          mended to use the custom endpoint for your account  (retrievable via
+          the  iot  describe-endpoint command) to ensure best availability and
+          reachability of the service.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o delete-thing-shadow
+
+       +o get-thing-shadow
+
+       +o help
+
+       +o list-named-shadows-for-thing
+
+       +o publish
+
+       +o update-thing-shadow
+
+
+
+                                                                    IOT-DATA()

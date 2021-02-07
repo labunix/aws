@@ -1,0 +1,48 @@
+{
+    "TrailName": "",
+    "EventSelectors": [
+        {
+            "ReadWriteType": "WriteOnly",
+            "IncludeManagementEvents": true,
+            "DataResources": [
+                {
+                    "Type": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "ExcludeManagementEventSources": [
+                ""
+            ]
+        }
+    ],
+    "AdvancedEventSelectors": [
+        {
+            "Name": "",
+            "FieldSelectors": [
+                {
+                    "Field": "",
+                    "Equals": [
+                        ""
+                    ],
+                    "StartsWith": [
+                        ""
+                    ],
+                    "EndsWith": [
+                        ""
+                    ],
+                    "NotEquals": [
+                        ""
+                    ],
+                    "NotStartsWith": [
+                        ""
+                    ],
+                    "NotEndsWith": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ]
+}

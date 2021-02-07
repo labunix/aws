@@ -1,0 +1,24 @@
+{
+    "StartTimeRange": {
+        "FromTime": "1970-01-01T00:00:00",
+        "ToTime": "1970-01-01T00:00:00"
+    },
+    "Filters": {
+        "Severities": [
+            "LOW"
+        ],
+        "Statuses": [
+            "CLOSED"
+        ],
+        "ResourceCollection": {
+            "CloudFormation": {
+                "StackNames": [
+                    ""
+                ]
+            }
+        }
+    },
+    "MaxResults": 0,
+    "NextToken": "",
+    "Type": "PROACTIVE"
+}

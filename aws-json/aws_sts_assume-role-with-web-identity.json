@@ -1,0 +1,13 @@
+{
+    "RoleArn": "",
+    "RoleSessionName": "",
+    "WebIdentityToken": "",
+    "ProviderId": "",
+    "PolicyArns": [
+        {
+            "arn": ""
+        }
+    ],
+    "Policy": "",
+    "DurationSeconds": 0
+}

@@ -1,0 +1,41 @@
+{
+    "AppId": "",
+    "BackendEnvironmentName": "",
+    "ResourceConfig": {
+        "AdditionalAuthTypes": [
+            {
+                "Mode": "AWS_IAM",
+                "Settings": {
+                    "CognitoUserPoolId": "",
+                    "Description": "",
+                    "ExpirationTime": null,
+                    "OpenIDAuthTTL": "",
+                    "OpenIDClientId": "",
+                    "OpenIDIatTTL": "",
+                    "OpenIDIssueURL": "",
+                    "OpenIDProviderName": ""
+                }
+            }
+        ],
+        "ApiName": "",
+        "ConflictResolution": {
+            "ResolutionStrategy": "NONE"
+        },
+        "DefaultAuthType": {
+            "Mode": "OPENID_CONNECT",
+            "Settings": {
+                "CognitoUserPoolId": "",
+                "Description": "",
+                "ExpirationTime": null,
+                "OpenIDAuthTTL": "",
+                "OpenIDClientId": "",
+                "OpenIDIatTTL": "",
+                "OpenIDIssueURL": "",
+                "OpenIDProviderName": ""
+            }
+        },
+        "Service": "",
+        "TransformSchema": ""
+    },
+    "ResourceName": ""
+}

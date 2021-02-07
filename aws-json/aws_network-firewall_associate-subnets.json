@@ -1,0 +1,10 @@
+{
+    "UpdateToken": "",
+    "FirewallArn": "",
+    "FirewallName": "",
+    "SubnetMappings": [
+        {
+            "SubnetId": ""
+        }
+    ]
+}

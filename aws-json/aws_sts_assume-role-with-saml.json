@@ -1,0 +1,12 @@
+{
+    "RoleArn": "",
+    "PrincipalArn": "",
+    "SAMLAssertion": "",
+    "PolicyArns": [
+        {
+            "arn": ""
+        }
+    ],
+    "Policy": "",
+    "DurationSeconds": 0
+}

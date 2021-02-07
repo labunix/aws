@@ -1,0 +1,46 @@
+{
+    "RecognizerName": "",
+    "DataAccessRoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "InputDataConfig": {
+        "DataFormat": "COMPREHEND_CSV",
+        "EntityTypes": [
+            {
+                "Type": ""
+            }
+        ],
+        "Documents": {
+            "S3Uri": ""
+        },
+        "Annotations": {
+            "S3Uri": ""
+        },
+        "EntityList": {
+            "S3Uri": ""
+        },
+        "AugmentedManifests": [
+            {
+                "S3Uri": "",
+                "AttributeNames": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "ClientRequestToken": "",
+    "LanguageCode": "hi",
+    "VolumeKmsKeyId": "",
+    "VpcConfig": {
+        "SecurityGroupIds": [
+            ""
+        ],
+        "Subnets": [
+            ""
+        ]
+    }
+}

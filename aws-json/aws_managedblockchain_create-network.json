@@ -1,0 +1,38 @@
+{
+    "ClientRequestToken": "",
+    "Name": "",
+    "Description": "",
+    "Framework": "ETHEREUM",
+    "FrameworkVersion": "",
+    "FrameworkConfiguration": {
+        "Fabric": {
+            "Edition": "STANDARD"
+        }
+    },
+    "VotingPolicy": {
+        "ApprovalThresholdPolicy": {
+            "ThresholdPercentage": 0,
+            "ProposalDurationInHours": 0,
+            "ThresholdComparator": "GREATER_THAN"
+        }
+    },
+    "MemberConfiguration": {
+        "Name": "",
+        "Description": "",
+        "FrameworkConfiguration": {
+            "Fabric": {
+                "AdminUsername": "",
+                "AdminPassword": ""
+            }
+        },
+        "LogPublishingConfiguration": {
+            "Fabric": {
+                "CaLogs": {
+                    "Cloudwatch": {
+                        "Enabled": true
+                    }
+                }
+            }
+        }
+    }
+}

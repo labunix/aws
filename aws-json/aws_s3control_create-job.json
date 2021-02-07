@@ -1,0 +1,130 @@
+{
+    "AccountId": "",
+    "ConfirmationRequired": true,
+    "Operation": {
+        "LambdaInvoke": {
+            "FunctionArn": ""
+        },
+        "S3PutObjectCopy": {
+            "TargetResource": "",
+            "CannedAccessControlList": "bucket-owner-read",
+            "AccessControlGrants": [
+                {
+                    "Grantee": {
+                        "TypeIdentifier": "emailAddress",
+                        "Identifier": "",
+                        "DisplayName": ""
+                    },
+                    "Permission": "READ"
+                }
+            ],
+            "MetadataDirective": "COPY",
+            "ModifiedSinceConstraint": "1970-01-01T00:00:00",
+            "NewObjectMetadata": {
+                "CacheControl": "",
+                "ContentDisposition": "",
+                "ContentEncoding": "",
+                "ContentLanguage": "",
+                "UserMetadata": {
+                    "KeyName": ""
+                },
+                "ContentLength": 0,
+                "ContentMD5": "",
+                "ContentType": "",
+                "HttpExpiresDate": "1970-01-01T00:00:00",
+                "RequesterCharged": true,
+                "SSEAlgorithm": "KMS"
+            },
+            "NewObjectTagging": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ],
+            "RedirectLocation": "",
+            "RequesterPays": true,
+            "StorageClass": "INTELLIGENT_TIERING",
+            "UnModifiedSinceConstraint": "1970-01-01T00:00:00",
+            "SSEAwsKmsKeyId": "",
+            "TargetKeyPrefix": "",
+            "ObjectLockLegalHoldStatus": "ON",
+            "ObjectLockMode": "COMPLIANCE",
+            "ObjectLockRetainUntilDate": "1970-01-01T00:00:00"
+        },
+        "S3PutObjectAcl": {
+            "AccessControlPolicy": {
+                "AccessControlList": {
+                    "Owner": {
+                        "ID": "",
+                        "DisplayName": ""
+                    },
+                    "Grants": [
+                        {
+                            "Grantee": {
+                                "TypeIdentifier": "id",
+                                "Identifier": "",
+                                "DisplayName": ""
+                            },
+                            "Permission": "WRITE"
+                        }
+                    ]
+                },
+                "CannedAccessControlList": "bucket-owner-read"
+            }
+        },
+        "S3PutObjectTagging": {
+            "TagSet": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        },
+        "S3InitiateRestoreObject": {
+            "ExpirationInDays": 0,
+            "GlacierJobTier": "BULK"
+        },
+        "S3PutObjectLegalHold": {
+            "LegalHold": {
+                "Status": "ON"
+            }
+        },
+        "S3PutObjectRetention": {
+            "BypassGovernanceRetention": true,
+            "Retention": {
+                "RetainUntilDate": "1970-01-01T00:00:00",
+                "Mode": "COMPLIANCE"
+            }
+        }
+    },
+    "Report": {
+        "Bucket": "",
+        "Format": "Report_CSV_20180820",
+        "Enabled": true,
+        "Prefix": "",
+        "ReportScope": "FailedTasksOnly"
+    },
+    "ClientRequestToken": "",
+    "Manifest": {
+        "Spec": {
+            "Format": "S3BatchOperations_CSV_20180820",
+            "Fields": [
+                "Key"
+            ]
+        },
+        "Location": {
+            "ObjectArn": "",
+            "ObjectVersionId": "",
+            "ETag": ""
+        }
+    },
+    "Description": "",
+    "Priority": 0,
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

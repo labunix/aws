@@ -1,0 +1,19 @@
+{
+    "checkName": "",
+    "resourceIdentifier": {
+        "deviceCertificateId": "",
+        "caCertificateId": "",
+        "cognitoIdentityPoolId": "",
+        "clientId": "",
+        "policyVersionIdentifier": {
+            "policyName": "",
+            "policyVersionId": ""
+        },
+        "account": "",
+        "iamRoleArn": "",
+        "roleAliasArn": ""
+    },
+    "ascendingOrder": true,
+    "nextToken": "",
+    "maxResults": 0
+}

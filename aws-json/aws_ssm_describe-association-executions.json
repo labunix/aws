@@ -1,0 +1,12 @@
+{
+    "AssociationId": "",
+    "Filters": [
+        {
+            "Key": "Status",
+            "Value": "",
+            "Type": "EQUAL"
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

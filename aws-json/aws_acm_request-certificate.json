@@ -1,0 +1,24 @@
+{
+    "DomainName": "",
+    "ValidationMethod": "DNS",
+    "SubjectAlternativeNames": [
+        ""
+    ],
+    "IdempotencyToken": "",
+    "DomainValidationOptions": [
+        {
+            "DomainName": "",
+            "ValidationDomain": ""
+        }
+    ],
+    "Options": {
+        "CertificateTransparencyLoggingPreference": "DISABLED"
+    },
+    "CertificateAuthorityArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

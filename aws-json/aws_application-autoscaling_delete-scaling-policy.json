@@ -1,0 +1,6 @@
+{
+    "PolicyName": "",
+    "ServiceNamespace": "custom-resource",
+    "ResourceId": "",
+    "ScalableDimension": "ec2:spot-fleet-request:TargetCapacity"
+}

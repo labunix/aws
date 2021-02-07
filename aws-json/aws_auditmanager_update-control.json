@@ -1,0 +1,23 @@
+{
+    "controlId": "",
+    "name": "",
+    "description": "",
+    "testingInformation": "",
+    "actionPlanTitle": "",
+    "actionPlanInstructions": "",
+    "controlMappingSources": [
+        {
+            "sourceId": "",
+            "sourceName": "",
+            "sourceDescription": "",
+            "sourceSetUpOption": "Procedural_Controls_Mapping",
+            "sourceType": "AWS_Security_Hub",
+            "sourceKeyword": {
+                "keywordInputType": "SELECT_FROM_LIST",
+                "keywordValue": ""
+            },
+            "sourceFrequency": "WEEKLY",
+            "troubleshootingText": ""
+        }
+    ]
+}

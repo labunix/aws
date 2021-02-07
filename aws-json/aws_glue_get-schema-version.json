@@ -1,0 +1,12 @@
+{
+    "SchemaId": {
+        "SchemaArn": "",
+        "SchemaName": "",
+        "RegistryName": ""
+    },
+    "SchemaVersionId": "",
+    "SchemaVersionNumber": {
+        "LatestVersion": true,
+        "VersionNumber": 0
+    }
+}

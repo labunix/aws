@@ -1,0 +1,35 @@
+SAGEMAKER-FEATURESTORE-RUNTIME()              SAGEMAKER-FEATURESTORE-RUNTIME()
+
+
+
+NNAAMMEE
+       sagemaker-featurestore-runtime -
+
+DDEESSCCRRIIPPTTIIOONN
+       Contains  all  data  plane API operations and data types for the Amazon
+       SageMaker Feature Store. Use this API  to  put,  delete,  and  retrieve
+       (get) features from a feature store.
+
+       Use the following operations to configure your OOnnlliinneeSSttoorree and OOfffflliinnee--
+       SSttoorree features, and to create and manage feature groups:
+
+       +o _C_r_e_a_t_e_F_e_a_t_u_r_e_G_r_o_u_p
+
+       +o _D_e_l_e_t_e_F_e_a_t_u_r_e_G_r_o_u_p
+
+       +o _D_e_s_c_r_i_b_e_F_e_a_t_u_r_e_G_r_o_u_p
+
+       +o _L_i_s_t_F_e_a_t_u_r_e_G_r_o_u_p_s
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o delete-record
+
+       +o get-record
+
+       +o help
+
+       +o put-record
+
+
+
+                                              SAGEMAKER-FEATURESTORE-RUNTIME()

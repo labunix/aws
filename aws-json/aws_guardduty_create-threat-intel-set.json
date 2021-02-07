@@ -1,0 +1,11 @@
+{
+    "DetectorId": "",
+    "Name": "",
+    "Format": "STIX",
+    "Location": "",
+    "Activate": true,
+    "ClientToken": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

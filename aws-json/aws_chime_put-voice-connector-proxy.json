@@ -1,0 +1,9 @@
+{
+    "VoiceConnectorId": "",
+    "DefaultSessionExpiryMinutes": 0,
+    "PhoneNumberPoolCountries": [
+        ""
+    ],
+    "FallBackPhoneNumber": "",
+    "Disabled": true
+}

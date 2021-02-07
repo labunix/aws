@@ -1,0 +1,11 @@
+{
+    "DetectorId": "",
+    "AccountIds": [
+        ""
+    ],
+    "DataSources": {
+        "S3Logs": {
+            "Enable": true
+        }
+    }
+}

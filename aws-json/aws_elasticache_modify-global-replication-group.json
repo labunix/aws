@@ -1,0 +1,8 @@
+{
+    "GlobalReplicationGroupId": "",
+    "ApplyImmediately": true,
+    "CacheNodeType": "",
+    "EngineVersion": "",
+    "GlobalReplicationGroupDescription": "",
+    "AutomaticFailoverEnabled": true
+}

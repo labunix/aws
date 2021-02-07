@@ -1,0 +1,15 @@
+{
+    "application": "",
+    "sources": [
+        {
+            "s3Bucket": "",
+            "s3Key": "",
+            "architecture": "X86_64"
+        }
+    ],
+    "robotSoftwareSuite": {
+        "name": "ROS2",
+        "version": "Dashing"
+    },
+    "currentRevisionId": ""
+}

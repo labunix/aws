@@ -1,0 +1,24 @@
+{
+    "Bucket": "",
+    "Id": "",
+    "MetricsConfiguration": {
+        "Id": "",
+        "Filter": {
+            "Prefix": "",
+            "Tag": {
+                "Key": "",
+                "Value": ""
+            },
+            "And": {
+                "Prefix": "",
+                "Tags": [
+                    {
+                        "Key": "",
+                        "Value": ""
+                    }
+                ]
+            }
+        }
+    },
+    "ExpectedBucketOwner": ""
+}

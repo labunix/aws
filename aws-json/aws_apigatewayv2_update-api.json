@@ -1,0 +1,29 @@
+{
+    "ApiId": "",
+    "ApiKeySelectionExpression": "",
+    "CorsConfiguration": {
+        "AllowCredentials": true,
+        "AllowHeaders": [
+            ""
+        ],
+        "AllowMethods": [
+            ""
+        ],
+        "AllowOrigins": [
+            ""
+        ],
+        "ExposeHeaders": [
+            ""
+        ],
+        "MaxAge": 0
+    },
+    "CredentialsArn": "",
+    "Description": "",
+    "DisableSchemaValidation": true,
+    "DisableExecuteApiEndpoint": true,
+    "Name": "",
+    "RouteKey": "",
+    "RouteSelectionExpression": "",
+    "Target": "",
+    "Version": ""
+}

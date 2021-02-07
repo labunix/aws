@@ -1,0 +1,195 @@
+WAF-REGIONAL()                                                  WAF-REGIONAL()
+
+
+
+NNAAMMEE
+       waf-regional -
+
+DDEESSCCRRIIPPTTIIOONN
+       NNOOTTEE::
+          This  is  AAWWSS  WWAAFF CCllaassssiicc RReeggiioonnaall documentation. For more informa-
+          tion, see _A_W_S _W_A_F _C_l_a_s_s_i_c in the developer guide.
+              FFoorr tthhee llaatteesstt vveerrssiioonn ooff AAWWSS WWAAFF , use the AWS  WAFV2  API  and
+              see  the  _A_W_S _W_A_F _D_e_v_e_l_o_p_e_r _G_u_i_d_e . With the latest version, AWS
+              WAF has a single set of endpoints for regional and global use.
+
+       This is the _A_W_S _W_A_F _R_e_g_i_o_n_a_l _C_l_a_s_s_i_c _A_P_I _R_e_f_e_r_e_n_c_e for  using  AWS  WAF
+       Classic  with  the AWS resources, Elastic Load Balancing (ELB) Applica-
+       tion Load Balancers and API Gateway APIs. The AWS WAF  Classic  actions
+       and  data  types  listed  in the reference are available for protecting
+       Elastic Load Balancing (ELB) Application Load Balancers and API Gateway
+       APIs.  You  can  use  these actions and data types by means of the end-
+       points listed in _A_W_S _R_e_g_i_o_n_s _a_n_d _E_n_d_p_o_i_n_t_s . This guide is for develop-
+       ers  who  need  detailed  information about the AWS WAF Classic API ac-
+       tions, data types, and errors. For detailed information about  AWS  WAF
+       Classic features and an overview of how to use the AWS WAF Classic API,
+       see the _A_W_S _W_A_F _C_l_a_s_s_i_c in the developer guide.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-web-acl
+
+       +o create-byte-match-set
+
+       +o create-geo-match-set
+
+       +o create-ip-set
+
+       +o create-rate-based-rule
+
+       +o create-regex-match-set
+
+       +o create-regex-pattern-set
+
+       +o create-rule
+
+       +o create-rule-group
+
+       +o create-size-constraint-set
+
+       +o create-sql-injection-match-set
+
+       +o create-web-acl
+
+       +o create-web-acl-migration-stack
+
+       +o create-xss-match-set
+
+       +o delete-byte-match-set
+
+       +o delete-geo-match-set
+
+       +o delete-ip-set
+
+       +o delete-logging-configuration
+
+       +o delete-permission-policy
+
+       +o delete-rate-based-rule
+
+       +o delete-regex-match-set
+
+       +o delete-regex-pattern-set
+
+       +o delete-rule
+
+       +o delete-rule-group
+
+       +o delete-size-constraint-set
+
+       +o delete-sql-injection-match-set
+
+       +o delete-web-acl
+
+       +o delete-xss-match-set
+
+       +o disassociate-web-acl
+
+       +o get-byte-match-set
+
+       +o get-change-token
+
+       +o get-change-token-status
+
+       +o get-geo-match-set
+
+       +o get-ip-set
+
+       +o get-logging-configuration
+
+       +o get-permission-policy
+
+       +o get-rate-based-rule
+
+       +o get-rate-based-rule-managed-keys
+
+       +o get-regex-match-set
+
+       +o get-regex-pattern-set
+
+       +o get-rule
+
+       +o get-rule-group
+
+       +o get-sampled-requests
+
+       +o get-size-constraint-set
+
+       +o get-sql-injection-match-set
+
+       +o get-web-acl
+
+       +o get-web-acl-for-resource
+
+       +o get-xss-match-set
+
+       +o help
+
+       +o list-activated-rules-in-rule-group
+
+       +o list-byte-match-sets
+
+       +o list-geo-match-sets
+
+       +o list-ip-sets
+
+       +o list-logging-configurations
+
+       +o list-rate-based-rules
+
+       +o list-regex-match-sets
+
+       +o list-regex-pattern-sets
+
+       +o list-resources-for-web-acl
+
+       +o list-rule-groups
+
+       +o list-rules
+
+       +o list-size-constraint-sets
+
+       +o list-sql-injection-match-sets
+
+       +o list-subscribed-rule-groups
+
+       +o list-tags-for-resource
+
+       +o list-web-acls
+
+       +o list-xss-match-sets
+
+       +o put-logging-configuration
+
+       +o put-permission-policy
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-byte-match-set
+
+       +o update-geo-match-set
+
+       +o update-ip-set
+
+       +o update-rate-based-rule
+
+       +o update-regex-match-set
+
+       +o update-regex-pattern-set
+
+       +o update-rule
+
+       +o update-rule-group
+
+       +o update-size-constraint-set
+
+       +o update-sql-injection-match-set
+
+       +o update-web-acl
+
+       +o update-xss-match-set
+
+
+
+                                                                WAF-REGIONAL()

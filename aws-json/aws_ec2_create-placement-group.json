@@ -1,0 +1,17 @@
+{
+    "DryRun": true,
+    "GroupName": "",
+    "Strategy": "spread",
+    "PartitionCount": 0,
+    "TagSpecifications": [
+        {
+            "ResourceType": "elastic-gpu",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

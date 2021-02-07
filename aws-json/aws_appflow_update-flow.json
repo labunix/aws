@@ -1,0 +1,174 @@
+{
+    "flowName": "",
+    "description": "",
+    "triggerConfig": {
+        "triggerType": "Scheduled",
+        "triggerProperties": {
+            "Scheduled": {
+                "scheduleExpression": "",
+                "dataPullMode": "Incremental",
+                "scheduleStartTime": "1970-01-01T00:00:00",
+                "scheduleEndTime": "1970-01-01T00:00:00",
+                "timezone": ""
+            }
+        }
+    },
+    "sourceFlowConfig": {
+        "connectorType": "Snowflake",
+        "connectorProfileName": "",
+        "sourceConnectorProperties": {
+            "Amplitude": {
+                "object": ""
+            },
+            "Datadog": {
+                "object": ""
+            },
+            "Dynatrace": {
+                "object": ""
+            },
+            "GoogleAnalytics": {
+                "object": ""
+            },
+            "InforNexus": {
+                "object": ""
+            },
+            "Marketo": {
+                "object": ""
+            },
+            "S3": {
+                "bucketName": "",
+                "bucketPrefix": ""
+            },
+            "Salesforce": {
+                "object": "",
+                "enableDynamicFieldUpdate": true,
+                "includeDeletedRecords": true
+            },
+            "ServiceNow": {
+                "object": ""
+            },
+            "Singular": {
+                "object": ""
+            },
+            "Slack": {
+                "object": ""
+            },
+            "Trendmicro": {
+                "object": ""
+            },
+            "Veeva": {
+                "object": ""
+            },
+            "Zendesk": {
+                "object": ""
+            }
+        },
+        "incrementalPullConfig": {
+            "datetimeTypeFieldName": ""
+        }
+    },
+    "destinationFlowConfigList": [
+        {
+            "connectorType": "Zendesk",
+            "connectorProfileName": "",
+            "destinationConnectorProperties": {
+                "Redshift": {
+                    "object": "",
+                    "intermediateBucketName": "",
+                    "bucketPrefix": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "S3": {
+                    "bucketName": "",
+                    "bucketPrefix": "",
+                    "s3OutputFormatConfig": {
+                        "fileType": "PARQUET",
+                        "prefixConfig": {
+                            "prefixType": "PATH",
+                            "prefixFormat": "DAY"
+                        },
+                        "aggregationConfig": {
+                            "aggregationType": "None"
+                        }
+                    }
+                },
+                "Salesforce": {
+                    "object": "",
+                    "idFieldNames": [
+                        ""
+                    ],
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    },
+                    "writeOperationType": "INSERT"
+                },
+                "Snowflake": {
+                    "object": "",
+                    "intermediateBucketName": "",
+                    "bucketPrefix": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "EventBridge": {
+                    "object": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "Upsolver": {
+                    "bucketName": "",
+                    "bucketPrefix": "",
+                    "s3OutputFormatConfig": {
+                        "fileType": "JSON",
+                        "prefixConfig": {
+                            "prefixType": "PATH_AND_FILENAME",
+                            "prefixFormat": "HOUR"
+                        },
+                        "aggregationConfig": {
+                            "aggregationType": "None"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "sourceFields": [
+                ""
+            ],
+            "connectorOperator": {
+                "Amplitude": "BETWEEN",
+                "Datadog": "PROJECTION",
+                "Dynatrace": "MASK_LAST_N",
+                "GoogleAnalytics": "BETWEEN",
+                "InforNexus": "VALIDATE_NUMERIC",
+                "Marketo": "VALIDATE_NON_NULL",
+                "S3": "MASK_FIRST_N",
+                "Salesforce": "LESS_THAN_OR_EQUAL_TO",
+                "ServiceNow": "ADDITION",
+                "Singular": "VALIDATE_NUMERIC",
+                "Slack": "VALIDATE_NON_ZERO",
+                "Trendmicro": "MULTIPLICATION",
+                "Veeva": "BETWEEN",
+                "Zendesk": "NO_OP"
+            },
+            "destinationField": "",
+            "taskType": "Filter",
+            "taskProperties": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

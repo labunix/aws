@@ -1,0 +1,9 @@
+{
+    "cluster": "",
+    "containerInstances": [
+        ""
+    ],
+    "include": [
+        "TAGS"
+    ]
+}

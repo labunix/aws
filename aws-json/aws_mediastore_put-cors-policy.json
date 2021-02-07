@@ -1,0 +1,20 @@
+{
+    "ContainerName": "",
+    "CorsPolicy": [
+        {
+            "AllowedOrigins": [
+                ""
+            ],
+            "AllowedMethods": [
+                "DELETE"
+            ],
+            "AllowedHeaders": [
+                ""
+            ],
+            "MaxAgeSeconds": 0,
+            "ExposeHeaders": [
+                ""
+            ]
+        }
+    ]
+}

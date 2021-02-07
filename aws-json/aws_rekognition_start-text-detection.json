@@ -1,0 +1,32 @@
+{
+    "Video": {
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "ClientRequestToken": "",
+    "NotificationChannel": {
+        "SNSTopicArn": "",
+        "RoleArn": ""
+    },
+    "JobTag": "",
+    "Filters": {
+        "WordFilter": {
+            "MinConfidence": 0.0,
+            "MinBoundingBoxHeight": 0.0,
+            "MinBoundingBoxWidth": 0.0
+        },
+        "RegionsOfInterest": [
+            {
+                "BoundingBox": {
+                    "Width": 0.0,
+                    "Height": 0.0,
+                    "Left": 0.0,
+                    "Top": 0.0
+                }
+            }
+        ]
+    }
+}

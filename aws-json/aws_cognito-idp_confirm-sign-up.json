@@ -1,0 +1,16 @@
+{
+    "ClientId": "",
+    "SecretHash": "",
+    "Username": "",
+    "ConfirmationCode": "",
+    "ForceAliasCreation": true,
+    "AnalyticsMetadata": {
+        "AnalyticsEndpointId": ""
+    },
+    "UserContextData": {
+        "EncodedData": ""
+    },
+    "ClientMetadata": {
+        "KeyName": ""
+    }
+}

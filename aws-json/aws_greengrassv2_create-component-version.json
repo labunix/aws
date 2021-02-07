@@ -1,0 +1,68 @@
+{
+    "inlineRecipe": null,
+    "lambdaFunction": {
+        "lambdaArn": "",
+        "componentName": "",
+        "componentVersion": "",
+        "componentPlatforms": [
+            {
+                "name": "",
+                "attributes": {
+                    "KeyName": ""
+                }
+            }
+        ],
+        "componentDependencies": {
+            "KeyName": {
+                "versionRequirement": "",
+                "dependencyType": "HARD"
+            }
+        },
+        "componentLambdaParameters": {
+            "eventSources": [
+                {
+                    "topic": "",
+                    "type": "IOT_CORE"
+                }
+            ],
+            "maxQueueSize": 0,
+            "maxInstancesCount": 0,
+            "maxIdleTimeInSeconds": 0,
+            "timeoutInSeconds": 0,
+            "statusTimeoutInSeconds": 0,
+            "pinned": true,
+            "inputPayloadEncodingType": "json",
+            "execArgs": [
+                ""
+            ],
+            "environmentVariables": {
+                "KeyName": ""
+            },
+            "linuxProcessParams": {
+                "isolationMode": "GreengrassContainer",
+                "containerParams": {
+                    "memorySizeInKB": 0,
+                    "mountROSysfs": true,
+                    "volumes": [
+                        {
+                            "sourcePath": "",
+                            "destinationPath": "",
+                            "permission": "rw",
+                            "addGroupOwner": true
+                        }
+                    ],
+                    "devices": [
+                        {
+                            "path": "",
+                            "permission": "ro",
+                            "addGroupOwner": true
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

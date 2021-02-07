@@ -1,0 +1,81 @@
+CLOUD9()                                                              CLOUD9()
+
+
+
+NNAAMMEE
+       cloud9 -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Cloud9  is  a collection of tools that you can use to code, build,
+       run, test, debug, and release software in the cloud.
+
+       For more information about AWS Cloud9, see the _A_W_S _C_l_o_u_d_9 _U_s_e_r _G_u_i_d_e .
+
+       AWS Cloud9 supports these operations:
+
+       +o CCrreeaatteeEEnnvviirroonnmmeennttEECC22 : Creates an AWS Cloud9 development environment,
+         launches  an Amazon EC2 instance, and then connects from the instance
+         to the environment.
+
+       +o CCrreeaatteeEEnnvviirroonnmmeennttMMeemmbbeerrsshhiipp : Adds an environment member to an  envi-
+         ronment.
+
+       +o DDeelleetteeEEnnvviirroonnmmeenntt : Deletes an environment. If an Amazon EC2 instance
+         is connected to the environment, also terminates the instance.
+
+       +o DDeelleetteeEEnnvviirroonnmmeennttMMeemmbbeerrsshhiipp : Deletes an environment member  from  an
+         environment.
+
+       +o DDeessccrriibbeeEEnnvviirroonnmmeennttMMeemmbbeerrsshhiippss  :  Gets information about environment
+         members for an environment.
+
+       +o DDeessccrriibbeeEEnnvviirroonnmmeennttss : Gets information about environments.
+
+       +o DDeessccrriibbeeEEnnvviirroonnmmeennttSSttaattuuss : Gets status information for  an  environ-
+         ment.
+
+       +o LLiissttEEnnvviirroonnmmeennttss : Gets a list of environment identifiers.
+
+       +o LLiissttTTaaggssFFoorrRReessoouurrccee : Gets the tags for an environment.
+
+       +o TTaaggRReessoouurrccee : Adds tags to an environment.
+
+       +o UUnnttaaggRReessoouurrccee : Removes tags from an environment.
+
+       +o UUppddaatteeEEnnvviirroonnmmeenntt : Changes the settings of an existing environment.
+
+       +o UUppddaatteeEEnnvviirroonnmmeennttMMeemmbbeerrsshhiipp : Changes the settings of an existing en-
+         vironment member for an environment.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-environment-ec2
+
+       +o create-environment-membership
+
+       +o delete-environment
+
+       +o delete-environment-membership
+
+       +o describe-environment-memberships
+
+       +o describe-environment-status
+
+       +o describe-environments
+
+       +o help
+
+       +o list-environments
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-environment
+
+       +o update-environment-membership
+
+
+
+                                                                      CLOUD9()

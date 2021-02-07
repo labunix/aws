@@ -1,0 +1,15 @@
+{
+    "imageRecipeArn": "",
+    "containerRecipeArn": "",
+    "distributionConfigurationArn": "",
+    "infrastructureConfigurationArn": "",
+    "imageTestsConfiguration": {
+        "imageTestsEnabled": true,
+        "timeoutMinutes": 0
+    },
+    "enhancedImageMetadataEnabled": true,
+    "tags": {
+        "KeyName": ""
+    },
+    "clientToken": ""
+}

@@ -1,0 +1,26 @@
+{
+    "ChannelClass": "SINGLE_PIPELINE",
+    "ChannelId": "",
+    "Destinations": [
+        {
+            "Id": "",
+            "MediaPackageSettings": [
+                {
+                    "ChannelId": ""
+                }
+            ],
+            "MultiplexSettings": {
+                "MultiplexId": "",
+                "ProgramName": ""
+            },
+            "Settings": [
+                {
+                    "PasswordParam": "",
+                    "StreamName": "",
+                    "Url": "",
+                    "Username": ""
+                }
+            ]
+        }
+    ]
+}

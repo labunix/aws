@@ -1,0 +1,20 @@
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument operation: Invalid choice, valid choices are:
+
+create-dataset                           | create-model                            
+create-project                           | delete-dataset                          
+delete-model                             | delete-project                          
+describe-dataset                         | describe-model                          
+describe-project                         | detect-anomalies                        
+list-dataset-entries                     | list-models                             
+list-projects                            | start-model                             
+stop-model                               | update-dataset-entries                  
+help                                    
+

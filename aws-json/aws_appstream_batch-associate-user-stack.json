@@ -1,0 +1,10 @@
+{
+    "UserStackAssociations": [
+        {
+            "StackName": "",
+            "UserName": "",
+            "AuthenticationType": "USERPOOL",
+            "SendEmailNotification": true
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "RuleGroupId": "",
+    "Updates": [
+        {
+            "Action": "INSERT",
+            "ActivatedRule": {
+                "Priority": 0,
+                "RuleId": "",
+                "Action": {
+                    "Type": "BLOCK"
+                },
+                "OverrideAction": {
+                    "Type": "NONE"
+                },
+                "Type": "RATE_BASED",
+                "ExcludedRules": [
+                    {
+                        "RuleId": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "ChangeToken": ""
+}

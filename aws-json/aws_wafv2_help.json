@@ -1,0 +1,160 @@
+WAFV2()                                                                WAFV2()
+
+
+
+NNAAMMEE
+       wafv2 -
+
+DDEESSCCRRIIPPTTIIOONN
+       NNOOTTEE::
+          This is the latest version of the AAWWSS WWAAFF API, released in November,
+          2019. The names of the entities that you use  to  access  this  API,
+          like  endpoints  and namespaces, all have the versioning information
+          added, like "V2" or "v2", to distinguish from the prior version.  We
+          recommend migrating your resources to this version, because it has a
+          number of significant improvements.
+
+          If you used AWS WAF prior to this release, you can't  use  this  AWS
+          WAFV2  API  to access any AWS WAF resources that you created before.
+          You can access your old rules, web ACLs, and other AWS WAF resources
+          only through the AWS WAF Classic APIs. The AWS WAF Classic APIs have
+          retained the prior names, endpoints, and namespaces.
+
+          For information, including how to migrate your AWS WAF resources  to
+          this version, see the _A_W_S _W_A_F _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+       AWS  WAF  is  a web application firewall that lets you monitor the HTTP
+       and HTTPS requests that are forwarded to Amazon CloudFront,  an  Amazon
+       API  Gateway  REST API, an Application Load Balancer, or an AWS AppSync
+       GraphQL API. AWS WAF also lets you  control  access  to  your  content.
+       Based on conditions that you specify, such as the IP addresses that re-
+       quests originate from or the values of query strings, the  API  Gateway
+       REST  API,  CloudFront  distribution, the Application Load Balancer, or
+       the AWS AppSync GraphQL API responds to requests either  with  the  re-
+       quested  content  or with an HTTP 403 status code (Forbidden). You also
+       can configure CloudFront to return a custom error page when  a  request
+       is blocked.
+
+       This  API  guide  is for developers who need detailed information about
+       AWS WAF API actions, data types, and errors. For  detailed  information
+       about  AWS  WAF features and an overview of how to use AWS WAF, see the
+       _A_W_S _W_A_F _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+       You can make calls using the endpoints listed in _A_W_S _S_e_r_v_i_c_e  _E_n_d_p_o_i_n_t_s
+       _f_o_r _A_W_S _W_A_F .
+
+       +o For  regional  applications,  you can use any of the endpoints in the
+         list. A regional application can  be  an  Application  Load  Balancer
+         (ALB), an API Gateway REST API, or an AppSync GraphQL API.
+
+       +o For AWS CloudFront applications, you must use the API endpoint listed
+         for US East (N. Virginia): us-east-1.
+
+       Alternatively, you can use one of the AWS SDKs to access an API  that's
+       tailored to the programming language or platform that you're using. For
+       more information, see _A_W_S _S_D_K_s .
+
+       We currently provide two versions of the AWS WAF API: this API and  the
+       prior  versions,  the  classic  AWS WAF APIs. This new API provides the
+       same functionality as the older versions, with the following major  im-
+       provements:
+
+       +o You  use one API for both global and regional applications. Where you
+         need to distinguish the scope, you specify a SSccooppee parameter and  set
+         it to CCLLOOUUDDFFRROONNTT or RREEGGIIOONNAALL .
+
+       +o You can define a Web ACL or rule group with a single call, and update
+         it with a single call. You define all  rule  specifications  in  JSON
+         format, and pass them to your rule group or Web ACL calls.
+
+       +o The  limits  AWS WAF places on the use of rules more closely reflects
+         the cost of running each type of rule. Rule groups  include  capacity
+         settings,  so  you know the maximum cost of a rule group when you use
+         it.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-web-acl
+
+       +o check-capacity
+
+       +o create-ip-set
+
+       +o create-regex-pattern-set
+
+       +o create-rule-group
+
+       +o create-web-acl
+
+       +o delete-firewall-manager-rule-groups
+
+       +o delete-ip-set
+
+       +o delete-logging-configuration
+
+       +o delete-permission-policy
+
+       +o delete-regex-pattern-set
+
+       +o delete-rule-group
+
+       +o delete-web-acl
+
+       +o describe-managed-rule-group
+
+       +o disassociate-web-acl
+
+       +o get-ip-set
+
+       +o get-logging-configuration
+
+       +o get-permission-policy
+
+       +o get-rate-based-statement-managed-keys
+
+       +o get-regex-pattern-set
+
+       +o get-rule-group
+
+       +o get-sampled-requests
+
+       +o get-web-acl
+
+       +o get-web-acl-for-resource
+
+       +o help
+
+       +o list-available-managed-rule-groups
+
+       +o list-ip-sets
+
+       +o list-logging-configurations
+
+       +o list-regex-pattern-sets
+
+       +o list-resources-for-web-acl
+
+       +o list-rule-groups
+
+       +o list-tags-for-resource
+
+       +o list-web-acls
+
+       +o put-logging-configuration
+
+       +o put-permission-policy
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-ip-set
+
+       +o update-regex-pattern-set
+
+       +o update-rule-group
+
+       +o update-web-acl
+
+
+
+                                                                       WAFV2()

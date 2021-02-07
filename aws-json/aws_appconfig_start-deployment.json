@@ -1,0 +1,11 @@
+{
+    "ApplicationId": "",
+    "EnvironmentId": "",
+    "DeploymentStrategyId": "",
+    "ConfigurationProfileId": "",
+    "ConfigurationVersion": "",
+    "Description": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

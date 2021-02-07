@@ -1,0 +1,335 @@
+RESOURCEGROUPSTAGGINGAPI()                          RESOURCEGROUPSTAGGINGAPI()
+
+
+
+NNAAMMEE
+       resourcegroupstaggingapi -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  guide  describes  the API operations for the resource groups tag-
+       ging.
+
+       A tag is a label that you assign to an AWS resource. A tag consists  of
+       a  key  and a value, both of which you define. For example, if you have
+       two Amazon EC2 instances, you might assign both a tag key  of  "Stack."
+       But  the  value  of "Stack" might be "Testing" for one and "Production"
+       for the other.
+
+       WWAARRNNIINNGG::
+          Do not store personally identifiable information (PII) or other con-
+          fidential  or  sensitive information in tags. We use tags to provide
+          you with billing and administration services. Tags are not  intended
+          to be used for private or sensitive data.
+
+       Tagging  can  help  you organize your resources and enables you to sim-
+       plify resource management, access management and cost allocation.
+
+       You can use the resource groups tagging API operations to complete  the
+       following tasks:
+
+       +o Tag and untag supported resources located in the specified Region for
+         the AWS account.
+
+       +o Use tag-based filters to search for resources located in  the  speci-
+         fied Region for the AWS account.
+
+       +o List  all  existing  tag keys in the specified Region for the AWS ac-
+         count.
+
+       +o List all existing values for the specified key in the  specified  Re-
+         gion for the AWS account.
+
+       To use resource groups tagging API operations, you must add the follow-
+       ing permissions to your IAM policy:
+
+       +o ttaagg::GGeettRReessoouurrcceess
+
+       +o ttaagg::TTaaggRReessoouurrcceess
+
+       +o ttaagg::UUnnttaaggRReessoouurrcceess
+
+       +o ttaagg::GGeettTTaaggKKeeyyss
+
+       +o ttaagg::GGeettTTaaggVVaalluueess
+
+       You'll also need permissions to access the resources of individual ser-
+       vices so that you can tag and untag those resources.
+
+       For  more information on IAM policies, see _M_a_n_a_g_i_n_g _I_A_M _P_o_l_i_c_i_e_s in the
+       _I_A_M _U_s_e_r _G_u_i_d_e .
+
+          +o SSeerrvviicceess tthhaatt ssuuppppoorrtt tthhee RReessoouurrccee GGrroouuppss TTaaggggiinngg AAPPII *
+
+       You can use the Resource Groups Tagging API to tag  resources  for  the
+       following AWS services.
+
+       +o _A_l_e_x_a _f_o_r _B_u_s_i_n_e_s_s _(_a_4_b_)
+
+       +o _A_P_I _G_a_t_e_w_a_y
+
+       +o _A_m_a_z_o_n _A_p_p_S_t_r_e_a_m
+
+       +o _A_W_S _A_p_p_S_y_n_c
+
+       +o _A_W_S _A_p_p _M_e_s_h
+
+       +o _A_m_a_z_o_n _A_t_h_e_n_a
+
+       +o _A_m_a_z_o_n _A_u_r_o_r_a
+
+       +o _A_W_S _B_a_c_k_u_p
+
+       +o _A_W_S _C_e_r_t_i_f_i_c_a_t_e _M_a_n_a_g_e_r
+
+       +o _A_W_S _C_e_r_t_i_f_i_c_a_t_e _M_a_n_a_g_e_r _P_r_i_v_a_t_e _C_A
+
+       +o _A_m_a_z_o_n _C_l_o_u_d _D_i_r_e_c_t_o_r_y
+
+       +o _A_W_S _C_l_o_u_d _M_a_p
+
+       +o _A_W_S _C_l_o_u_d_F_o_r_m_a_t_i_o_n
+
+       +o _A_m_a_z_o_n _C_l_o_u_d_F_r_o_n_t
+
+       +o _A_W_S _C_l_o_u_d_H_S_M
+
+       +o _A_W_S _C_l_o_u_d_T_r_a_i_l
+
+       +o _A_m_a_z_o_n _C_l_o_u_d_W_a_t_c_h _(_a_l_a_r_m_s _o_n_l_y_)
+
+       +o _A_m_a_z_o_n _C_l_o_u_d_W_a_t_c_h _E_v_e_n_t_s
+
+       +o _A_m_a_z_o_n _C_l_o_u_d_W_a_t_c_h _L_o_g_s
+
+       +o _A_m_a_z_o_n _C_l_o_u_d_w_a_t_c_h _S_y_n_t_h_e_t_i_c_s
+
+       +o _A_W_S _C_o_d_e_B_u_i_l_d
+
+       +o _A_W_S _C_o_d_e_C_o_m_m_i_t
+
+       +o _A_W_S _C_o_d_e_G_u_r_u _P_r_o_f_i_l_e_r
+
+       +o _A_W_S _C_o_d_e_P_i_p_e_l_i_n_e
+
+       +o _A_W_S _C_o_d_e_S_t_a_r
+
+       +o _A_W_S _C_o_d_e_S_t_a_r _C_o_n_n_e_c_t_i_o_n_s
+
+       +o _A_m_a_z_o_n _C_o_g_n_i_t_o _I_d_e_n_t_i_t_y
+
+       +o _A_m_a_z_o_n _C_o_g_n_i_t_o _U_s_e_r _P_o_o_l_s
+
+       +o _A_m_a_z_o_n _C_o_m_p_r_e_h_e_n_d
+
+       +o _A_W_S _C_o_n_f_i_g
+
+       +o _A_m_a_z_o_n _C_o_n_n_e_c_t
+
+       +o _A_W_S _D_a_t_a _E_x_c_h_a_n_g_e
+
+       +o _A_W_S _D_a_t_a _P_i_p_e_l_i_n_e
+
+       +o _A_W_S _D_a_t_a_b_a_s_e _M_i_g_r_a_t_i_o_n _S_e_r_v_i_c_e
+
+       +o _A_W_S _D_a_t_a_S_y_n_c
+
+       +o _A_W_S _D_e_v_i_c_e _F_a_r_m
+
+       +o _A_W_S _D_i_r_e_c_t _C_o_n_n_e_c_t
+
+       +o _A_W_S _D_i_r_e_c_t_o_r_y _S_e_r_v_i_c_e
+
+       +o _A_m_a_z_o_n _D_y_n_a_m_o_D_B
+
+       +o _A_m_a_z_o_n _E_B_S
+
+       +o _A_m_a_z_o_n _E_C_2
+
+       +o _E_C_2 _I_m_a_g_e _B_u_i_l_d_e_r
+
+       +o _A_m_a_z_o_n _E_C_R
+
+       +o _A_m_a_z_o_n _E_C_S
+
+       +o _A_m_a_z_o_n _E_K_S
+
+       +o _A_W_S _E_l_a_s_t_i_c _B_e_a_n_s_t_a_l_k
+
+       +o _A_m_a_z_o_n _E_l_a_s_t_i_c _F_i_l_e _S_y_s_t_e_m
+
+       +o _E_l_a_s_t_i_c _L_o_a_d _B_a_l_a_n_c_i_n_g
+
+       +o _A_m_a_z_o_n _E_l_a_s_t_i_c _I_n_f_e_r_e_n_c_e
+
+       +o _A_m_a_z_o_n _E_l_a_s_t_i_C_a_c_h_e
+
+       +o _A_m_a_z_o_n _E_l_a_s_t_i_c_s_e_a_r_c_h _S_e_r_v_i_c_e
+
+       +o _A_W_S _E_l_e_m_e_n_t_a_l _M_e_d_i_a_L_i_v_e
+
+       +o _A_W_S _E_l_e_m_e_n_t_a_l _M_e_d_i_a_P_a_c_k_a_g_e
+
+       +o _A_W_S _E_l_e_m_e_n_t_a_l _M_e_d_i_a_P_a_c_k_a_g_e _V_o_D
+
+       +o _A_W_S _E_l_e_m_e_n_t_a_l _M_e_d_i_a_T_a_i_l_o_r
+
+       +o _A_m_a_z_o_n _E_M_R
+
+       +o _A_m_a_z_o_n _E_v_e_n_t_B_r_i_d_g_e _S_c_h_e_m_a
+
+       +o _A_W_S _F_i_r_e_w_a_l_l _M_a_n_a_g_e_r
+
+       +o _A_m_a_z_o_n _F_o_r_e_c_a_s_t
+
+       +o _A_m_a_z_o_n _F_r_a_u_d _D_e_t_e_c_t_o_r
+
+       +o _A_m_a_z_o_n _F_S_x
+
+       +o _A_m_a_z_o_n _S_3 _G_l_a_c_i_e_r
+
+       +o _A_W_S _G_l_o_b_a_l _A_c_c_e_l_e_r_a_t_o_r
+
+       +o _A_W_S _G_r_o_u_n_d _S_t_a_t_i_o_n
+
+       +o _A_W_S _G_l_u_e
+
+       +o _A_m_a_z_o_n _G_u_a_r_d_D_u_t_y
+
+       +o _A_m_a_z_o_n _I_n_s_p_e_c_t_o_r
+
+       +o _A_m_a_z_o_n _I_n_t_e_r_a_c_t_i_v_e _V_i_d_e_o _S_e_r_v_i_c_e
+
+       +o _A_W_S _I_o_T _A_n_a_l_y_t_i_c_s
+
+       +o _A_W_S _I_o_T _C_o_r_e
+
+       +o _A_W_S _I_o_T _D_e_v_i_c_e _D_e_f_e_n_d_e_r
+
+       +o _A_W_S _I_o_T _D_e_v_i_c_e _M_a_n_a_g_e_m_e_n_t
+
+       +o _A_W_S _I_o_T _E_v_e_n_t_s
+
+       +o _A_W_S _I_o_T _G_r_e_e_n_g_r_a_s_s
+
+       +o _A_W_S _I_o_T _1_-_C_l_i_c_k
+
+       +o _A_W_S _I_o_T _S_i_t_e_w_i_s_e
+
+       +o _A_W_S _I_o_T _T_h_i_n_g_s _G_r_a_p_h
+
+       +o _A_m_a_z_o_n _K_e_n_d_r_a
+
+       +o _A_W_S _K_e_y _M_a_n_a_g_e_m_e_n_t _S_e_r_v_i_c_e
+
+       +o _A_m_a_z_o_n _K_i_n_e_s_i_s
+
+       +o _A_m_a_z_o_n _K_i_n_e_s_i_s _D_a_t_a _A_n_a_l_y_t_i_c_s
+
+       +o _A_m_a_z_o_n _K_i_n_e_s_i_s _D_a_t_a _F_i_r_e_h_o_s_e
+
+       +o _A_W_S _L_a_m_b_d_a
+
+       +o _A_m_a_z_o_n _L_e_x
+
+       +o _A_W_S _L_i_c_e_n_s_e _M_a_n_a_g_e_r
+
+       +o _A_m_a_z_o_n _L_i_g_h_t_s_a_i_l
+
+       +o _A_m_a_z_o_n _M_a_c_i_e
+
+       +o _A_m_a_z_o_n _M_a_c_h_i_n_e _L_e_a_r_n_i_n_g
+
+       +o _A_m_a_z_o_n _M_Q
+
+       +o _A_m_a_z_o_n _M_S_K
+
+       +o _A_m_a_z_o_n _M_S_K
+
+       +o _A_m_a_z_o_n _N_e_p_t_u_n_e
+
+       +o _A_W_S _N_e_t_w_o_r_k _M_a_n_a_g_e_r
+
+       +o _A_W_S _O_p_s_W_o_r_k_s
+
+       +o _A_W_S _O_p_s_W_o_r_k_s _C_M
+
+       +o _A_W_S _O_r_g_a_n_i_z_a_t_i_o_n_s
+
+       +o _A_m_a_z_o_n _P_i_n_p_o_i_n_t
+
+       +o _A_m_a_z_o_n _Q_u_a_n_t_u_m _L_e_d_g_e_r _D_a_t_a_b_a_s_e _(_Q_L_D_B_)
+
+       +o _A_m_a_z_o_n _R_D_S
+
+       +o _A_m_a_z_o_n _R_e_d_s_h_i_f_t
+
+       +o _A_W_S _R_e_s_o_u_r_c_e _A_c_c_e_s_s _M_a_n_a_g_e_r
+
+       +o _A_W_S _R_e_s_o_u_r_c_e _G_r_o_u_p_s
+
+       +o _A_W_S _R_o_b_o_M_a_k_e_r
+
+       +o _A_m_a_z_o_n _R_o_u_t_e _5_3
+
+       +o _A_m_a_z_o_n _R_o_u_t_e _5_3 _R_e_s_o_l_v_e_r
+
+       +o _A_m_a_z_o_n _S_3 _(_b_u_c_k_e_t_s _o_n_l_y_)
+
+       +o _A_m_a_z_o_n _S_a_g_e_M_a_k_e_r
+
+       +o _S_a_v_i_n_g_s _P_l_a_n_s
+
+       +o _A_W_S _S_e_c_r_e_t_s _M_a_n_a_g_e_r
+
+       +o _A_W_S _S_e_c_u_r_i_t_y _H_u_b
+
+       +o _A_W_S _S_e_r_v_i_c_e _C_a_t_a_l_o_g
+
+       +o _A_m_a_z_o_n _S_i_m_p_l_e _E_m_a_i_l _S_e_r_v_i_c_e _(_S_E_S_)
+
+       +o _A_m_a_z_o_n _S_i_m_p_l_e _N_o_t_i_f_i_c_a_t_i_o_n _S_e_r_v_i_c_e _(_S_N_S_)
+
+       +o _A_m_a_z_o_n _S_i_m_p_l_e _Q_u_e_u_e _S_e_r_v_i_c_e _(_S_Q_S_)
+
+       +o _A_m_a_z_o_n _S_i_m_p_l_e _W_o_r_k_f_l_o_w _S_e_r_v_i_c_e
+
+       +o _A_W_S _S_t_e_p _F_u_n_c_t_i_o_n_s
+
+       +o _A_W_S _S_t_o_r_a_g_e _G_a_t_e_w_a_y
+
+       +o _A_W_S _S_y_s_t_e_m_s _M_a_n_a_g_e_r
+
+       +o _A_W_S _T_r_a_n_s_f_e_r _f_o_r _S_F_T_P
+
+       +o _A_m_a_z_o_n _V_P_C
+
+       +o _A_W_S _W_A_F
+
+       +o _A_W_S _W_A_F _R_e_g_i_o_n_a_l
+
+       +o _A_m_a_z_o_n _W_o_r_k_L_i_n_k
+
+       +o _A_m_a_z_o_n _W_o_r_k_S_p_a_c_e_s
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-report-creation
+
+       +o get-compliance-summary
+
+       +o get-resources
+
+       +o get-tag-keys
+
+       +o get-tag-values
+
+       +o help
+
+       +o start-report-creation
+
+       +o tag-resources
+
+       +o untag-resources
+
+
+
+                                                    RESOURCEGROUPSTAGGINGAPI()

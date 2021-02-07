@@ -1,0 +1,17 @@
+{
+    "RegexMatchSetId": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "RegexMatchTuple": {
+                "FieldToMatch": {
+                    "Type": "METHOD",
+                    "Data": ""
+                },
+                "TextTransformation": "CMD_LINE",
+                "RegexPatternSetId": ""
+            }
+        }
+    ],
+    "ChangeToken": ""
+}

@@ -1,0 +1,6 @@
+{
+    "ConfigurationSetName": "",
+    "DeliveryOptions": {
+        "TlsPolicy": "Optional"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "GroupBy": [
+        {
+            "Type": "TAG",
+            "Key": ""
+        }
+    ],
+    "Granularity": "HOURLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "DATABASE_ENGINE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ENDS_WITH"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        }
+    },
+    "SortBy": {
+        "Key": "",
+        "SortOrder": "ASCENDING"
+    },
+    "NextPageToken": "",
+    "MaxResults": 0
+}

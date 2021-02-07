@@ -1,0 +1,41 @@
+{
+    "behaviors": [
+        {
+            "name": "",
+            "metric": "",
+            "metricDimension": {
+                "dimensionName": "",
+                "operator": "IN"
+            },
+            "criteria": {
+                "comparisonOperator": "less-than-equals",
+                "value": {
+                    "count": 0,
+                    "cidrs": [
+                        ""
+                    ],
+                    "ports": [
+                        0
+                    ],
+                    "number": null,
+                    "numbers": [
+                        null
+                    ],
+                    "strings": [
+                        ""
+                    ]
+                },
+                "durationSeconds": 0,
+                "consecutiveDatapointsToAlarm": 0,
+                "consecutiveDatapointsToClear": 0,
+                "statisticalThreshold": {
+                    "statistic": ""
+                },
+                "mlDetectionConfig": {
+                    "confidenceLevel": "MEDIUM"
+                }
+            },
+            "suppressAlerts": true
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "TargetIdFilters": [
+        ""
+    ],
+    "RegionFilters": [
+        ""
+    ],
+    "ResourceTypeFilters": [
+        ""
+    ],
+    "TagKeyFilters": [
+        ""
+    ],
+    "GroupBy": [
+        "TARGET_ID"
+    ],
+    "MaxResults": 0,
+    "PaginationToken": ""
+}

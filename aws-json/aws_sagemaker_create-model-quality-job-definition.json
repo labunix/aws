@@ -1,0 +1,83 @@
+{
+    "JobDefinitionName": "",
+    "ModelQualityBaselineConfig": {
+        "BaseliningJobName": "",
+        "ConstraintsResource": {
+            "S3Uri": ""
+        }
+    },
+    "ModelQualityAppSpecification": {
+        "ImageUri": "",
+        "ContainerEntrypoint": [
+            ""
+        ],
+        "ContainerArguments": [
+            ""
+        ],
+        "RecordPreprocessorSourceUri": "",
+        "PostAnalyticsProcessorSourceUri": "",
+        "ProblemType": "MulticlassClassification",
+        "Environment": {
+            "KeyName": ""
+        }
+    },
+    "ModelQualityJobInput": {
+        "EndpointInput": {
+            "EndpointName": "",
+            "LocalPath": "",
+            "S3InputMode": "File",
+            "S3DataDistributionType": "ShardedByS3Key",
+            "FeaturesAttribute": "",
+            "InferenceAttribute": "",
+            "ProbabilityAttribute": "",
+            "ProbabilityThresholdAttribute": null,
+            "StartTimeOffset": "",
+            "EndTimeOffset": ""
+        },
+        "GroundTruthS3Input": {
+            "S3Uri": ""
+        }
+    },
+    "ModelQualityJobOutputConfig": {
+        "MonitoringOutputs": [
+            {
+                "S3Output": {
+                    "S3Uri": "",
+                    "LocalPath": "",
+                    "S3UploadMode": "Continuous"
+                }
+            }
+        ],
+        "KmsKeyId": ""
+    },
+    "JobResources": {
+        "ClusterConfig": {
+            "InstanceCount": 0,
+            "InstanceType": "ml.m4.4xlarge",
+            "VolumeSizeInGB": 0,
+            "VolumeKmsKeyId": ""
+        }
+    },
+    "NetworkConfig": {
+        "EnableInterContainerTrafficEncryption": true,
+        "EnableNetworkIsolation": true,
+        "VpcConfig": {
+            "SecurityGroupIds": [
+                ""
+            ],
+            "Subnets": [
+                ""
+            ]
+        }
+    },
+    "RoleArn": "",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

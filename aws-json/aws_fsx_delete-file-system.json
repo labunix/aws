@@ -1,0 +1,22 @@
+{
+    "FileSystemId": "",
+    "ClientRequestToken": "",
+    "WindowsConfiguration": {
+        "SkipFinalBackup": true,
+        "FinalBackupTags": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ]
+    },
+    "LustreConfiguration": {
+        "SkipFinalBackup": true,
+        "FinalBackupTags": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ]
+    }
+}

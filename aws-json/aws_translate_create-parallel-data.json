@@ -1,0 +1,13 @@
+{
+    "Name": "",
+    "Description": "",
+    "ParallelDataConfig": {
+        "S3Uri": "",
+        "Format": "TMX"
+    },
+    "EncryptionKey": {
+        "Type": "KMS",
+        "Id": ""
+    },
+    "ClientToken": ""
+}

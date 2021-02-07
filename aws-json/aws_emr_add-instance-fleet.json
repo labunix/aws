@@ -1,0 +1,52 @@
+{
+    "ClusterId": "",
+    "InstanceFleet": {
+        "Name": "",
+        "InstanceFleetType": "TASK",
+        "TargetOnDemandCapacity": 0,
+        "TargetSpotCapacity": 0,
+        "InstanceTypeConfigs": [
+            {
+                "InstanceType": "",
+                "WeightedCapacity": 0,
+                "BidPrice": "",
+                "BidPriceAsPercentageOfOnDemandPrice": null,
+                "EbsConfiguration": {
+                    "EbsBlockDeviceConfigs": [
+                        {
+                            "VolumeSpecification": {
+                                "VolumeType": "",
+                                "Iops": 0,
+                                "SizeInGB": 0
+                            },
+                            "VolumesPerInstance": 0
+                        }
+                    ],
+                    "EbsOptimized": true
+                },
+                "Configurations": [
+                    {
+                        "Classification": "",
+                        "Configurations": [
+                            {}
+                        ],
+                        "Properties": {
+                            "KeyName": ""
+                        }
+                    }
+                ]
+            }
+        ],
+        "LaunchSpecifications": {
+            "SpotSpecification": {
+                "TimeoutDurationMinutes": 0,
+                "TimeoutAction": "SWITCH_TO_ON_DEMAND",
+                "BlockDurationMinutes": 0,
+                "AllocationStrategy": "capacity-optimized"
+            },
+            "OnDemandSpecification": {
+                "AllocationStrategy": "lowest-price"
+            }
+        }
+    }
+}

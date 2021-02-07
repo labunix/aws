@@ -1,0 +1,5 @@
+{
+    "findingTypes": [
+        "SensitiveData:S3Object/Credentials"
+    ]
+}

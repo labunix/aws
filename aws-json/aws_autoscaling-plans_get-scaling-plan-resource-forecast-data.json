@@ -1,0 +1,10 @@
+{
+    "ScalingPlanName": "",
+    "ScalingPlanVersion": 0,
+    "ServiceNamespace": "ecs",
+    "ResourceId": "",
+    "ScalableDimension": "rds:cluster:ReadReplicaCount",
+    "ForecastDataType": "ScheduledActionMinCapacity",
+    "StartTime": "1970-01-01T00:00:00",
+    "EndTime": "1970-01-01T00:00:00"
+}

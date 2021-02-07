@@ -1,0 +1,28 @@
+{
+    "filterCriteria": {
+        "excludes": [
+            {
+                "comparator": "LT",
+                "key": "jobType",
+                "values": [
+                    ""
+                ]
+            }
+        ],
+        "includes": [
+            {
+                "comparator": "EQ",
+                "key": "jobStatus",
+                "values": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "maxResults": 0,
+    "nextToken": "",
+    "sortCriteria": {
+        "attributeName": "jobType",
+        "orderBy": "ASC"
+    }
+}

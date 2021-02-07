@@ -1,0 +1,40 @@
+{
+    "offeringIds": [
+        ""
+    ],
+    "paymentOptions": [
+        "All Upfront"
+    ],
+    "productType": "EC2",
+    "planTypes": [
+        "Compute"
+    ],
+    "durations": [
+        0
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "descriptions": [
+        ""
+    ],
+    "serviceCodes": [
+        ""
+    ],
+    "usageTypes": [
+        ""
+    ],
+    "operations": [
+        ""
+    ],
+    "filters": [
+        {
+            "name": "region",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

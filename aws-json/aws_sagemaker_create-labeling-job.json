@@ -1,0 +1,70 @@
+{
+    "LabelingJobName": "",
+    "LabelAttributeName": "",
+    "InputConfig": {
+        "DataSource": {
+            "S3DataSource": {
+                "ManifestS3Uri": ""
+            },
+            "SnsDataSource": {
+                "SnsTopicArn": ""
+            }
+        },
+        "DataAttributes": {
+            "ContentClassifiers": [
+                "FreeOfPersonallyIdentifiableInformation"
+            ]
+        }
+    },
+    "OutputConfig": {
+        "S3OutputPath": "",
+        "KmsKeyId": "",
+        "SnsTopicArn": ""
+    },
+    "RoleArn": "",
+    "LabelCategoryConfigS3Uri": "",
+    "StoppingConditions": {
+        "MaxHumanLabeledObjectCount": 0,
+        "MaxPercentageOfInputDatasetLabeled": 0
+    },
+    "LabelingJobAlgorithmsConfig": {
+        "LabelingJobAlgorithmSpecificationArn": "",
+        "InitialActiveLearningModelArn": "",
+        "LabelingJobResourceConfig": {
+            "VolumeKmsKeyId": ""
+        }
+    },
+    "HumanTaskConfig": {
+        "WorkteamArn": "",
+        "UiConfig": {
+            "UiTemplateS3Uri": "",
+            "HumanTaskUiArn": ""
+        },
+        "PreHumanTaskLambdaArn": "",
+        "TaskKeywords": [
+            ""
+        ],
+        "TaskTitle": "",
+        "TaskDescription": "",
+        "NumberOfHumanWorkersPerDataObject": 0,
+        "TaskTimeLimitInSeconds": 0,
+        "TaskAvailabilityLifetimeInSeconds": 0,
+        "MaxConcurrentTaskCount": 0,
+        "AnnotationConsolidationConfig": {
+            "AnnotationConsolidationLambdaArn": ""
+        },
+        "PublicWorkforceTaskPrice": {
+            "AmountInUsd": {
+                "Dollars": 0,
+                "Cents": 0,
+                "TenthFractionsOfACent": 0
+            }
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

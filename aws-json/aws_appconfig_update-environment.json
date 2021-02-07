@@ -1,0 +1,12 @@
+{
+    "ApplicationId": "",
+    "EnvironmentId": "",
+    "Name": "",
+    "Description": "",
+    "Monitors": [
+        {
+            "AlarmArn": "",
+            "AlarmRoleArn": ""
+        }
+    ]
+}

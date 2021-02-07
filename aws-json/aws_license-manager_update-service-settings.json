@@ -1,0 +1,8 @@
+{
+    "S3BucketArn": "",
+    "SnsTopicArn": "",
+    "OrganizationConfiguration": {
+        "EnableIntegration": true
+    },
+    "EnableCrossAccountsDiscovery": true
+}

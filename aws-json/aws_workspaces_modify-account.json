@@ -1,0 +1,4 @@
+{
+    "DedicatedTenancySupport": "ENABLED",
+    "DedicatedTenancyManagementCidrRange": ""
+}

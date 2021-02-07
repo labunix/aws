@@ -1,0 +1,27 @@
+{
+    "UserPoolId": "",
+    "ClientId": "",
+    "ChallengeName": "SMS_MFA",
+    "ChallengeResponses": {
+        "KeyName": ""
+    },
+    "Session": "",
+    "AnalyticsMetadata": {
+        "AnalyticsEndpointId": ""
+    },
+    "ContextData": {
+        "IpAddress": "",
+        "ServerName": "",
+        "ServerPath": "",
+        "HttpHeaders": [
+            {
+                "headerName": "",
+                "headerValue": ""
+            }
+        ],
+        "EncodedData": ""
+    },
+    "ClientMetadata": {
+        "KeyName": ""
+    }
+}

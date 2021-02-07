@@ -1,0 +1,14 @@
+{
+    "AccountId": "",
+    "UpdateUserRequestItems": [
+        {
+            "UserId": "",
+            "LicenseType": "ProTrial",
+            "UserType": "PrivateUser",
+            "AlexaForBusinessMetadata": {
+                "IsAlexaForBusinessEnabled": true,
+                "AlexaForBusinessRoomArn": ""
+            }
+        }
+    ]
+}

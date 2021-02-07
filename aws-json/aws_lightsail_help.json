@@ -1,0 +1,318 @@
+LIGHTSAIL()                                                        LIGHTSAIL()
+
+
+
+NNAAMMEE
+       lightsail -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon Lightsail is the easiest way to get started with Amazon Web Ser-
+       vices (AWS) for developers who need to build websites or  web  applica-
+       tions. It includes everything you need to launch your project quickly -
+       instances (virtual private servers), container services, managed  data-
+       bases,  SSD-based  block  storage, static IP addresses, load balancers,
+       content delivery network (CDN) distributions, DNS management of  regis-
+       tered  domains,  and resource snapshots (backups) - for a low, predict-
+       able monthly price.
+
+       You can manage your Lightsail resources using  the  Lightsail  console,
+       Lightsail  API, AWS Command Line Interface (AWS CLI), or SDKs. For more
+       information about Lightsail concepts and tasks, see the  _L_i_g_h_t_s_a_i_l  _D_e_v
+       _G_u_i_d_e .
+
+       This  API  Reference  provides  detailed information about the actions,
+       data types, parameters, and errors of the Lightsail service.  For  more
+       information  about  the  supported  AWS Regions, endpoints, and service
+       quotas of the Lightsail service, see  _A_m_a_z_o_n  _L_i_g_h_t_s_a_i_l  _E_n_d_p_o_i_n_t_s  _a_n_d
+       _Q_u_o_t_a_s in the _A_W_S _G_e_n_e_r_a_l _R_e_f_e_r_e_n_c_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o allocate-static-ip
+
+       +o attach-certificate-to-distribution
+
+       +o attach-disk
+
+       +o attach-instances-to-load-balancer
+
+       +o attach-load-balancer-tls-certificate
+
+       +o attach-static-ip
+
+       +o close-instance-public-ports
+
+       +o copy-snapshot
+
+       +o create-certificate
+
+       +o create-cloud-formation-stack
+
+       +o create-contact-method
+
+       +o create-container-service
+
+       +o create-container-service-deployment
+
+       +o create-container-service-registry-login
+
+       +o create-disk
+
+       +o create-disk-from-snapshot
+
+       +o create-disk-snapshot
+
+       +o create-distribution
+
+       +o create-domain
+
+       +o create-domain-entry
+
+       +o create-instance-snapshot
+
+       +o create-instances
+
+       +o create-instances-from-snapshot
+
+       +o create-key-pair
+
+       +o create-load-balancer
+
+       +o create-load-balancer-tls-certificate
+
+       +o create-relational-database
+
+       +o create-relational-database-from-snapshot
+
+       +o create-relational-database-snapshot
+
+       +o delete-alarm
+
+       +o delete-auto-snapshot
+
+       +o delete-certificate
+
+       +o delete-contact-method
+
+       +o delete-container-image
+
+       +o delete-container-service
+
+       +o delete-disk
+
+       +o delete-disk-snapshot
+
+       +o delete-distribution
+
+       +o delete-domain
+
+       +o delete-domain-entry
+
+       +o delete-instance
+
+       +o delete-instance-snapshot
+
+       +o delete-key-pair
+
+       +o delete-known-host-keys
+
+       +o delete-load-balancer
+
+       +o delete-load-balancer-tls-certificate
+
+       +o delete-relational-database
+
+       +o delete-relational-database-snapshot
+
+       +o detach-certificate-from-distribution
+
+       +o detach-disk
+
+       +o detach-instances-from-load-balancer
+
+       +o detach-static-ip
+
+       +o disable-add-on
+
+       +o download-default-key-pair
+
+       +o enable-add-on
+
+       +o export-snapshot
+
+       +o get-active-names
+
+       +o get-alarms
+
+       +o get-auto-snapshots
+
+       +o get-blueprints
+
+       +o get-bundles
+
+       +o get-certificates
+
+       +o get-cloud-formation-stack-records
+
+       +o get-contact-methods
+
+       +o get-container-api-metadata
+
+       +o get-container-images
+
+       +o get-container-log
+
+       +o get-container-service-deployments
+
+       +o get-container-service-metric-data
+
+       +o get-container-service-powers
+
+       +o get-container-services
+
+       +o get-disk
+
+       +o get-disk-snapshot
+
+       +o get-disk-snapshots
+
+       +o get-disks
+
+       +o get-distribution-bundles
+
+       +o get-distribution-latest-cache-reset
+
+       +o get-distribution-metric-data
+
+       +o get-distributions
+
+       +o get-domain
+
+       +o get-domains
+
+       +o get-export-snapshot-records
+
+       +o get-instance
+
+       +o get-instance-access-details
+
+       +o get-instance-metric-data
+
+       +o get-instance-port-states
+
+       +o get-instance-snapshot
+
+       +o get-instance-snapshots
+
+       +o get-instance-state
+
+       +o get-instances
+
+       +o get-key-pair
+
+       +o get-key-pairs
+
+       +o get-load-balancer
+
+       +o get-load-balancer-metric-data
+
+       +o get-load-balancer-tls-certificates
+
+       +o get-load-balancers
+
+       +o get-operation
+
+       +o get-operations
+
+       +o get-operations-for-resource
+
+       +o get-regions
+
+       +o get-relational-database
+
+       +o get-relational-database-blueprints
+
+       +o get-relational-database-bundles
+
+       +o get-relational-database-events
+
+       +o get-relational-database-log-events
+
+       +o get-relational-database-log-streams
+
+       +o get-relational-database-master-user-password
+
+       +o get-relational-database-metric-data
+
+       +o get-relational-database-parameters
+
+       +o get-relational-database-snapshot
+
+       +o get-relational-database-snapshots
+
+       +o get-relational-databases
+
+       +o get-static-ip
+
+       +o get-static-ips
+
+       +o help
+
+       +o import-key-pair
+
+       +o is-vpc-peered
+
+       +o open-instance-public-ports
+
+       +o peer-vpc
+
+       +o push-container-image
+
+       +o put-alarm
+
+       +o put-instance-public-ports
+
+       +o reboot-instance
+
+       +o reboot-relational-database
+
+       +o register-container-image
+
+       +o release-static-ip
+
+       +o reset-distribution-cache
+
+       +o send-contact-method-verification
+
+       +o start-instance
+
+       +o start-relational-database
+
+       +o stop-instance
+
+       +o stop-relational-database
+
+       +o tag-resource
+
+       +o test-alarm
+
+       +o unpeer-vpc
+
+       +o untag-resource
+
+       +o update-container-service
+
+       +o update-distribution
+
+       +o update-distribution-bundle
+
+       +o update-domain-entry
+
+       +o update-load-balancer-attribute
+
+       +o update-relational-database
+
+       +o update-relational-database-parameters
+
+
+
+                                                                   LIGHTSAIL()

@@ -1,0 +1,15 @@
+{
+    "VoiceConnectorId": "",
+    "Origination": {
+        "Routes": [
+            {
+                "Host": "",
+                "Port": 0,
+                "Protocol": "TCP",
+                "Priority": 0,
+                "Weight": 0
+            }
+        ],
+        "Disabled": true
+    }
+}

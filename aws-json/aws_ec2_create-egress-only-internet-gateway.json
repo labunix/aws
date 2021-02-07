@@ -1,0 +1,16 @@
+{
+    "ClientToken": "",
+    "DryRun": true,
+    "VpcId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "elastic-ip",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

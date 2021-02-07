@@ -1,0 +1,19 @@
+{
+    "principal": "",
+    "cognitoIdentityPoolId": "",
+    "authInfos": [
+        {
+            "actionType": "CONNECT",
+            "resources": [
+                ""
+            ]
+        }
+    ],
+    "clientId": "",
+    "policyNamesToAdd": [
+        ""
+    ],
+    "policyNamesToSkip": [
+        ""
+    ]
+}

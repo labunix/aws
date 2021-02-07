@@ -1,0 +1,66 @@
+{
+    "AppId": "",
+    "BackendEnvironmentName": "",
+    "ResourceConfig": {
+        "AuthResources": "IDENTITY_POOL_AND_USER_POOL",
+        "IdentityPoolConfigs": {
+            "UnauthenticatedLogin": true
+        },
+        "Service": "COGNITO",
+        "UserPoolConfigs": {
+            "ForgotPassword": {
+                "DeliveryMethod": "EMAIL",
+                "EmailSettings": {
+                    "EmailMessage": "",
+                    "EmailSubject": ""
+                },
+                "SmsSettings": {
+                    "SmsMessage": ""
+                }
+            },
+            "Mfa": {
+                "MFAMode": "OFF",
+                "Settings": {
+                    "MfaTypes": [
+                        "SMS"
+                    ],
+                    "SmsMessage": ""
+                }
+            },
+            "OAuth": {
+                "DomainPrefix": "",
+                "OAuthGrantType": "IMPLICIT",
+                "OAuthScopes": [
+                    "EMAIL"
+                ],
+                "RedirectSignInURIs": [
+                    ""
+                ],
+                "RedirectSignOutURIs": [
+                    ""
+                ],
+                "SocialProviderSettings": {
+                    "Facebook": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    },
+                    "Google": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    },
+                    "LoginWithAmazon": {
+                        "ClientId": "",
+                        "ClientSecret": ""
+                    }
+                }
+            },
+            "PasswordPolicy": {
+                "AdditionalConstraints": [
+                    "REQUIRE_DIGIT"
+                ],
+                "MinimumLength": null
+            }
+        }
+    },
+    "ResourceName": ""
+}

@@ -1,0 +1,45 @@
+{
+    "jobId": "",
+    "targets": [
+        ""
+    ],
+    "documentSource": "",
+    "document": "",
+    "description": "",
+    "presignedUrlConfig": {
+        "roleArn": "",
+        "expiresInSec": 0
+    },
+    "targetSelection": "CONTINUOUS",
+    "jobExecutionsRolloutConfig": {
+        "maximumPerMinute": 0,
+        "exponentialRate": {
+            "baseRatePerMinute": 0,
+            "incrementFactor": null,
+            "rateIncreaseCriteria": {
+                "numberOfNotifiedThings": 0,
+                "numberOfSucceededThings": 0
+            }
+        }
+    },
+    "abortConfig": {
+        "criteriaList": [
+            {
+                "failureType": "ALL",
+                "action": "CANCEL",
+                "thresholdPercentage": null,
+                "minNumberOfExecutedThings": 0
+            }
+        ]
+    },
+    "timeoutConfig": {
+        "inProgressTimeoutInMinutes": 0
+    },
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "namespaceId": ""
+}

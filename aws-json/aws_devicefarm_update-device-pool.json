@@ -1,0 +1,14 @@
+{
+    "arn": "",
+    "name": "",
+    "description": "",
+    "rules": [
+        {
+            "attribute": "REMOTE_DEBUG_ENABLED",
+            "operator": "EQUALS",
+            "value": ""
+        }
+    ],
+    "maxDevices": 0,
+    "clearMaxDevices": true
+}

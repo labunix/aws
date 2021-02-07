@@ -1,0 +1,5 @@
+{
+    "Attribute": "enableDnsSupport",
+    "VpcId": "",
+    "DryRun": true
+}

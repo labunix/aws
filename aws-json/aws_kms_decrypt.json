@@ -1,0 +1,11 @@
+{
+    "CiphertextBlob": null,
+    "EncryptionContext": {
+        "KeyName": ""
+    },
+    "GrantTokens": [
+        ""
+    ],
+    "KeyId": "",
+    "EncryptionAlgorithm": "SYMMETRIC_DEFAULT"
+}

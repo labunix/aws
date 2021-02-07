@@ -1,0 +1,26 @@
+{
+    "UserPoolId": "",
+    "ClientId": "",
+    "AuthFlow": "REFRESH_TOKEN",
+    "AuthParameters": {
+        "KeyName": ""
+    },
+    "ClientMetadata": {
+        "KeyName": ""
+    },
+    "AnalyticsMetadata": {
+        "AnalyticsEndpointId": ""
+    },
+    "ContextData": {
+        "IpAddress": "",
+        "ServerName": "",
+        "ServerPath": "",
+        "HttpHeaders": [
+            {
+                "headerName": "",
+                "headerValue": ""
+            }
+        ],
+        "EncodedData": ""
+    }
+}

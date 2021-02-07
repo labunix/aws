@@ -1,0 +1,36 @@
+{
+    "AdDecisionServerUrl": "",
+    "AvailSuppression": {
+        "Mode": "BEHIND_LIVE_EDGE",
+        "Value": ""
+    },
+    "Bumper": {
+        "EndUrl": "",
+        "StartUrl": ""
+    },
+    "CdnConfiguration": {
+        "AdSegmentUrlPrefix": "",
+        "ContentSegmentUrlPrefix": ""
+    },
+    "DashConfiguration": {
+        "MpdLocation": "",
+        "OriginManifestType": "MULTI_PERIOD"
+    },
+    "LivePreRollConfiguration": {
+        "AdDecisionServerUrl": "",
+        "MaxDurationSeconds": 0
+    },
+    "ManifestProcessingRules": {
+        "AdMarkerPassthrough": {
+            "Enabled": true
+        }
+    },
+    "Name": "",
+    "PersonalizationThresholdSeconds": 0,
+    "SlateAdUrl": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "TranscodeProfileName": "",
+    "VideoContentSourceUrl": ""
+}

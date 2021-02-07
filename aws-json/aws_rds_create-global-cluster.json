@@ -1,0 +1,9 @@
+{
+    "GlobalClusterIdentifier": "",
+    "SourceDBClusterIdentifier": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "DeletionProtection": true,
+    "DatabaseName": "",
+    "StorageEncrypted": true
+}

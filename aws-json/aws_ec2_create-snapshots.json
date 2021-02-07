@@ -1,0 +1,20 @@
+{
+    "Description": "",
+    "InstanceSpecification": {
+        "InstanceId": "",
+        "ExcludeBootVolume": true
+    },
+    "TagSpecifications": [
+        {
+            "ResourceType": "fpga-image",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true,
+    "CopyTagsFromSource": "volume"
+}

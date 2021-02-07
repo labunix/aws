@@ -1,0 +1,29 @@
+{
+    "DryRun": true,
+    "VpcEndpointType": "GatewayLoadBalancer",
+    "VpcId": "",
+    "ServiceName": "",
+    "PolicyDocument": "",
+    "RouteTableIds": [
+        ""
+    ],
+    "SubnetIds": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "ClientToken": "",
+    "PrivateDnsEnabled": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "subnet",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

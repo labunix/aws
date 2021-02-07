@@ -1,0 +1,9 @@
+{
+    "Affinity": "host",
+    "GroupName": "",
+    "HostId": "",
+    "InstanceId": "",
+    "Tenancy": "dedicated",
+    "PartitionNumber": 0,
+    "HostResourceGroupArn": ""
+}

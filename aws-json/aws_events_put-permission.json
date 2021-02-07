@@ -1,0 +1,12 @@
+{
+    "EventBusName": "",
+    "Action": "",
+    "Principal": "",
+    "StatementId": "",
+    "Condition": {
+        "Type": "",
+        "Key": "",
+        "Value": ""
+    },
+    "Policy": ""
+}

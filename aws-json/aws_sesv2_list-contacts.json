@@ -1,0 +1,12 @@
+{
+    "ContactListName": "",
+    "Filter": {
+        "FilteredStatus": "OPT_OUT",
+        "TopicFilter": {
+            "TopicName": "",
+            "UseDefaultIfPreferenceUnavailable": true
+        }
+    },
+    "PageSize": 0,
+    "NextToken": ""
+}

@@ -1,0 +1,16 @@
+{
+    "SubscriptionArn": "",
+    "Threshold": null,
+    "Frequency": "WEEKLY",
+    "MonitorArnList": [
+        ""
+    ],
+    "Subscribers": [
+        {
+            "Address": "",
+            "Type": "EMAIL",
+            "Status": "DECLINED"
+        }
+    ],
+    "SubscriptionName": ""
+}

@@ -1,0 +1,22 @@
+{
+    "Description": "",
+    "ExportToS3Task": {
+        "ContainerFormat": "ova",
+        "DiskImageFormat": "VHD",
+        "S3Bucket": "",
+        "S3Prefix": ""
+    },
+    "InstanceId": "",
+    "TargetEnvironment": "microsoft",
+    "TagSpecifications": [
+        {
+            "ResourceType": "reserved-instances",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

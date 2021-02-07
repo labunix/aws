@@ -1,0 +1,9 @@
+{
+    "DomainName": "",
+    "DefaultExpirationDays": 0,
+    "DefaultEncryptionKey": "",
+    "DeadLetterQueueUrl": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

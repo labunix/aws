@@ -1,0 +1,23 @@
+{
+    "ServiceUpdateName": "",
+    "ReplicationGroupIds": [
+        ""
+    ],
+    "CacheClusterIds": [
+        ""
+    ],
+    "Engine": "",
+    "ServiceUpdateStatus": [
+        "cancelled"
+    ],
+    "ServiceUpdateTimeRange": {
+        "StartTime": "1970-01-01T00:00:00",
+        "EndTime": "1970-01-01T00:00:00"
+    },
+    "UpdateActionStatus": [
+        "in-progress"
+    ],
+    "ShowNodeLevelUpdateStatus": true,
+    "MaxRecords": 0,
+    "Marker": ""
+}

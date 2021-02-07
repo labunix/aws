@@ -1,0 +1,10 @@
+{
+    "AccountId": "",
+    "UserId": "",
+    "LicenseType": "Pro",
+    "UserType": "SharedDevice",
+    "AlexaForBusinessMetadata": {
+        "IsAlexaForBusinessEnabled": true,
+        "AlexaForBusinessRoomArn": ""
+    }
+}

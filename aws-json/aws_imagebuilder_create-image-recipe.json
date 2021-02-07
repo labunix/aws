@@ -1,0 +1,32 @@
+{
+    "name": "",
+    "description": "",
+    "semanticVersion": "",
+    "components": [
+        {
+            "componentArn": ""
+        }
+    ],
+    "parentImage": "",
+    "blockDeviceMappings": [
+        {
+            "deviceName": "",
+            "ebs": {
+                "encrypted": true,
+                "deleteOnTermination": true,
+                "iops": 0,
+                "kmsKeyId": "",
+                "snapshotId": "",
+                "volumeSize": 0,
+                "volumeType": "io2"
+            },
+            "virtualName": "",
+            "noDevice": ""
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    },
+    "workingDirectory": "",
+    "clientToken": ""
+}

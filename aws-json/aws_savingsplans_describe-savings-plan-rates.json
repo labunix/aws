@@ -1,0 +1,13 @@
+{
+    "savingsPlanId": "",
+    "filters": [
+        {
+            "name": "productDescription",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

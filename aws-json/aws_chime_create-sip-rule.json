@@ -1,0 +1,13 @@
+{
+    "Name": "",
+    "TriggerType": "RequestUriHostname",
+    "TriggerValue": "",
+    "Disabled": true,
+    "TargetApplications": [
+        {
+            "SipMediaApplicationId": "",
+            "Priority": 0,
+            "AwsRegion": ""
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "TransitGatewayRouteTableId": "",
+    "PrefixListId": "",
+    "TransitGatewayAttachmentId": "",
+    "Blackhole": true,
+    "DryRun": true
+}

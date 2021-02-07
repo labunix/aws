@@ -1,0 +1,7 @@
+{
+    "BackupVaultName": "",
+    "SNSTopicArn": "",
+    "BackupVaultEvents": [
+        "COPY_JOB_SUCCESSFUL"
+    ]
+}

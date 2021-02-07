@@ -1,0 +1,30 @@
+{
+    "CompilationJobName": "",
+    "RoleArn": "",
+    "InputConfig": {
+        "S3Uri": "",
+        "DataInputConfig": "",
+        "Framework": "DARKNET"
+    },
+    "OutputConfig": {
+        "S3OutputLocation": "",
+        "TargetDevice": "sbe_c",
+        "TargetPlatform": {
+            "Os": "LINUX",
+            "Arch": "ARM_EABIHF",
+            "Accelerator": "MALI"
+        },
+        "CompilerOptions": "",
+        "KmsKeyId": ""
+    },
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 0,
+        "MaxWaitTimeInSeconds": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "UpdateToken": "",
+    "RuleGroupArn": "",
+    "RuleGroupName": "",
+    "RuleGroup": {
+        "RuleVariables": {
+            "IPSets": {
+                "KeyName": {
+                    "Definition": [
+                        ""
+                    ]
+                }
+            },
+            "PortSets": {
+                "KeyName": {
+                    "Definition": [
+                        ""
+                    ]
+                }
+            }
+        },
+        "RulesSource": {
+            "RulesString": "",
+            "RulesSourceList": {
+                "Targets": [
+                    ""
+                ],
+                "TargetTypes": [
+                    "HTTP_HOST"
+                ],
+                "GeneratedRulesType": "ALLOWLIST"
+            },
+            "StatefulRules": [
+                {
+                    "Action": "PASS",
+                    "Header": {
+                        "Protocol": "DCERPC",
+                        "Source": "",
+                        "SourcePort": "",
+                        "Direction": "FORWARD",
+                        "Destination": "",
+                        "DestinationPort": ""
+                    },
+                    "RuleOptions": [
+                        {
+                            "Keyword": "",
+                            "Settings": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "StatelessRulesAndCustomActions": {
+                "StatelessRules": [
+                    {
+                        "RuleDefinition": {
+                            "MatchAttributes": {
+                                "Sources": [
+                                    {
+                                        "AddressDefinition": ""
+                                    }
+                                ],
+                                "Destinations": [
+                                    {
+                                        "AddressDefinition": ""
+                                    }
+                                ],
+                                "SourcePorts": [
+                                    {
+                                        "FromPort": 0,
+                                        "ToPort": 0
+                                    }
+                                ],
+                                "DestinationPorts": [
+                                    {
+                                        "FromPort": 0,
+                                        "ToPort": 0
+                                    }
+                                ],
+                                "Protocols": [
+                                    0
+                                ],
+                                "TCPFlags": [
+                                    {
+                                        "Flags": [
+                                            "SYN"
+                                        ],
+                                        "Masks": [
+                                            "ECE"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "Actions": [
+                                ""
+                            ]
+                        },
+                        "Priority": 0
+                    }
+                ],
+                "CustomActions": [
+                    {
+                        "ActionName": "",
+                        "ActionDefinition": {
+                            "PublishMetricAction": {
+                                "Dimensions": [
+                                    {
+                                        "Value": ""
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "Rules": "",
+    "Type": "STATEFUL",
+    "Description": "",
+    "DryRun": true
+}

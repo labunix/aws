@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "destinationConfig": {
+        "thingName": "",
+        "services": [
+            ""
+        ]
+    },
+    "timeoutConfig": {
+        "maxLifetimeTimeoutMinutes": 0
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "ActionName": "",
+    "Source": {
+        "SourceUri": "",
+        "SourceType": "",
+        "SourceId": ""
+    },
+    "ActionType": "",
+    "Description": "",
+    "Status": "Stopped",
+    "Properties": {
+        "KeyName": ""
+    },
+    "MetadataProperties": {
+        "CommitId": "",
+        "Repository": "",
+        "GeneratedBy": "",
+        "ProjectId": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

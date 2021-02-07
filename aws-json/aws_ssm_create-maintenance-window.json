@@ -1,0 +1,19 @@
+{
+    "Name": "",
+    "Description": "",
+    "StartDate": "",
+    "EndDate": "",
+    "Schedule": "",
+    "ScheduleTimezone": "",
+    "ScheduleOffset": 0,
+    "Duration": 0,
+    "Cutoff": 0,
+    "AllowUnassociatedTargets": true,
+    "ClientToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

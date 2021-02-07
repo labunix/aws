@@ -1,0 +1,14 @@
+{
+    "ClusterIdentifier": "",
+    "FeatureType": "concurrency-scaling",
+    "LimitType": "time",
+    "Amount": 0,
+    "Period": "monthly",
+    "BreachAction": "disable",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

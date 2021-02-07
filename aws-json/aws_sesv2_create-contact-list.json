@@ -1,0 +1,18 @@
+{
+    "ContactListName": "",
+    "Topics": [
+        {
+            "TopicName": "",
+            "DisplayName": "",
+            "Description": "",
+            "DefaultSubscriptionStatus": "OPT_OUT"
+        }
+    ],
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

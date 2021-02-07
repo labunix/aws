@@ -1,0 +1,9 @@
+{
+    "DryRun": true,
+    "InstanceTagAttribute": {
+        "IncludeAllTagsOfInstance": true,
+        "InstanceTagKeys": [
+            ""
+        ]
+    }
+}

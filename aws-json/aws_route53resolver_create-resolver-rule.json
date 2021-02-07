@@ -1,0 +1,19 @@
+{
+    "CreatorRequestId": "",
+    "Name": "",
+    "RuleType": "RECURSIVE",
+    "DomainName": "",
+    "TargetIps": [
+        {
+            "Ip": "",
+            "Port": 0
+        }
+    ],
+    "ResolverEndpointId": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

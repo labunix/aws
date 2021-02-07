@@ -1,0 +1,65 @@
+KINESISANALYTICS()                                          KINESISANALYTICS()
+
+
+
+NNAAMMEE
+       kinesisanalytics -
+
+DDEESSCCRRIIPPTTIIOONN
+          OOvveerrvviieeww
+
+       NNOOTTEE::
+          This  documentation is for version 1 of the Amazon Kinesis Data Ana-
+          lytics API, which only supports SQL applications. Version 2  of  the
+          API  supports  SQL and Java applications. For more information about
+          version 2, see _A_m_a_z_o_n _K_i_n_e_s_i_s _D_a_t_a _A_n_a_l_y_t_i_c_s _A_P_I _V_2 _D_o_c_u_m_e_n_t_a_t_i_o_n .
+
+       This is the _A_m_a_z_o_n _K_i_n_e_s_i_s _A_n_a_l_y_t_i_c_s _v_1 _A_P_I _R_e_f_e_r_e_n_c_e . The Amazon  Ki-
+       nesis Analytics Developer Guide provides additional information.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-application-cloud-watch-logging-option
+
+       +o add-application-input
+
+       +o add-application-input-processing-configuration
+
+       +o add-application-output
+
+       +o add-application-reference-data-source
+
+       +o create-application
+
+       +o delete-application
+
+       +o delete-application-cloud-watch-logging-option
+
+       +o delete-application-input-processing-configuration
+
+       +o delete-application-output
+
+       +o delete-application-reference-data-source
+
+       +o describe-application
+
+       +o discover-input-schema
+
+       +o help
+
+       +o list-applications
+
+       +o list-tags-for-resource
+
+       +o start-application
+
+       +o stop-application
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-application
+
+
+
+                                                            KINESISANALYTICS()

@@ -1,0 +1,66 @@
+MEDIACONVERT()                                                  MEDIACONVERT()
+
+
+
+NNAAMMEE
+       mediaconvert -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS Elemental MediaConvert
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-certificate
+
+       +o cancel-job
+
+       +o create-job
+
+       +o create-job-template
+
+       +o create-preset
+
+       +o create-queue
+
+       +o delete-job-template
+
+       +o delete-preset
+
+       +o delete-queue
+
+       +o describe-endpoints
+
+       +o disassociate-certificate
+
+       +o get-job
+
+       +o get-job-template
+
+       +o get-preset
+
+       +o get-queue
+
+       +o help
+
+       +o list-job-templates
+
+       +o list-jobs
+
+       +o list-presets
+
+       +o list-queues
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-job-template
+
+       +o update-preset
+
+       +o update-queue
+
+
+
+                                                                MEDIACONVERT()

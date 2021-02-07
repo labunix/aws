@@ -1,0 +1,9 @@
+{
+    "domainConfigurationName": "",
+    "authorizerConfig": {
+        "defaultAuthorizerName": "",
+        "allowAuthorizerOverride": true
+    },
+    "domainConfigurationStatus": "DISABLED",
+    "removeAuthorizerConfig": true
+}

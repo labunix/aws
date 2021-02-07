@@ -1,0 +1,17 @@
+{
+    "ActivationKey": "",
+    "AgentName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "VpcEndpointId": "",
+    "SubnetArns": [
+        ""
+    ],
+    "SecurityGroupArns": [
+        ""
+    ]
+}

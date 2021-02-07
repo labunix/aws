@@ -1,0 +1,34 @@
+{
+    "ClientData": {
+        "Comment": "",
+        "UploadEnd": "1970-01-01T00:00:00",
+        "UploadSize": null,
+        "UploadStart": "1970-01-01T00:00:00"
+    },
+    "ClientToken": "",
+    "Description": "",
+    "DiskContainer": {
+        "Description": "",
+        "Format": "",
+        "Url": "",
+        "UserBucket": {
+            "S3Bucket": "",
+            "S3Key": ""
+        }
+    },
+    "DryRun": true,
+    "Encrypted": true,
+    "KmsKeyId": "",
+    "RoleName": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "import-image-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

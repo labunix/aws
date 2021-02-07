@@ -1,0 +1,13 @@
+{
+    "FilterConditionList": [
+        {
+            "Field": "LAST_MODIFIED",
+            "ComparisonOperator": "BEGINS_WITH",
+            "StringValueList": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

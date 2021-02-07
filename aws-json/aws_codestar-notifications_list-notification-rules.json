@@ -1,0 +1,10 @@
+{
+    "Filters": [
+        {
+            "Name": "EVENT_TYPE_ID",
+            "Value": ""
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

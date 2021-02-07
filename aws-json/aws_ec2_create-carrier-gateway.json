@@ -1,0 +1,16 @@
+{
+    "VpcId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "import-image-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true,
+    "ClientToken": ""
+}

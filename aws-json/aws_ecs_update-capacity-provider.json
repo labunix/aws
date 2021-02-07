@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "autoScalingGroupProvider": {
+        "managedScaling": {
+            "status": "ENABLED",
+            "targetCapacity": 0,
+            "minimumScalingStepSize": 0,
+            "maximumScalingStepSize": 0,
+            "instanceWarmupPeriod": 0
+        },
+        "managedTerminationProtection": "ENABLED"
+    }
+}

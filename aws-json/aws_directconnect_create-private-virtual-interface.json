@@ -1,0 +1,21 @@
+{
+    "connectionId": "",
+    "newPrivateVirtualInterface": {
+        "virtualInterfaceName": "",
+        "vlan": 0,
+        "asn": 0,
+        "mtu": 0,
+        "authKey": "",
+        "amazonAddress": "",
+        "customerAddress": "",
+        "addressFamily": "ipv6",
+        "virtualGatewayId": "",
+        "directConnectGatewayId": "",
+        "tags": [
+            {
+                "key": "",
+                "value": ""
+            }
+        ]
+    }
+}

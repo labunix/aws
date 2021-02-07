@@ -1,0 +1,13 @@
+{
+    "ConformancePackName": "",
+    "TemplateS3Uri": "",
+    "TemplateBody": "",
+    "DeliveryS3Bucket": "",
+    "DeliveryS3KeyPrefix": "",
+    "ConformancePackInputParameters": [
+        {
+            "ParameterName": "",
+            "ParameterValue": ""
+        }
+    ]
+}

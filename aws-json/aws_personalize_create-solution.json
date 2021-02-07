@@ -1,0 +1,58 @@
+{
+    "name": "",
+    "performHPO": true,
+    "performAutoML": true,
+    "recipeArn": "",
+    "datasetGroupArn": "",
+    "eventType": "",
+    "solutionConfig": {
+        "eventValueThreshold": "",
+        "hpoConfig": {
+            "hpoObjective": {
+                "type": "",
+                "metricName": "",
+                "metricRegex": ""
+            },
+            "hpoResourceConfig": {
+                "maxNumberOfTrainingJobs": "",
+                "maxParallelTrainingJobs": ""
+            },
+            "algorithmHyperParameterRanges": {
+                "integerHyperParameterRanges": [
+                    {
+                        "name": "",
+                        "minValue": 0,
+                        "maxValue": 0
+                    }
+                ],
+                "continuousHyperParameterRanges": [
+                    {
+                        "name": "",
+                        "minValue": null,
+                        "maxValue": null
+                    }
+                ],
+                "categoricalHyperParameterRanges": [
+                    {
+                        "name": "",
+                        "values": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        },
+        "algorithmHyperParameters": {
+            "KeyName": ""
+        },
+        "featureTransformationParameters": {
+            "KeyName": ""
+        },
+        "autoMLConfig": {
+            "metricName": "",
+            "recipeList": [
+                ""
+            ]
+        }
+    }
+}

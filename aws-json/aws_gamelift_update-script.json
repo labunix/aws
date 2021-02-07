@@ -1,0 +1,12 @@
+{
+    "ScriptId": "",
+    "Name": "",
+    "Version": "",
+    "StorageLocation": {
+        "Bucket": "",
+        "Key": "",
+        "RoleArn": "",
+        "ObjectVersion": ""
+    },
+    "ZipFile": null
+}

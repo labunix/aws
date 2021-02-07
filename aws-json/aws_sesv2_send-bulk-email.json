@@ -1,0 +1,49 @@
+{
+    "FromEmailAddress": "",
+    "FromEmailAddressIdentityArn": "",
+    "ReplyToAddresses": [
+        ""
+    ],
+    "FeedbackForwardingEmailAddress": "",
+    "FeedbackForwardingEmailAddressIdentityArn": "",
+    "DefaultEmailTags": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "DefaultContent": {
+        "Template": {
+            "TemplateName": "",
+            "TemplateArn": "",
+            "TemplateData": ""
+        }
+    },
+    "BulkEmailEntries": [
+        {
+            "Destination": {
+                "ToAddresses": [
+                    ""
+                ],
+                "CcAddresses": [
+                    ""
+                ],
+                "BccAddresses": [
+                    ""
+                ]
+            },
+            "ReplacementTags": [
+                {
+                    "Name": "",
+                    "Value": ""
+                }
+            ],
+            "ReplacementEmailContent": {
+                "ReplacementTemplate": {
+                    "ReplacementTemplateData": ""
+                }
+            }
+        }
+    ],
+    "ConfigurationSetName": ""
+}

@@ -1,0 +1,25 @@
+{
+    "InstanceId": "",
+    "Name": "",
+    "Description": "",
+    "DefaultOutboundQueueId": "",
+    "QueueConfigs": [
+        {
+            "QueueReference": {
+                "QueueId": "",
+                "Channel": "CHAT"
+            },
+            "Priority": 0,
+            "Delay": 0
+        }
+    ],
+    "MediaConcurrencies": [
+        {
+            "Channel": "TASK",
+            "Concurrency": 0
+        }
+    ],
+    "Tags": {
+        "KeyName": ""
+    }
+}

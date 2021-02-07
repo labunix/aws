@@ -1,0 +1,110 @@
+{
+    "PolicyId": "",
+    "ExecutionRoleArn": "",
+    "State": "ENABLED",
+    "Description": "",
+    "PolicyDetails": {
+        "PolicyType": "IMAGE_MANAGEMENT",
+        "ResourceTypes": [
+            "INSTANCE"
+        ],
+        "TargetTags": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ],
+        "Schedules": [
+            {
+                "Name": "",
+                "CopyTags": true,
+                "TagsToAdd": [
+                    {
+                        "Key": "",
+                        "Value": ""
+                    }
+                ],
+                "VariableTags": [
+                    {
+                        "Key": "",
+                        "Value": ""
+                    }
+                ],
+                "CreateRule": {
+                    "Interval": 0,
+                    "IntervalUnit": "HOURS",
+                    "Times": [
+                        ""
+                    ],
+                    "CronExpression": ""
+                },
+                "RetainRule": {
+                    "Count": 0,
+                    "Interval": 0,
+                    "IntervalUnit": "MONTHS"
+                },
+                "FastRestoreRule": {
+                    "Count": 0,
+                    "Interval": 0,
+                    "IntervalUnit": "WEEKS",
+                    "AvailabilityZones": [
+                        ""
+                    ]
+                },
+                "CrossRegionCopyRules": [
+                    {
+                        "TargetRegion": "",
+                        "Encrypted": true,
+                        "CmkArn": "",
+                        "CopyTags": true,
+                        "RetainRule": {
+                            "Interval": 0,
+                            "IntervalUnit": "DAYS"
+                        }
+                    }
+                ],
+                "ShareRules": [
+                    {
+                        "TargetAccounts": [
+                            ""
+                        ],
+                        "UnshareInterval": 0,
+                        "UnshareIntervalUnit": "WEEKS"
+                    }
+                ]
+            }
+        ],
+        "Parameters": {
+            "ExcludeBootVolume": true,
+            "NoReboot": true
+        },
+        "EventSource": {
+            "Type": "MANAGED_CWE",
+            "Parameters": {
+                "EventType": "shareSnapshot",
+                "SnapshotOwner": [
+                    ""
+                ],
+                "DescriptionRegex": ""
+            }
+        },
+        "Actions": [
+            {
+                "Name": "",
+                "CrossRegionCopy": [
+                    {
+                        "Target": "",
+                        "EncryptionConfiguration": {
+                            "Encrypted": true,
+                            "CmkArn": ""
+                        },
+                        "RetainRule": {
+                            "Interval": 0,
+                            "IntervalUnit": "WEEKS"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

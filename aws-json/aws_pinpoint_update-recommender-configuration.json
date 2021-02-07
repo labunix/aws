@@ -1,0 +1,16 @@
+{
+    "RecommenderId": "",
+    "UpdateRecommenderConfiguration": {
+        "Attributes": {
+            "KeyName": ""
+        },
+        "Description": "",
+        "Name": "",
+        "RecommendationProviderIdType": "",
+        "RecommendationProviderRoleArn": "",
+        "RecommendationProviderUri": "",
+        "RecommendationTransformerUri": "",
+        "RecommendationsDisplayName": "",
+        "RecommendationsPerMessage": 0
+    }
+}

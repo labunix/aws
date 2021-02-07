@@ -1,0 +1,22 @@
+{
+    "JobName": "",
+    "InputDataConfig": {
+        "S3Uri": "",
+        "ContentType": ""
+    },
+    "OutputDataConfig": {
+        "S3Uri": ""
+    },
+    "DataAccessRoleArn": "",
+    "SourceLanguageCode": "",
+    "TargetLanguageCodes": [
+        ""
+    ],
+    "TerminologyNames": [
+        ""
+    ],
+    "ParallelDataNames": [
+        ""
+    ],
+    "ClientToken": ""
+}

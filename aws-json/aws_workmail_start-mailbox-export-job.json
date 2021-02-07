@@ -1,0 +1,10 @@
+{
+    "ClientToken": "",
+    "OrganizationId": "",
+    "EntityId": "",
+    "Description": "",
+    "RoleArn": "",
+    "KmsKeyArn": "",
+    "S3BucketName": "",
+    "S3Prefix": ""
+}

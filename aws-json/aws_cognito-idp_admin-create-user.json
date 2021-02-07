@@ -1,0 +1,25 @@
+{
+    "UserPoolId": "",
+    "Username": "",
+    "UserAttributes": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ValidationData": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "TemporaryPassword": "",
+    "ForceAliasCreation": true,
+    "MessageAction": "RESEND",
+    "DesiredDeliveryMediums": [
+        "SMS"
+    ],
+    "ClientMetadata": {
+        "KeyName": ""
+    }
+}

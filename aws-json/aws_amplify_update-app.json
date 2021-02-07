@@ -1,0 +1,45 @@
+{
+    "appId": "",
+    "name": "",
+    "description": "",
+    "platform": "WEB",
+    "iamServiceRoleArn": "",
+    "environmentVariables": {
+        "KeyName": ""
+    },
+    "enableBranchAutoBuild": true,
+    "enableBranchAutoDeletion": true,
+    "enableBasicAuth": true,
+    "basicAuthCredentials": "",
+    "customRules": [
+        {
+            "source": "",
+            "target": "",
+            "status": "",
+            "condition": ""
+        }
+    ],
+    "buildSpec": "",
+    "customHeaders": "",
+    "enableAutoBranchCreation": true,
+    "autoBranchCreationPatterns": [
+        ""
+    ],
+    "autoBranchCreationConfig": {
+        "stage": "BETA",
+        "framework": "",
+        "enableAutoBuild": true,
+        "environmentVariables": {
+            "KeyName": ""
+        },
+        "basicAuthCredentials": "",
+        "enableBasicAuth": true,
+        "enablePerformanceMode": true,
+        "buildSpec": "",
+        "enablePullRequestPreview": true,
+        "pullRequestEnvironmentName": ""
+    },
+    "repository": "",
+    "oauthToken": "",
+    "accessToken": ""
+}

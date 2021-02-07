@@ -1,0 +1,15 @@
+{
+    "DryRun": true,
+    "VpcId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "client-vpn-endpoint",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

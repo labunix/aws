@@ -1,0 +1,15 @@
+{
+    "Arn": "",
+    "Name": "",
+    "Status": "DISABLED",
+    "EventTypeIds": [
+        ""
+    ],
+    "Targets": [
+        {
+            "TargetType": "",
+            "TargetAddress": ""
+        }
+    ],
+    "DetailType": "FULL"
+}

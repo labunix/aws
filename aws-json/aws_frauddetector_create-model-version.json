@@ -1,0 +1,27 @@
+{
+    "modelId": "",
+    "modelType": "ONLINE_FRAUD_INSIGHTS",
+    "trainingDataSource": "EXTERNAL_EVENTS",
+    "trainingDataSchema": {
+        "modelVariables": [
+            ""
+        ],
+        "labelSchema": {
+            "labelMapper": {
+                "KeyName": [
+                    ""
+                ]
+            }
+        }
+    },
+    "externalEventsDetail": {
+        "dataLocation": "",
+        "dataAccessRoleArn": ""
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

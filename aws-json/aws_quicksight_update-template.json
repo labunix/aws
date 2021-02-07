@@ -1,0 +1,20 @@
+{
+    "AwsAccountId": "",
+    "TemplateId": "",
+    "SourceEntity": {
+        "SourceAnalysis": {
+            "Arn": "",
+            "DataSetReferences": [
+                {
+                    "DataSetPlaceholder": "",
+                    "DataSetArn": ""
+                }
+            ]
+        },
+        "SourceTemplate": {
+            "Arn": ""
+        }
+    },
+    "VersionDescription": "",
+    "Name": ""
+}

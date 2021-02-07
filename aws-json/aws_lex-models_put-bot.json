@@ -1,0 +1,47 @@
+{
+    "name": "",
+    "description": "",
+    "intents": [
+        {
+            "intentName": "",
+            "intentVersion": ""
+        }
+    ],
+    "enableModelImprovements": true,
+    "nluIntentConfidenceThreshold": null,
+    "clarificationPrompt": {
+        "messages": [
+            {
+                "contentType": "SSML",
+                "content": "",
+                "groupNumber": 0
+            }
+        ],
+        "maxAttempts": 0,
+        "responseCard": ""
+    },
+    "abortStatement": {
+        "messages": [
+            {
+                "contentType": "PlainText",
+                "content": "",
+                "groupNumber": 0
+            }
+        ],
+        "responseCard": ""
+    },
+    "idleSessionTTLInSeconds": 0,
+    "voiceId": "",
+    "checksum": "",
+    "processBehavior": "SAVE",
+    "locale": "fr-CA",
+    "childDirected": true,
+    "detectSentiment": true,
+    "createVersion": true,
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

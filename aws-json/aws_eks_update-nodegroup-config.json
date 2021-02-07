@@ -1,0 +1,18 @@
+{
+    "clusterName": "",
+    "nodegroupName": "",
+    "labels": {
+        "addOrUpdateLabels": {
+            "KeyName": ""
+        },
+        "removeLabels": [
+            ""
+        ]
+    },
+    "scalingConfig": {
+        "minSize": 0,
+        "maxSize": 0,
+        "desiredSize": 0
+    },
+    "clientRequestToken": ""
+}

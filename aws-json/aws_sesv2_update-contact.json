@@ -1,0 +1,12 @@
+{
+    "ContactListName": "",
+    "EmailAddress": "",
+    "TopicPreferences": [
+        {
+            "TopicName": "",
+            "SubscriptionStatus": "OPT_OUT"
+        }
+    ],
+    "UnsubscribeAll": true,
+    "AttributesData": ""
+}

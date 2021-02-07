@@ -1,0 +1,89 @@
+CE()                                                                      CE()
+
+
+
+NNAAMMEE
+       ce -
+
+DDEESSCCRRIIPPTTIIOONN
+       The  Cost  Explorer API enables you to programmatically query your cost
+       and usage data. You can query for aggregated data such as total monthly
+       costs  or total daily usage. You can also query for granular data, such
+       as the number of daily write operations for  Amazon  DynamoDB  database
+       tables in your production environment.
+
+       Service Endpoint
+
+       The Cost Explorer API provides the following endpoint:
+
+       +o hhttttppss::////ccee..uuss--eeaasstt--11..aammaazzoonnaawwss..ccoomm
+
+       For  information about costs associated with the Cost Explorer API, see
+       _A_W_S _C_o_s_t _M_a_n_a_g_e_m_e_n_t _P_r_i_c_i_n_g .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-anomaly-monitor
+
+       +o create-anomaly-subscription
+
+       +o create-cost-category-definition
+
+       +o delete-anomaly-monitor
+
+       +o delete-anomaly-subscription
+
+       +o delete-cost-category-definition
+
+       +o describe-cost-category-definition
+
+       +o get-anomalies
+
+       +o get-anomaly-monitors
+
+       +o get-anomaly-subscriptions
+
+       +o get-cost-and-usage
+
+       +o get-cost-and-usage-with-resources
+
+       +o get-cost-categories
+
+       +o get-cost-forecast
+
+       +o get-dimension-values
+
+       +o get-reservation-coverage
+
+       +o get-reservation-purchase-recommendation
+
+       +o get-reservation-utilization
+
+       +o get-rightsizing-recommendation
+
+       +o get-savings-plans-coverage
+
+       +o get-savings-plans-purchase-recommendation
+
+       +o get-savings-plans-utilization
+
+       +o get-savings-plans-utilization-details
+
+       +o get-tags
+
+       +o get-usage-forecast
+
+       +o help
+
+       +o list-cost-category-definitions
+
+       +o provide-anomaly-feedback
+
+       +o update-anomaly-monitor
+
+       +o update-anomaly-subscription
+
+       +o update-cost-category-definition
+
+
+
+                                                                          CE()

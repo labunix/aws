@@ -1,0 +1,39 @@
+{
+    "Policy": {
+        "PolicyId": "",
+        "PolicyName": "",
+        "PolicyUpdateToken": "",
+        "SecurityServicePolicyData": {
+            "Type": "WAFV2",
+            "ManagedServiceData": ""
+        },
+        "ResourceType": "",
+        "ResourceTypeList": [
+            ""
+        ],
+        "ResourceTags": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ],
+        "ExcludeResourceTags": true,
+        "RemediationEnabled": true,
+        "IncludeMap": {
+            "KeyName": [
+                ""
+            ]
+        },
+        "ExcludeMap": {
+            "KeyName": [
+                ""
+            ]
+        }
+    },
+    "TagList": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

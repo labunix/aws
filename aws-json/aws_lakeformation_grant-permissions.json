@@ -1,0 +1,42 @@
+{
+    "CatalogId": "",
+    "Principal": {
+        "DataLakePrincipalIdentifier": ""
+    },
+    "Resource": {
+        "Catalog": {},
+        "Database": {
+            "CatalogId": "",
+            "Name": ""
+        },
+        "Table": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Name": "",
+            "TableWildcard": {}
+        },
+        "TableWithColumns": {
+            "CatalogId": "",
+            "DatabaseName": "",
+            "Name": "",
+            "ColumnNames": [
+                ""
+            ],
+            "ColumnWildcard": {
+                "ExcludedColumnNames": [
+                    ""
+                ]
+            }
+        },
+        "DataLocation": {
+            "CatalogId": "",
+            "ResourceArn": ""
+        }
+    },
+    "Permissions": [
+        "CREATE_TABLE"
+    ],
+    "PermissionsWithGrantOption": [
+        "DATA_LOCATION_ACCESS"
+    ]
+}

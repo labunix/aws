@@ -1,0 +1,29 @@
+{
+    "CacheClusterId": "",
+    "NumCacheNodes": 0,
+    "CacheNodeIdsToRemove": [
+        ""
+    ],
+    "AZMode": "cross-az",
+    "NewAvailabilityZones": [
+        ""
+    ],
+    "CacheSecurityGroupNames": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "PreferredMaintenanceWindow": "",
+    "NotificationTopicArn": "",
+    "CacheParameterGroupName": "",
+    "NotificationTopicStatus": "",
+    "ApplyImmediately": true,
+    "EngineVersion": "",
+    "AutoMinorVersionUpgrade": true,
+    "SnapshotRetentionLimit": 0,
+    "SnapshotWindow": "",
+    "CacheNodeType": "",
+    "AuthToken": "",
+    "AuthTokenUpdateStrategy": "DELETE"
+}

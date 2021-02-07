@@ -1,0 +1,23 @@
+{
+    "DryRun": true,
+    "AcceptanceRequired": true,
+    "PrivateDnsName": "",
+    "NetworkLoadBalancerArns": [
+        ""
+    ],
+    "GatewayLoadBalancerArns": [
+        ""
+    ],
+    "ClientToken": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "local-gateway-route-table-vpc-association",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

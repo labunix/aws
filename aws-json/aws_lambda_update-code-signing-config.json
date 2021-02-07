@@ -1,0 +1,12 @@
+{
+    "CodeSigningConfigArn": "",
+    "Description": "",
+    "AllowedPublishers": {
+        "SigningProfileVersionArns": [
+            ""
+        ]
+    },
+    "CodeSigningPolicies": {
+        "UntrustedArtifactOnDeployment": "Warn"
+    }
+}

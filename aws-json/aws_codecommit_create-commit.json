@@ -1,0 +1,31 @@
+{
+    "repositoryName": "",
+    "branchName": "",
+    "parentCommitId": "",
+    "authorName": "",
+    "email": "",
+    "commitMessage": "",
+    "keepEmptyFolders": true,
+    "putFiles": [
+        {
+            "filePath": "",
+            "fileMode": "EXECUTABLE",
+            "fileContent": null,
+            "sourceFile": {
+                "filePath": "",
+                "isMove": true
+            }
+        }
+    ],
+    "deleteFiles": [
+        {
+            "filePath": ""
+        }
+    ],
+    "setFileModes": [
+        {
+            "filePath": "",
+            "fileMode": "NORMAL"
+        }
+    ]
+}

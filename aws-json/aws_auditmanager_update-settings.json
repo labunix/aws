@@ -1,0 +1,14 @@
+{
+    "snsTopic": "",
+    "defaultAssessmentReportsDestination": {
+        "destinationType": "S3",
+        "destination": ""
+    },
+    "defaultProcessOwners": [
+        {
+            "roleType": "PROCESS_OWNER",
+            "roleArn": ""
+        }
+    ],
+    "kmsKey": ""
+}

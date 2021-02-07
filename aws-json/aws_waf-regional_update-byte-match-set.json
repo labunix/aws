@@ -1,0 +1,18 @@
+{
+    "ByteMatchSetId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "ByteMatchTuple": {
+                "FieldToMatch": {
+                    "Type": "HEADER",
+                    "Data": ""
+                },
+                "TargetString": null,
+                "TextTransformation": "CMD_LINE",
+                "PositionalConstraint": "CONTAINS_WORD"
+            }
+        }
+    ]
+}

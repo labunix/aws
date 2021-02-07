@@ -1,0 +1,12 @@
+{
+    "clientId": "",
+    "clientSecret": "",
+    "grantType": "",
+    "deviceCode": "",
+    "code": "",
+    "refreshToken": "",
+    "scope": [
+        ""
+    ],
+    "redirectUri": ""
+}

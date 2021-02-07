@@ -1,0 +1,24 @@
+{
+    "ClientRequestToken": "",
+    "InvitationId": "",
+    "NetworkId": "",
+    "MemberConfiguration": {
+        "Name": "",
+        "Description": "",
+        "FrameworkConfiguration": {
+            "Fabric": {
+                "AdminUsername": "",
+                "AdminPassword": ""
+            }
+        },
+        "LogPublishingConfiguration": {
+            "Fabric": {
+                "CaLogs": {
+                    "Cloudwatch": {
+                        "Enabled": true
+                    }
+                }
+            }
+        }
+    }
+}

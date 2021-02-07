@@ -1,0 +1,18 @@
+{
+    "TaskExecutionArn": "",
+    "Options": {
+        "VerifyMode": "NONE",
+        "OverwriteMode": "ALWAYS",
+        "Atime": "NONE",
+        "Mtime": "PRESERVE",
+        "Uid": "NONE",
+        "Gid": "NONE",
+        "PreserveDeletedFiles": "PRESERVE",
+        "PreserveDevices": "PRESERVE",
+        "PosixPermissions": "PRESERVE",
+        "BytesPerSecond": 0,
+        "TaskQueueing": "DISABLED",
+        "LogLevel": "TRANSFER",
+        "TransferMode": "CHANGED"
+    }
+}

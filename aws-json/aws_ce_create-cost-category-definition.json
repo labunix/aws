@@ -1,0 +1,45 @@
+{
+    "Name": "",
+    "RuleVersion": "CostCategoryExpression.v1",
+    "Rules": [
+        {
+            "Value": "",
+            "Rule": {
+                "Or": [
+                    {}
+                ],
+                "And": [
+                    {}
+                ],
+                "Not": {},
+                "Dimensions": {
+                    "Key": "AGREEMENT_END_DATE_TIME_BEFORE",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "ENDS_WITH"
+                    ]
+                },
+                "Tags": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "CASE_SENSITIVE"
+                    ]
+                },
+                "CostCategories": {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "MatchOptions": [
+                        "STARTS_WITH"
+                    ]
+                }
+            }
+        }
+    ]
+}

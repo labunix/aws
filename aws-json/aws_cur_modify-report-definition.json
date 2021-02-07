@@ -1,0 +1,20 @@
+{
+    "ReportName": "",
+    "ReportDefinition": {
+        "ReportName": "",
+        "TimeUnit": "HOURLY",
+        "Format": "Parquet",
+        "Compression": "ZIP",
+        "AdditionalSchemaElements": [
+            "RESOURCES"
+        ],
+        "S3Bucket": "",
+        "S3Prefix": "",
+        "S3Region": "eu-north-1",
+        "AdditionalArtifacts": [
+            "REDSHIFT"
+        ],
+        "RefreshClosedReports": true,
+        "ReportVersioning": "CREATE_NEW_REPORT"
+    }
+}

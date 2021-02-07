@@ -1,0 +1,7 @@
+{
+    "VpnConnectionId": "",
+    "TransitGatewayId": "",
+    "CustomerGatewayId": "",
+    "VpnGatewayId": "",
+    "DryRun": true
+}

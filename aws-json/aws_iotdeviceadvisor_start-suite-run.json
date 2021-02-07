@@ -1,0 +1,20 @@
+{
+    "suiteDefinitionId": "",
+    "suiteDefinitionVersion": "",
+    "suiteRunConfiguration": {
+        "primaryDevice": {
+            "thingArn": "",
+            "certificateArn": ""
+        },
+        "secondaryDevice": {
+            "thingArn": "",
+            "certificateArn": ""
+        },
+        "selectedTestList": [
+            ""
+        ]
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

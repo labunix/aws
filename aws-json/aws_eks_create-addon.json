@@ -1,0 +1,11 @@
+{
+    "clusterName": "",
+    "addonName": "",
+    "addonVersion": "",
+    "serviceAccountRoleArn": "",
+    "resolveConflicts": "OVERWRITE",
+    "clientRequestToken": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "domain": "",
+    "domainOwner": "",
+    "sourceRepository": "",
+    "destinationRepository": "",
+    "format": "nuget",
+    "namespace": "",
+    "package": "",
+    "versions": [
+        ""
+    ],
+    "versionRevisions": {
+        "KeyName": ""
+    },
+    "allowOverwrite": true,
+    "includeFromUpstream": true
+}

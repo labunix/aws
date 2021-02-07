@@ -1,0 +1,8 @@
+{
+    "DirectoryId": "",
+    "CertificateData": "",
+    "Type": "ClientLDAPS",
+    "ClientCertAuthSettings": {
+        "OCSPUrl": ""
+    }
+}

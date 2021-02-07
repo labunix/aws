@@ -1,0 +1,32 @@
+{
+    "TransactStatements": [
+        {
+            "Statement": "",
+            "Parameters": [
+                {
+                    "S": "",
+                    "N": "",
+                    "B": null,
+                    "SS": [
+                        ""
+                    ],
+                    "NS": [
+                        ""
+                    ],
+                    "BS": [
+                        null
+                    ],
+                    "M": {
+                        "KeyName": {}
+                    },
+                    "L": [
+                        {}
+                    ],
+                    "NULL": true,
+                    "BOOL": true
+                }
+            ]
+        }
+    ],
+    "ClientRequestToken": ""
+}

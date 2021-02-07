@@ -1,0 +1,173 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "meshOwner": "",
+    "spec": {
+        "backendDefaults": {
+            "clientPolicy": {
+                "tls": {
+                    "enforce": true,
+                    "ports": [
+                        0
+                    ],
+                    "validation": {
+                        "trust": {
+                            "acm": {
+                                "certificateAuthorityArns": [
+                                    ""
+                                ]
+                            },
+                            "file": {
+                                "certificateChain": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "backends": [
+            {
+                "virtualService": {
+                    "clientPolicy": {
+                        "tls": {
+                            "enforce": true,
+                            "ports": [
+                                0
+                            ],
+                            "validation": {
+                                "trust": {
+                                    "acm": {
+                                        "certificateAuthorityArns": [
+                                            ""
+                                        ]
+                                    },
+                                    "file": {
+                                        "certificateChain": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "virtualServiceName": ""
+                }
+            }
+        ],
+        "listeners": [
+            {
+                "connectionPool": {
+                    "grpc": {
+                        "maxRequests": 0
+                    },
+                    "http": {
+                        "maxConnections": 0,
+                        "maxPendingRequests": 0
+                    },
+                    "http2": {
+                        "maxRequests": 0
+                    },
+                    "tcp": {
+                        "maxConnections": 0
+                    }
+                },
+                "healthCheck": {
+                    "healthyThreshold": 0,
+                    "intervalMillis": 0,
+                    "path": "",
+                    "port": 0,
+                    "protocol": "http",
+                    "timeoutMillis": 0,
+                    "unhealthyThreshold": 0
+                },
+                "outlierDetection": {
+                    "baseEjectionDuration": {
+                        "unit": "s",
+                        "value": 0
+                    },
+                    "interval": {
+                        "unit": "s",
+                        "value": 0
+                    },
+                    "maxEjectionPercent": 0,
+                    "maxServerErrors": 0
+                },
+                "portMapping": {
+                    "port": 0,
+                    "protocol": "http2"
+                },
+                "timeout": {
+                    "grpc": {
+                        "idle": {
+                            "unit": "s",
+                            "value": 0
+                        },
+                        "perRequest": {
+                            "unit": "ms",
+                            "value": 0
+                        }
+                    },
+                    "http": {
+                        "idle": {
+                            "unit": "s",
+                            "value": 0
+                        },
+                        "perRequest": {
+                            "unit": "s",
+                            "value": 0
+                        }
+                    },
+                    "http2": {
+                        "idle": {
+                            "unit": "ms",
+                            "value": 0
+                        },
+                        "perRequest": {
+                            "unit": "ms",
+                            "value": 0
+                        }
+                    },
+                    "tcp": {
+                        "idle": {
+                            "unit": "ms",
+                            "value": 0
+                        }
+                    }
+                },
+                "tls": {
+                    "certificate": {
+                        "acm": {
+                            "certificateArn": ""
+                        },
+                        "file": {
+                            "certificateChain": "",
+                            "privateKey": ""
+                        }
+                    },
+                    "mode": "PERMISSIVE"
+                }
+            }
+        ],
+        "logging": {
+            "accessLog": {
+                "file": {
+                    "path": ""
+                }
+            }
+        },
+        "serviceDiscovery": {
+            "awsCloudMap": {
+                "attributes": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "namespaceName": "",
+                "serviceName": ""
+            },
+            "dns": {
+                "hostname": ""
+            }
+        }
+    },
+    "virtualNodeName": ""
+}

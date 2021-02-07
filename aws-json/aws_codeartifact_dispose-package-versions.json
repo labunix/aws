@@ -1,0 +1,15 @@
+{
+    "domain": "",
+    "domainOwner": "",
+    "repository": "",
+    "format": "npm",
+    "namespace": "",
+    "package": "",
+    "versions": [
+        ""
+    ],
+    "versionRevisions": {
+        "KeyName": ""
+    },
+    "expectedStatus": "Deleted"
+}

@@ -1,0 +1,14 @@
+{
+    "PipelineName": "",
+    "PipelineDisplayName": "",
+    "PipelineDefinition": "",
+    "PipelineDescription": "",
+    "ClientRequestToken": "",
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

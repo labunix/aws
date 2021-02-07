@@ -1,0 +1,25 @@
+{
+    "WorkloadId": "",
+    "WorkloadName": "",
+    "Description": "",
+    "Environment": "PREPRODUCTION",
+    "AccountIds": [
+        ""
+    ],
+    "AwsRegions": [
+        ""
+    ],
+    "NonAwsRegions": [
+        ""
+    ],
+    "PillarPriorities": [
+        ""
+    ],
+    "ArchitecturalDesign": "",
+    "ReviewOwner": "",
+    "IsReviewOwnerUpdateAcknowledged": true,
+    "IndustryType": "",
+    "Industry": "",
+    "Notes": "",
+    "ImprovementStatus": "COMPLETE"
+}

@@ -1,0 +1,19 @@
+{
+    "LicenseArn": "",
+    "Entitlements": [
+        {
+            "Name": "",
+            "Value": "",
+            "Unit": "Terabits"
+        }
+    ],
+    "DigitalSignatureMethod": "JWT_PS384",
+    "NodeId": "",
+    "CheckoutMetadata": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ClientToken": ""
+}

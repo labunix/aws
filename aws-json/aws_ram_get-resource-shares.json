@@ -1,0 +1,18 @@
+{
+    "resourceShareArns": [
+        ""
+    ],
+    "resourceShareStatus": "DELETING",
+    "resourceOwner": "SELF",
+    "name": "",
+    "tagFilters": [
+        {
+            "tagKey": "",
+            "tagValues": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

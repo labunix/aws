@@ -1,0 +1,81 @@
+{
+    "DomainName": "",
+    "IdnLangCode": "",
+    "DurationInYears": 0,
+    "Nameservers": [
+        {
+            "Name": "",
+            "GlueIps": [
+                ""
+            ]
+        }
+    ],
+    "AuthCode": "",
+    "AutoRenew": true,
+    "AdminContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "RESELLER",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "VC",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "FI_NATIONALITY",
+                "Value": ""
+            }
+        ]
+    },
+    "RegistrantContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "RESELLER",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "PW",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "IT_PIN",
+                "Value": ""
+            }
+        ]
+    },
+    "TechContact": {
+        "FirstName": "",
+        "LastName": "",
+        "ContactType": "PERSON",
+        "OrganizationName": "",
+        "AddressLine1": "",
+        "AddressLine2": "",
+        "City": "",
+        "State": "",
+        "CountryCode": "MX",
+        "ZipCode": "",
+        "PhoneNumber": "",
+        "Email": "",
+        "Fax": "",
+        "ExtraParams": [
+            {
+                "Name": "IT_NATIONALITY",
+                "Value": ""
+            }
+        ]
+    },
+    "PrivacyProtectAdminContact": true,
+    "PrivacyProtectRegistrantContact": true,
+    "PrivacyProtectTechContact": true
+}

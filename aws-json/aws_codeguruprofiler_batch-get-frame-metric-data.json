@@ -1,0 +1,16 @@
+{
+    "endTime": "1970-01-01T00:00:00",
+    "frameMetrics": [
+        {
+            "frameName": "",
+            "threadStates": [
+                ""
+            ],
+            "type": "AggregatedRelativeTotalTime"
+        }
+    ],
+    "period": "",
+    "profilingGroupName": "",
+    "startTime": "1970-01-01T00:00:00",
+    "targetResolution": "P1D"
+}

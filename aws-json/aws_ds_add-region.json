@@ -1,0 +1,10 @@
+{
+    "DirectoryId": "",
+    "RegionName": "",
+    "VPCSettings": {
+        "VpcId": "",
+        "SubnetIds": [
+            ""
+        ]
+    }
+}

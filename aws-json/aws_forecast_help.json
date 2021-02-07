@@ -1,0 +1,82 @@
+FORECAST()                                                          FORECAST()
+
+
+
+NNAAMMEE
+       forecast -
+
+DDEESSCCRRIIPPTTIIOONN
+       Provides APIs for creating and managing Amazon Forecast resources.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-dataset
+
+       +o create-dataset-group
+
+       +o create-dataset-import-job
+
+       +o create-forecast
+
+       +o create-forecast-export-job
+
+       +o create-predictor
+
+       +o create-predictor-backtest-export-job
+
+       +o delete-dataset
+
+       +o delete-dataset-group
+
+       +o delete-dataset-import-job
+
+       +o delete-forecast
+
+       +o delete-forecast-export-job
+
+       +o delete-predictor
+
+       +o delete-predictor-backtest-export-job
+
+       +o describe-dataset
+
+       +o describe-dataset-group
+
+       +o describe-dataset-import-job
+
+       +o describe-forecast
+
+       +o describe-forecast-export-job
+
+       +o describe-predictor
+
+       +o describe-predictor-backtest-export-job
+
+       +o get-accuracy-metrics
+
+       +o help
+
+       +o list-dataset-groups
+
+       +o list-dataset-import-jobs
+
+       +o list-datasets
+
+       +o list-forecast-export-jobs
+
+       +o list-forecasts
+
+       +o list-predictor-backtest-export-jobs
+
+       +o list-predictors
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-dataset-group
+
+
+
+                                                                    FORECAST()

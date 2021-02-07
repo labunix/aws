@@ -1,0 +1,12 @@
+{
+    "VoiceConnectorId": "",
+    "EmergencyCallingConfiguration": {
+        "DNIS": [
+            {
+                "EmergencyPhoneNumber": "",
+                "TestPhoneNumber": "",
+                "CallingCountry": ""
+            }
+        ]
+    }
+}

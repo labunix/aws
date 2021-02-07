@@ -1,0 +1,12 @@
+{
+    "PoolName": "",
+    "StorageClass": "DEEP_ARCHIVE",
+    "RetentionLockType": "GOVERNANCE",
+    "RetentionLockTimeInDays": 0,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

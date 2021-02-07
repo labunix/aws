@@ -1,0 +1,9 @@
+{
+    "ForecastArn": "",
+    "StartDate": "",
+    "EndDate": "",
+    "Filters": {
+        "KeyName": ""
+    },
+    "NextToken": ""
+}

@@ -1,0 +1,16 @@
+{
+    "Image": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "SummarizationAttributes": {
+        "MinConfidence": 0.0,
+        "RequiredEquipmentTypes": [
+            "FACE_COVER"
+        ]
+    }
+}

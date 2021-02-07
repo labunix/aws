@@ -1,0 +1,45 @@
+{
+    "AirflowConfigurationOptions": {
+        "KeyName": ""
+    },
+    "AirflowVersion": "",
+    "DagS3Path": "",
+    "EnvironmentClass": "",
+    "ExecutionRoleArn": "",
+    "LoggingConfiguration": {
+        "DagProcessingLogs": {
+            "Enabled": true,
+            "LogLevel": "ERROR"
+        },
+        "SchedulerLogs": {
+            "Enabled": true,
+            "LogLevel": "WARNING"
+        },
+        "TaskLogs": {
+            "Enabled": true,
+            "LogLevel": "DEBUG"
+        },
+        "WebserverLogs": {
+            "Enabled": true,
+            "LogLevel": "WARNING"
+        },
+        "WorkerLogs": {
+            "Enabled": true,
+            "LogLevel": "CRITICAL"
+        }
+    },
+    "MaxWorkers": 0,
+    "Name": "",
+    "NetworkConfiguration": {
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "PluginsS3ObjectVersion": "",
+    "PluginsS3Path": "",
+    "RequirementsS3ObjectVersion": "",
+    "RequirementsS3Path": "",
+    "SourceBucketArn": "",
+    "WebserverAccessMode": "PUBLIC_ONLY",
+    "WeeklyMaintenanceWindowStart": ""
+}

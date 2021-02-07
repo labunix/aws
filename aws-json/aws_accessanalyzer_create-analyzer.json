@@ -1,0 +1,27 @@
+{
+    "analyzerName": "",
+    "archiveRules": [
+        {
+            "filter": {
+                "KeyName": {
+                    "contains": [
+                        ""
+                    ],
+                    "eq": [
+                        ""
+                    ],
+                    "exists": true,
+                    "neq": [
+                        ""
+                    ]
+                }
+            },
+            "ruleName": ""
+        }
+    ],
+    "clientToken": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "type": "ORGANIZATION"
+}

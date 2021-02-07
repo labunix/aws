@@ -1,0 +1,16 @@
+{
+    "DomainName": "",
+    "ItemName": "",
+    "Attributes": [
+        {
+            "Name": "",
+            "Value": "",
+            "Replace": true
+        }
+    ],
+    "Expected": {
+        "Name": "",
+        "Value": "",
+        "Exists": true
+    }
+}

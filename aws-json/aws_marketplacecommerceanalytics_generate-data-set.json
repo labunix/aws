@@ -1,0 +1,11 @@
+{
+    "dataSetType": "disbursed_amount_by_product_with_uncollected_funds",
+    "dataSetPublicationDate": "1970-01-01T00:00:00",
+    "roleNameArn": "",
+    "destinationS3BucketName": "",
+    "destinationS3Prefix": "",
+    "snsTopicArn": "",
+    "customerDefinedValues": {
+        "KeyName": ""
+    }
+}

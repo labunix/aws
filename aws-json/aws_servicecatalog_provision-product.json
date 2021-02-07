@@ -1,0 +1,38 @@
+{
+    "AcceptLanguage": "",
+    "ProductId": "",
+    "ProductName": "",
+    "ProvisioningArtifactId": "",
+    "ProvisioningArtifactName": "",
+    "PathId": "",
+    "PathName": "",
+    "ProvisionedProductName": "",
+    "ProvisioningParameters": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ProvisioningPreferences": {
+        "StackSetAccounts": [
+            ""
+        ],
+        "StackSetRegions": [
+            ""
+        ],
+        "StackSetFailureToleranceCount": 0,
+        "StackSetFailureTolerancePercentage": 0,
+        "StackSetMaxConcurrencyCount": 0,
+        "StackSetMaxConcurrencyPercentage": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "NotificationArns": [
+        ""
+    ],
+    "ProvisionToken": ""
+}

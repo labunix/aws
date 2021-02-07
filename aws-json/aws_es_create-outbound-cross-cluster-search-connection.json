@@ -1,0 +1,13 @@
+{
+    "SourceDomainInfo": {
+        "OwnerId": "",
+        "DomainName": "",
+        "Region": ""
+    },
+    "DestinationDomainInfo": {
+        "OwnerId": "",
+        "DomainName": "",
+        "Region": ""
+    },
+    "ConnectionAlias": ""
+}

@@ -1,0 +1,72 @@
+{
+    "JobDefinitionName": "",
+    "ModelExplainabilityBaselineConfig": {
+        "BaseliningJobName": "",
+        "ConstraintsResource": {
+            "S3Uri": ""
+        }
+    },
+    "ModelExplainabilityAppSpecification": {
+        "ImageUri": "",
+        "ConfigUri": "",
+        "Environment": {
+            "KeyName": ""
+        }
+    },
+    "ModelExplainabilityJobInput": {
+        "EndpointInput": {
+            "EndpointName": "",
+            "LocalPath": "",
+            "S3InputMode": "Pipe",
+            "S3DataDistributionType": "FullyReplicated",
+            "FeaturesAttribute": "",
+            "InferenceAttribute": "",
+            "ProbabilityAttribute": "",
+            "ProbabilityThresholdAttribute": null,
+            "StartTimeOffset": "",
+            "EndTimeOffset": ""
+        }
+    },
+    "ModelExplainabilityJobOutputConfig": {
+        "MonitoringOutputs": [
+            {
+                "S3Output": {
+                    "S3Uri": "",
+                    "LocalPath": "",
+                    "S3UploadMode": "EndOfJob"
+                }
+            }
+        ],
+        "KmsKeyId": ""
+    },
+    "JobResources": {
+        "ClusterConfig": {
+            "InstanceCount": 0,
+            "InstanceType": "ml.r5.24xlarge",
+            "VolumeSizeInGB": 0,
+            "VolumeKmsKeyId": ""
+        }
+    },
+    "NetworkConfig": {
+        "EnableInterContainerTrafficEncryption": true,
+        "EnableNetworkIsolation": true,
+        "VpcConfig": {
+            "SecurityGroupIds": [
+                ""
+            ],
+            "Subnets": [
+                ""
+            ]
+        }
+    },
+    "RoleArn": "",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

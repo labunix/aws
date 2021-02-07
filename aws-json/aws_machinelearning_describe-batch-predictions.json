@@ -1,0 +1,13 @@
+{
+    "FilterVariable": "Name",
+    "EQ": "",
+    "GT": "",
+    "LT": "",
+    "GE": "",
+    "LE": "",
+    "NE": "",
+    "Prefix": "",
+    "SortOrder": "asc",
+    "NextToken": "",
+    "Limit": 0
+}

@@ -1,0 +1,11 @@
+{
+    "GlobalReplicationGroupId": "",
+    "NodeGroupCount": 0,
+    "GlobalNodeGroupsToRemove": [
+        ""
+    ],
+    "GlobalNodeGroupsToRetain": [
+        ""
+    ],
+    "ApplyImmediately": true
+}

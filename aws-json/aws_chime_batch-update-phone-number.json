@@ -1,0 +1,9 @@
+{
+    "UpdatePhoneNumberRequestItems": [
+        {
+            "PhoneNumberId": "",
+            "ProductType": "BusinessCalling",
+            "CallingName": ""
+        }
+    ]
+}

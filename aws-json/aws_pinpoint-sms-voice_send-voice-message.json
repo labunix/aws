@@ -1,0 +1,21 @@
+{
+    "CallerId": "",
+    "ConfigurationSetName": "",
+    "Content": {
+        "CallInstructionsMessage": {
+            "Text": ""
+        },
+        "PlainTextMessage": {
+            "LanguageCode": "",
+            "Text": "",
+            "VoiceId": ""
+        },
+        "SSMLMessage": {
+            "LanguageCode": "",
+            "Text": "",
+            "VoiceId": ""
+        }
+    },
+    "DestinationPhoneNumber": "",
+    "OriginationPhoneNumber": ""
+}

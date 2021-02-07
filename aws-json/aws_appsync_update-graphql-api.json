@@ -1,0 +1,39 @@
+{
+    "apiId": "",
+    "name": "",
+    "logConfig": {
+        "fieldLogLevel": "NONE",
+        "cloudWatchLogsRoleArn": "",
+        "excludeVerboseContent": true
+    },
+    "authenticationType": "API_KEY",
+    "userPoolConfig": {
+        "userPoolId": "",
+        "awsRegion": "",
+        "defaultAction": "DENY",
+        "appIdClientRegex": ""
+    },
+    "openIDConnectConfig": {
+        "issuer": "",
+        "clientId": "",
+        "iatTTL": 0,
+        "authTTL": 0
+    },
+    "additionalAuthenticationProviders": [
+        {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "openIDConnectConfig": {
+                "issuer": "",
+                "clientId": "",
+                "iatTTL": 0,
+                "authTTL": 0
+            },
+            "userPoolConfig": {
+                "userPoolId": "",
+                "awsRegion": "",
+                "appIdClientRegex": ""
+            }
+        }
+    ],
+    "xrayEnabled": true
+}

@@ -1,0 +1,15 @@
+{
+    "AlarmNames": [
+        ""
+    ],
+    "AlarmNamePrefix": "",
+    "AlarmTypes": [
+        "MetricAlarm"
+    ],
+    "ChildrenOfAlarmName": "",
+    "ParentsOfAlarmName": "",
+    "StateValue": "OK",
+    "ActionPrefix": "",
+    "MaxRecords": 0,
+    "NextToken": ""
+}

@@ -1,0 +1,12 @@
+{
+    "ConfigurationAggregatorName": "",
+    "ResourceIdentifiers": [
+        {
+            "SourceAccountId": "",
+            "SourceRegion": "",
+            "ResourceId": "",
+            "ResourceType": "AWS::WAFRegional::WebACL",
+            "ResourceName": ""
+        }
+    ]
+}

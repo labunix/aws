@@ -1,0 +1,8 @@
+{
+    "PolicyArn": "",
+    "EntityFilter": "Role",
+    "PathPrefix": "",
+    "PolicyUsageFilter": "PermissionsBoundary",
+    "Marker": "",
+    "MaxItems": 0
+}

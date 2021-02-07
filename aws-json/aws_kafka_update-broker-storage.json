@@ -1,0 +1,10 @@
+{
+    "ClusterArn": "",
+    "CurrentVersion": "",
+    "TargetBrokerEBSVolumeInfo": [
+        {
+            "KafkaBrokerNodeId": "",
+            "VolumeSizeGB": 0
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "HostedZoneId": "",
+    "VPC": {
+        "VPCRegion": "us-east-1",
+        "VPCId": ""
+    }
+}

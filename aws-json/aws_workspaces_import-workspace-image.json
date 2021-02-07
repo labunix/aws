@@ -1,0 +1,15 @@
+{
+    "Ec2ImageId": "",
+    "IngestionProcess": "BYOL_GRAPHICSPRO",
+    "ImageName": "",
+    "ImageDescription": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "Applications": [
+        "Microsoft_Office_2016"
+    ]
+}

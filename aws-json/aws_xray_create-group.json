@@ -1,0 +1,14 @@
+{
+    "GroupName": "",
+    "FilterExpression": "",
+    "InsightsConfiguration": {
+        "InsightsEnabled": true,
+        "NotificationsEnabled": true
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

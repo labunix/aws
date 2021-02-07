@@ -1,0 +1,25 @@
+{
+    "DryRun": true,
+    "InputStorageLocation": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "LogsStorageLocation": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "Description": "",
+    "Name": "",
+    "ClientToken": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "export-image-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

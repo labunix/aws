@@ -1,0 +1,37 @@
+{
+    "AssociatePublicIpAddress": true,
+    "CustomDomain": "",
+    "CustomCertificate": "",
+    "CustomPrivateKey": "",
+    "DisableAutomatedBackup": true,
+    "Engine": "",
+    "EngineModel": "",
+    "EngineVersion": "",
+    "EngineAttributes": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "BackupRetentionCount": 0,
+    "ServerName": "",
+    "InstanceProfileArn": "",
+    "InstanceType": "",
+    "KeyPair": "",
+    "PreferredMaintenanceWindow": "",
+    "PreferredBackupWindow": "",
+    "SecurityGroupIds": [
+        ""
+    ],
+    "ServiceRoleArn": "",
+    "SubnetIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "BackupId": ""
+}

@@ -1,0 +1,10 @@
+{
+    "EncryptionContext": {
+        "KeyName": ""
+    },
+    "KeyId": "",
+    "KeyPairSpec": "RSA_4096",
+    "GrantTokens": [
+        ""
+    ]
+}

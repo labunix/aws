@@ -1,0 +1,17 @@
+{
+    "VoiceConnectorId": "",
+    "ParticipantPhoneNumbers": [
+        ""
+    ],
+    "Name": "",
+    "ExpiryMinutes": 0,
+    "Capabilities": [
+        "Voice"
+    ],
+    "NumberSelectionBehavior": "PreferSticky",
+    "GeoMatchLevel": "Country",
+    "GeoMatchParams": {
+        "Country": "",
+        "AreaCode": ""
+    }
+}

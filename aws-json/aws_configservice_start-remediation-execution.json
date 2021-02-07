@@ -1,0 +1,9 @@
+{
+    "ConfigRuleName": "",
+    "ResourceKeys": [
+        {
+            "resourceType": "AWS::EC2::SecurityGroup",
+            "resourceId": ""
+        }
+    ]
+}

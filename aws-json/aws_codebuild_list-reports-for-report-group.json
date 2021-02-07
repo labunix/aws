@@ -1,0 +1,9 @@
+{
+    "reportGroupArn": "",
+    "nextToken": "",
+    "sortOrder": "DESCENDING",
+    "maxResults": 0,
+    "filter": {
+        "status": "SUCCEEDED"
+    }
+}

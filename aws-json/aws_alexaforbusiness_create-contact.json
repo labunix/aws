@@ -1,0 +1,19 @@
+{
+    "DisplayName": "",
+    "FirstName": "",
+    "LastName": "",
+    "PhoneNumber": "",
+    "PhoneNumbers": [
+        {
+            "Number": "",
+            "Type": "MOBILE"
+        }
+    ],
+    "SipAddresses": [
+        {
+            "Uri": "",
+            "Type": "WORK"
+        }
+    ],
+    "ClientRequestToken": ""
+}

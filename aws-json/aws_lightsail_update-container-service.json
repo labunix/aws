@@ -1,0 +1,11 @@
+{
+    "serviceName": "",
+    "power": "large",
+    "scale": 0,
+    "isDisabled": true,
+    "publicDomainNames": {
+        "KeyName": [
+            ""
+        ]
+    }
+}

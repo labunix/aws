@@ -1,0 +1,9 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "spec": {
+        "egressFilter": {
+            "type": "ALLOW_ALL"
+        }
+    }
+}

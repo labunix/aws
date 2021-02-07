@@ -1,0 +1,7 @@
+{
+    "DestinationCidrBlock": "",
+    "DestinationIpv6CidrBlock": "",
+    "DestinationPrefixListId": "",
+    "DryRun": true,
+    "RouteTableId": ""
+}

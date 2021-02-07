@@ -1,0 +1,29 @@
+{
+    "SyncName": "",
+    "S3Destination": {
+        "BucketName": "",
+        "Prefix": "",
+        "SyncFormat": "JsonSerDe",
+        "Region": "",
+        "AWSKMSKeyARN": "",
+        "DestinationDataSharing": {
+            "DestinationDataSharingType": ""
+        }
+    },
+    "SyncType": "",
+    "SyncSource": {
+        "SourceType": "",
+        "AwsOrganizationsSource": {
+            "OrganizationSourceType": "",
+            "OrganizationalUnits": [
+                {
+                    "OrganizationalUnitId": ""
+                }
+            ]
+        },
+        "SourceRegions": [
+            ""
+        ],
+        "IncludeFutureRegions": true
+    }
+}

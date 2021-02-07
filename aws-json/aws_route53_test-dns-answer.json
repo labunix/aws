@@ -1,0 +1,8 @@
+{
+    "HostedZoneId": "",
+    "RecordName": "",
+    "RecordType": "DS",
+    "ResolverIP": "",
+    "EDNS0ClientSubnetIP": "",
+    "EDNS0ClientSubnetMask": ""
+}

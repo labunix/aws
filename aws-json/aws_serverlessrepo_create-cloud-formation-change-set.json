@@ -1,0 +1,39 @@
+{
+    "ApplicationId": "",
+    "Capabilities": [
+        ""
+    ],
+    "ChangeSetName": "",
+    "ClientToken": "",
+    "Description": "",
+    "NotificationArns": [
+        ""
+    ],
+    "ParameterOverrides": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ResourceTypes": [
+        ""
+    ],
+    "RollbackConfiguration": {
+        "MonitoringTimeInMinutes": 0,
+        "RollbackTriggers": [
+            {
+                "Arn": "",
+                "Type": ""
+            }
+        ]
+    },
+    "SemanticVersion": "",
+    "StackName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "TemplateId": ""
+}

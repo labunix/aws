@@ -1,0 +1,47 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Granularity": "HOURLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "SERVICE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_INSENSITIVE"
+            ]
+        }
+    },
+    "SortBy": {
+        "Key": "",
+        "SortOrder": "ASCENDING"
+    }
+}

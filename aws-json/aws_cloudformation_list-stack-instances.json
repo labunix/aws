@@ -1,0 +1,13 @@
+{
+    "StackSetName": "",
+    "NextToken": "",
+    "MaxResults": 0,
+    "Filters": [
+        {
+            "Name": "DETAILED_STATUS",
+            "Values": ""
+        }
+    ],
+    "StackInstanceAccount": "",
+    "StackInstanceRegion": ""
+}

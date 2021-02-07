@@ -1,0 +1,13 @@
+{
+    "loggingOptions": {
+        "roleArn": "",
+        "level": "DEBUG",
+        "enabled": true,
+        "detectorDebugOptions": [
+            {
+                "detectorModelName": "",
+                "keyValue": ""
+            }
+        ]
+    }
+}

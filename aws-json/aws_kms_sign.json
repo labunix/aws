@@ -1,0 +1,9 @@
+{
+    "KeyId": "",
+    "Message": null,
+    "MessageType": "RAW",
+    "GrantTokens": [
+        ""
+    ],
+    "SigningAlgorithm": "ECDSA_SHA_256"
+}

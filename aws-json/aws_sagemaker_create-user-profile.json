@@ -1,0 +1,51 @@
+{
+    "DomainId": "",
+    "UserProfileName": "",
+    "SingleSignOnUserIdentifier": "",
+    "SingleSignOnUserValue": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "UserSettings": {
+        "ExecutionRole": "",
+        "SecurityGroups": [
+            ""
+        ],
+        "SharingSettings": {
+            "NotebookOutputOption": "Allowed",
+            "S3OutputPath": "",
+            "S3KmsKeyId": ""
+        },
+        "JupyterServerAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "ml.m5.24xlarge"
+            }
+        },
+        "KernelGatewayAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "ml.g4dn.2xlarge"
+            },
+            "CustomImages": [
+                {
+                    "ImageName": "",
+                    "ImageVersionNumber": 0,
+                    "AppImageConfigName": ""
+                }
+            ]
+        },
+        "TensorBoardAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "ml.p3.2xlarge"
+            }
+        }
+    }
+}

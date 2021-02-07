@@ -1,0 +1,10 @@
+{
+    "repositoryName": "",
+    "destinationCommitSpecifier": "",
+    "sourceCommitSpecifier": "",
+    "mergeOption": "SQUASH_MERGE",
+    "conflictDetailLevel": "LINE_LEVEL",
+    "maxConflictFiles": 0,
+    "conflictResolutionStrategy": "AUTOMERGE",
+    "nextToken": ""
+}

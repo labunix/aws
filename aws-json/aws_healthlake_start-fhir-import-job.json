@@ -1,0 +1,9 @@
+{
+    "JobName": "",
+    "InputDataConfig": {
+        "S3Uri": ""
+    },
+    "DatastoreId": "",
+    "DataAccessRoleArn": "",
+    "ClientToken": ""
+}

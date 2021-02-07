@@ -1,0 +1,10 @@
+{
+    "Tags": {
+        "KeyName": ""
+    },
+    "WhitelistRules": [
+        {
+            "Cidr": ""
+        }
+    ]
+}

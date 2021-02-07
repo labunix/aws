@@ -1,0 +1,21 @@
+{
+    "Cidr": "",
+    "CidrAuthorizationContext": {
+        "Message": "",
+        "Signature": ""
+    },
+    "PubliclyAdvertisable": true,
+    "Description": "",
+    "DryRun": true,
+    "PoolTagSpecifications": [
+        {
+            "ResourceType": "launch-template",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

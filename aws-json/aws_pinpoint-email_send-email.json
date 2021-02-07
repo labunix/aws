@@ -1,0 +1,50 @@
+{
+    "FromEmailAddress": "",
+    "Destination": {
+        "ToAddresses": [
+            ""
+        ],
+        "CcAddresses": [
+            ""
+        ],
+        "BccAddresses": [
+            ""
+        ]
+    },
+    "ReplyToAddresses": [
+        ""
+    ],
+    "FeedbackForwardingEmailAddress": "",
+    "Content": {
+        "Simple": {
+            "Subject": {
+                "Data": "",
+                "Charset": ""
+            },
+            "Body": {
+                "Text": {
+                    "Data": "",
+                    "Charset": ""
+                },
+                "Html": {
+                    "Data": "",
+                    "Charset": ""
+                }
+            }
+        },
+        "Raw": {
+            "Data": null
+        },
+        "Template": {
+            "TemplateArn": "",
+            "TemplateData": ""
+        }
+    },
+    "EmailTags": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ConfigurationSetName": ""
+}

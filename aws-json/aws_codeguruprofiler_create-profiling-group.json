@@ -1,0 +1,11 @@
+{
+    "agentOrchestrationConfig": {
+        "profilingEnabled": true
+    },
+    "clientToken": "",
+    "computePlatform": "Default",
+    "profilingGroupName": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

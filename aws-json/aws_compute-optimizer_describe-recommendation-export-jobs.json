@@ -1,0 +1,15 @@
+{
+    "jobIds": [
+        ""
+    ],
+    "filters": [
+        {
+            "name": "ResourceType",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

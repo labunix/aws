@@ -1,0 +1,81 @@
+CODEGURUPROFILER()                                          CODEGURUPROFILER()
+
+
+
+NNAAMMEE
+       codeguruprofiler -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  section  provides  documentation for the Amazon CodeGuru Profiler
+       API operations.
+          <<pp>>AAmmaazzoonn CCooddeeGGuurruu PPrrooffiilleerr ccoolllleeccttss rruunnttiimmee ppeerrffoorrmmaannccee  ddaattaa  ffrroomm
+          yyoouurr  lliivvee  aapppplliiccaattiioonnss,, aanndd pprroovviiddeess rreeccoommmmeennddaattiioonnss tthhaatt ccaann hheellpp
+          yyoouu ffiinnee--ttuunnee yyoouurr aapppplliiccaattiioonn ppeerrffoorrmmaannccee.. UUssiinngg  mmaacchhiinnee  lleeaarrnniinngg
+          aallggoorriitthhmmss,,  CCooddeeGGuurruu PPrrooffiilleerr ccaann hheellpp yyoouu ffiinndd yyoouurr mmoosstt eexxppeennssiivvee
+          lliinneess ooff ccooddee aanndd ssuuggggeesstt wwaayyss yyoouu ccaann iimmpprroovvee eeffffiicciieennccyy aanndd rreemmoovvee
+          CCPPUU bboottttlleenneecckkss.. <<//pp>> <<pp>>AAmmaazzoonn CCooddeeGGuurruu PPrrooffiilleerr pprroovviiddeess ddiiffffeerreenntt
+          vviissuuaalliizzaattiioonnss ooff pprrooffiilliinngg ddaattaa ttoo hheellpp yyoouu iiddeennttiiffyy wwhhaatt  ccooddee  iiss
+          rruunnnniinngg  oonn tthhee CCPPUU,, sseeee hhooww mmuucchh ttiimmee iiss ccoonnssuummeedd,, aanndd ssuuggggeesstt wwaayyss
+          ttoo rreedduuccee CCPPUU uuttiilliizzaattiioonn.. <<//pp>> <<nnoottee>> <<pp>>AAmmaazzoonn  CCooddeeGGuurruu  PPrrooffiilleerr
+          ccuurrrreennttllyy  ssuuppppoorrttss aapppplliiccaattiioonnss wwrriitttteenn iinn aallll JJaavvaa vviirrttuuaall mmaacchhiinnee
+          ((JJVVMM)) llaanngguuaaggeess.. WWhhiillee CCooddeeGGuurruu PPrrooffiilleerr  ssuuppppoorrttss  bbootthh  vviissuuaalliizzaa--
+          ttiioonnss  aanndd  rreeccoommmmeennddaattiioonnss ffoorr aapppplliiccaattiioonnss wwrriitttteenn iinn JJaavvaa,, iitt ccaann
+          aallssoo ggeenneerraattee vviissuuaalliizzaattiioonnss aanndd aa ssuubbsseett ooff rreeccoommmmeennddaattiioonnss ffoorr aapp--
+          pplliiccaattiioonnss  wwrriitttteenn iinn ootthheerr JJVVMM llaanngguuaaggeess..<<//pp>> <<//nnoottee>> <<pp>> FFoorr mmoorree
+          iinnffoorrmmaattiioonn,, sseeee <<aa  hhrreeff==""hhttttppss::////ddooccss..aawwss..aammaazzoonn..ccoomm//ccooddeegguurruu//llaatt--
+          eesstt//pprrooffiilleerr--uugg//wwhhaatt--iiss--ccooddeegguurruu--pprrooffiilleerr..hhttmmll"">>WWhhaatt iiss AAmmaazzoonn CCooddee--
+          GGuurruu PPrrooffiilleerr<<//aa>> iinn tthhee <<ii>>AAmmaazzoonn CCooddeeGGuurruu PPrrooffiilleerr UUsseerr GGuuiiddee<<//ii>>..
+          <<//pp>>
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-notification-channels
+
+       +o batch-get-frame-metric-data
+
+       +o configure-agent
+
+       +o create-profiling-group
+
+       +o delete-profiling-group
+
+       +o describe-profiling-group
+
+       +o get-findings-report-account-summary
+
+       +o get-notification-configuration
+
+       +o get-policy
+
+       +o get-profile
+
+       +o get-recommendations
+
+       +o help
+
+       +o list-findings-reports
+
+       +o list-profile-times
+
+       +o list-profiling-groups
+
+       +o list-tags-for-resource
+
+       +o post-agent-profile
+
+       +o put-permission
+
+       +o remove-notification-channel
+
+       +o remove-permission
+
+       +o submit-feedback
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-profiling-group
+
+
+
+                                                            CODEGURUPROFILER()

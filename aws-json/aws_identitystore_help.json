@@ -1,0 +1,22 @@
+IDENTITYSTORE()                                                IDENTITYSTORE()
+
+
+
+NNAAMMEE
+       identitystore -
+
+DDEESSCCRRIIPPTTIIOONN
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-group
+
+       +o describe-user
+
+       +o help
+
+       +o list-groups
+
+       +o list-users
+
+
+
+                                                               IDENTITYSTORE()

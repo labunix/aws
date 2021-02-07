@@ -1,0 +1,37 @@
+{
+    "Name": "",
+    "WorkflowName": "",
+    "Type": "CONDITIONAL",
+    "Schedule": "",
+    "Predicate": {
+        "Logical": "AND",
+        "Conditions": [
+            {
+                "LogicalOperator": "EQUALS",
+                "JobName": "",
+                "State": "STOPPED",
+                "CrawlerName": "",
+                "CrawlState": "RUNNING"
+            }
+        ]
+    },
+    "Actions": [
+        {
+            "JobName": "",
+            "Arguments": {
+                "KeyName": ""
+            },
+            "Timeout": 0,
+            "SecurityConfiguration": "",
+            "NotificationProperty": {
+                "NotifyDelayAfter": 0
+            },
+            "CrawlerName": ""
+        }
+    ],
+    "Description": "",
+    "StartOnCreation": true,
+    "Tags": {
+        "KeyName": ""
+    }
+}

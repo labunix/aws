@@ -1,0 +1,16 @@
+{
+    "DhcpOptionsIds": [
+        ""
+    ],
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "DryRun": true,
+    "NextToken": "",
+    "MaxResults": 0
+}

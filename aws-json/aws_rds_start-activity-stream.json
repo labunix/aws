@@ -1,0 +1,6 @@
+{
+    "ResourceArn": "",
+    "Mode": "sync",
+    "KmsKeyId": "",
+    "ApplyImmediately": true
+}

@@ -1,0 +1,29 @@
+{
+    "Content": "",
+    "Requires": [
+        {
+            "Name": "",
+            "Version": ""
+        }
+    ],
+    "Attachments": [
+        {
+            "Key": "SourceUrl",
+            "Values": [
+                ""
+            ],
+            "Name": ""
+        }
+    ],
+    "Name": "",
+    "VersionName": "",
+    "DocumentType": "Command",
+    "DocumentFormat": "TEXT",
+    "TargetType": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

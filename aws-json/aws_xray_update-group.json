@@ -1,0 +1,9 @@
+{
+    "GroupName": "",
+    "GroupARN": "",
+    "FilterExpression": "",
+    "InsightsConfiguration": {
+        "InsightsEnabled": true,
+        "NotificationsEnabled": true
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "workbookId": "",
+    "dataSource": {
+        "dataSourceConfig": {
+            "dataSourceUrl": ""
+        }
+    },
+    "dataFormat": "DELIMITED_TEXT",
+    "destinationTableId": "",
+    "importOptions": {
+        "destinationOptions": {
+            "columnMap": {
+                "KeyName": {
+                    "columnIndex": 0
+                }
+            }
+        },
+        "delimitedTextOptions": {
+            "delimiter": "",
+            "hasHeaderRow": true,
+            "ignoreEmptyRows": true,
+            "dataCharacterEncoding": "UTF-16LE"
+        }
+    },
+    "clientRequestToken": ""
+}

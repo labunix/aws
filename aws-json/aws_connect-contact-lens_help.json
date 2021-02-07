@@ -1,0 +1,27 @@
+CONNECT-CONTACT-LENS()                                  CONNECT-CONTACT-LENS()
+
+
+
+NNAAMMEE
+       connect-contact-lens -
+
+DDEESSCCRRIIPPTTIIOONN
+       Contact  Lens  for  Amazon Connect enables you to analyze conversations
+       between customer and agents, by  using  speech  transcription,  natural
+       language  processing,  and intelligent search capabilities. It performs
+       sentiment analysis, detects issues, and enables  you  to  automatically
+       categorize contacts.
+
+       Contact  Lens  for Amazon Connect provides both real-time and post-call
+       analytics of customer-agent conversations. For  more  information,  see
+       _A_n_a_l_y_z_e _c_o_n_v_e_r_s_a_t_i_o_n_s _u_s_i_n_g _C_o_n_t_a_c_t _L_e_n_s in the _A_m_a_z_o_n _C_o_n_n_e_c_t _A_d_m_i_n_i_s_-
+       _t_r_a_t_o_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o help
+
+       +o list-realtime-contact-analysis-segments
+
+
+
+                                                        CONNECT-CONTACT-LENS()

@@ -1,0 +1,19 @@
+{
+    "imagePipelineArn": "",
+    "description": "",
+    "imageRecipeArn": "",
+    "containerRecipeArn": "",
+    "infrastructureConfigurationArn": "",
+    "distributionConfigurationArn": "",
+    "imageTestsConfiguration": {
+        "imageTestsEnabled": true,
+        "timeoutMinutes": 0
+    },
+    "enhancedImageMetadataEnabled": true,
+    "schedule": {
+        "scheduleExpression": "",
+        "pipelineExecutionStartCondition": "EXPRESSION_MATCH_ONLY"
+    },
+    "status": "DISABLED",
+    "clientToken": ""
+}

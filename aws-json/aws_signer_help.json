@@ -1,0 +1,70 @@
+SIGNER()                                                              SIGNER()
+
+
+
+NNAAMMEE
+       signer -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Signer  is a fully managed code signing service to help you ensure
+       the trust and integrity of your code.
+
+       AWS Signer supports the following applications:
+
+       With _c_o_d_e _s_i_g_n_i_n_g _f_o_r _A_W_S _L_a_m_b_d_a , you can sign AWS  Lambda  deployment
+       packages.  Integrated  support is provided for Amazon S3, Amazon Cloud-
+       Watch, and AWS CloudTrail. In order to sign code, you create a  signing
+       profile and then use Signer to sign Lambda zip files in S3.
+
+       With  _c_o_d_e  _s_i_g_n_i_n_g _f_o_r _I_o_T , you can sign code for any IoT device that
+       is supported by AWS. IoT code signing is available for _A_m_a_z_o_n  _F_r_e_e_R_T_O_S
+       and  _A_W_S _I_o_T _D_e_v_i_c_e _M_a_n_a_g_e_m_e_n_t , and is integrated with _A_W_S _C_e_r_t_i_f_i_c_a_t_e
+       _M_a_n_a_g_e_r _(_A_C_M_) . In order to sign code, you import  a  third-party  code
+       signing  certificate  using ACM, and use that to sign updates in Amazon
+       FreeRTOS and AWS IoT Device Management.
+
+       For more information about AWS Signer, see  the  _A_W_S  _S_i_g_n_e_r  _D_e_v_e_l_o_p_e_r
+       _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-profile-permission
+
+       +o cancel-signing-profile
+
+       +o describe-signing-job
+
+       +o get-signing-platform
+
+       +o get-signing-profile
+
+       +o help
+
+       +o list-profile-permissions
+
+       +o list-signing-jobs
+
+       +o list-signing-platforms
+
+       +o list-signing-profiles
+
+       +o list-tags-for-resource
+
+       +o put-signing-profile
+
+       +o remove-profile-permission
+
+       +o revoke-signature
+
+       +o revoke-signing-profile
+
+       +o start-signing-job
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o wait
+
+
+
+                                                                      SIGNER()

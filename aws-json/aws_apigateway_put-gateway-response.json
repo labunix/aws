@@ -1,0 +1,11 @@
+{
+    "restApiId": "",
+    "responseType": "AUTHORIZER_CONFIGURATION_ERROR",
+    "statusCode": "",
+    "responseParameters": {
+        "KeyName": ""
+    },
+    "responseTemplates": {
+        "KeyName": ""
+    }
+}

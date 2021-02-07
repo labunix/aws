@@ -1,0 +1,19 @@
+{
+    "BgpAsn": 0,
+    "PublicIp": "",
+    "CertificateArn": "",
+    "Type": "ipsec.1",
+    "TagSpecifications": [
+        {
+            "ResourceType": "placement-group",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DeviceName": "",
+    "DryRun": true
+}

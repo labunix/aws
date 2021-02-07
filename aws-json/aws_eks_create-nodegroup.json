@@ -1,0 +1,39 @@
+{
+    "clusterName": "",
+    "nodegroupName": "",
+    "scalingConfig": {
+        "minSize": 0,
+        "maxSize": 0,
+        "desiredSize": 0
+    },
+    "diskSize": 0,
+    "subnets": [
+        ""
+    ],
+    "instanceTypes": [
+        ""
+    ],
+    "amiType": "AL2_ARM_64",
+    "remoteAccess": {
+        "ec2SshKey": "",
+        "sourceSecurityGroups": [
+            ""
+        ]
+    },
+    "nodeRole": "",
+    "labels": {
+        "KeyName": ""
+    },
+    "tags": {
+        "KeyName": ""
+    },
+    "clientRequestToken": "",
+    "launchTemplate": {
+        "name": "",
+        "version": "",
+        "id": ""
+    },
+    "capacityType": "SPOT",
+    "version": "",
+    "releaseVersion": ""
+}

@@ -1,0 +1,51 @@
+ACM()                                                                    ACM()
+
+
+
+NNAAMMEE
+       acm -
+
+DDEESSCCRRIIPPTTIIOONN
+       Welcome to the AWS Certificate Manager (ACM) API documentation.
+
+       You  can use ACM to manage SSL/TLS certificates for your AWS-based web-
+       sites and applications. For general information about  using  ACM,  see
+       the       `      _A_W_S      _C_e_r_t_i_f_i_c_a_t_e      _M_a_n_a_g_e_r      _U_s_e_r      _G_u_i_d_e
+       _h_t_t_p_s_:_/_/_d_o_c_s_._a_w_s_._a_m_a_z_o_n_._c_o_m_/_a_c_m_/_l_a_t_e_s_t_/_u_s_e_r_g_u_i_d_e_/
+       `
+       __ .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-tags-to-certificate
+
+       +o delete-certificate
+
+       +o describe-certificate
+
+       +o export-certificate
+
+       +o get-certificate
+
+       +o help
+
+       +o import-certificate
+
+       +o list-certificates
+
+       +o list-tags-for-certificate
+
+       +o remove-tags-from-certificate
+
+       +o renew-certificate
+
+       +o request-certificate
+
+       +o resend-validation-email
+
+       +o update-certificate-options
+
+       +o wait
+
+
+
+                                                                         ACM()

@@ -1,0 +1,8 @@
+{
+    "InstanceArn": "",
+    "MaxResults": 0,
+    "NextToken": "",
+    "Filter": {
+        "Status": "SUCCEEDED"
+    }
+}

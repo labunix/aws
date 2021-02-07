@@ -1,0 +1,9 @@
+{
+    "jobId": "",
+    "clientToken": "",
+    "failureDetails": {
+        "type": "RevisionUnavailable",
+        "message": "",
+        "externalExecutionId": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ConferenceProviderName": "",
+    "ConferenceProviderType": "POLYCOM",
+    "IPDialIn": {
+        "Endpoint": "",
+        "CommsProtocol": "H323"
+    },
+    "PSTNDialIn": {
+        "CountryCode": "",
+        "PhoneNumber": "",
+        "OneClickIdDelay": "",
+        "OneClickPinDelay": ""
+    },
+    "MeetingSetting": {
+        "RequirePin": "OPTIONAL"
+    },
+    "ClientRequestToken": ""
+}

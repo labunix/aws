@@ -1,0 +1,9 @@
+{
+    "PackageName": "",
+    "PackageType": "TXT-DICTIONARY",
+    "PackageDescription": "",
+    "PackageSource": {
+        "S3BucketName": "",
+        "S3Key": ""
+    }
+}

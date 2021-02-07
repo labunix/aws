@@ -1,0 +1,28 @@
+MARKETPLACE-ENTITLEMENT()                            MARKETPLACE-ENTITLEMENT()
+
+
+
+NNAAMMEE
+       marketplace-entitlement -
+
+DDEESSCCRRIIPPTTIIOONN
+       This reference provides descriptions of the AWS Marketplace Entitlement
+       Service API.
+
+       AWS Marketplace Entitlement Service is used to determine  the  entitle-
+       ment of a customer to a given product. An entitlement represents capac-
+       ity in a product owned by the customer. For example, a  customer  might
+       own some number of users or seats in an SaaS application or some amount
+       of data capacity in a multi-tenant database.
+          GGeettttiinngg EEnnttiittlleemmeenntt RReeccoorrddss
+
+       +o _G_e_t_E_n_t_i_t_l_e_m_e_n_t_s - Gets the entitlements for a Marketplace product.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o get-entitlements
+
+       +o help
+
+
+
+                                                     MARKETPLACE-ENTITLEMENT()

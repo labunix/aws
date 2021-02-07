@@ -1,0 +1,16 @@
+{
+    "clientToken": "",
+    "description": "",
+    "ignoreWords": [
+        ""
+    ],
+    "keywords": [
+        ""
+    ],
+    "maximumMatchDistance": 0,
+    "name": "",
+    "regex": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

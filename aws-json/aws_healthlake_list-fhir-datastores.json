@@ -1,0 +1,10 @@
+{
+    "Filter": {
+        "DatastoreName": "",
+        "DatastoreStatus": "DELETING",
+        "CreatedBefore": "1970-01-01T00:00:00",
+        "CreatedAfter": "1970-01-01T00:00:00"
+    },
+    "NextToken": "",
+    "MaxResults": 0
+}

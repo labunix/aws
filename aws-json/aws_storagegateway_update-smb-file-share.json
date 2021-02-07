@@ -1,0 +1,28 @@
+{
+    "FileShareARN": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "DefaultStorageClass": "",
+    "ObjectACL": "private",
+    "ReadOnly": true,
+    "GuessMIMETypeEnabled": true,
+    "RequesterPays": true,
+    "SMBACLEnabled": true,
+    "AccessBasedEnumeration": true,
+    "AdminUserList": [
+        ""
+    ],
+    "ValidUserList": [
+        ""
+    ],
+    "InvalidUserList": [
+        ""
+    ],
+    "AuditDestinationARN": "",
+    "CaseSensitivity": "ClientSpecified",
+    "FileShareName": "",
+    "CacheAttributes": {
+        "CacheStaleTimeoutInSeconds": 0
+    },
+    "NotificationPolicy": ""
+}

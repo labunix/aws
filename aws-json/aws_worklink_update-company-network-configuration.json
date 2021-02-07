@@ -1,0 +1,10 @@
+{
+    "FleetArn": "",
+    "VpcId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ]
+}

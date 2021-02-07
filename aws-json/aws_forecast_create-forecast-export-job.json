@@ -1,0 +1,17 @@
+{
+    "ForecastExportJobName": "",
+    "ForecastArn": "",
+    "Destination": {
+        "S3Config": {
+            "Path": "",
+            "RoleArn": "",
+            "KMSKeyArn": ""
+        }
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "CreationToken": "",
+    "PerformanceMode": "generalPurpose",
+    "Encrypted": true,
+    "KmsKeyId": "",
+    "ThroughputMode": "bursting",
+    "ProvisionedThroughputInMibps": null,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "assetModelName": "",
+    "assetModelDescription": "",
+    "assetModelProperties": [
+        {
+            "name": "",
+            "dataType": "DOUBLE",
+            "dataTypeSpec": "",
+            "unit": "",
+            "type": {
+                "attribute": {
+                    "defaultValue": ""
+                },
+                "measurement": {},
+                "transform": {
+                    "expression": "",
+                    "variables": [
+                        {
+                            "name": "",
+                            "value": {
+                                "propertyId": "",
+                                "hierarchyId": ""
+                            }
+                        }
+                    ]
+                },
+                "metric": {
+                    "expression": "",
+                    "variables": [
+                        {
+                            "name": "",
+                            "value": {
+                                "propertyId": "",
+                                "hierarchyId": ""
+                            }
+                        }
+                    ],
+                    "window": {
+                        "tumbling": {
+                            "interval": ""
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "assetModelHierarchies": [
+        {
+            "name": "",
+            "childAssetModelId": ""
+        }
+    ],
+    "assetModelCompositeModels": [
+        {
+            "name": "",
+            "description": "",
+            "type": "",
+            "properties": [
+                {
+                    "name": "",
+                    "dataType": "DOUBLE",
+                    "dataTypeSpec": "",
+                    "unit": "",
+                    "type": {
+                        "attribute": {
+                            "defaultValue": ""
+                        },
+                        "measurement": {},
+                        "transform": {
+                            "expression": "",
+                            "variables": [
+                                {
+                                    "name": "",
+                                    "value": {
+                                        "propertyId": "",
+                                        "hierarchyId": ""
+                                    }
+                                }
+                            ]
+                        },
+                        "metric": {
+                            "expression": "",
+                            "variables": [
+                                {
+                                    "name": "",
+                                    "value": {
+                                        "propertyId": "",
+                                        "hierarchyId": ""
+                                    }
+                                }
+                            ],
+                            "window": {
+                                "tumbling": {
+                                    "interval": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "clientToken": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

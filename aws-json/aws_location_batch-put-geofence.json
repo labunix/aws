@@ -1,0 +1,17 @@
+{
+    "CollectionName": "",
+    "Entries": [
+        {
+            "GeofenceId": "",
+            "Geometry": {
+                "Polygon": [
+                    [
+                        [
+                            null
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "ExcessCapacityTerminationPolicy": "noTermination",
+    "LaunchTemplateConfigs": [
+        {
+            "LaunchTemplateSpecification": {
+                "LaunchTemplateId": "",
+                "LaunchTemplateName": "",
+                "Version": ""
+            },
+            "Overrides": [
+                {
+                    "InstanceType": "r5ad.16xlarge",
+                    "SpotPrice": "",
+                    "SubnetId": "",
+                    "AvailabilityZone": "",
+                    "WeightedCapacity": null,
+                    "Priority": null
+                }
+            ]
+        }
+    ],
+    "SpotFleetRequestId": "",
+    "TargetCapacity": 0,
+    "OnDemandTargetCapacity": 0
+}

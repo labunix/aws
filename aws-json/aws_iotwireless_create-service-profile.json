@@ -1,0 +1,13 @@
+{
+    "Name": "",
+    "LoRaWAN": {
+        "AddGwMetadata": true
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ClientRequestToken": ""
+}

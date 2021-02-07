@@ -1,0 +1,29 @@
+{
+    "serviceName": "",
+    "containers": {
+        "KeyName": {
+            "image": "",
+            "command": [
+                ""
+            ],
+            "environment": {
+                "KeyName": ""
+            },
+            "ports": {
+                "KeyName": "HTTP"
+            }
+        }
+    },
+    "publicEndpoint": {
+        "containerName": "",
+        "containerPort": 0,
+        "healthCheck": {
+            "healthyThreshold": 0,
+            "unhealthyThreshold": 0,
+            "timeoutSeconds": 0,
+            "intervalSeconds": 0,
+            "path": "",
+            "successCodes": ""
+        }
+    }
+}

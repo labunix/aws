@@ -1,0 +1,23 @@
+{
+    "TransitGatewayAttachmentId": "",
+    "TransitGatewayAddress": "",
+    "PeerAddress": "",
+    "BgpOptions": {
+        "PeerAsn": 0
+    },
+    "InsideCidrBlocks": [
+        ""
+    ],
+    "TagSpecifications": [
+        {
+            "ResourceType": "dhcp-options",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

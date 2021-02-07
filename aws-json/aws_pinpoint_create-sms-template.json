@@ -1,0 +1,12 @@
+{
+    "SMSTemplateRequest": {
+        "Body": "",
+        "DefaultSubstitutions": "",
+        "RecommenderId": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateDescription": ""
+    },
+    "TemplateName": ""
+}

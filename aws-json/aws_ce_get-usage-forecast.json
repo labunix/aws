@@ -1,0 +1,45 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Metric": "NET_UNBLENDED_COST",
+    "Granularity": "DAILY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "RESOURCE_ID",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        }
+    },
+    "PredictionIntervalLevel": 0
+}

@@ -1,0 +1,33 @@
+{
+    "savingsPlanOfferingIds": [
+        ""
+    ],
+    "savingsPlanPaymentOptions": [
+        "All Upfront"
+    ],
+    "savingsPlanTypes": [
+        "Compute"
+    ],
+    "products": [
+        "Fargate"
+    ],
+    "serviceCodes": [
+        "AWSLambda"
+    ],
+    "usageTypes": [
+        ""
+    ],
+    "operations": [
+        ""
+    ],
+    "filters": [
+        {
+            "name": "instanceType",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

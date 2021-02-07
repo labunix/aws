@@ -1,0 +1,15 @@
+{
+    "VolumeSize": 0,
+    "ParentSnapshotId": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "Description": "",
+    "ClientToken": "",
+    "Encrypted": true,
+    "KmsKeyArn": "",
+    "Timeout": 0
+}

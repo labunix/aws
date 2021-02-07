@@ -1,0 +1,27 @@
+{
+    "name": "",
+    "resourcesVpcConfig": {
+        "subnetIds": [
+            ""
+        ],
+        "securityGroupIds": [
+            ""
+        ],
+        "endpointPublicAccess": true,
+        "endpointPrivateAccess": true,
+        "publicAccessCidrs": [
+            ""
+        ]
+    },
+    "logging": {
+        "clusterLogging": [
+            {
+                "types": [
+                    "audit"
+                ],
+                "enabled": true
+            }
+        ]
+    },
+    "clientRequestToken": ""
+}

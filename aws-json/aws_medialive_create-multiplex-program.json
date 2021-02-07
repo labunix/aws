@@ -1,0 +1,21 @@
+{
+    "MultiplexId": "",
+    "MultiplexProgramSettings": {
+        "PreferredChannelPipeline": "PIPELINE_1",
+        "ProgramNumber": 0,
+        "ServiceDescriptor": {
+            "ProviderName": "",
+            "ServiceName": ""
+        },
+        "VideoSettings": {
+            "ConstantBitrate": 0,
+            "StatmuxSettings": {
+                "MaximumBitrate": 0,
+                "MinimumBitrate": 0,
+                "Priority": 0
+            }
+        }
+    },
+    "ProgramName": "",
+    "RequestId": ""
+}

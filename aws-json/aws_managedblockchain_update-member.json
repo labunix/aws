@@ -1,0 +1,13 @@
+{
+    "NetworkId": "",
+    "MemberId": "",
+    "LogPublishingConfiguration": {
+        "Fabric": {
+            "CaLogs": {
+                "Cloudwatch": {
+                    "Enabled": true
+                }
+            }
+        }
+    }
+}

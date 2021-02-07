@@ -1,0 +1,13 @@
+{
+    "applicationName": "",
+    "deploymentGroupName": "",
+    "externalId": "",
+    "includeOnlyStatuses": [
+        "Ready"
+    ],
+    "createTimeRange": {
+        "start": "1970-01-01T00:00:00",
+        "end": "1970-01-01T00:00:00"
+    },
+    "nextToken": ""
+}

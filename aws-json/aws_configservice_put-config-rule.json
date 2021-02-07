@@ -1,0 +1,37 @@
+{
+    "ConfigRule": {
+        "ConfigRuleName": "",
+        "ConfigRuleArn": "",
+        "ConfigRuleId": "",
+        "Description": "",
+        "Scope": {
+            "ComplianceResourceTypes": [
+                ""
+            ],
+            "TagKey": "",
+            "TagValue": "",
+            "ComplianceResourceId": ""
+        },
+        "Source": {
+            "Owner": "CUSTOM_LAMBDA",
+            "SourceIdentifier": "",
+            "SourceDetails": [
+                {
+                    "EventSource": "aws.config",
+                    "MessageType": "ConfigurationSnapshotDeliveryCompleted",
+                    "MaximumExecutionFrequency": "Twelve_Hours"
+                }
+            ]
+        },
+        "InputParameters": "",
+        "MaximumExecutionFrequency": "TwentyFour_Hours",
+        "ConfigRuleState": "DELETING",
+        "CreatedBy": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

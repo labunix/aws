@@ -1,0 +1,14 @@
+{
+    "RegistryId": {
+        "RegistryName": "",
+        "RegistryArn": ""
+    },
+    "SchemaName": "",
+    "DataFormat": "AVRO",
+    "Compatibility": "FORWARD",
+    "Description": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "SchemaDefinition": ""
+}

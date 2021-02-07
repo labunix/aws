@@ -1,0 +1,234 @@
+{
+    "TransactItems": [
+        {
+            "ConditionCheck": {
+                "Key": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "TableName": "",
+                "ConditionExpression": "",
+                "ExpressionAttributeNames": {
+                    "KeyName": ""
+                },
+                "ExpressionAttributeValues": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "ReturnValuesOnConditionCheckFailure": "NONE"
+            },
+            "Put": {
+                "Item": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "TableName": "",
+                "ConditionExpression": "",
+                "ExpressionAttributeNames": {
+                    "KeyName": ""
+                },
+                "ExpressionAttributeValues": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "ReturnValuesOnConditionCheckFailure": "ALL_OLD"
+            },
+            "Delete": {
+                "Key": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "TableName": "",
+                "ConditionExpression": "",
+                "ExpressionAttributeNames": {
+                    "KeyName": ""
+                },
+                "ExpressionAttributeValues": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "ReturnValuesOnConditionCheckFailure": "NONE"
+            },
+            "Update": {
+                "Key": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "UpdateExpression": "",
+                "TableName": "",
+                "ConditionExpression": "",
+                "ExpressionAttributeNames": {
+                    "KeyName": ""
+                },
+                "ExpressionAttributeValues": {
+                    "KeyName": {
+                        "S": "",
+                        "N": "",
+                        "B": null,
+                        "SS": [
+                            ""
+                        ],
+                        "NS": [
+                            ""
+                        ],
+                        "BS": [
+                            null
+                        ],
+                        "M": {
+                            "KeyName": {}
+                        },
+                        "L": [
+                            {}
+                        ],
+                        "NULL": true,
+                        "BOOL": true
+                    }
+                },
+                "ReturnValuesOnConditionCheckFailure": "ALL_OLD"
+            }
+        }
+    ],
+    "ReturnConsumedCapacity": "NONE",
+    "ReturnItemCollectionMetrics": "NONE",
+    "ClientRequestToken": ""
+}

@@ -1,0 +1,14 @@
+{
+    "DirectoryArn": "",
+    "ObjectReference": {
+        "Selector": ""
+    },
+    "ConsistencyLevel": "SERIALIZABLE",
+    "SchemaFacet": {
+        "SchemaArn": "",
+        "FacetName": ""
+    },
+    "AttributeNames": [
+        ""
+    ]
+}

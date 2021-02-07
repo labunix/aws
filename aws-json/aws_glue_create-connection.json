@@ -1,0 +1,21 @@
+{
+    "CatalogId": "",
+    "ConnectionInput": {
+        "Name": "",
+        "Description": "",
+        "ConnectionType": "NETWORK",
+        "MatchCriteria": [
+            ""
+        ],
+        "ConnectionProperties": {
+            "KeyName": ""
+        },
+        "PhysicalConnectionRequirements": {
+            "SubnetId": "",
+            "SecurityGroupIdList": [
+                ""
+            ],
+            "AvailabilityZone": ""
+        }
+    }
+}

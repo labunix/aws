@@ -1,0 +1,13 @@
+{
+    "TemplateName": "",
+    "VoiceTemplateRequest": {
+        "Body": "",
+        "DefaultSubstitutions": "",
+        "LanguageCode": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateDescription": "",
+        "VoiceId": ""
+    }
+}

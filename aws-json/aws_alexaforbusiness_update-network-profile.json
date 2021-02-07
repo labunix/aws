@@ -1,0 +1,11 @@
+{
+    "NetworkProfileArn": "",
+    "NetworkProfileName": "",
+    "Description": "",
+    "CurrentPassword": "",
+    "NextPassword": "",
+    "CertificateAuthorityArn": "",
+    "TrustAnchors": [
+        ""
+    ]
+}

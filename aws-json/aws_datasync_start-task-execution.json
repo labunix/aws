@@ -1,0 +1,24 @@
+{
+    "TaskArn": "",
+    "OverrideOptions": {
+        "VerifyMode": "NONE",
+        "OverwriteMode": "NEVER",
+        "Atime": "BEST_EFFORT",
+        "Mtime": "NONE",
+        "Uid": "BOTH",
+        "Gid": "NAME",
+        "PreserveDeletedFiles": "PRESERVE",
+        "PreserveDevices": "NONE",
+        "PosixPermissions": "NONE",
+        "BytesPerSecond": 0,
+        "TaskQueueing": "DISABLED",
+        "LogLevel": "OFF",
+        "TransferMode": "CHANGED"
+    },
+    "Includes": [
+        {
+            "FilterType": "SIMPLE_PATTERN",
+            "Value": ""
+        }
+    ]
+}

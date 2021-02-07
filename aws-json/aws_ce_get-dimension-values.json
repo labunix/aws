@@ -1,0 +1,53 @@
+{
+    "SearchString": "",
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "Dimension": "REGION",
+    "Context": "RESERVATIONS",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "RIGHTSIZING_TYPE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        }
+    },
+    "SortBy": [
+        {
+            "Key": "",
+            "SortOrder": "DESCENDING"
+        }
+    ],
+    "MaxResults": 0,
+    "NextPageToken": ""
+}

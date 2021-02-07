@@ -1,0 +1,11 @@
+{
+    "gatewayName": "",
+    "gatewayPlatform": {
+        "greengrass": {
+            "groupArn": ""
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

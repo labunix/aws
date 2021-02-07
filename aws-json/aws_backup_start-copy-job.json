@@ -1,0 +1,11 @@
+{
+    "RecoveryPointArn": "",
+    "SourceBackupVaultName": "",
+    "DestinationBackupVaultArn": "",
+    "IamRoleArn": "",
+    "IdempotencyToken": "",
+    "Lifecycle": {
+        "MoveToColdStorageAfterDays": 0,
+        "DeleteAfterDays": 0
+    }
+}

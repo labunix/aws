@@ -1,0 +1,8 @@
+{
+    "TransitGatewayMulticastDomainId": "",
+    "GroupIpAddress": "",
+    "NetworkInterfaceIds": [
+        ""
+    ],
+    "DryRun": true
+}

@@ -1,0 +1,8 @@
+{
+    "TrailName": "",
+    "InsightSelectors": [
+        {
+            "InsightType": "ApiCallRateInsight"
+        }
+    ]
+}

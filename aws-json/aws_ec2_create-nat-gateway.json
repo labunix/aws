@@ -1,0 +1,17 @@
+{
+    "AllocationId": "",
+    "ClientToken": "",
+    "DryRun": true,
+    "SubnetId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "subnet",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

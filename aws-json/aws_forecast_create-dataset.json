@@ -1,0 +1,24 @@
+{
+    "DatasetName": "",
+    "Domain": "WORK_FORCE",
+    "DatasetType": "TARGET_TIME_SERIES",
+    "DataFrequency": "",
+    "Schema": {
+        "Attributes": [
+            {
+                "AttributeName": "",
+                "AttributeType": "string"
+            }
+        ]
+    },
+    "EncryptionConfig": {
+        "RoleArn": "",
+        "KMSKeyArn": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

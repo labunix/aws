@@ -1,0 +1,327 @@
+{
+    "ApplicationId": "",
+    "CampaignId": "",
+    "WriteCampaignRequest": {
+        "AdditionalTreatments": [
+            {
+                "CustomDeliveryConfiguration": {
+                    "DeliveryUri": "",
+                    "EndpointTypes": [
+                        "EMAIL"
+                    ]
+                },
+                "MessageConfiguration": {
+                    "ADMMessage": {
+                        "Action": "OPEN_APP",
+                        "Body": "",
+                        "ImageIconUrl": "",
+                        "ImageSmallIconUrl": "",
+                        "ImageUrl": "",
+                        "JsonBody": "",
+                        "MediaUrl": "",
+                        "RawContent": "",
+                        "SilentPush": true,
+                        "TimeToLive": 0,
+                        "Title": "",
+                        "Url": ""
+                    },
+                    "APNSMessage": {
+                        "Action": "URL",
+                        "Body": "",
+                        "ImageIconUrl": "",
+                        "ImageSmallIconUrl": "",
+                        "ImageUrl": "",
+                        "JsonBody": "",
+                        "MediaUrl": "",
+                        "RawContent": "",
+                        "SilentPush": true,
+                        "TimeToLive": 0,
+                        "Title": "",
+                        "Url": ""
+                    },
+                    "BaiduMessage": {
+                        "Action": "OPEN_APP",
+                        "Body": "",
+                        "ImageIconUrl": "",
+                        "ImageSmallIconUrl": "",
+                        "ImageUrl": "",
+                        "JsonBody": "",
+                        "MediaUrl": "",
+                        "RawContent": "",
+                        "SilentPush": true,
+                        "TimeToLive": 0,
+                        "Title": "",
+                        "Url": ""
+                    },
+                    "CustomMessage": {
+                        "Data": ""
+                    },
+                    "DefaultMessage": {
+                        "Action": "OPEN_APP",
+                        "Body": "",
+                        "ImageIconUrl": "",
+                        "ImageSmallIconUrl": "",
+                        "ImageUrl": "",
+                        "JsonBody": "",
+                        "MediaUrl": "",
+                        "RawContent": "",
+                        "SilentPush": true,
+                        "TimeToLive": 0,
+                        "Title": "",
+                        "Url": ""
+                    },
+                    "EmailMessage": {
+                        "Body": "",
+                        "FromAddress": "",
+                        "HtmlBody": "",
+                        "Title": ""
+                    },
+                    "GCMMessage": {
+                        "Action": "DEEP_LINK",
+                        "Body": "",
+                        "ImageIconUrl": "",
+                        "ImageSmallIconUrl": "",
+                        "ImageUrl": "",
+                        "JsonBody": "",
+                        "MediaUrl": "",
+                        "RawContent": "",
+                        "SilentPush": true,
+                        "TimeToLive": 0,
+                        "Title": "",
+                        "Url": ""
+                    },
+                    "SMSMessage": {
+                        "Body": "",
+                        "MessageType": "PROMOTIONAL",
+                        "SenderId": ""
+                    }
+                },
+                "Schedule": {
+                    "EndTime": "",
+                    "EventFilter": {
+                        "Dimensions": {
+                            "Attributes": {
+                                "KeyName": {
+                                    "AttributeType": "EXCLUSIVE",
+                                    "Values": [
+                                        ""
+                                    ]
+                                }
+                            },
+                            "EventType": {
+                                "DimensionType": "EXCLUSIVE",
+                                "Values": [
+                                    ""
+                                ]
+                            },
+                            "Metrics": {
+                                "KeyName": {
+                                    "ComparisonOperator": "",
+                                    "Value": null
+                                }
+                            }
+                        },
+                        "FilterType": "ENDPOINT"
+                    },
+                    "Frequency": "EVENT",
+                    "IsLocalTime": true,
+                    "QuietTime": {
+                        "End": "",
+                        "Start": ""
+                    },
+                    "StartTime": "",
+                    "Timezone": ""
+                },
+                "SizePercent": 0,
+                "TemplateConfiguration": {
+                    "EmailTemplate": {
+                        "Name": "",
+                        "Version": ""
+                    },
+                    "PushTemplate": {
+                        "Name": "",
+                        "Version": ""
+                    },
+                    "SMSTemplate": {
+                        "Name": "",
+                        "Version": ""
+                    },
+                    "VoiceTemplate": {
+                        "Name": "",
+                        "Version": ""
+                    }
+                },
+                "TreatmentDescription": "",
+                "TreatmentName": ""
+            }
+        ],
+        "CustomDeliveryConfiguration": {
+            "DeliveryUri": "",
+            "EndpointTypes": [
+                "PUSH"
+            ]
+        },
+        "Description": "",
+        "HoldoutPercent": 0,
+        "Hook": {
+            "LambdaFunctionName": "",
+            "Mode": "FILTER",
+            "WebUrl": ""
+        },
+        "IsPaused": true,
+        "Limits": {
+            "Daily": 0,
+            "MaximumDuration": 0,
+            "MessagesPerSecond": 0,
+            "Total": 0
+        },
+        "MessageConfiguration": {
+            "ADMMessage": {
+                "Action": "URL",
+                "Body": "",
+                "ImageIconUrl": "",
+                "ImageSmallIconUrl": "",
+                "ImageUrl": "",
+                "JsonBody": "",
+                "MediaUrl": "",
+                "RawContent": "",
+                "SilentPush": true,
+                "TimeToLive": 0,
+                "Title": "",
+                "Url": ""
+            },
+            "APNSMessage": {
+                "Action": "DEEP_LINK",
+                "Body": "",
+                "ImageIconUrl": "",
+                "ImageSmallIconUrl": "",
+                "ImageUrl": "",
+                "JsonBody": "",
+                "MediaUrl": "",
+                "RawContent": "",
+                "SilentPush": true,
+                "TimeToLive": 0,
+                "Title": "",
+                "Url": ""
+            },
+            "BaiduMessage": {
+                "Action": "URL",
+                "Body": "",
+                "ImageIconUrl": "",
+                "ImageSmallIconUrl": "",
+                "ImageUrl": "",
+                "JsonBody": "",
+                "MediaUrl": "",
+                "RawContent": "",
+                "SilentPush": true,
+                "TimeToLive": 0,
+                "Title": "",
+                "Url": ""
+            },
+            "CustomMessage": {
+                "Data": ""
+            },
+            "DefaultMessage": {
+                "Action": "URL",
+                "Body": "",
+                "ImageIconUrl": "",
+                "ImageSmallIconUrl": "",
+                "ImageUrl": "",
+                "JsonBody": "",
+                "MediaUrl": "",
+                "RawContent": "",
+                "SilentPush": true,
+                "TimeToLive": 0,
+                "Title": "",
+                "Url": ""
+            },
+            "EmailMessage": {
+                "Body": "",
+                "FromAddress": "",
+                "HtmlBody": "",
+                "Title": ""
+            },
+            "GCMMessage": {
+                "Action": "OPEN_APP",
+                "Body": "",
+                "ImageIconUrl": "",
+                "ImageSmallIconUrl": "",
+                "ImageUrl": "",
+                "JsonBody": "",
+                "MediaUrl": "",
+                "RawContent": "",
+                "SilentPush": true,
+                "TimeToLive": 0,
+                "Title": "",
+                "Url": ""
+            },
+            "SMSMessage": {
+                "Body": "",
+                "MessageType": "TRANSACTIONAL",
+                "SenderId": ""
+            }
+        },
+        "Name": "",
+        "Schedule": {
+            "EndTime": "",
+            "EventFilter": {
+                "Dimensions": {
+                    "Attributes": {
+                        "KeyName": {
+                            "AttributeType": "INCLUSIVE",
+                            "Values": [
+                                ""
+                            ]
+                        }
+                    },
+                    "EventType": {
+                        "DimensionType": "EXCLUSIVE",
+                        "Values": [
+                            ""
+                        ]
+                    },
+                    "Metrics": {
+                        "KeyName": {
+                            "ComparisonOperator": "",
+                            "Value": null
+                        }
+                    }
+                },
+                "FilterType": "SYSTEM"
+            },
+            "Frequency": "HOURLY",
+            "IsLocalTime": true,
+            "QuietTime": {
+                "End": "",
+                "Start": ""
+            },
+            "StartTime": "",
+            "Timezone": ""
+        },
+        "SegmentId": "",
+        "SegmentVersion": 0,
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateConfiguration": {
+            "EmailTemplate": {
+                "Name": "",
+                "Version": ""
+            },
+            "PushTemplate": {
+                "Name": "",
+                "Version": ""
+            },
+            "SMSTemplate": {
+                "Name": "",
+                "Version": ""
+            },
+            "VoiceTemplate": {
+                "Name": "",
+                "Version": ""
+            }
+        },
+        "TreatmentDescription": "",
+        "TreatmentName": ""
+    }
+}

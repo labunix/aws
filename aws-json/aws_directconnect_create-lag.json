@@ -1,0 +1,20 @@
+{
+    "numberOfConnections": 0,
+    "location": "",
+    "connectionsBandwidth": "",
+    "lagName": "",
+    "connectionId": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "childConnectionTags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "providerName": ""
+}

@@ -1,0 +1,20 @@
+{
+    "StackId": "",
+    "AppId": "",
+    "InstanceIds": [
+        ""
+    ],
+    "LayerIds": [
+        ""
+    ],
+    "Command": {
+        "Name": "update_custom_cookbooks",
+        "Args": {
+            "KeyName": [
+                ""
+            ]
+        }
+    },
+    "Comment": "",
+    "CustomJson": ""
+}

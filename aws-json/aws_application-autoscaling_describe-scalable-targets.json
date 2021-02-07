@@ -1,0 +1,9 @@
+{
+    "ServiceNamespace": "custom-resource",
+    "ResourceIds": [
+        ""
+    ],
+    "ScalableDimension": "cassandra:table:WriteCapacityUnits",
+    "MaxResults": 0,
+    "NextToken": ""
+}

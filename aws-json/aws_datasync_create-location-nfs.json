@@ -1,0 +1,18 @@
+{
+    "Subdirectory": "",
+    "ServerHostname": "",
+    "OnPremConfig": {
+        "AgentArns": [
+            ""
+        ]
+    },
+    "MountOptions": {
+        "Version": "NFS3"
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

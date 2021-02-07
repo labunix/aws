@@ -1,0 +1,15 @@
+{
+    "GatewayARN": "",
+    "TapeSizeInBytes": 0,
+    "TapeBarcode": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "PoolId": "",
+    "Worm": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "InstanceId": "",
+    "PreviousContactId": "",
+    "ContactFlowId": "",
+    "Attributes": {
+        "KeyName": ""
+    },
+    "Name": "",
+    "References": {
+        "KeyName": {
+            "Value": "",
+            "Type": "URL"
+        }
+    },
+    "Description": "",
+    "ClientToken": ""
+}

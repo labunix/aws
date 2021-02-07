@@ -1,0 +1,47 @@
+{
+    "name": "",
+    "description": "",
+    "repository": "",
+    "platform": "WEB",
+    "iamServiceRoleArn": "",
+    "oauthToken": "",
+    "accessToken": "",
+    "environmentVariables": {
+        "KeyName": ""
+    },
+    "enableBranchAutoBuild": true,
+    "enableBranchAutoDeletion": true,
+    "enableBasicAuth": true,
+    "basicAuthCredentials": "",
+    "customRules": [
+        {
+            "source": "",
+            "target": "",
+            "status": "",
+            "condition": ""
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    },
+    "buildSpec": "",
+    "customHeaders": "",
+    "enableAutoBranchCreation": true,
+    "autoBranchCreationPatterns": [
+        ""
+    ],
+    "autoBranchCreationConfig": {
+        "stage": "BETA",
+        "framework": "",
+        "enableAutoBuild": true,
+        "environmentVariables": {
+            "KeyName": ""
+        },
+        "basicAuthCredentials": "",
+        "enableBasicAuth": true,
+        "enablePerformanceMode": true,
+        "buildSpec": "",
+        "enablePullRequestPreview": true,
+        "pullRequestEnvironmentName": ""
+    }
+}

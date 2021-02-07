@@ -1,0 +1,35 @@
+{
+    "OriginRequestPolicyConfig": {
+        "Comment": "",
+        "Name": "",
+        "HeadersConfig": {
+            "HeaderBehavior": "allViewer",
+            "Headers": {
+                "Quantity": 0,
+                "Items": [
+                    ""
+                ]
+            }
+        },
+        "CookiesConfig": {
+            "CookieBehavior": "none",
+            "Cookies": {
+                "Quantity": 0,
+                "Items": [
+                    ""
+                ]
+            }
+        },
+        "QueryStringsConfig": {
+            "QueryStringBehavior": "all",
+            "QueryStrings": {
+                "Quantity": 0,
+                "Items": [
+                    ""
+                ]
+            }
+        }
+    },
+    "Id": "",
+    "IfMatch": ""
+}

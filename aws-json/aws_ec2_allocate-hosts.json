@@ -1,0 +1,20 @@
+{
+    "AutoPlacement": "off",
+    "AvailabilityZone": "",
+    "ClientToken": "",
+    "InstanceType": "",
+    "InstanceFamily": "",
+    "Quantity": 0,
+    "TagSpecifications": [
+        {
+            "ResourceType": "launch-template",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "HostRecovery": "on"
+}

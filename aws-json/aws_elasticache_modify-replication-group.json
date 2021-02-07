@@ -1,0 +1,34 @@
+{
+    "ReplicationGroupId": "",
+    "ReplicationGroupDescription": "",
+    "PrimaryClusterId": "",
+    "SnapshottingClusterId": "",
+    "AutomaticFailoverEnabled": true,
+    "MultiAZEnabled": true,
+    "NodeGroupId": "",
+    "CacheSecurityGroupNames": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "PreferredMaintenanceWindow": "",
+    "NotificationTopicArn": "",
+    "CacheParameterGroupName": "",
+    "NotificationTopicStatus": "",
+    "ApplyImmediately": true,
+    "EngineVersion": "",
+    "AutoMinorVersionUpgrade": true,
+    "SnapshotRetentionLimit": 0,
+    "SnapshotWindow": "",
+    "CacheNodeType": "",
+    "AuthToken": "",
+    "AuthTokenUpdateStrategy": "SET",
+    "UserGroupIdsToAdd": [
+        ""
+    ],
+    "UserGroupIdsToRemove": [
+        ""
+    ],
+    "RemoveUserGroups": true
+}

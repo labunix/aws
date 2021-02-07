@@ -1,0 +1,15 @@
+{
+    "TransitGatewayAttachmentId": "",
+    "AddSubnetIds": [
+        ""
+    ],
+    "RemoveSubnetIds": [
+        ""
+    ],
+    "Options": {
+        "DnsSupport": "enable",
+        "Ipv6Support": "enable",
+        "ApplianceModeSupport": "enable"
+    },
+    "DryRun": true
+}

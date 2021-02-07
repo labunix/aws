@@ -1,0 +1,7 @@
+{
+    "ApplicationName": "",
+    "CurrentApplicationVersionId": 0,
+    "CloudWatchLoggingOption": {
+        "LogStreamARN": ""
+    }
+}

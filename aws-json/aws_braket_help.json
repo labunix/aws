@@ -1,0 +1,35 @@
+BRAKET()                                                              BRAKET()
+
+
+
+NNAAMMEE
+       braket -
+
+DDEESSCCRRIIPPTTIIOONN
+       The  Amazon  Braket API Reference provides information about the opera-
+       tions and structures supported in Amazon Braket.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o cancel-quantum-task
+
+       +o create-quantum-task
+
+       +o get-device
+
+       +o get-quantum-task
+
+       +o help
+
+       +o list-tags-for-resource
+
+       +o search-devices
+
+       +o search-quantum-tasks
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                                      BRAKET()

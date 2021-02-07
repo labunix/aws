@@ -1,0 +1,12 @@
+{
+    "ClientToken": "",
+    "GrantName": "",
+    "LicenseArn": "",
+    "Principals": [
+        ""
+    ],
+    "HomeRegion": "",
+    "AllowedOperations": [
+        "CheckoutLicense"
+    ]
+}

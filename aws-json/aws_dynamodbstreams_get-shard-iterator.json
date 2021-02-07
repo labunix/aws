@@ -1,0 +1,6 @@
+{
+    "StreamArn": "",
+    "ShardId": "",
+    "ShardIteratorType": "AT_SEQUENCE_NUMBER",
+    "SequenceNumber": ""
+}

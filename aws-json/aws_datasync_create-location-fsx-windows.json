@@ -1,0 +1,16 @@
+{
+    "Subdirectory": "",
+    "FsxFilesystemArn": "",
+    "SecurityGroupArns": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "User": "",
+    "Domain": "",
+    "Password": ""
+}

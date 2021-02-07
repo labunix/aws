@@ -1,0 +1,6 @@
+{
+    "DestinationCidrBlock": "",
+    "LocalGatewayRouteTableId": "",
+    "LocalGatewayVirtualInterfaceGroupId": "",
+    "DryRun": true
+}

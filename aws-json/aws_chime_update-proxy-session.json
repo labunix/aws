@@ -1,0 +1,8 @@
+{
+    "VoiceConnectorId": "",
+    "ProxySessionId": "",
+    "Capabilities": [
+        "Voice"
+    ],
+    "ExpiryMinutes": 0
+}

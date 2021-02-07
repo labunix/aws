@@ -1,0 +1,8 @@
+{
+    "ClusterIdentifier": "",
+    "DeferMaintenance": true,
+    "DeferMaintenanceIdentifier": "",
+    "DeferMaintenanceStartTime": "1970-01-01T00:00:00",
+    "DeferMaintenanceEndTime": "1970-01-01T00:00:00",
+    "DeferMaintenanceDuration": 0
+}

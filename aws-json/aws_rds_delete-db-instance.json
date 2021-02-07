@@ -1,0 +1,6 @@
+{
+    "DBInstanceIdentifier": "",
+    "SkipFinalSnapshot": true,
+    "FinalDBSnapshotIdentifier": "",
+    "DeleteAutomatedBackups": true
+}

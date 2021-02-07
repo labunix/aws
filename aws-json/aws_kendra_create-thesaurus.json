@@ -1,0 +1,17 @@
+{
+    "IndexId": "",
+    "Name": "",
+    "Description": "",
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "SourceS3Path": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "ClientToken": ""
+}

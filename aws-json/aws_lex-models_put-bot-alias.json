@@ -1,0 +1,24 @@
+{
+    "name": "",
+    "description": "",
+    "botVersion": "",
+    "botName": "",
+    "checksum": "",
+    "conversationLogs": {
+        "logSettings": [
+            {
+                "logType": "TEXT",
+                "destination": "S3",
+                "kmsKeyArn": "",
+                "resourceArn": ""
+            }
+        ],
+        "iamRoleArn": ""
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

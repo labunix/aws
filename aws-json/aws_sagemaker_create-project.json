@@ -1,0 +1,21 @@
+{
+    "ProjectName": "",
+    "ProjectDescription": "",
+    "ServiceCatalogProvisioningDetails": {
+        "ProductId": "",
+        "ProvisioningArtifactId": "",
+        "PathId": "",
+        "ProvisioningParameters": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ]
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

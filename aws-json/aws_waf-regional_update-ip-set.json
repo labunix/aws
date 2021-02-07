@@ -1,0 +1,13 @@
+{
+    "IPSetId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "INSERT",
+            "IPSetDescriptor": {
+                "Type": "IPV6",
+                "Value": ""
+            }
+        }
+    ]
+}

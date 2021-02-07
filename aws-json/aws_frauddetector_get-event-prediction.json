@@ -1,0 +1,22 @@
+{
+    "detectorId": "",
+    "detectorVersionId": "",
+    "eventId": "",
+    "eventTypeName": "",
+    "entities": [
+        {
+            "entityType": "",
+            "entityId": ""
+        }
+    ],
+    "eventTimestamp": "",
+    "eventVariables": {
+        "KeyName": ""
+    },
+    "externalModelEndpointDataBlobs": {
+        "KeyName": {
+            "byteBuffer": null,
+            "contentType": ""
+        }
+    }
+}

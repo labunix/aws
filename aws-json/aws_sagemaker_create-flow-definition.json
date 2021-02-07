@@ -1,0 +1,41 @@
+{
+    "FlowDefinitionName": "",
+    "HumanLoopRequestSource": {
+        "AwsManagedHumanLoopRequestSource": "AWS/Rekognition/DetectModerationLabels/Image/V3"
+    },
+    "HumanLoopActivationConfig": {
+        "HumanLoopActivationConditionsConfig": {
+            "HumanLoopActivationConditions": ""
+        }
+    },
+    "HumanLoopConfig": {
+        "WorkteamArn": "",
+        "HumanTaskUiArn": "",
+        "TaskTitle": "",
+        "TaskDescription": "",
+        "TaskCount": 0,
+        "TaskAvailabilityLifetimeInSeconds": 0,
+        "TaskTimeLimitInSeconds": 0,
+        "TaskKeywords": [
+            ""
+        ],
+        "PublicWorkforceTaskPrice": {
+            "AmountInUsd": {
+                "Dollars": 0,
+                "Cents": 0,
+                "TenthFractionsOfACent": 0
+            }
+        }
+    },
+    "OutputConfig": {
+        "S3OutputPath": "",
+        "KmsKeyId": ""
+    },
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "TransformId": "",
+    "Name": "",
+    "Description": "",
+    "Parameters": {
+        "TransformType": "FIND_MATCHES",
+        "FindMatchesParameters": {
+            "PrimaryKeyColumnName": "",
+            "PrecisionRecallTradeoff": null,
+            "AccuracyCostTradeoff": null,
+            "EnforceProvidedLabels": true
+        }
+    },
+    "Role": "",
+    "GlueVersion": "",
+    "MaxCapacity": null,
+    "WorkerType": "Standard",
+    "NumberOfWorkers": 0,
+    "Timeout": 0,
+    "MaxRetries": 0
+}

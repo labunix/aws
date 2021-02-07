@@ -1,0 +1,38 @@
+SAVINGSPLANS()                                                  SAVINGSPLANS()
+
+
+
+NNAAMMEE
+       savingsplans -
+
+DDEESSCCRRIIPPTTIIOONN
+       Savings Plans are a pricing model that offer significant savings on AWS
+       usage (for example, on Amazon EC2 instances). You commit to  a  consis-
+       tent  amount of usage, in USD per hour, for a term of 1 or 3 years, and
+       receive a lower price for that usage. For more information, see the _A_W_S
+       _S_a_v_i_n_g_s _P_l_a_n_s _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-savings-plan
+
+       +o delete-queued-savings-plan
+
+       +o describe-savings-plan-rates
+
+       +o describe-savings-plans
+
+       +o describe-savings-plans-offering-rates
+
+       +o describe-savings-plans-offerings
+
+       +o help
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                                SAVINGSPLANS()

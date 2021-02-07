@@ -1,0 +1,9 @@
+{
+    "Bucket": "",
+    "Key": "",
+    "MFA": "",
+    "VersionId": "",
+    "RequestPayer": "requester",
+    "BypassGovernanceRetention": true,
+    "ExpectedBucketOwner": ""
+}

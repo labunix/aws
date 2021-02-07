@@ -1,0 +1,18 @@
+{
+    "Engine": "standard",
+    "LanguageCode": "pl-PL",
+    "LexiconNames": [
+        ""
+    ],
+    "OutputFormat": "mp3",
+    "OutputS3BucketName": "",
+    "OutputS3KeyPrefix": "",
+    "SampleRate": "",
+    "SnsTopicArn": "",
+    "SpeechMarkTypes": [
+        "word"
+    ],
+    "Text": "",
+    "TextType": "ssml",
+    "VoiceId": "Emma"
+}

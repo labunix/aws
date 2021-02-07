@@ -1,0 +1,14 @@
+{
+    "ListenerArn": "",
+    "EndpointGroupRegion": "",
+    "DestinationConfigurations": [
+        {
+            "FromPort": 0,
+            "ToPort": 0,
+            "Protocols": [
+                "TCP"
+            ]
+        }
+    ],
+    "IdempotencyToken": ""
+}

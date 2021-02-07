@@ -1,0 +1,37 @@
+{
+    "TranscriptionJobName": "",
+    "LanguageCode": "it-IT",
+    "MediaSampleRateHertz": 0,
+    "MediaFormat": "wav",
+    "Media": {
+        "MediaFileUri": ""
+    },
+    "OutputBucketName": "",
+    "OutputKey": "",
+    "OutputEncryptionKMSKeyId": "",
+    "Settings": {
+        "VocabularyName": "",
+        "ShowSpeakerLabels": true,
+        "MaxSpeakerLabels": 0,
+        "ChannelIdentification": true,
+        "ShowAlternatives": true,
+        "MaxAlternatives": 0,
+        "VocabularyFilterName": "",
+        "VocabularyFilterMethod": "remove"
+    },
+    "ModelSettings": {
+        "LanguageModelName": ""
+    },
+    "JobExecutionSettings": {
+        "AllowDeferredExecution": true,
+        "DataAccessRoleArn": ""
+    },
+    "ContentRedaction": {
+        "RedactionType": "PII",
+        "RedactionOutput": "redacted"
+    },
+    "IdentifyLanguage": true,
+    "LanguageOptions": [
+        "ms-MY"
+    ]
+}

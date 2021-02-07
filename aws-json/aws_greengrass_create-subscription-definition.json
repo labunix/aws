@@ -1,0 +1,17 @@
+{
+    "AmznClientToken": "",
+    "InitialVersion": {
+        "Subscriptions": [
+            {
+                "Id": "",
+                "Source": "",
+                "Subject": "",
+                "Target": ""
+            }
+        ]
+    },
+    "Name": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

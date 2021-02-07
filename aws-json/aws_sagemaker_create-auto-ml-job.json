@@ -1,0 +1,50 @@
+{
+    "AutoMLJobName": "",
+    "InputDataConfig": [
+        {
+            "DataSource": {
+                "S3DataSource": {
+                    "S3DataType": "ManifestFile",
+                    "S3Uri": ""
+                }
+            },
+            "CompressionType": "None",
+            "TargetAttributeName": ""
+        }
+    ],
+    "OutputDataConfig": {
+        "KmsKeyId": "",
+        "S3OutputPath": ""
+    },
+    "ProblemType": "BinaryClassification",
+    "AutoMLJobObjective": {
+        "MetricName": "Accuracy"
+    },
+    "AutoMLJobConfig": {
+        "CompletionCriteria": {
+            "MaxCandidates": 0,
+            "MaxRuntimePerTrainingJobInSeconds": 0,
+            "MaxAutoMLJobRuntimeInSeconds": 0
+        },
+        "SecurityConfig": {
+            "VolumeKmsKeyId": "",
+            "EnableInterContainerTrafficEncryption": true,
+            "VpcConfig": {
+                "SecurityGroupIds": [
+                    ""
+                ],
+                "Subnets": [
+                    ""
+                ]
+            }
+        }
+    },
+    "RoleArn": "",
+    "GenerateCandidateDefinitionsOnly": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

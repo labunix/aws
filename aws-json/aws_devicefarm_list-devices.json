@@ -1,0 +1,13 @@
+{
+    "arn": "",
+    "nextToken": "",
+    "filters": [
+        {
+            "attribute": "MODEL",
+            "operator": "GREATER_THAN",
+            "values": [
+                ""
+            ]
+        }
+    ]
+}

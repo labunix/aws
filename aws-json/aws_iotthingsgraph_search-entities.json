@@ -1,0 +1,16 @@
+{
+    "entityTypes": [
+        "MAPPING"
+    ],
+    "filters": [
+        {
+            "name": "NAME",
+            "value": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0,
+    "namespaceVersion": 0
+}

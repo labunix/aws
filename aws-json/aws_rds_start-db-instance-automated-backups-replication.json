@@ -1,0 +1,7 @@
+{
+    "SourceDBInstanceArn": "",
+    "BackupRetentionPeriod": 0,
+    "KmsKeyId": "",
+    "PreSignedUrl": "",
+    "SourceRegion": ""
+}

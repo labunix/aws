@@ -1,0 +1,15 @@
+{
+    "appId": "",
+    "domainName": "",
+    "enableAutoSubDomain": true,
+    "subDomainSettings": [
+        {
+            "prefix": "",
+            "branchName": ""
+        }
+    ],
+    "autoSubDomainCreationPatterns": [
+        ""
+    ],
+    "autoSubDomainIAMRole": ""
+}

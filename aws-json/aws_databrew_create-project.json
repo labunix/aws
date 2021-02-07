@@ -1,0 +1,13 @@
+{
+    "DatasetName": "",
+    "Name": "",
+    "RecipeName": "",
+    "Sample": {
+        "Size": 0,
+        "Type": "RANDOM"
+    },
+    "RoleArn": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

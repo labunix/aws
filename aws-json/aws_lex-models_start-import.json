@@ -1,0 +1,11 @@
+{
+    "payload": null,
+    "resourceType": "BOT",
+    "mergeStrategy": "FAIL_ON_CONFLICT",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

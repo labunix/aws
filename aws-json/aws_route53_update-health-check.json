@@ -1,0 +1,28 @@
+{
+    "HealthCheckId": "",
+    "HealthCheckVersion": 0,
+    "IPAddress": "",
+    "Port": 0,
+    "ResourcePath": "",
+    "FullyQualifiedDomainName": "",
+    "SearchString": "",
+    "FailureThreshold": 0,
+    "Inverted": true,
+    "Disabled": true,
+    "HealthThreshold": 0,
+    "ChildHealthChecks": [
+        ""
+    ],
+    "EnableSNI": true,
+    "Regions": [
+        "us-east-1"
+    ],
+    "AlarmIdentifier": {
+        "Region": "me-south-1",
+        "Name": ""
+    },
+    "InsufficientDataHealthStatus": "LastKnownStatus",
+    "ResetElements": [
+        "FullyQualifiedDomainName"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "InstanceId": "",
+    "ContactId": "",
+    "InitialContactId": "",
+    "VoiceRecordingConfiguration": {
+        "VoiceRecordingTrack": "FROM_AGENT"
+    }
+}

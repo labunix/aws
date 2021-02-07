@@ -1,0 +1,28 @@
+{
+    "FlowArn": "",
+    "Sources": [
+        {
+            "Decryption": {
+                "Algorithm": "aes256",
+                "ConstantInitializationVector": "",
+                "DeviceId": "",
+                "KeyType": "static-key",
+                "Region": "",
+                "ResourceId": "",
+                "RoleArn": "",
+                "SecretArn": "",
+                "Url": ""
+            },
+            "Description": "",
+            "EntitlementArn": "",
+            "IngestPort": 0,
+            "MaxBitrate": 0,
+            "MaxLatency": 0,
+            "Name": "",
+            "Protocol": "rtp-fec",
+            "StreamId": "",
+            "VpcInterfaceName": "",
+            "WhitelistCidr": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "SourceImage": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "TargetImage": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "SimilarityThreshold": 0.0,
+    "QualityFilter": "AUTO"
+}

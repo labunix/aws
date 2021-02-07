@@ -1,0 +1,36 @@
+{
+    "DatabaseName": "",
+    "TableName": "",
+    "CommonAttributes": {
+        "Dimensions": [
+            {
+                "Name": "",
+                "Value": "",
+                "DimensionValueType": "VARCHAR"
+            }
+        ],
+        "MeasureName": "",
+        "MeasureValue": "",
+        "MeasureValueType": "BOOLEAN",
+        "Time": "",
+        "TimeUnit": "MICROSECONDS",
+        "Version": 0
+    },
+    "Records": [
+        {
+            "Dimensions": [
+                {
+                    "Name": "",
+                    "Value": "",
+                    "DimensionValueType": "VARCHAR"
+                }
+            ],
+            "MeasureName": "",
+            "MeasureValue": "",
+            "MeasureValueType": "BIGINT",
+            "Time": "",
+            "TimeUnit": "NANOSECONDS",
+            "Version": 0
+        }
+    ]
+}

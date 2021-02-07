@@ -1,0 +1,273 @@
+GLOBALACCELERATOR()                                        GLOBALACCELERATOR()
+
+
+
+NNAAMMEE
+       globalaccelerator -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is  the  _A_W_S _G_l_o_b_a_l _A_c_c_e_l_e_r_a_t_o_r _A_P_I _R_e_f_e_r_e_n_c_e . This guide is for
+       developers who need detailed information about AWS  Global  Accelerator
+       API  actions, data types, and errors. For more information about Global
+       Accelerator features, see the _A_W_S _G_l_o_b_a_l _A_c_c_e_l_e_r_a_t_o_r _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+       AWS Global Accelerator is a service in which you create _a_c_c_e_l_e_r_a_t_o_r_s to
+       improve  the  performance  of  your  applications  for local and global
+       users. Depending on the type of accelerator you choose,  you  can  gain
+       additional benefits.
+
+       +o By using a standard accelerator, you can improve availability of your
+         internet applications that are used by  a  global  audience.  With  a
+         standard  accelerator,  Global Accelerator directs traffic to optimal
+         endpoints over the AWS global network.
+
+       +o For other scenarios, you might choose a custom  routing  accelerator.
+         With  a  custom routing accelerator, you can use application logic to
+         directly map one or more users to a specific endpoint among many end-
+         points.
+
+       WWAARRNNIINNGG::
+          Global  Accelerator  is  a global service that supports endpoints in
+          multiple AWS Regions but you must specify the US West  (Oregon)  Re-
+          gion to create or update accelerators.
+
+       By  default,  Global  Accelerator  provides  you with two static IP ad-
+       dresses that you associate with your accelerator. With a  standard  ac-
+       celerator,  instead  of  using the IP addresses that Global Accelerator
+       provides, you can configure these entry points  to  be  IPv4  addresses
+       from  your  own IP address ranges that you bring to Global Accelerator.
+       The static IP addresses are anycast from the AWS edge  network.  For  a
+       standard  accelerator,  they  distribute  incoming  application traffic
+       across multiple endpoint resources in multiple AWS Regions,  which  in-
+       creases  the  availability of your applications. Endpoints for standard
+       accelerators can be Network Load Balancers, Application Load Balancers,
+       Amazon  EC2  instances, or Elastic IP addresses that are located in one
+       AWS Region or multiple Regions. For custom  routing  accelerators,  you
+       map  traffic that arrives to the static IP addresses to specific Amazon
+       EC2 servers in endpoints that are virtual private cloud (VPC) subnets.
+
+       WWAARRNNIINNGG::
+          The static IP addresses remain assigned to your accelerator  for  as
+          long  as  it  exists,  even if you disable the accelerator and it no
+          longer accepts or routes traffic. However, when you _d_e_l_e_t_e an accel-
+          erator, you lose the static IP addresses that are assigned to it, so
+          you can no longer route traffic by using them. You can use IAM poli-
+          cies like tag-based permissions with Global Accelerator to limit the
+          users who have permissions to delete an accelerator. For more infor-
+          mation, see _T_a_g_-_b_a_s_e_d _p_o_l_i_c_i_e_s .
+
+       For  standard accelerators, Global Accelerator uses the AWS global net-
+       work to route traffic to the optimal regional endpoint based on health,
+       client  location,  and  policies that you configure. The service reacts
+       instantly to changes in health or configuration to ensure that internet
+       traffic from clients is always directed to healthy endpoints.
+
+       For  a  list of the AWS Regions where Global Accelerator and other ser-
+       vices are currently supported, see the _A_W_S _R_e_g_i_o_n _T_a_b_l_e .
+
+       AWS Global Accelerator includes the following components:
+          Static IP addresses
+
+       Global Accelerator provides you with a set of two static  IP  addresses
+       that  are  anycast  from the AWS edge network. If you bring your own IP
+       address range to AWS (BYOIP) to use with a  standard  accelerator,  you
+       can instead assign IP addresses from your own pool to use with your ac-
+       celerator. For more information, see _B_r_i_n_g _y_o_u_r _o_w_n _I_P  _a_d_d_r_e_s_s_e_s  _(_B_Y_-
+       _O_I_P_) _i_n _A_W_S _G_l_o_b_a_l _A_c_c_e_l_e_r_a_t_o_r .
+
+       The  IP  addresses serve as single fixed entry points for your clients.
+       If you already have Elastic Load Balancing load balancers,  Amazon  EC2
+       instances,  or  Elastic  IP  address resources set up for your applica-
+       tions, you can easily add those to a standard accelerator in Global Ac-
+       celerator. This allows Global Accelerator to use static IP addresses to
+       access the resources.
+
+       The static IP addresses remain assigned to your accelerator for as long
+       as  it exists, even if you disable the accelerator and it no longer ac-
+       cepts or routes traffic. However, when you _d_e_l_e_t_e an  accelerator,  you
+       lose  the  static  IP  addresses that are assigned to it, so you can no
+       longer route traffic by using them.  You  can  use  IAM  policies  like
+       tag-based permissions with Global Accelerator to delete an accelerator.
+       For more information, see _T_a_g_-_b_a_s_e_d _p_o_l_i_c_i_e_s .
+          Accelerator
+
+       An accelerator directs traffic to endpoints over the AWS global network
+       to improve the performance of your internet applications. Each acceler-
+       ator includes one or more listeners.
+
+       There are two types of accelerators:
+
+       +o A _s_t_a_n_d_a_r_d accelerator directs traffic to the  optimal  AWS  endpoint
+         based on several factors, including the users location, the health of
+         the endpoint, and the endpoint weights that you configure.  This  im-
+         proves  the  availability  and performance of your applications. End-
+         points can be Network Load  Balancers,  Application  Load  Balancers,
+         Amazon EC2 instances, or Elastic IP addresses.
+
+       +o A _c_u_s_t_o_m _r_o_u_t_i_n_g accelerator directs traffic to one of possibly thou-
+         sands of Amazon EC2 instances running in a single or multiple virtual
+         private clouds (VPCs). With custom routing, listener ports are mapped
+         to statically associate port ranges with VPC  subnets,  which  allows
+         Global  Accelerator  to  determine  an EC2 instance IP address at the
+         time of connection. By default, all port mapping  destinations  in  a
+         VPC  subnet  can't  receive  traffic. You can choose to configure all
+         destinations in the subnet to receive traffic, or to specify individ-
+         ual port mappings that can receive traffic.
+
+       For more information, see _T_y_p_e_s _o_f _a_c_c_e_l_e_r_a_t_o_r_s .
+          DNS name
+
+       Global  Accelerator assigns each accelerator a default Domain Name Sys-
+       tem (DNS) name, similar to aa11223344556677889900aabbccddeeff..aawwssgglloobbaallaacccceelleerraattoorr..ccoomm ,
+       that  points to the static IP addresses that Global Accelerator assigns
+       to you or that you choose from your own IP address range. Depending  on
+       the use case, you can use your accelerator's static IP addresses or DNS
+       name to route traffic to your accelerator, or set  up  DNS  records  to
+       route traffic using your own custom domain name.
+          Network zone
+
+       A  network  zone  services the static IP addresses for your accelerator
+       from a unique IP subnet. Similar to an AWS Availability Zone, a network
+       zone  is  an isolated unit with its own set of physical infrastructure.
+       When you configure an accelerator, by default, Global Accelerator allo-
+       cates  two IPv4 addresses for it. If one IP address from a network zone
+       becomes unavailable due to IP address blocking by certain  client  net-
+       works,  or  network  disruptions, then client applications can retry on
+       the healthy static IP address from the other isolated network zone.
+          Listener
+
+       A listener processes inbound connections from clients to Global  Accel-
+       erator,  based  on the port (or port range) and protocol (or protocols)
+       that you configure. A listener can be configured for TCP, UDP, or  both
+       TCP  and  UDP  protocols. Each listener has one or more endpoint groups
+       associated with it, and traffic is forwarded to endpoints in one of the
+       groups.  You associate endpoint groups with listeners by specifying the
+       Regions that you want to distribute traffic to. With a standard  accel-
+       erator, traffic is distributed to optimal endpoints within the endpoint
+       groups associated with a listener.
+          Endpoint group
+
+       Each endpoint group is associated with a specific AWS Region.  Endpoint
+       groups include one or more endpoints in the Region. With a standard ac-
+       celerator, you can increase or reduce the percentage  of  traffic  that
+       would be otherwise directed to an endpoint group by adjusting a setting
+       called a _t_r_a_f_f_i_c _d_i_a_l . The traffic dial lets you easily do performance
+       testing or blue/green deployment testing, for example, for new releases
+       across different AWS Regions.
+          Endpoint
+
+       An endpoint is a resource that Global Accelerator directs traffic to.
+
+       Endpoints for standard accelerators can be Network Load Balancers,  Ap-
+       plication  Load  Balancers,  Amazon  EC2  instances,  or Elastic IP ad-
+       dresses. An Application Load Balancer endpoint can  be  internet-facing
+       or  internal.  Traffic for standard accelerators is routed to endpoints
+       based on the health of the endpoint along  with  configuration  options
+       that  you  choose, such as endpoint weights. For each endpoint, you can
+       configure weights, which are numbers that you can use  to  specify  the
+       proportion of traffic to route to each one. This can be useful, for ex-
+       ample, to do performance testing within a Region.
+
+       Endpoints for custom routing accelerators  are  virtual  private  cloud
+       (VPC) subnets with one or many EC2 instances.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-custom-routing-endpoints
+
+       +o advertise-byoip-cidr
+
+       +o allow-custom-routing-traffic
+
+       +o create-accelerator
+
+       +o create-custom-routing-accelerator
+
+       +o create-custom-routing-endpoint-group
+
+       +o create-custom-routing-listener
+
+       +o create-endpoint-group
+
+       +o create-listener
+
+       +o delete-accelerator
+
+       +o delete-custom-routing-accelerator
+
+       +o delete-custom-routing-endpoint-group
+
+       +o delete-custom-routing-listener
+
+       +o delete-endpoint-group
+
+       +o delete-listener
+
+       +o deny-custom-routing-traffic
+
+       +o deprovision-byoip-cidr
+
+       +o describe-accelerator
+
+       +o describe-accelerator-attributes
+
+       +o describe-custom-routing-accelerator
+
+       +o describe-custom-routing-accelerator-attributes
+
+       +o describe-custom-routing-endpoint-group
+
+       +o describe-custom-routing-listener
+
+       +o describe-endpoint-group
+
+       +o describe-listener
+
+       +o help
+
+       +o list-accelerators
+
+       +o list-byoip-cidrs
+
+       +o list-custom-routing-accelerators
+
+       +o list-custom-routing-endpoint-groups
+
+       +o list-custom-routing-listeners
+
+       +o list-custom-routing-port-mappings
+
+       +o list-custom-routing-port-mappings-by-destination
+
+       +o list-endpoint-groups
+
+       +o list-listeners
+
+       +o list-tags-for-resource
+
+       +o provision-byoip-cidr
+
+       +o remove-custom-routing-endpoints
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-accelerator
+
+       +o update-accelerator-attributes
+
+       +o update-custom-routing-accelerator
+
+       +o update-custom-routing-accelerator-attributes
+
+       +o update-custom-routing-listener
+
+       +o update-endpoint-group
+
+       +o update-listener
+
+       +o withdraw-byoip-cidr
+
+
+
+                                                           GLOBALACCELERATOR()

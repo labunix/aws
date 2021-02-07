@@ -1,0 +1,11 @@
+{
+    "Bucket": "",
+    "ContentMD5": "",
+    "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+    },
+    "ExpectedBucketOwner": ""
+}

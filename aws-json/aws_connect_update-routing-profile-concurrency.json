@@ -1,0 +1,10 @@
+{
+    "InstanceId": "",
+    "RoutingProfileId": "",
+    "MediaConcurrencies": [
+        {
+            "Channel": "TASK",
+            "Concurrency": 0
+        }
+    ]
+}

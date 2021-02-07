@@ -1,0 +1,116 @@
+ORGANIZATIONS()                                                ORGANIZATIONS()
+
+
+
+NNAAMMEE
+       organizations -
+
+DDEESSCCRRIIPPTTIIOONN
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o accept-handshake
+
+       +o attach-policy
+
+       +o cancel-handshake
+
+       +o create-account
+
+       +o create-gov-cloud-account
+
+       +o create-organization
+
+       +o create-organizational-unit
+
+       +o create-policy
+
+       +o decline-handshake
+
+       +o delete-organization
+
+       +o delete-organizational-unit
+
+       +o delete-policy
+
+       +o deregister-delegated-administrator
+
+       +o describe-account
+
+       +o describe-create-account-status
+
+       +o describe-effective-policy
+
+       +o describe-handshake
+
+       +o describe-organization
+
+       +o describe-organizational-unit
+
+       +o describe-policy
+
+       +o detach-policy
+
+       +o disable-aws-service-access
+
+       +o disable-policy-type
+
+       +o enable-all-features
+
+       +o enable-aws-service-access
+
+       +o enable-policy-type
+
+       +o help
+
+       +o invite-account-to-organization
+
+       +o leave-organization
+
+       +o list-accounts
+
+       +o list-accounts-for-parent
+
+       +o list-aws-service-access-for-organization
+
+       +o list-children
+
+       +o list-create-account-status
+
+       +o list-delegated-administrators
+
+       +o list-delegated-services-for-account
+
+       +o list-handshakes-for-account
+
+       +o list-handshakes-for-organization
+
+       +o list-organizational-units-for-parent
+
+       +o list-parents
+
+       +o list-policies
+
+       +o list-policies-for-target
+
+       +o list-roots
+
+       +o list-tags-for-resource
+
+       +o list-targets-for-policy
+
+       +o move-account
+
+       +o register-delegated-administrator
+
+       +o remove-account-from-organization
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-organizational-unit
+
+       +o update-policy
+
+
+
+                                                               ORGANIZATIONS()

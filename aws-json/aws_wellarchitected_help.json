@@ -1,0 +1,146 @@
+WELLARCHITECTED()                                            WELLARCHITECTED()
+
+
+
+NNAAMMEE
+       wellarchitected -
+
+DDEESSCCRRIIPPTTIIOONN
+       This is the _A_W_S _W_e_l_l_-_A_r_c_h_i_t_e_c_t_e_d _T_o_o_l _A_P_I _R_e_f_e_r_e_n_c_e .
+
+       The  AWS  Well-Architected Tool API provides programmatic access to the
+       _A_W_S _W_e_l_l_-_A_r_c_h_i_t_e_c_t_e_d _T_o_o_l in the _A_W_S _M_a_n_a_g_e_m_e_n_t _C_o_n_s_o_l_e .
+          MMaannaaggiinngg wwoorrkkllooaaddss::
+
+       +o CreateWorkload : Define a new workload.
+
+       +o ListWorkloads : List workloads.
+
+       +o GetWorkload : Get the properties of a workload.
+
+       +o UpdateWorkload : Update the properties of a workload.
+
+       +o DeleteWorkload : Delete a workload.
+          MMaannaaggiinngg mmiilleessttoonneess::
+
+       +o CreateMilestone : Create a milestone.
+
+       +o ListMilestones : List milestones.
+
+       +o GetMilestone : Get the properties of a milestone.
+          MMaannaaggiinngg lleennsseess::
+
+       +o ListLenses : List the available lenses.
+
+       +o AssociateLenses : Add one or more lenses to a workload.
+
+       +o DisassociateLenses : Remove one or more lenses from a workload.
+
+       +o ListNotifications : List lens notifications for a workload.
+
+       +o GetLensVersionDifference : Get the differences between the version of
+         a lens used in a workload and the latest version.
+
+       +o UpgradeLensReview : Upgrade a workload to use the latest version of a
+         lens.
+          MMaannaaggiinngg rreevviieewwss::
+
+       +o ListLensReviews : List reviews associated with a workload.
+
+       +o GetLensReview : Get pillar and risk data associated with  a  workload
+         review.
+
+       +o GetLensReviewReport  :  Get the report associated with a workload re-
+         view.
+
+       +o UpdateLensReview : Update the notes associated with  a  workload  re-
+         view.
+
+       +o ListAnswers : List the questions and answers in a workload review.
+
+       +o UpdateAnswer : Update the answer to a specific question in a workload
+         review.
+
+       +o ListLensReviewImprovements : List  the  improvement  plan  associated
+         with a workload review.
+          MMaannaaggiinngg wwoorrkkllooaadd sshhaarreess::
+
+       +o ListWorkloadShares : List the workload shares associated with a work-
+         load.
+
+       +o CreateWorkloadShare : Create a workload share.
+
+       +o UpdateWorkloadShare : Update a workload share.
+
+       +o DeleteWorkloadShare : Delete a workload share.
+          MMaannaaggiinngg wwoorrkkllooaadd sshhaarree iinnvviittaattiioonnss::
+
+       +o ListShareInvitations : List workload share invitations.
+
+       +o UpdateShareInvitation : Update a workload share invitation.
+
+       For information about  the  AWS  Well-Architected  Tool,  see  the  _A_W_S
+       _W_e_l_l_-_A_r_c_h_i_t_e_c_t_e_d _T_o_o_l _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-lenses
+
+       +o create-milestone
+
+       +o create-workload
+
+       +o create-workload-share
+
+       +o delete-workload
+
+       +o delete-workload-share
+
+       +o disassociate-lenses
+
+       +o get-answer
+
+       +o get-lens-review
+
+       +o get-lens-review-report
+
+       +o get-lens-version-difference
+
+       +o get-milestone
+
+       +o get-workload
+
+       +o help
+
+       +o list-answers
+
+       +o list-lens-review-improvements
+
+       +o list-lens-reviews
+
+       +o list-lenses
+
+       +o list-milestones
+
+       +o list-notifications
+
+       +o list-share-invitations
+
+       +o list-workload-shares
+
+       +o list-workloads
+
+       +o update-answer
+
+       +o update-lens-review
+
+       +o update-share-invitation
+
+       +o update-workload
+
+       +o update-workload-share
+
+       +o upgrade-lens-review
+
+
+
+                                                             WELLARCHITECTED()

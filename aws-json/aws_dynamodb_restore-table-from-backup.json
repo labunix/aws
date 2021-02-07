@@ -1,0 +1,52 @@
+{
+    "TargetTableName": "",
+    "BackupArn": "",
+    "BillingModeOverride": "PAY_PER_REQUEST",
+    "GlobalSecondaryIndexOverride": [
+        {
+            "IndexName": "",
+            "KeySchema": [
+                {
+                    "AttributeName": "",
+                    "KeyType": "HASH"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL",
+                "NonKeyAttributes": [
+                    ""
+                ]
+            },
+            "ProvisionedThroughput": {
+                "ReadCapacityUnits": 0,
+                "WriteCapacityUnits": 0
+            }
+        }
+    ],
+    "LocalSecondaryIndexOverride": [
+        {
+            "IndexName": "",
+            "KeySchema": [
+                {
+                    "AttributeName": "",
+                    "KeyType": "HASH"
+                }
+            ],
+            "Projection": {
+                "ProjectionType": "ALL",
+                "NonKeyAttributes": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "ProvisionedThroughputOverride": {
+        "ReadCapacityUnits": 0,
+        "WriteCapacityUnits": 0
+    },
+    "SSESpecificationOverride": {
+        "Enabled": true,
+        "SSEType": "KMS",
+        "KMSMasterKeyId": ""
+    }
+}

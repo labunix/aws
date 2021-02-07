@@ -1,0 +1,8 @@
+{
+    "VpnConnectionId": "",
+    "LocalIpv4NetworkCidr": "",
+    "RemoteIpv4NetworkCidr": "",
+    "LocalIpv6NetworkCidr": "",
+    "RemoteIpv6NetworkCidr": "",
+    "DryRun": true
+}

@@ -1,0 +1,31 @@
+{
+    "ClusterIdentifier": "",
+    "ClusterType": "",
+    "NodeType": "",
+    "NumberOfNodes": 0,
+    "ClusterSecurityGroups": [
+        ""
+    ],
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "MasterUserPassword": "",
+    "ClusterParameterGroupName": "",
+    "AutomatedSnapshotRetentionPeriod": 0,
+    "ManualSnapshotRetentionPeriod": 0,
+    "PreferredMaintenanceWindow": "",
+    "ClusterVersion": "",
+    "AllowVersionUpgrade": true,
+    "HsmClientCertificateIdentifier": "",
+    "HsmConfigurationIdentifier": "",
+    "NewClusterIdentifier": "",
+    "PubliclyAccessible": true,
+    "ElasticIp": "",
+    "EnhancedVpcRouting": true,
+    "MaintenanceTrackName": "",
+    "Encrypted": true,
+    "KmsKeyId": "",
+    "AvailabilityZoneRelocation": true,
+    "AvailabilityZone": "",
+    "Port": 0
+}

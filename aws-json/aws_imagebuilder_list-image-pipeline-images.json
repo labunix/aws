@@ -1,0 +1,13 @@
+{
+    "imagePipelineArn": "",
+    "filters": [
+        {
+            "name": "",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "maxResults": 0,
+    "nextToken": ""
+}

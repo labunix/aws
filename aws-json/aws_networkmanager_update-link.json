@@ -1,0 +1,11 @@
+{
+    "GlobalNetworkId": "",
+    "LinkId": "",
+    "Description": "",
+    "Type": "",
+    "Bandwidth": {
+        "UploadSpeed": 0,
+        "DownloadSpeed": 0
+    },
+    "Provider": ""
+}

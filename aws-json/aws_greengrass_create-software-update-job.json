@@ -1,0 +1,11 @@
+{
+    "AmznClientToken": "",
+    "S3UrlSignerRole": "",
+    "SoftwareToUpdate": "ota_agent",
+    "UpdateAgentLogLevel": "DEBUG",
+    "UpdateTargets": [
+        ""
+    ],
+    "UpdateTargetsArchitecture": "x86_64",
+    "UpdateTargetsOperatingSystem": "raspbian"
+}

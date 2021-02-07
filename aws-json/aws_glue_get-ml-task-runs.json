@@ -1,0 +1,15 @@
+{
+    "TransformId": "",
+    "NextToken": "",
+    "MaxResults": 0,
+    "Filter": {
+        "TaskRunType": "LABELING_SET_GENERATION",
+        "Status": "FAILED",
+        "StartedBefore": "1970-01-01T00:00:00",
+        "StartedAfter": "1970-01-01T00:00:00"
+    },
+    "Sort": {
+        "Column": "STARTED",
+        "SortDirection": "DESCENDING"
+    }
+}

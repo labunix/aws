@@ -1,0 +1,13 @@
+{
+    "UserPoolId": "",
+    "Username": "",
+    "UserAttributes": [
+        {
+            "Name": "",
+            "Value": ""
+        }
+    ],
+    "ClientMetadata": {
+        "KeyName": ""
+    }
+}

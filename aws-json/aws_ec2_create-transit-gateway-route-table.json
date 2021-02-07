@@ -1,0 +1,15 @@
+{
+    "TransitGatewayId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "spot-instances-request",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

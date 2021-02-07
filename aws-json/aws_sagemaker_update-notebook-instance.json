@@ -1,0 +1,19 @@
+{
+    "NotebookInstanceName": "",
+    "InstanceType": "ml.p3.8xlarge",
+    "RoleArn": "",
+    "LifecycleConfigName": "",
+    "DisassociateLifecycleConfig": true,
+    "VolumeSizeInGB": 0,
+    "DefaultCodeRepository": "",
+    "AdditionalCodeRepositories": [
+        ""
+    ],
+    "AcceleratorTypes": [
+        "ml.eia1.medium"
+    ],
+    "DisassociateAcceleratorTypes": true,
+    "DisassociateDefaultCodeRepository": true,
+    "DisassociateAdditionalCodeRepositories": true,
+    "RootAccess": "Disabled"
+}

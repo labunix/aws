@@ -1,0 +1,26 @@
+{
+    "ApplicationName": "",
+    "TemplateName": "",
+    "SolutionStackName": "",
+    "PlatformArn": "",
+    "SourceConfiguration": {
+        "ApplicationName": "",
+        "TemplateName": ""
+    },
+    "EnvironmentId": "",
+    "Description": "",
+    "OptionSettings": [
+        {
+            "ResourceName": "",
+            "Namespace": "",
+            "OptionName": "",
+            "Value": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

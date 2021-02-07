@@ -1,0 +1,335 @@
+{
+    "Id": "",
+    "Name": "",
+    "IndexId": "",
+    "Configuration": {
+        "S3Configuration": {
+            "BucketName": "",
+            "InclusionPrefixes": [
+                ""
+            ],
+            "InclusionPatterns": [
+                ""
+            ],
+            "ExclusionPatterns": [
+                ""
+            ],
+            "DocumentsMetadataConfiguration": {
+                "S3Prefix": ""
+            },
+            "AccessControlListConfiguration": {
+                "KeyPath": ""
+            }
+        },
+        "SharePointConfiguration": {
+            "SharePointVersion": "SHAREPOINT_ONLINE",
+            "Urls": [
+                ""
+            ],
+            "SecretArn": "",
+            "CrawlAttachments": true,
+            "UseChangeLog": true,
+            "InclusionPatterns": [
+                ""
+            ],
+            "ExclusionPatterns": [
+                ""
+            ],
+            "VpcConfiguration": {
+                "SubnetIds": [
+                    ""
+                ],
+                "SecurityGroupIds": [
+                    ""
+                ]
+            },
+            "FieldMappings": [
+                {
+                    "DataSourceFieldName": "",
+                    "DateFieldFormat": "",
+                    "IndexFieldName": ""
+                }
+            ],
+            "DocumentTitleFieldName": "",
+            "DisableLocalGroups": true
+        },
+        "DatabaseConfiguration": {
+            "DatabaseEngineType": "RDS_POSTGRESQL",
+            "ConnectionConfiguration": {
+                "DatabaseHost": "",
+                "DatabasePort": 0,
+                "DatabaseName": "",
+                "TableName": "",
+                "SecretArn": ""
+            },
+            "VpcConfiguration": {
+                "SubnetIds": [
+                    ""
+                ],
+                "SecurityGroupIds": [
+                    ""
+                ]
+            },
+            "ColumnConfiguration": {
+                "DocumentIdColumnName": "",
+                "DocumentDataColumnName": "",
+                "DocumentTitleColumnName": "",
+                "FieldMappings": [
+                    {
+                        "DataSourceFieldName": "",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ],
+                "ChangeDetectingColumns": [
+                    ""
+                ]
+            },
+            "AclConfiguration": {
+                "AllowedGroupsColumnName": ""
+            },
+            "SqlConfiguration": {
+                "QueryIdentifiersEnclosingOption": "NONE"
+            }
+        },
+        "SalesforceConfiguration": {
+            "ServerUrl": "",
+            "SecretArn": "",
+            "StandardObjectConfigurations": [
+                {
+                    "Name": "TASK",
+                    "DocumentDataFieldName": "",
+                    "DocumentTitleFieldName": "",
+                    "FieldMappings": [
+                        {
+                            "DataSourceFieldName": "",
+                            "DateFieldFormat": "",
+                            "IndexFieldName": ""
+                        }
+                    ]
+                }
+            ],
+            "KnowledgeArticleConfiguration": {
+                "IncludedStates": [
+                    "PUBLISHED"
+                ],
+                "StandardKnowledgeArticleTypeConfiguration": {
+                    "DocumentDataFieldName": "",
+                    "DocumentTitleFieldName": "",
+                    "FieldMappings": [
+                        {
+                            "DataSourceFieldName": "",
+                            "DateFieldFormat": "",
+                            "IndexFieldName": ""
+                        }
+                    ]
+                },
+                "CustomKnowledgeArticleTypeConfigurations": [
+                    {
+                        "Name": "",
+                        "DocumentDataFieldName": "",
+                        "DocumentTitleFieldName": "",
+                        "FieldMappings": [
+                            {
+                                "DataSourceFieldName": "",
+                                "DateFieldFormat": "",
+                                "IndexFieldName": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ChatterFeedConfiguration": {
+                "DocumentDataFieldName": "",
+                "DocumentTitleFieldName": "",
+                "FieldMappings": [
+                    {
+                        "DataSourceFieldName": "",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ],
+                "IncludeFilterTypes": [
+                    "STANDARD_USER"
+                ]
+            },
+            "CrawlAttachments": true,
+            "StandardObjectAttachmentConfiguration": {
+                "DocumentTitleFieldName": "",
+                "FieldMappings": [
+                    {
+                        "DataSourceFieldName": "",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "IncludeAttachmentFilePatterns": [
+                ""
+            ],
+            "ExcludeAttachmentFilePatterns": [
+                ""
+            ]
+        },
+        "OneDriveConfiguration": {
+            "TenantDomain": "",
+            "SecretArn": "",
+            "OneDriveUsers": {
+                "OneDriveUserList": [
+                    ""
+                ],
+                "OneDriveUserS3Path": {
+                    "Bucket": "",
+                    "Key": ""
+                }
+            },
+            "InclusionPatterns": [
+                ""
+            ],
+            "ExclusionPatterns": [
+                ""
+            ],
+            "FieldMappings": [
+                {
+                    "DataSourceFieldName": "",
+                    "DateFieldFormat": "",
+                    "IndexFieldName": ""
+                }
+            ],
+            "DisableLocalGroups": true
+        },
+        "ServiceNowConfiguration": {
+            "HostUrl": "",
+            "SecretArn": "",
+            "ServiceNowBuildVersion": "LONDON",
+            "KnowledgeArticleConfiguration": {
+                "CrawlAttachments": true,
+                "IncludeAttachmentFilePatterns": [
+                    ""
+                ],
+                "ExcludeAttachmentFilePatterns": [
+                    ""
+                ],
+                "DocumentDataFieldName": "",
+                "DocumentTitleFieldName": "",
+                "FieldMappings": [
+                    {
+                        "DataSourceFieldName": "",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "ServiceCatalogConfiguration": {
+                "CrawlAttachments": true,
+                "IncludeAttachmentFilePatterns": [
+                    ""
+                ],
+                "ExcludeAttachmentFilePatterns": [
+                    ""
+                ],
+                "DocumentDataFieldName": "",
+                "DocumentTitleFieldName": "",
+                "FieldMappings": [
+                    {
+                        "DataSourceFieldName": "",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            }
+        },
+        "ConfluenceConfiguration": {
+            "ServerUrl": "",
+            "SecretArn": "",
+            "Version": "CLOUD",
+            "SpaceConfiguration": {
+                "CrawlPersonalSpaces": true,
+                "CrawlArchivedSpaces": true,
+                "IncludeSpaces": [
+                    ""
+                ],
+                "ExcludeSpaces": [
+                    ""
+                ],
+                "SpaceFieldMappings": [
+                    {
+                        "DataSourceFieldName": "SPACE_KEY",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "PageConfiguration": {
+                "PageFieldMappings": [
+                    {
+                        "DataSourceFieldName": "CONTENT_STATUS",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "BlogConfiguration": {
+                "BlogFieldMappings": [
+                    {
+                        "DataSourceFieldName": "AUTHOR",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "AttachmentConfiguration": {
+                "CrawlAttachments": true,
+                "AttachmentFieldMappings": [
+                    {
+                        "DataSourceFieldName": "AUTHOR",
+                        "DateFieldFormat": "",
+                        "IndexFieldName": ""
+                    }
+                ]
+            },
+            "VpcConfiguration": {
+                "SubnetIds": [
+                    ""
+                ],
+                "SecurityGroupIds": [
+                    ""
+                ]
+            },
+            "InclusionPatterns": [
+                ""
+            ],
+            "ExclusionPatterns": [
+                ""
+            ]
+        },
+        "GoogleDriveConfiguration": {
+            "SecretArn": "",
+            "InclusionPatterns": [
+                ""
+            ],
+            "ExclusionPatterns": [
+                ""
+            ],
+            "FieldMappings": [
+                {
+                    "DataSourceFieldName": "",
+                    "DateFieldFormat": "",
+                    "IndexFieldName": ""
+                }
+            ],
+            "ExcludeMimeTypes": [
+                ""
+            ],
+            "ExcludeUserAccounts": [
+                ""
+            ],
+            "ExcludeSharedDrives": [
+                ""
+            ]
+        }
+    },
+    "Description": "",
+    "Schedule": "",
+    "RoleArn": ""
+}

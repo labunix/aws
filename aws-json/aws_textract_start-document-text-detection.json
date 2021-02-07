@@ -1,0 +1,20 @@
+{
+    "DocumentLocation": {
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "ClientRequestToken": "",
+    "JobTag": "",
+    "NotificationChannel": {
+        "SNSTopicArn": "",
+        "RoleArn": ""
+    },
+    "OutputConfig": {
+        "S3Bucket": "",
+        "S3Prefix": ""
+    },
+    "KMSKeyId": ""
+}

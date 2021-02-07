@@ -1,0 +1,9 @@
+{
+    "OrganizationConfigRuleName": "",
+    "Filters": {
+        "AccountId": "",
+        "MemberAccountRuleStatus": "UPDATE_SUCCESSFUL"
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

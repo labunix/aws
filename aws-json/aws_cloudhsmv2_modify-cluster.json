@@ -1,0 +1,7 @@
+{
+    "BackupRetentionPolicy": {
+        "Type": "DAYS",
+        "Value": ""
+    },
+    "ClusterId": ""
+}

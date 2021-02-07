@@ -1,0 +1,150 @@
+SECURITYHUB()                                                    SECURITYHUB()
+
+
+
+NNAAMMEE
+       securityhub -
+
+DDEESSCCRRIIPPTTIIOONN
+       Security  Hub  provides  you  with a comprehensive view of the security
+       state of your AWS environment and resources. It also provides you  with
+       the  readiness  status  of your environment based on controls from sup-
+       ported security standards. Security Hub collects security data from AWS
+       accounts,  services,  and integrated third-party products and helps you
+       analyze security trends in your environment  to  identify  the  highest
+       priority  security issues. For more information about Security Hub, see
+       the * _A_W_S _S_e_c_u_r_i_t_y _H_u_b _U_s_e_r _G_u_i_d_e * .
+
+       When you use operations in the Security Hub API, the requests are  exe-
+       cuted  only  in  the AWS Region that is currently active or in the spe-
+       cific AWS Region that you specify in your request. Any configuration or
+       settings change that results from the operation is applied only to that
+       Region. To make the same change in other Regions, execute the same com-
+       mand for each Region to apply the change to.
+
+       For example, if your Region is set to uuss--wweesstt--22 , when you use ``  Cre-
+       ateMembers `` to add a member account to Security Hub, the  association
+       of  the  member  account with the master account is created only in the
+       uuss--wweesstt--22 Region. Security Hub must be enabled for the  member  account
+       in the same Region that the invitation was sent from.
+
+       The  following throttling limits apply to using Security Hub API opera-
+       tions.
+
+       +o `` BatchEnableStandards `` -  RRaatteeLLiimmiitt  of  1  request  per  second,
+         BBuurrssttLLiimmiitt of 1 request per second.
+
+       +o `` GetFindings `` - RRaatteeLLiimmiitt of 3 requests per second. BBuurrssttLLiimmiitt of
+         6 requests per second.
+
+       +o `` UpdateFindings `` - RRaatteeLLiimmiitt of 1 request per second.  BBuurrssttLLiimmiitt
+         of 5 requests per second.
+
+       +o ``  UpdateStandardsControl  ``  -  RRaatteeLLiimmiitt of 1 request per second,
+         BBuurrssttLLiimmiitt of 5 requests per second.
+
+       +o All  other  operations  -  RRaatteeLLiimmiitt  of  10  requests  per   second.
+         BBuurrssttLLiimmiitt of 30 requests per second.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o accept-invitation
+
+       +o batch-disable-standards
+
+       +o batch-enable-standards
+
+       +o batch-import-findings
+
+       +o batch-update-findings
+
+       +o create-action-target
+
+       +o create-insight
+
+       +o create-members
+
+       +o decline-invitations
+
+       +o delete-action-target
+
+       +o delete-insight
+
+       +o delete-invitations
+
+       +o delete-members
+
+       +o describe-action-targets
+
+       +o describe-hub
+
+       +o describe-organization-configuration
+
+       +o describe-products
+
+       +o describe-standards
+
+       +o describe-standards-controls
+
+       +o disable-import-findings-for-product
+
+       +o disable-organization-admin-account
+
+       +o disable-security-hub
+
+       +o disassociate-from-master-account
+
+       +o disassociate-members
+
+       +o enable-import-findings-for-product
+
+       +o enable-organization-admin-account
+
+       +o enable-security-hub
+
+       +o get-enabled-standards
+
+       +o get-findings
+
+       +o get-insight-results
+
+       +o get-insights
+
+       +o get-invitations-count
+
+       +o get-master-account
+
+       +o get-members
+
+       +o help
+
+       +o invite-members
+
+       +o list-enabled-products-for-import
+
+       +o list-invitations
+
+       +o list-members
+
+       +o list-organization-admin-accounts
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-action-target
+
+       +o update-findings
+
+       +o update-insight
+
+       +o update-organization-configuration
+
+       +o update-security-hub-configuration
+
+       +o update-standards-control
+
+
+
+                                                                 SECURITYHUB()

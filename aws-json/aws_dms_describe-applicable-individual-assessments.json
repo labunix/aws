@@ -1,0 +1,9 @@
+{
+    "ReplicationTaskArn": "",
+    "ReplicationInstanceArn": "",
+    "SourceEngineName": "",
+    "TargetEngineName": "",
+    "MigrationType": "cdc",
+    "MaxRecords": 0,
+    "Marker": ""
+}

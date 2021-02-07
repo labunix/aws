@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "Description": "",
+    "RoutingStrategy": {
+        "Type": "TERMINAL",
+        "FleetId": "",
+        "Message": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "AccountId": "",
+    "RoomId": "",
+    "MembershipItemList": [
+        {
+            "MemberId": "",
+            "Role": "Administrator"
+        }
+    ]
+}

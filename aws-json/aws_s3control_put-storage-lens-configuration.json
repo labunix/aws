@@ -1,0 +1,69 @@
+{
+    "ConfigId": "",
+    "AccountId": "",
+    "StorageLensConfiguration": {
+        "Id": "",
+        "AccountLevel": {
+            "ActivityMetrics": {
+                "IsEnabled": true
+            },
+            "BucketLevel": {
+                "ActivityMetrics": {
+                    "IsEnabled": true
+                },
+                "PrefixLevel": {
+                    "StorageMetrics": {
+                        "IsEnabled": true,
+                        "SelectionCriteria": {
+                            "Delimiter": "",
+                            "MaxDepth": 0,
+                            "MinStorageBytesPercentage": null
+                        }
+                    }
+                }
+            }
+        },
+        "Include": {
+            "Buckets": [
+                ""
+            ],
+            "Regions": [
+                ""
+            ]
+        },
+        "Exclude": {
+            "Buckets": [
+                ""
+            ],
+            "Regions": [
+                ""
+            ]
+        },
+        "DataExport": {
+            "S3BucketDestination": {
+                "Format": "CSV",
+                "OutputSchemaVersion": "V_1",
+                "AccountId": "",
+                "Arn": "",
+                "Prefix": "",
+                "Encryption": {
+                    "SSES3": {},
+                    "SSEKMS": {
+                        "KeyId": ""
+                    }
+                }
+            }
+        },
+        "IsEnabled": true,
+        "AwsOrg": {
+            "Arn": ""
+        },
+        "StorageLensArn": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

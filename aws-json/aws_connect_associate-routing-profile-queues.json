@@ -1,0 +1,14 @@
+{
+    "InstanceId": "",
+    "RoutingProfileId": "",
+    "QueueConfigs": [
+        {
+            "QueueReference": {
+                "QueueId": "",
+                "Channel": "TASK"
+            },
+            "Priority": 0,
+            "Delay": 0
+        }
+    ]
+}

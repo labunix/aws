@@ -1,0 +1,25 @@
+{
+    "IdentityPoolName": "",
+    "AllowUnauthenticatedIdentities": true,
+    "AllowClassicFlow": true,
+    "SupportedLoginProviders": {
+        "KeyName": ""
+    },
+    "DeveloperProviderName": "",
+    "OpenIdConnectProviderARNs": [
+        ""
+    ],
+    "CognitoIdentityProviders": [
+        {
+            "ProviderName": "",
+            "ClientId": "",
+            "ServerSideTokenCheck": true
+        }
+    ],
+    "SamlProviderARNs": [
+        ""
+    ],
+    "IdentityPoolTags": {
+        "KeyName": ""
+    }
+}

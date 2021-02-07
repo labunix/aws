@@ -1,0 +1,32 @@
+{
+    "Name": "",
+    "ImageName": "",
+    "ImageArn": "",
+    "InstanceType": "",
+    "Description": "",
+    "DisplayName": "",
+    "VpcConfig": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "IamRoleArn": "",
+    "EnableDefaultInternetAccess": true,
+    "DomainJoinInfo": {
+        "DirectoryName": "",
+        "OrganizationalUnitDistinguishedName": ""
+    },
+    "AppstreamAgentVersion": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "AccessEndpoints": [
+        {
+            "EndpointType": "STREAMING",
+            "VpceId": ""
+        }
+    ]
+}

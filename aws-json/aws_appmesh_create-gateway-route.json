@@ -1,0 +1,51 @@
+{
+    "clientToken": "",
+    "gatewayRouteName": "",
+    "meshName": "",
+    "meshOwner": "",
+    "spec": {
+        "grpcRoute": {
+            "action": {
+                "target": {
+                    "virtualService": {
+                        "virtualServiceName": ""
+                    }
+                }
+            },
+            "match": {
+                "serviceName": ""
+            }
+        },
+        "http2Route": {
+            "action": {
+                "target": {
+                    "virtualService": {
+                        "virtualServiceName": ""
+                    }
+                }
+            },
+            "match": {
+                "prefix": ""
+            }
+        },
+        "httpRoute": {
+            "action": {
+                "target": {
+                    "virtualService": {
+                        "virtualServiceName": ""
+                    }
+                }
+            },
+            "match": {
+                "prefix": ""
+            }
+        }
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "virtualGatewayName": ""
+}

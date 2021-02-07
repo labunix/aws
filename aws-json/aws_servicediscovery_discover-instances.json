@@ -1,0 +1,12 @@
+{
+    "NamespaceName": "",
+    "ServiceName": "",
+    "MaxResults": 0,
+    "QueryParameters": {
+        "KeyName": ""
+    },
+    "OptionalParameters": {
+        "KeyName": ""
+    },
+    "HealthStatus": "HEALTHY"
+}

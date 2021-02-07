@@ -1,0 +1,24 @@
+{
+    "name": "",
+    "description": "",
+    "version": "",
+    "cloneFrom": "",
+    "binaryMediaTypes": [
+        ""
+    ],
+    "minimumCompressionSize": 0,
+    "apiKeySource": "AUTHORIZER",
+    "endpointConfiguration": {
+        "types": [
+            "REGIONAL"
+        ],
+        "vpcEndpointIds": [
+            ""
+        ]
+    },
+    "policy": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "disableExecuteApiEndpoint": true
+}

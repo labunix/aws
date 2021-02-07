@@ -1,0 +1,35 @@
+QLDB-SESSION()                                                  QLDB-SESSION()
+
+
+
+NNAAMMEE
+       qldb-session -
+
+DDEESSCCRRIIPPTTIIOONN
+       The transactional data APIs for Amazon QLDB
+
+       NNOOTTEE::
+          Instead  of  interacting  directly with this API, we recommend using
+          the QLDB driver or the QLDB shell to execute data transactions on  a
+          ledger.
+
+          +o If  you  are  working  with  an  AWS SDK, use the QLDB driver. The
+            driver provides a high-level abstraction  layer  above  this  _Q_L_D_B
+            _S_e_s_s_i_o_n  data plane and manages SSeennddCCoommmmaanndd API calls for you. For
+            information and a list of  supported  programming  languages,  see
+            _G_e_t_t_i_n_g _s_t_a_r_t_e_d _w_i_t_h _t_h_e _d_r_i_v_e_r in the _A_m_a_z_o_n _Q_L_D_B _D_e_v_e_l_o_p_e_r _G_u_i_d_e
+            .
+
+          +o If you are working with the AWS Command Line Interface (AWS  CLI),
+            use  the  QLDB  shell.  The shell is a command line interface that
+            uses the QLDB driver to interact with a ledger.  For  information,
+            see _A_c_c_e_s_s_i_n_g _A_m_a_z_o_n _Q_L_D_B _u_s_i_n_g _t_h_e _Q_L_D_B _s_h_e_l_l .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o help
+
+       +o send-command
+
+
+
+                                                                QLDB-SESSION()

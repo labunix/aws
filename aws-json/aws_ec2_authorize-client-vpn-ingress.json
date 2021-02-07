@@ -1,0 +1,9 @@
+{
+    "ClientVpnEndpointId": "",
+    "TargetNetworkCidr": "",
+    "AccessGroupId": "",
+    "AuthorizeAllGroups": true,
+    "Description": "",
+    "ClientToken": "",
+    "DryRun": true
+}

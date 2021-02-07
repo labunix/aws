@@ -1,0 +1,107 @@
+APPMESH()                                                            APPMESH()
+
+
+
+NNAAMMEE
+       appmesh -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  App  Mesh is a service mesh based on the Envoy proxy that makes it
+       easy to monitor and control microservices. App  Mesh  standardizes  how
+       your  microservices  communicate,  giving you end-to-end visibility and
+       helping to ensure high availability for your applications.
+
+       App Mesh gives you consistent visibility and network  traffic  controls
+       for every microservice in an application. You can use App Mesh with AWS
+       Fargate, Amazon ECS, Amazon EKS, Kubernetes on AWS, and Amazon EC2.
+
+       NNOOTTEE::
+          App Mesh supports microservice applications that use service discov-
+          ery  naming for their components. For more information about service
+          discovery on Amazon ECS, see _S_e_r_v_i_c_e _D_i_s_c_o_v_e_r_y in the _A_m_a_z_o_n _E_l_a_s_t_i_c
+          _C_o_n_t_a_i_n_e_r  _S_e_r_v_i_c_e _D_e_v_e_l_o_p_e_r _G_u_i_d_e . Kubernetes kkuubbee--ddnnss and ccoorreeddnnss
+          are supported. For more information, see _D_N_S _f_o_r _S_e_r_v_i_c_e_s  _a_n_d  _P_o_d_s
+          in the Kubernetes documentation.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-gateway-route
+
+       +o create-mesh
+
+       +o create-route
+
+       +o create-virtual-gateway
+
+       +o create-virtual-node
+
+       +o create-virtual-router
+
+       +o create-virtual-service
+
+       +o delete-gateway-route
+
+       +o delete-mesh
+
+       +o delete-route
+
+       +o delete-virtual-gateway
+
+       +o delete-virtual-node
+
+       +o delete-virtual-router
+
+       +o delete-virtual-service
+
+       +o describe-gateway-route
+
+       +o describe-mesh
+
+       +o describe-route
+
+       +o describe-virtual-gateway
+
+       +o describe-virtual-node
+
+       +o describe-virtual-router
+
+       +o describe-virtual-service
+
+       +o help
+
+       +o list-gateway-routes
+
+       +o list-meshes
+
+       +o list-routes
+
+       +o list-tags-for-resource
+
+       +o list-virtual-gateways
+
+       +o list-virtual-nodes
+
+       +o list-virtual-routers
+
+       +o list-virtual-services
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-gateway-route
+
+       +o update-mesh
+
+       +o update-route
+
+       +o update-virtual-gateway
+
+       +o update-virtual-node
+
+       +o update-virtual-router
+
+       +o update-virtual-service
+
+
+
+                                                                     APPMESH()

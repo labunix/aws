@@ -1,0 +1,8 @@
+{
+    "BackupVaultName": "",
+    "BackupVaultTags": {
+        "KeyName": ""
+    },
+    "EncryptionKeyArn": "",
+    "CreatorRequestId": ""
+}

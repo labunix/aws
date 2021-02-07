@@ -1,0 +1,12 @@
+{
+    "AwsAccountId": "",
+    "Filters": [
+        {
+            "Operator": "StringEquals",
+            "Name": "QUICKSIGHT_USER",
+            "Value": ""
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

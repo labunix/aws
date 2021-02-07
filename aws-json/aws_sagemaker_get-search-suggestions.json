@@ -1,0 +1,8 @@
+{
+    "Resource": "FeatureGroup",
+    "SuggestionQuery": {
+        "PropertyNameQuery": {
+            "PropertyNameHint": ""
+        }
+    }
+}

@@ -1,0 +1,21 @@
+EC2-INSTANCE-CONNECT()                                  EC2-INSTANCE-CONNECT()
+
+
+
+NNAAMMEE
+       ec2-instance-connect -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS EC2 Connect Service is a service that enables system administrators
+       to publish temporary SSH keys to their EC2 instances in order to estab-
+       lish connections to their instances without leaving a permanent authen-
+       tication option.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o help
+
+       +o send-ssh-public-key
+
+
+
+                                                        EC2-INSTANCE-CONNECT()

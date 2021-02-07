@@ -1,0 +1,17 @@
+{
+    "GatewayARN": "",
+    "TapeSizeInBytes": 0,
+    "ClientToken": "",
+    "NumTapesToCreate": 0,
+    "TapeBarcodePrefix": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "PoolId": "",
+    "Worm": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

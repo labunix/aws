@@ -1,0 +1,15 @@
+{
+    "ResourceArn": "",
+    "AddLicenseSpecifications": [
+        {
+            "LicenseConfigurationArn": "",
+            "AmiAssociationScope": ""
+        }
+    ],
+    "RemoveLicenseSpecifications": [
+        {
+            "LicenseConfigurationArn": "",
+            "AmiAssociationScope": ""
+        }
+    ]
+}

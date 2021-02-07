@@ -1,0 +1,34 @@
+{
+    "AccessLogSettings": {
+        "DestinationArn": "",
+        "Format": ""
+    },
+    "ApiId": "",
+    "AutoDeploy": true,
+    "ClientCertificateId": "",
+    "DefaultRouteSettings": {
+        "DataTraceEnabled": true,
+        "DetailedMetricsEnabled": true,
+        "LoggingLevel": "OFF",
+        "ThrottlingBurstLimit": 0,
+        "ThrottlingRateLimit": null
+    },
+    "DeploymentId": "",
+    "Description": "",
+    "RouteSettings": {
+        "KeyName": {
+            "DataTraceEnabled": true,
+            "DetailedMetricsEnabled": true,
+            "LoggingLevel": "INFO",
+            "ThrottlingBurstLimit": 0,
+            "ThrottlingRateLimit": null
+        }
+    },
+    "StageName": "",
+    "StageVariables": {
+        "KeyName": ""
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

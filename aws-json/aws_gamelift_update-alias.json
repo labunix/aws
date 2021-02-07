@@ -1,0 +1,10 @@
+{
+    "AliasId": "",
+    "Name": "",
+    "Description": "",
+    "RoutingStrategy": {
+        "Type": "SIMPLE",
+        "FleetId": "",
+        "Message": ""
+    }
+}

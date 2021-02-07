@@ -1,0 +1,6 @@
+{
+    "apiId": "",
+    "ttl": 0,
+    "apiCachingBehavior": "FULL_REQUEST_CACHING",
+    "type": "LARGE"
+}

@@ -1,0 +1,19 @@
+{
+    "EditorId": "",
+    "RelativePath": "",
+    "NotebookExecutionName": "",
+    "NotebookParams": "",
+    "ExecutionEngine": {
+        "Id": "",
+        "Type": "EMR",
+        "MasterInstanceSecurityGroupId": ""
+    },
+    "ServiceRole": "",
+    "NotebookInstanceSecurityGroupId": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

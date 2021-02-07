@@ -1,0 +1,42 @@
+APPINTEGRATIONS()                                            APPINTEGRATIONS()
+
+
+
+NNAAMMEE
+       appintegrations -
+
+DDEESSCCRRIIPPTTIIOONN
+       The  Amazon AppIntegrations APIs are in preview release and are subject
+       to change.
+
+       The Amazon AppIntegrations service enables you to configure  and  reuse
+       connections to external applications.
+
+       For information about how you can use external applications with Amazon
+       Connect, see _S_e_t _u_p _p_r_e_-_b_u_i_l_t _i_n_t_e_g_r_a_t_i_o_n_s in the _A_m_a_z_o_n _C_o_n_n_e_c_t _A_d_m_i_n_-
+       _i_s_t_r_a_t_o_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-event-integration
+
+       +o delete-event-integration
+
+       +o get-event-integration
+
+       +o help
+
+       +o list-event-integration-associations
+
+       +o list-event-integrations
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-event-integration
+
+
+
+                                                             APPINTEGRATIONS()

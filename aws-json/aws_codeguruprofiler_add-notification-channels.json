@@ -1,0 +1,12 @@
+{
+    "channels": [
+        {
+            "eventPublishers": [
+                "AnomalyDetection"
+            ],
+            "id": "",
+            "uri": ""
+        }
+    ],
+    "profilingGroupName": ""
+}

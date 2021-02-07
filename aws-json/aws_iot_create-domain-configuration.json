@@ -1,0 +1,19 @@
+{
+    "domainConfigurationName": "",
+    "domainName": "",
+    "serverCertificateArns": [
+        ""
+    ],
+    "validationCertificateArn": "",
+    "authorizerConfig": {
+        "defaultAuthorizerName": "",
+        "allowAuthorizerOverride": true
+    },
+    "serviceType": "DATA",
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

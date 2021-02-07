@@ -1,0 +1,15 @@
+{
+    "InputDataConfig": {
+        "S3Bucket": "",
+        "S3Key": ""
+    },
+    "OutputDataConfig": {
+        "S3Bucket": "",
+        "S3Key": ""
+    },
+    "DataAccessRoleArn": "",
+    "JobName": "",
+    "ClientRequestToken": "",
+    "KMSKey": "",
+    "LanguageCode": "en"
+}

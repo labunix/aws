@@ -1,0 +1,12 @@
+{
+    "ArtifactArn": "",
+    "Source": {
+        "SourceUri": "",
+        "SourceTypes": [
+            {
+                "SourceIdType": "S3Version",
+                "Value": ""
+            }
+        ]
+    }
+}

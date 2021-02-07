@@ -1,0 +1,55 @@
+{
+    "StackSetName": "",
+    "Description": "",
+    "TemplateBody": "",
+    "TemplateURL": "",
+    "UsePreviousTemplate": true,
+    "Parameters": [
+        {
+            "ParameterKey": "",
+            "ParameterValue": "",
+            "UsePreviousValue": true,
+            "ResolvedValue": ""
+        }
+    ],
+    "Capabilities": [
+        "CAPABILITY_IAM"
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "OperationPreferences": {
+        "RegionOrder": [
+            ""
+        ],
+        "FailureToleranceCount": 0,
+        "FailureTolerancePercentage": 0,
+        "MaxConcurrentCount": 0,
+        "MaxConcurrentPercentage": 0
+    },
+    "AdministrationRoleARN": "",
+    "ExecutionRoleName": "",
+    "DeploymentTargets": {
+        "Accounts": [
+            ""
+        ],
+        "OrganizationalUnitIds": [
+            ""
+        ]
+    },
+    "PermissionModel": "SELF_MANAGED",
+    "AutoDeployment": {
+        "Enabled": true,
+        "RetainStacksOnAccountRemoval": true
+    },
+    "OperationId": "",
+    "Accounts": [
+        ""
+    ],
+    "Regions": [
+        ""
+    ]
+}

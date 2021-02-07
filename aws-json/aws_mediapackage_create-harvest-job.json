@@ -1,0 +1,11 @@
+{
+    "EndTime": "",
+    "Id": "",
+    "OriginEndpointId": "",
+    "S3Destination": {
+        "BucketName": "",
+        "ManifestKey": "",
+        "RoleArn": ""
+    },
+    "StartTime": ""
+}

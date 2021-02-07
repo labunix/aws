@@ -1,0 +1,36 @@
+{
+    "appId": "",
+    "name": "",
+    "description": "",
+    "roleName": "",
+    "serverGroups": [
+        {
+            "serverGroupId": "",
+            "name": "",
+            "serverList": [
+                {
+                    "serverId": "",
+                    "serverType": "VIRTUAL_MACHINE",
+                    "vmServer": {
+                        "vmServerAddress": {
+                            "vmManagerId": "",
+                            "vmId": ""
+                        },
+                        "vmName": "",
+                        "vmManagerName": "",
+                        "vmManagerType": "SCVMM",
+                        "vmPath": ""
+                    },
+                    "replicationJobId": "",
+                    "replicationJobTerminated": true
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

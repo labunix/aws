@@ -1,0 +1,41 @@
+{
+    "SyncName": "",
+    "Filters": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "Type": "Exists"
+        }
+    ],
+    "Aggregators": [
+        {
+            "AggregatorType": "",
+            "TypeName": "",
+            "AttributeName": "",
+            "Values": {
+                "KeyName": ""
+            },
+            "Filters": [
+                {
+                    "Key": "",
+                    "Values": [
+                        ""
+                    ],
+                    "Type": "Exists"
+                }
+            ],
+            "Aggregators": [
+                {}
+            ]
+        }
+    ],
+    "ResultAttributes": [
+        {
+            "TypeName": ""
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

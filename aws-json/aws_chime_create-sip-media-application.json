@@ -1,0 +1,9 @@
+{
+    "AwsRegion": "",
+    "Name": "",
+    "Endpoints": [
+        {
+            "LambdaArn": ""
+        }
+    ]
+}

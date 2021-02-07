@@ -1,0 +1,26 @@
+{
+    "LicenseConfigurationArn": "",
+    "LicenseConfigurationStatus": "AVAILABLE",
+    "LicenseRules": [
+        ""
+    ],
+    "LicenseCount": 0,
+    "LicenseCountHardLimit": true,
+    "Name": "",
+    "Description": "",
+    "ProductInformationList": [
+        {
+            "ResourceType": "",
+            "ProductInformationFilterList": [
+                {
+                    "ProductInformationFilterName": "",
+                    "ProductInformationFilterValue": [
+                        ""
+                    ],
+                    "ProductInformationFilterComparator": ""
+                }
+            ]
+        }
+    ],
+    "DisassociateWhenNotFound": true
+}

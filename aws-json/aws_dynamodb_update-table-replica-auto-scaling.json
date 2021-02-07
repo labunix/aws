@@ -1,0 +1,78 @@
+{
+    "GlobalSecondaryIndexUpdates": [
+        {
+            "IndexName": "",
+            "ProvisionedWriteCapacityAutoScalingUpdate": {
+                "MinimumUnits": 0,
+                "MaximumUnits": 0,
+                "AutoScalingDisabled": true,
+                "AutoScalingRoleArn": "",
+                "ScalingPolicyUpdate": {
+                    "PolicyName": "",
+                    "TargetTrackingScalingPolicyConfiguration": {
+                        "DisableScaleIn": true,
+                        "ScaleInCooldown": 0,
+                        "ScaleOutCooldown": 0,
+                        "TargetValue": null
+                    }
+                }
+            }
+        }
+    ],
+    "TableName": "",
+    "ProvisionedWriteCapacityAutoScalingUpdate": {
+        "MinimumUnits": 0,
+        "MaximumUnits": 0,
+        "AutoScalingDisabled": true,
+        "AutoScalingRoleArn": "",
+        "ScalingPolicyUpdate": {
+            "PolicyName": "",
+            "TargetTrackingScalingPolicyConfiguration": {
+                "DisableScaleIn": true,
+                "ScaleInCooldown": 0,
+                "ScaleOutCooldown": 0,
+                "TargetValue": null
+            }
+        }
+    },
+    "ReplicaUpdates": [
+        {
+            "RegionName": "",
+            "ReplicaGlobalSecondaryIndexUpdates": [
+                {
+                    "IndexName": "",
+                    "ProvisionedReadCapacityAutoScalingUpdate": {
+                        "MinimumUnits": 0,
+                        "MaximumUnits": 0,
+                        "AutoScalingDisabled": true,
+                        "AutoScalingRoleArn": "",
+                        "ScalingPolicyUpdate": {
+                            "PolicyName": "",
+                            "TargetTrackingScalingPolicyConfiguration": {
+                                "DisableScaleIn": true,
+                                "ScaleInCooldown": 0,
+                                "ScaleOutCooldown": 0,
+                                "TargetValue": null
+                            }
+                        }
+                    }
+                }
+            ],
+            "ReplicaProvisionedReadCapacityAutoScalingUpdate": {
+                "MinimumUnits": 0,
+                "MaximumUnits": 0,
+                "AutoScalingDisabled": true,
+                "AutoScalingRoleArn": "",
+                "ScalingPolicyUpdate": {
+                    "PolicyName": "",
+                    "TargetTrackingScalingPolicyConfiguration": {
+                        "DisableScaleIn": true,
+                        "ScaleInCooldown": 0,
+                        "ScaleOutCooldown": 0,
+                        "TargetValue": null
+                    }
+                }
+            }
+        }
+    ]
+}

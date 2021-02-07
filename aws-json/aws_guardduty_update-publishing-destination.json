@@ -1,0 +1,8 @@
+{
+    "DetectorId": "",
+    "DestinationId": "",
+    "DestinationProperties": {
+        "DestinationArn": "",
+        "KmsKeyArn": ""
+    }
+}

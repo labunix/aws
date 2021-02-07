@@ -1,0 +1,6 @@
+{
+    "DomainId": "",
+    "RetentionPolicy": {
+        "HomeEfsFileSystem": "Delete"
+    }
+}

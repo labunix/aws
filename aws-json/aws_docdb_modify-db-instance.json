@@ -1,0 +1,10 @@
+{
+    "DBInstanceIdentifier": "",
+    "DBInstanceClass": "",
+    "ApplyImmediately": true,
+    "PreferredMaintenanceWindow": "",
+    "AutoMinorVersionUpgrade": true,
+    "NewDBInstanceIdentifier": "",
+    "CACertificateIdentifier": "",
+    "PromotionTier": 0
+}

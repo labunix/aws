@@ -1,0 +1,55 @@
+{
+    "ClientRequestToken": "",
+    "FileSystemType": "LUSTRE",
+    "StorageCapacity": 0,
+    "StorageType": "SSD",
+    "SubnetIds": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "KmsKeyId": "",
+    "WindowsConfiguration": {
+        "ActiveDirectoryId": "",
+        "SelfManagedActiveDirectoryConfiguration": {
+            "DomainName": "",
+            "OrganizationalUnitDistinguishedName": "",
+            "FileSystemAdministratorsGroup": "",
+            "UserName": "",
+            "Password": "",
+            "DnsIps": [
+                ""
+            ]
+        },
+        "DeploymentType": "SINGLE_AZ_1",
+        "PreferredSubnetId": "",
+        "ThroughputCapacity": 0,
+        "WeeklyMaintenanceStartTime": "",
+        "DailyAutomaticBackupStartTime": "",
+        "AutomaticBackupRetentionDays": 0,
+        "CopyTagsToBackups": true,
+        "Aliases": [
+            ""
+        ]
+    },
+    "LustreConfiguration": {
+        "WeeklyMaintenanceStartTime": "",
+        "ImportPath": "",
+        "ExportPath": "",
+        "ImportedFileChunkSize": 0,
+        "DeploymentType": "SCRATCH_1",
+        "AutoImportPolicy": "NEW_CHANGED",
+        "PerUnitStorageThroughput": 0,
+        "DailyAutomaticBackupStartTime": "",
+        "AutomaticBackupRetentionDays": 0,
+        "CopyTagsToBackups": true,
+        "DriveCacheType": "NONE"
+    }
+}

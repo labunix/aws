@@ -1,0 +1,22 @@
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument operation: Invalid choice, valid choices are:
+
+cancel-deployment                        | create-component-version                
+create-deployment                        | delete-component                        
+delete-core-device                       | describe-component                      
+get-component                            | get-component-version-artifact          
+get-core-device                          | get-deployment                          
+list-component-versions                  | list-components                         
+list-core-devices                        | list-deployments                        
+list-effective-deployments               | list-installed-components               
+list-tags-for-resource                   | resolve-component-candidates            
+tag-resource                             | untag-resource                          
+help                                    
+

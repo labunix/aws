@@ -1,0 +1,9 @@
+{
+    "AutoPlacement": "off",
+    "HostIds": [
+        ""
+    ],
+    "HostRecovery": "off",
+    "InstanceType": "",
+    "InstanceFamily": ""
+}

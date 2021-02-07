@@ -1,0 +1,19 @@
+{
+    "NetworkInsightsPathId": "",
+    "FilterInArns": [
+        ""
+    ],
+    "DryRun": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "transit-gateway-route-table",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "ClientToken": ""
+}

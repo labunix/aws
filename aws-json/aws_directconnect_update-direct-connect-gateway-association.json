@@ -1,0 +1,13 @@
+{
+    "associationId": "",
+    "addAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ],
+    "removeAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ]
+}

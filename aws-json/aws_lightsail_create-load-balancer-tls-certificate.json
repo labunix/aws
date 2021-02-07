@@ -1,0 +1,14 @@
+{
+    "loadBalancerName": "",
+    "certificateName": "",
+    "certificateDomainName": "",
+    "certificateAlternativeNames": [
+        ""
+    ],
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

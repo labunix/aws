@@ -1,0 +1,11 @@
+{
+    "GatewayARN": "",
+    "DomainName": "",
+    "OrganizationalUnit": "",
+    "DomainControllers": [
+        ""
+    ],
+    "TimeoutInSeconds": 0,
+    "UserName": "",
+    "Password": ""
+}

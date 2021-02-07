@@ -1,0 +1,15 @@
+{
+    "MonitorArn": "",
+    "DateInterval": {
+        "StartDate": "",
+        "EndDate": ""
+    },
+    "Feedback": "YES",
+    "TotalImpact": {
+        "NumericOperator": "GREATER_THAN_OR_EQUAL",
+        "StartValue": null,
+        "EndValue": null
+    },
+    "NextPageToken": "",
+    "MaxResults": 0
+}

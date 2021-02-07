@@ -1,0 +1,373 @@
+{
+    "ApplicationId": "",
+    "JourneyId": "",
+    "WriteJourneyRequest": {
+        "Activities": {
+            "KeyName": {
+                "CUSTOM": {
+                    "DeliveryUri": "",
+                    "EndpointTypes": [
+                        "VOICE"
+                    ],
+                    "MessageConfig": {
+                        "Data": ""
+                    },
+                    "NextActivity": "",
+                    "TemplateName": "",
+                    "TemplateVersion": ""
+                },
+                "ConditionalSplit": {
+                    "Condition": {
+                        "Conditions": [
+                            {
+                                "EventCondition": {
+                                    "Dimensions": {
+                                        "Attributes": {
+                                            "KeyName": {
+                                                "AttributeType": "EXCLUSIVE",
+                                                "Values": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "EventType": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Metrics": {
+                                            "KeyName": {
+                                                "ComparisonOperator": "",
+                                                "Value": null
+                                            }
+                                        }
+                                    },
+                                    "MessageActivity": ""
+                                },
+                                "SegmentCondition": {
+                                    "SegmentId": ""
+                                },
+                                "SegmentDimensions": {
+                                    "Attributes": {
+                                        "KeyName": {
+                                            "AttributeType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    },
+                                    "Behavior": {
+                                        "Recency": {
+                                            "Duration": "HR_24",
+                                            "RecencyType": "ACTIVE"
+                                        }
+                                    },
+                                    "Demographic": {
+                                        "AppVersion": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Channel": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "DeviceType": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Make": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Model": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Platform": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    },
+                                    "Location": {
+                                        "Country": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "GPSPoint": {
+                                            "Coordinates": {
+                                                "Latitude": null,
+                                                "Longitude": null
+                                            },
+                                            "RangeInKilometers": null
+                                        }
+                                    },
+                                    "Metrics": {
+                                        "KeyName": {
+                                            "ComparisonOperator": "",
+                                            "Value": null
+                                        }
+                                    },
+                                    "UserAttributes": {
+                                        "KeyName": {
+                                            "AttributeType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "Operator": "ALL"
+                    },
+                    "EvaluationWaitTime": {
+                        "WaitFor": "",
+                        "WaitUntil": ""
+                    },
+                    "FalseActivity": "",
+                    "TrueActivity": ""
+                },
+                "Description": "",
+                "EMAIL": {
+                    "MessageConfig": {
+                        "FromAddress": ""
+                    },
+                    "NextActivity": "",
+                    "TemplateName": "",
+                    "TemplateVersion": ""
+                },
+                "Holdout": {
+                    "NextActivity": "",
+                    "Percentage": 0
+                },
+                "MultiCondition": {
+                    "Branches": [
+                        {
+                            "Condition": {
+                                "EventCondition": {
+                                    "Dimensions": {
+                                        "Attributes": {
+                                            "KeyName": {
+                                                "AttributeType": "EXCLUSIVE",
+                                                "Values": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "EventType": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Metrics": {
+                                            "KeyName": {
+                                                "ComparisonOperator": "",
+                                                "Value": null
+                                            }
+                                        }
+                                    },
+                                    "MessageActivity": ""
+                                },
+                                "SegmentCondition": {
+                                    "SegmentId": ""
+                                },
+                                "SegmentDimensions": {
+                                    "Attributes": {
+                                        "KeyName": {
+                                            "AttributeType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    },
+                                    "Behavior": {
+                                        "Recency": {
+                                            "Duration": "HR_24",
+                                            "RecencyType": "ACTIVE"
+                                        }
+                                    },
+                                    "Demographic": {
+                                        "AppVersion": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Channel": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "DeviceType": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Make": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Model": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "Platform": {
+                                            "DimensionType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    },
+                                    "Location": {
+                                        "Country": {
+                                            "DimensionType": "EXCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        },
+                                        "GPSPoint": {
+                                            "Coordinates": {
+                                                "Latitude": null,
+                                                "Longitude": null
+                                            },
+                                            "RangeInKilometers": null
+                                        }
+                                    },
+                                    "Metrics": {
+                                        "KeyName": {
+                                            "ComparisonOperator": "",
+                                            "Value": null
+                                        }
+                                    },
+                                    "UserAttributes": {
+                                        "KeyName": {
+                                            "AttributeType": "INCLUSIVE",
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "NextActivity": ""
+                        }
+                    ],
+                    "DefaultActivity": "",
+                    "EvaluationWaitTime": {
+                        "WaitFor": "",
+                        "WaitUntil": ""
+                    }
+                },
+                "PUSH": {
+                    "MessageConfig": {
+                        "TimeToLive": ""
+                    },
+                    "NextActivity": "",
+                    "TemplateName": "",
+                    "TemplateVersion": ""
+                },
+                "RandomSplit": {
+                    "Branches": [
+                        {
+                            "NextActivity": "",
+                            "Percentage": 0
+                        }
+                    ]
+                },
+                "SMS": {
+                    "MessageConfig": {
+                        "MessageType": "PROMOTIONAL",
+                        "SenderId": ""
+                    },
+                    "NextActivity": "",
+                    "TemplateName": "",
+                    "TemplateVersion": ""
+                },
+                "Wait": {
+                    "NextActivity": "",
+                    "WaitTime": {
+                        "WaitFor": "",
+                        "WaitUntil": ""
+                    }
+                }
+            }
+        },
+        "CreationDate": "",
+        "LastModifiedDate": "",
+        "Limits": {
+            "DailyCap": 0,
+            "EndpointReentryCap": 0,
+            "MessagesPerSecond": 0
+        },
+        "LocalTime": true,
+        "Name": "",
+        "QuietTime": {
+            "End": "",
+            "Start": ""
+        },
+        "RefreshFrequency": "",
+        "Schedule": {
+            "EndTime": "1970-01-01T00:00:00",
+            "StartTime": "1970-01-01T00:00:00",
+            "Timezone": ""
+        },
+        "StartActivity": "",
+        "StartCondition": {
+            "Description": "",
+            "EventStartCondition": {
+                "EventFilter": {
+                    "Dimensions": {
+                        "Attributes": {
+                            "KeyName": {
+                                "AttributeType": "INCLUSIVE",
+                                "Values": [
+                                    ""
+                                ]
+                            }
+                        },
+                        "EventType": {
+                            "DimensionType": "INCLUSIVE",
+                            "Values": [
+                                ""
+                            ]
+                        },
+                        "Metrics": {
+                            "KeyName": {
+                                "ComparisonOperator": "",
+                                "Value": null
+                            }
+                        }
+                    },
+                    "FilterType": "ENDPOINT"
+                },
+                "SegmentId": ""
+            },
+            "SegmentStartCondition": {
+                "SegmentId": ""
+            }
+        },
+        "State": "ACTIVE"
+    }
+}

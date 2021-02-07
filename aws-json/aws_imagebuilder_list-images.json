@@ -1,0 +1,15 @@
+{
+    "owner": "Amazon",
+    "filters": [
+        {
+            "name": "",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "byName": true,
+    "maxResults": 0,
+    "nextToken": "",
+    "includeDeprecated": true
+}

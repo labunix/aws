@@ -1,0 +1,7 @@
+{
+    "InstanceId": "",
+    "HttpTokens": "required",
+    "HttpPutResponseHopLimit": 0,
+    "HttpEndpoint": "disabled",
+    "DryRun": true
+}

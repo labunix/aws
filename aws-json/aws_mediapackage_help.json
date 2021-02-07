@@ -1,0 +1,52 @@
+MEDIAPACKAGE()                                                  MEDIAPACKAGE()
+
+
+
+NNAAMMEE
+       mediapackage -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS Elemental MediaPackage
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o configure-logs
+
+       +o create-channel
+
+       +o create-harvest-job
+
+       +o create-origin-endpoint
+
+       +o delete-channel
+
+       +o delete-origin-endpoint
+
+       +o describe-channel
+
+       +o describe-harvest-job
+
+       +o describe-origin-endpoint
+
+       +o help
+
+       +o list-channels
+
+       +o list-harvest-jobs
+
+       +o list-origin-endpoints
+
+       +o list-tags-for-resource
+
+       +o rotate-ingest-endpoint-credentials
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-channel
+
+       +o update-origin-endpoint
+
+
+
+                                                                MEDIAPACKAGE()

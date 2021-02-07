@@ -1,0 +1,8 @@
+{
+    "DatastoreName": "",
+    "DatastoreTypeVersion": "R4",
+    "PreloadDataConfig": {
+        "PreloadDataType": "SYNTHEA"
+    },
+    "ClientToken": ""
+}

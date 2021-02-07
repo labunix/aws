@@ -1,0 +1,29 @@
+{
+    "ConfigurationSetName": "",
+    "EventDestinationName": "",
+    "EventDestination": {
+        "Enabled": true,
+        "MatchingEventTypes": [
+            "SEND"
+        ],
+        "KinesisFirehoseDestination": {
+            "IamRoleArn": "",
+            "DeliveryStreamArn": ""
+        },
+        "CloudWatchDestination": {
+            "DimensionConfigurations": [
+                {
+                    "DimensionName": "",
+                    "DimensionValueSource": "LINK_TAG",
+                    "DefaultDimensionValue": ""
+                }
+            ]
+        },
+        "SnsDestination": {
+            "TopicArn": ""
+        },
+        "PinpointDestination": {
+            "ApplicationArn": ""
+        }
+    }
+}

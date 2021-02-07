@@ -1,0 +1,31 @@
+{
+    "ApiId": "",
+    "ConnectionId": "",
+    "ConnectionType": "INTERNET",
+    "ContentHandlingStrategy": "CONVERT_TO_TEXT",
+    "CredentialsArn": "",
+    "Description": "",
+    "IntegrationId": "",
+    "IntegrationMethod": "",
+    "IntegrationSubtype": "",
+    "IntegrationType": "AWS_PROXY",
+    "IntegrationUri": "",
+    "PassthroughBehavior": "WHEN_NO_MATCH",
+    "PayloadFormatVersion": "",
+    "RequestParameters": {
+        "KeyName": ""
+    },
+    "RequestTemplates": {
+        "KeyName": ""
+    },
+    "ResponseParameters": {
+        "KeyName": {
+            "KeyName": ""
+        }
+    },
+    "TemplateSelectionExpression": "",
+    "TimeoutInMillis": 0,
+    "TlsConfig": {
+        "ServerNameToVerify": ""
+    }
+}

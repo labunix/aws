@@ -1,0 +1,18 @@
+{
+    "NetworkInterfaceId": "",
+    "NetworkLoadBalancerArn": "",
+    "Description": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "elastic-ip",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true,
+    "ClientToken": ""
+}

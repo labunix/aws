@@ -1,0 +1,20 @@
+{
+    "FirewallName": "",
+    "FirewallPolicyArn": "",
+    "VpcId": "",
+    "SubnetMappings": [
+        {
+            "SubnetId": ""
+        }
+    ],
+    "DeleteProtection": true,
+    "SubnetChangeProtection": true,
+    "FirewallPolicyChangeProtection": true,
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

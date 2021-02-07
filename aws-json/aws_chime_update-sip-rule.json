@@ -1,0 +1,12 @@
+{
+    "SipRuleId": "",
+    "Name": "",
+    "Disabled": true,
+    "TargetApplications": [
+        {
+            "SipMediaApplicationId": "",
+            "Priority": 0,
+            "AwsRegion": ""
+        }
+    ]
+}

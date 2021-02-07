@@ -1,0 +1,13 @@
+{
+    "Enable": true,
+    "ClientToken": "",
+    "FindingPublishingFrequency": "SIX_HOURS",
+    "DataSources": {
+        "S3Logs": {
+            "Enable": true
+        }
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

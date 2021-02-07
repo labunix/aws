@@ -1,0 +1,14 @@
+{
+    "Name": "",
+    "FleetId": "",
+    "ScalingAdjustment": 0,
+    "ScalingAdjustmentType": "ExactCapacity",
+    "Threshold": null,
+    "ComparisonOperator": "LessThanThreshold",
+    "EvaluationPeriods": 0,
+    "MetricName": "AvailablePlayerSessions",
+    "PolicyType": "TargetBased",
+    "TargetConfiguration": {
+        "TargetValue": null
+    }
+}

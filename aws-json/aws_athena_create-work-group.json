@@ -1,0 +1,23 @@
+{
+    "Name": "",
+    "Configuration": {
+        "ResultConfiguration": {
+            "OutputLocation": "",
+            "EncryptionConfiguration": {
+                "EncryptionOption": "SSE_S3",
+                "KmsKey": ""
+            }
+        },
+        "EnforceWorkGroupConfiguration": true,
+        "PublishCloudWatchMetricsEnabled": true,
+        "BytesScannedCutoffPerQuery": 0,
+        "RequesterPaysEnabled": true
+    },
+    "Description": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "InstanceId": "",
+    "RoutingProfileId": "",
+    "QueueConfigs": [
+        {
+            "QueueReference": {
+                "QueueId": "",
+                "Channel": "CHAT"
+            },
+            "Priority": 0,
+            "Delay": 0
+        }
+    ]
+}

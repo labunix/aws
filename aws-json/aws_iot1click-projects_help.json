@@ -1,0 +1,48 @@
+IOT1CLICK-PROJECTS()                                      IOT1CLICK-PROJECTS()
+
+
+
+NNAAMMEE
+       iot1click-projects -
+
+DDEESSCCRRIIPPTTIIOONN
+       The AWS IoT 1-Click Projects API Reference
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o associate-device-with-placement
+
+       +o create-placement
+
+       +o create-project
+
+       +o delete-placement
+
+       +o delete-project
+
+       +o describe-placement
+
+       +o describe-project
+
+       +o disassociate-device-from-placement
+
+       +o get-devices-in-placement
+
+       +o help
+
+       +o list-placements
+
+       +o list-projects
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-placement
+
+       +o update-project
+
+
+
+                                                          IOT1CLICK-PROJECTS()

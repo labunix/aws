@@ -1,0 +1,77 @@
+{
+    "WindowId": "",
+    "Targets": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "TaskArn": "",
+    "ServiceRoleArn": "",
+    "TaskType": "AUTOMATION",
+    "TaskParameters": {
+        "KeyName": {
+            "Values": [
+                ""
+            ]
+        }
+    },
+    "TaskInvocationParameters": {
+        "RunCommand": {
+            "Comment": "",
+            "CloudWatchOutputConfig": {
+                "CloudWatchLogGroupName": "",
+                "CloudWatchOutputEnabled": true
+            },
+            "DocumentHash": "",
+            "DocumentHashType": "Sha256",
+            "DocumentVersion": "",
+            "NotificationConfig": {
+                "NotificationArn": "",
+                "NotificationEvents": [
+                    "Success"
+                ],
+                "NotificationType": "Invocation"
+            },
+            "OutputS3BucketName": "",
+            "OutputS3KeyPrefix": "",
+            "Parameters": {
+                "KeyName": [
+                    ""
+                ]
+            },
+            "ServiceRoleArn": "",
+            "TimeoutSeconds": 0
+        },
+        "Automation": {
+            "DocumentVersion": "",
+            "Parameters": {
+                "KeyName": [
+                    ""
+                ]
+            }
+        },
+        "StepFunctions": {
+            "Input": "",
+            "Name": ""
+        },
+        "Lambda": {
+            "ClientContext": "",
+            "Qualifier": "",
+            "Payload": null
+        }
+    },
+    "Priority": 0,
+    "MaxConcurrency": "",
+    "MaxErrors": "",
+    "LoggingInfo": {
+        "S3BucketName": "",
+        "S3KeyPrefix": "",
+        "S3Region": ""
+    },
+    "Name": "",
+    "Description": "",
+    "ClientToken": ""
+}

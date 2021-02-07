@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "IpAddressType": "IPV4",
+    "IpAddresses": [
+        ""
+    ],
+    "Enabled": true,
+    "IdempotencyToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

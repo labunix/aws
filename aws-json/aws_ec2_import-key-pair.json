@@ -1,0 +1,16 @@
+{
+    "DryRun": true,
+    "KeyName": "",
+    "PublicKeyMaterial": null,
+    "TagSpecifications": [
+        {
+            "ResourceType": "transit-gateway-connect-peer",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "cluster": "",
+    "service": "",
+    "desiredCount": 0,
+    "taskDefinition": "",
+    "capacityProviderStrategy": [
+        {
+            "capacityProvider": "",
+            "weight": 0,
+            "base": 0
+        }
+    ],
+    "deploymentConfiguration": {
+        "deploymentCircuitBreaker": {
+            "enable": true,
+            "rollback": true
+        },
+        "maximumPercent": 0,
+        "minimumHealthyPercent": 0
+    },
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                ""
+            ],
+            "securityGroups": [
+                ""
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "placementConstraints": [
+        {
+            "type": "distinctInstance",
+            "expression": ""
+        }
+    ],
+    "placementStrategy": [
+        {
+            "type": "binpack",
+            "field": ""
+        }
+    ],
+    "platformVersion": "",
+    "forceNewDeployment": true,
+    "healthCheckGracePeriodSeconds": 0
+}

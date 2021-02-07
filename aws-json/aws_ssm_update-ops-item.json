@@ -1,0 +1,32 @@
+{
+    "Description": "",
+    "OperationalData": {
+        "KeyName": {
+            "Value": "",
+            "Type": "SearchableString"
+        }
+    },
+    "OperationalDataToDelete": [
+        ""
+    ],
+    "Notifications": [
+        {
+            "Arn": ""
+        }
+    ],
+    "Priority": 0,
+    "RelatedOpsItems": [
+        {
+            "OpsItemId": ""
+        }
+    ],
+    "Status": "Rejected",
+    "OpsItemId": "",
+    "Title": "",
+    "Category": "",
+    "Severity": "",
+    "ActualStartTime": "1970-01-01T00:00:00",
+    "ActualEndTime": "1970-01-01T00:00:00",
+    "PlannedStartTime": "1970-01-01T00:00:00",
+    "PlannedEndTime": "1970-01-01T00:00:00"
+}

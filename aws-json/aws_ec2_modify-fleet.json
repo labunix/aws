@@ -1,0 +1,40 @@
+{
+    "DryRun": true,
+    "ExcessCapacityTerminationPolicy": "no-termination",
+    "LaunchTemplateConfigs": [
+        {
+            "LaunchTemplateSpecification": {
+                "LaunchTemplateId": "",
+                "LaunchTemplateName": "",
+                "Version": ""
+            },
+            "Overrides": [
+                {
+                    "InstanceType": "c5d.9xlarge",
+                    "MaxPrice": "",
+                    "SubnetId": "",
+                    "AvailabilityZone": "",
+                    "WeightedCapacity": null,
+                    "Priority": null,
+                    "Placement": {
+                        "AvailabilityZone": "",
+                        "Affinity": "",
+                        "GroupName": "",
+                        "PartitionNumber": 0,
+                        "HostId": "",
+                        "Tenancy": "default",
+                        "SpreadDomain": "",
+                        "HostResourceGroupArn": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "FleetId": "",
+    "TargetCapacitySpecification": {
+        "TotalTargetCapacity": 0,
+        "OnDemandTargetCapacity": 0,
+        "SpotTargetCapacity": 0,
+        "DefaultTargetCapacityType": "spot"
+    }
+}

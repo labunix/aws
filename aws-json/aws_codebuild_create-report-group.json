@@ -1,0 +1,20 @@
+{
+    "name": "",
+    "type": "TEST",
+    "exportConfig": {
+        "exportConfigType": "NO_EXPORT",
+        "s3Destination": {
+            "bucket": "",
+            "path": "",
+            "packaging": "NONE",
+            "encryptionKey": "",
+            "encryptionDisabled": true
+        }
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

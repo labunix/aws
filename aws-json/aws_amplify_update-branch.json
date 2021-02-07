@@ -1,0 +1,21 @@
+{
+    "appId": "",
+    "branchName": "",
+    "description": "",
+    "framework": "",
+    "stage": "PRODUCTION",
+    "enableNotification": true,
+    "enableAutoBuild": true,
+    "environmentVariables": {
+        "KeyName": ""
+    },
+    "basicAuthCredentials": "",
+    "enableBasicAuth": true,
+    "enablePerformanceMode": true,
+    "buildSpec": "",
+    "ttl": "",
+    "displayName": "",
+    "enablePullRequestPreview": true,
+    "pullRequestEnvironmentName": "",
+    "backendEnvironmentArn": ""
+}

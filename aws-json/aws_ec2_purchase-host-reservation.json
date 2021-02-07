@@ -1,0 +1,20 @@
+{
+    "ClientToken": "",
+    "CurrencyCode": "USD",
+    "HostIdSet": [
+        ""
+    ],
+    "LimitPrice": "",
+    "OfferingId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "launch-template",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

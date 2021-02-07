@@ -1,0 +1,12 @@
+{
+    "domain": "",
+    "domainOwner": "",
+    "repository": "",
+    "format": "nuget",
+    "namespace": "",
+    "package": "",
+    "versions": [
+        ""
+    ],
+    "expectedStatus": "Unfinished"
+}

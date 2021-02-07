@@ -1,0 +1,30 @@
+{
+    "Destinations": [
+        {
+            "StreamName": ""
+        }
+    ],
+    "InputDevices": [
+        {
+            "Id": ""
+        }
+    ],
+    "InputId": "",
+    "InputSecurityGroups": [
+        ""
+    ],
+    "MediaConnectFlows": [
+        {
+            "FlowArn": ""
+        }
+    ],
+    "Name": "",
+    "RoleArn": "",
+    "Sources": [
+        {
+            "PasswordParam": "",
+            "Url": "",
+            "Username": ""
+        }
+    ]
+}

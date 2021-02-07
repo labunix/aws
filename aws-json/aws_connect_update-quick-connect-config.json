@@ -1,0 +1,18 @@
+{
+    "InstanceId": "",
+    "QuickConnectId": "",
+    "QuickConnectConfig": {
+        "QuickConnectType": "PHONE_NUMBER",
+        "UserConfig": {
+            "UserId": "",
+            "ContactFlowId": ""
+        },
+        "QueueConfig": {
+            "QueueId": "",
+            "ContactFlowId": ""
+        },
+        "PhoneConfig": {
+            "PhoneNumber": ""
+        }
+    }
+}

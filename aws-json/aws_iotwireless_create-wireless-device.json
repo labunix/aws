@@ -1,0 +1,37 @@
+{
+    "Type": "LoRaWAN",
+    "Name": "",
+    "Description": "",
+    "DestinationName": "",
+    "ClientRequestToken": "",
+    "LoRaWAN": {
+        "DevEui": "",
+        "DeviceProfileId": "",
+        "ServiceProfileId": "",
+        "OtaaV1_1": {
+            "AppKey": "",
+            "NwkKey": "",
+            "JoinEui": ""
+        },
+        "OtaaV1_0_x": {
+            "AppKey": "",
+            "AppEui": ""
+        },
+        "AbpV1_1": {
+            "DevAddr": "",
+            "SessionKeys": {
+                "FNwkSIntKey": "",
+                "SNwkSIntKey": "",
+                "NwkSEncKey": "",
+                "AppSKey": ""
+            }
+        },
+        "AbpV1_0_x": {
+            "DevAddr": "",
+            "SessionKeys": {
+                "NwkSKey": "",
+                "AppSKey": ""
+            }
+        }
+    }
+}

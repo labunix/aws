@@ -1,0 +1,22 @@
+{
+    "InstanceId": "",
+    "Filters": {
+        "Queues": [
+            ""
+        ],
+        "Channels": [
+            "TASK"
+        ]
+    },
+    "Groupings": [
+        "CHANNEL"
+    ],
+    "CurrentMetrics": [
+        {
+            "Name": "AGENTS_ON_CALL",
+            "Unit": "SECONDS"
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

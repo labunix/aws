@@ -1,0 +1,23 @@
+{
+    "InputDataConfig": {
+        "S3Uri": "",
+        "InputFormat": "ONE_DOC_PER_FILE"
+    },
+    "OutputDataConfig": {
+        "S3Uri": "",
+        "KmsKeyId": ""
+    },
+    "DataAccessRoleArn": "",
+    "JobName": "",
+    "NumberOfTopics": 0,
+    "ClientRequestToken": "",
+    "VolumeKmsKeyId": "",
+    "VpcConfig": {
+        "SecurityGroupIds": [
+            ""
+        ],
+        "Subnets": [
+            ""
+        ]
+    }
+}

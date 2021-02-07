@@ -1,0 +1,52 @@
+{
+    "TransformJobName": "",
+    "ModelName": "",
+    "MaxConcurrentTransforms": 0,
+    "ModelClientConfig": {
+        "InvocationsTimeoutInSeconds": 0,
+        "InvocationsMaxRetries": 0
+    },
+    "MaxPayloadInMB": 0,
+    "BatchStrategy": "MultiRecord",
+    "Environment": {
+        "KeyName": ""
+    },
+    "TransformInput": {
+        "DataSource": {
+            "S3DataSource": {
+                "S3DataType": "S3Prefix",
+                "S3Uri": ""
+            }
+        },
+        "ContentType": "",
+        "CompressionType": "Gzip",
+        "SplitType": "TFRecord"
+    },
+    "TransformOutput": {
+        "S3OutputPath": "",
+        "Accept": "",
+        "AssembleWith": "Line",
+        "KmsKeyId": ""
+    },
+    "TransformResources": {
+        "InstanceType": "ml.p2.xlarge",
+        "InstanceCount": 0,
+        "VolumeKmsKeyId": ""
+    },
+    "DataProcessing": {
+        "InputFilter": "",
+        "OutputFilter": "",
+        "JoinSource": "None"
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ExperimentConfig": {
+        "ExperimentName": "",
+        "TrialName": "",
+        "TrialComponentDisplayName": ""
+    }
+}

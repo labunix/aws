@@ -6,4 +6,8 @@ $ cd aws
 　awscliと組み合わせて使う、長くなるbashスクリプトをコマンド化してみた。
 　https://labunix.hateblo.jp/entry/20210107/1610001966
 
+「--generate-cli-skeleton」で使用出来るjsonを一元的に表示する。
+
+$ awk '{if($0 ~ /^{/){print FILENAME,FILENAME}}' aws-json/aws_*.json | \
+    awk '{gsub("_"," ",$1);print "echo \042# "substr($1,1,length($1)-5)"\042;cat "$2 | "sort -V | sh"}'
 

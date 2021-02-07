@@ -1,0 +1,29 @@
+{
+    "UUID": "",
+    "FunctionName": "",
+    "Enabled": true,
+    "BatchSize": 0,
+    "MaximumBatchingWindowInSeconds": 0,
+    "DestinationConfig": {
+        "OnSuccess": {
+            "Destination": ""
+        },
+        "OnFailure": {
+            "Destination": ""
+        }
+    },
+    "MaximumRecordAgeInSeconds": 0,
+    "BisectBatchOnFunctionError": true,
+    "MaximumRetryAttempts": 0,
+    "ParallelizationFactor": 0,
+    "SourceAccessConfigurations": [
+        {
+            "Type": "SASL_SCRAM_512_AUTH",
+            "URI": ""
+        }
+    ],
+    "TumblingWindowInSeconds": 0,
+    "FunctionResponseTypes": [
+        "ReportBatchItemFailures"
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "ProcessingInputs": [
+        {
+            "InputName": "",
+            "AppManaged": true,
+            "S3Input": {
+                "S3Uri": "",
+                "LocalPath": "",
+                "S3DataType": "S3Prefix",
+                "S3InputMode": "Pipe",
+                "S3DataDistributionType": "ShardedByS3Key",
+                "S3CompressionType": "Gzip"
+            },
+            "DatasetDefinition": {
+                "AthenaDatasetDefinition": {
+                    "Catalog": "",
+                    "Database": "",
+                    "QueryString": "",
+                    "WorkGroup": "",
+                    "OutputS3Uri": "",
+                    "KmsKeyId": "",
+                    "OutputFormat": "TEXTFILE",
+                    "OutputCompression": "SNAPPY"
+                },
+                "RedshiftDatasetDefinition": {
+                    "ClusterId": "",
+                    "Database": "",
+                    "DbUser": "",
+                    "QueryString": "",
+                    "ClusterRoleArn": "",
+                    "OutputS3Uri": "",
+                    "KmsKeyId": "",
+                    "OutputFormat": "PARQUET",
+                    "OutputCompression": "None"
+                },
+                "LocalPath": "",
+                "DataDistributionType": "FullyReplicated",
+                "InputMode": "Pipe"
+            }
+        }
+    ],
+    "ProcessingOutputConfig": {
+        "Outputs": [
+            {
+                "OutputName": "",
+                "S3Output": {
+                    "S3Uri": "",
+                    "LocalPath": "",
+                    "S3UploadMode": "EndOfJob"
+                },
+                "FeatureStoreOutput": {
+                    "FeatureGroupName": ""
+                },
+                "AppManaged": true
+            }
+        ],
+        "KmsKeyId": ""
+    },
+    "ProcessingJobName": "",
+    "ProcessingResources": {
+        "ClusterConfig": {
+            "InstanceCount": 0,
+            "InstanceType": "ml.c5.2xlarge",
+            "VolumeSizeInGB": 0,
+            "VolumeKmsKeyId": ""
+        }
+    },
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 0
+    },
+    "AppSpecification": {
+        "ImageUri": "",
+        "ContainerEntrypoint": [
+            ""
+        ],
+        "ContainerArguments": [
+            ""
+        ]
+    },
+    "Environment": {
+        "KeyName": ""
+    },
+    "NetworkConfig": {
+        "EnableInterContainerTrafficEncryption": true,
+        "EnableNetworkIsolation": true,
+        "VpcConfig": {
+            "SecurityGroupIds": [
+                ""
+            ],
+            "Subnets": [
+                ""
+            ]
+        }
+    },
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "ExperimentConfig": {
+        "ExperimentName": "",
+        "TrialName": "",
+        "TrialComponentDisplayName": ""
+    }
+}

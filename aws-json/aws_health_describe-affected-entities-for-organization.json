@@ -1,0 +1,11 @@
+{
+    "organizationEntityFilters": [
+        {
+            "eventArn": "",
+            "awsAccountId": ""
+        }
+    ],
+    "locale": "",
+    "nextToken": "",
+    "maxResults": 0
+}

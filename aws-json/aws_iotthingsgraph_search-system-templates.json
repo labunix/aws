@@ -1,0 +1,12 @@
+{
+    "filters": [
+        {
+            "name": "FLOW_TEMPLATE_ID",
+            "value": [
+                ""
+            ]
+        }
+    ],
+    "nextToken": "",
+    "maxResults": 0
+}

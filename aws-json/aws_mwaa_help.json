@@ -1,0 +1,40 @@
+MWAA()                                                                  MWAA()
+
+
+
+NNAAMMEE
+       mwaa -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  section  contains the Amazon Managed Workflows for Apache Airflow
+       (MWAA) API reference documentation. For more information, see  _W_h_a_t  _I_s
+       _A_m_a_z_o_n _M_W_A_A_? .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-cli-token
+
+       +o create-environment
+
+       +o create-web-login-token
+
+       +o delete-environment
+
+       +o get-environment
+
+       +o help
+
+       +o list-environments
+
+       +o list-tags-for-resource
+
+       +o publish-metrics
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-environment
+
+
+
+                                                                        MWAA()

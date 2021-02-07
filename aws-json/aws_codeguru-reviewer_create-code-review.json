@@ -1,0 +1,12 @@
+{
+    "Name": "",
+    "RepositoryAssociationArn": "",
+    "Type": {
+        "RepositoryAnalysis": {
+            "RepositoryHead": {
+                "BranchName": ""
+            }
+        }
+    },
+    "ClientRequestToken": ""
+}

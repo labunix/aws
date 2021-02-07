@@ -1,0 +1,23 @@
+{
+    "RoleArn": "",
+    "RoleSessionName": "",
+    "PolicyArns": [
+        {
+            "arn": ""
+        }
+    ],
+    "Policy": "",
+    "DurationSeconds": 0,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "TransitiveTagKeys": [
+        ""
+    ],
+    "ExternalId": "",
+    "SerialNumber": "",
+    "TokenCode": ""
+}

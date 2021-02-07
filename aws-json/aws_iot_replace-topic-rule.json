@@ -1,0 +1,347 @@
+{
+    "ruleName": "",
+    "topicRulePayload": {
+        "sql": "",
+        "description": "",
+        "actions": [
+            {
+                "dynamoDB": {
+                    "tableName": "",
+                    "roleArn": "",
+                    "operation": "",
+                    "hashKeyField": "",
+                    "hashKeyValue": "",
+                    "hashKeyType": "STRING",
+                    "rangeKeyField": "",
+                    "rangeKeyValue": "",
+                    "rangeKeyType": "NUMBER",
+                    "payloadField": ""
+                },
+                "dynamoDBv2": {
+                    "roleArn": "",
+                    "putItem": {
+                        "tableName": ""
+                    }
+                },
+                "lambda": {
+                    "functionArn": ""
+                },
+                "sns": {
+                    "targetArn": "",
+                    "roleArn": "",
+                    "messageFormat": "JSON"
+                },
+                "sqs": {
+                    "roleArn": "",
+                    "queueUrl": "",
+                    "useBase64": true
+                },
+                "kinesis": {
+                    "roleArn": "",
+                    "streamName": "",
+                    "partitionKey": ""
+                },
+                "republish": {
+                    "roleArn": "",
+                    "topic": "",
+                    "qos": 0
+                },
+                "s3": {
+                    "roleArn": "",
+                    "bucketName": "",
+                    "key": "",
+                    "cannedAcl": "authenticated-read"
+                },
+                "firehose": {
+                    "roleArn": "",
+                    "deliveryStreamName": "",
+                    "separator": "",
+                    "batchMode": true
+                },
+                "cloudwatchMetric": {
+                    "roleArn": "",
+                    "metricNamespace": "",
+                    "metricName": "",
+                    "metricValue": "",
+                    "metricUnit": "",
+                    "metricTimestamp": ""
+                },
+                "cloudwatchAlarm": {
+                    "roleArn": "",
+                    "alarmName": "",
+                    "stateReason": "",
+                    "stateValue": ""
+                },
+                "cloudwatchLogs": {
+                    "roleArn": "",
+                    "logGroupName": ""
+                },
+                "elasticsearch": {
+                    "roleArn": "",
+                    "endpoint": "",
+                    "index": "",
+                    "type": "",
+                    "id": ""
+                },
+                "salesforce": {
+                    "token": "",
+                    "url": ""
+                },
+                "iotAnalytics": {
+                    "channelArn": "",
+                    "channelName": "",
+                    "batchMode": true,
+                    "roleArn": ""
+                },
+                "iotEvents": {
+                    "inputName": "",
+                    "messageId": "",
+                    "batchMode": true,
+                    "roleArn": ""
+                },
+                "iotSiteWise": {
+                    "putAssetPropertyValueEntries": [
+                        {
+                            "entryId": "",
+                            "assetId": "",
+                            "propertyId": "",
+                            "propertyAlias": "",
+                            "propertyValues": [
+                                {
+                                    "value": {
+                                        "stringValue": "",
+                                        "integerValue": "",
+                                        "doubleValue": "",
+                                        "booleanValue": ""
+                                    },
+                                    "timestamp": {
+                                        "timeInSeconds": "",
+                                        "offsetInNanos": ""
+                                    },
+                                    "quality": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "roleArn": ""
+                },
+                "stepFunctions": {
+                    "executionNamePrefix": "",
+                    "stateMachineName": "",
+                    "roleArn": ""
+                },
+                "timestream": {
+                    "roleArn": "",
+                    "databaseName": "",
+                    "tableName": "",
+                    "dimensions": [
+                        {
+                            "name": "",
+                            "value": ""
+                        }
+                    ],
+                    "timestamp": {
+                        "value": "",
+                        "unit": ""
+                    }
+                },
+                "http": {
+                    "url": "",
+                    "confirmationUrl": "",
+                    "headers": [
+                        {
+                            "key": "",
+                            "value": ""
+                        }
+                    ],
+                    "auth": {
+                        "sigv4": {
+                            "signingRegion": "",
+                            "serviceName": "",
+                            "roleArn": ""
+                        }
+                    }
+                },
+                "kafka": {
+                    "destinationArn": "",
+                    "topic": "",
+                    "key": "",
+                    "partition": "",
+                    "clientProperties": {
+                        "KeyName": ""
+                    }
+                }
+            }
+        ],
+        "ruleDisabled": true,
+        "awsIotSqlVersion": "",
+        "errorAction": {
+            "dynamoDB": {
+                "tableName": "",
+                "roleArn": "",
+                "operation": "",
+                "hashKeyField": "",
+                "hashKeyValue": "",
+                "hashKeyType": "NUMBER",
+                "rangeKeyField": "",
+                "rangeKeyValue": "",
+                "rangeKeyType": "NUMBER",
+                "payloadField": ""
+            },
+            "dynamoDBv2": {
+                "roleArn": "",
+                "putItem": {
+                    "tableName": ""
+                }
+            },
+            "lambda": {
+                "functionArn": ""
+            },
+            "sns": {
+                "targetArn": "",
+                "roleArn": "",
+                "messageFormat": "RAW"
+            },
+            "sqs": {
+                "roleArn": "",
+                "queueUrl": "",
+                "useBase64": true
+            },
+            "kinesis": {
+                "roleArn": "",
+                "streamName": "",
+                "partitionKey": ""
+            },
+            "republish": {
+                "roleArn": "",
+                "topic": "",
+                "qos": 0
+            },
+            "s3": {
+                "roleArn": "",
+                "bucketName": "",
+                "key": "",
+                "cannedAcl": "public-read-write"
+            },
+            "firehose": {
+                "roleArn": "",
+                "deliveryStreamName": "",
+                "separator": "",
+                "batchMode": true
+            },
+            "cloudwatchMetric": {
+                "roleArn": "",
+                "metricNamespace": "",
+                "metricName": "",
+                "metricValue": "",
+                "metricUnit": "",
+                "metricTimestamp": ""
+            },
+            "cloudwatchAlarm": {
+                "roleArn": "",
+                "alarmName": "",
+                "stateReason": "",
+                "stateValue": ""
+            },
+            "cloudwatchLogs": {
+                "roleArn": "",
+                "logGroupName": ""
+            },
+            "elasticsearch": {
+                "roleArn": "",
+                "endpoint": "",
+                "index": "",
+                "type": "",
+                "id": ""
+            },
+            "salesforce": {
+                "token": "",
+                "url": ""
+            },
+            "iotAnalytics": {
+                "channelArn": "",
+                "channelName": "",
+                "batchMode": true,
+                "roleArn": ""
+            },
+            "iotEvents": {
+                "inputName": "",
+                "messageId": "",
+                "batchMode": true,
+                "roleArn": ""
+            },
+            "iotSiteWise": {
+                "putAssetPropertyValueEntries": [
+                    {
+                        "entryId": "",
+                        "assetId": "",
+                        "propertyId": "",
+                        "propertyAlias": "",
+                        "propertyValues": [
+                            {
+                                "value": {
+                                    "stringValue": "",
+                                    "integerValue": "",
+                                    "doubleValue": "",
+                                    "booleanValue": ""
+                                },
+                                "timestamp": {
+                                    "timeInSeconds": "",
+                                    "offsetInNanos": ""
+                                },
+                                "quality": ""
+                            }
+                        ]
+                    }
+                ],
+                "roleArn": ""
+            },
+            "stepFunctions": {
+                "executionNamePrefix": "",
+                "stateMachineName": "",
+                "roleArn": ""
+            },
+            "timestream": {
+                "roleArn": "",
+                "databaseName": "",
+                "tableName": "",
+                "dimensions": [
+                    {
+                        "name": "",
+                        "value": ""
+                    }
+                ],
+                "timestamp": {
+                    "value": "",
+                    "unit": ""
+                }
+            },
+            "http": {
+                "url": "",
+                "confirmationUrl": "",
+                "headers": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "auth": {
+                    "sigv4": {
+                        "signingRegion": "",
+                        "serviceName": "",
+                        "roleArn": ""
+                    }
+                }
+            },
+            "kafka": {
+                "destinationArn": "",
+                "topic": "",
+                "key": "",
+                "partition": "",
+                "clientProperties": {
+                    "KeyName": ""
+                }
+            }
+        }
+    }
+}

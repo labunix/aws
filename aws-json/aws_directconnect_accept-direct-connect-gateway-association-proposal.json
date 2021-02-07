@@ -1,0 +1,10 @@
+{
+    "directConnectGatewayId": "",
+    "proposalId": "",
+    "associatedGatewayOwnerAccount": "",
+    "overrideAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ]
+}

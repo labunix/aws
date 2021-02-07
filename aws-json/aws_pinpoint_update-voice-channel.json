@@ -1,0 +1,6 @@
+{
+    "ApplicationId": "",
+    "VoiceChannelRequest": {
+        "Enabled": true
+    }
+}

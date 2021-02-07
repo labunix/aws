@@ -1,0 +1,31 @@
+{
+    "Name": "",
+    "Description": "",
+    "LicenseCountingType": "Instance",
+    "LicenseCount": 0,
+    "LicenseCountHardLimit": true,
+    "LicenseRules": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "DisassociateWhenNotFound": true,
+    "ProductInformationList": [
+        {
+            "ResourceType": "",
+            "ProductInformationFilterList": [
+                {
+                    "ProductInformationFilterName": "",
+                    "ProductInformationFilterValue": [
+                        ""
+                    ],
+                    "ProductInformationFilterComparator": ""
+                }
+            ]
+        }
+    ]
+}

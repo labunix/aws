@@ -1,0 +1,18 @@
+{
+    "TransitGatewayId": "",
+    "PeerTransitGatewayId": "",
+    "PeerAccountId": "",
+    "PeerRegion": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "image",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

@@ -1,0 +1,58 @@
+{
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "GroupBy": [
+        {
+            "Type": "COST_CATEGORY",
+            "Key": ""
+        }
+    ],
+    "Granularity": "MONTHLY",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "SERVICE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CONTAINS"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "CASE_SENSITIVE"
+            ]
+        }
+    },
+    "Metrics": [
+        ""
+    ],
+    "NextPageToken": "",
+    "SortBy": {
+        "Key": "",
+        "SortOrder": "DESCENDING"
+    },
+    "MaxResults": 0
+}

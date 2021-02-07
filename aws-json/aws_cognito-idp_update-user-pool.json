@@ -1,0 +1,88 @@
+{
+    "UserPoolId": "",
+    "Policies": {
+        "PasswordPolicy": {
+            "MinimumLength": 0,
+            "RequireUppercase": true,
+            "RequireLowercase": true,
+            "RequireNumbers": true,
+            "RequireSymbols": true,
+            "TemporaryPasswordValidityDays": 0
+        }
+    },
+    "LambdaConfig": {
+        "PreSignUp": "",
+        "CustomMessage": "",
+        "PostConfirmation": "",
+        "PreAuthentication": "",
+        "PostAuthentication": "",
+        "DefineAuthChallenge": "",
+        "CreateAuthChallenge": "",
+        "VerifyAuthChallengeResponse": "",
+        "PreTokenGeneration": "",
+        "UserMigration": "",
+        "CustomSMSSender": {
+            "LambdaVersion": "V1_0",
+            "LambdaArn": ""
+        },
+        "CustomEmailSender": {
+            "LambdaVersion": "V1_0",
+            "LambdaArn": ""
+        },
+        "KMSKeyID": ""
+    },
+    "AutoVerifiedAttributes": [
+        "email"
+    ],
+    "SmsVerificationMessage": "",
+    "EmailVerificationMessage": "",
+    "EmailVerificationSubject": "",
+    "VerificationMessageTemplate": {
+        "SmsMessage": "",
+        "EmailMessage": "",
+        "EmailSubject": "",
+        "EmailMessageByLink": "",
+        "EmailSubjectByLink": "",
+        "DefaultEmailOption": "CONFIRM_WITH_LINK"
+    },
+    "SmsAuthenticationMessage": "",
+    "MfaConfiguration": "OFF",
+    "DeviceConfiguration": {
+        "ChallengeRequiredOnNewDevice": true,
+        "DeviceOnlyRememberedOnUserPrompt": true
+    },
+    "EmailConfiguration": {
+        "SourceArn": "",
+        "ReplyToEmailAddress": "",
+        "EmailSendingAccount": "DEVELOPER",
+        "From": "",
+        "ConfigurationSet": ""
+    },
+    "SmsConfiguration": {
+        "SnsCallerArn": "",
+        "ExternalId": ""
+    },
+    "UserPoolTags": {
+        "KeyName": ""
+    },
+    "AdminCreateUserConfig": {
+        "AllowAdminCreateUserOnly": true,
+        "UnusedAccountValidityDays": 0,
+        "InviteMessageTemplate": {
+            "SMSMessage": "",
+            "EmailMessage": "",
+            "EmailSubject": ""
+        }
+    },
+    "UserPoolAddOns": {
+        "AdvancedSecurityMode": "AUDIT"
+    },
+    "AccountRecoverySetting": {
+        "RecoveryMechanisms": [
+            {
+                "Priority": 0,
+                "Name": "admin_only"
+            }
+        ]
+    }
+}

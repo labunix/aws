@@ -1,0 +1,54 @@
+QLDB()                                                                  QLDB()
+
+
+
+NNAAMMEE
+       qldb -
+
+DDEESSCCRRIIPPTTIIOONN
+       The control plane for Amazon QLDB
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o cancel-journal-kinesis-stream
+
+       +o create-ledger
+
+       +o delete-ledger
+
+       +o describe-journal-kinesis-stream
+
+       +o describe-journal-s3-export
+
+       +o describe-ledger
+
+       +o export-journal-to-s3
+
+       +o get-block
+
+       +o get-digest
+
+       +o get-revision
+
+       +o help
+
+       +o list-journal-kinesis-streams-for-ledger
+
+       +o list-journal-s3-exports
+
+       +o list-journal-s3-exports-for-ledger
+
+       +o list-ledgers
+
+       +o list-tags-for-resource
+
+       +o stream-journal-to-kinesis
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-ledger
+
+
+
+                                                                        QLDB()

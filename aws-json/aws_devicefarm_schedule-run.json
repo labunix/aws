@@ -1,0 +1,67 @@
+{
+    "projectArn": "",
+    "appArn": "",
+    "devicePoolArn": "",
+    "deviceSelectionConfiguration": {
+        "filters": [
+            {
+                "attribute": "MANUFACTURER",
+                "operator": "CONTAINS",
+                "values": [
+                    ""
+                ]
+            }
+        ],
+        "maxDevices": 0
+    },
+    "name": "",
+    "test": {
+        "type": "APPIUM_WEB_NODE",
+        "testPackageArn": "",
+        "testSpecArn": "",
+        "filter": "",
+        "parameters": {
+            "KeyName": ""
+        }
+    },
+    "configuration": {
+        "extraDataPackageArn": "",
+        "networkProfileArn": "",
+        "locale": "",
+        "location": {
+            "latitude": null,
+            "longitude": null
+        },
+        "vpceConfigurationArns": [
+            ""
+        ],
+        "customerArtifactPaths": {
+            "iosPaths": [
+                ""
+            ],
+            "androidPaths": [
+                ""
+            ],
+            "deviceHostPaths": [
+                ""
+            ]
+        },
+        "radios": {
+            "wifi": true,
+            "bluetooth": true,
+            "nfc": true,
+            "gps": true
+        },
+        "auxiliaryApps": [
+            ""
+        ],
+        "billingMethod": "METERED"
+    },
+    "executionConfiguration": {
+        "jobTimeoutMinutes": 0,
+        "accountsCleanup": true,
+        "appPackagesCleanup": true,
+        "videoCapture": true,
+        "skipAppResign": true
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "",
+    "description": "",
+    "roleName": "",
+    "clientToken": "",
+    "serverGroups": [
+        {
+            "serverGroupId": "",
+            "name": "",
+            "serverList": [
+                {
+                    "serverId": "",
+                    "serverType": "VIRTUAL_MACHINE",
+                    "vmServer": {
+                        "vmServerAddress": {
+                            "vmManagerId": "",
+                            "vmId": ""
+                        },
+                        "vmName": "",
+                        "vmManagerName": "",
+                        "vmManagerType": "VSPHERE",
+                        "vmPath": ""
+                    },
+                    "replicationJobId": "",
+                    "replicationJobTerminated": true
+                }
+            ]
+        }
+    ],
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

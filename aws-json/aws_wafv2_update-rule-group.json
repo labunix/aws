@@ -1,0 +1,200 @@
+{
+    "Name": "",
+    "Scope": "REGIONAL",
+    "Id": "",
+    "Description": "",
+    "Rules": [
+        {
+            "Name": "",
+            "Priority": 0,
+            "Statement": {
+                "ByteMatchStatement": {
+                    "SearchString": null,
+                    "FieldToMatch": {
+                        "SingleHeader": {
+                            "Name": ""
+                        },
+                        "SingleQueryArgument": {
+                            "Name": ""
+                        },
+                        "AllQueryArguments": {},
+                        "UriPath": {},
+                        "QueryString": {},
+                        "Body": {},
+                        "Method": {}
+                    },
+                    "TextTransformations": [
+                        {
+                            "Priority": 0,
+                            "Type": "URL_DECODE"
+                        }
+                    ],
+                    "PositionalConstraint": "STARTS_WITH"
+                },
+                "SqliMatchStatement": {
+                    "FieldToMatch": {
+                        "SingleHeader": {
+                            "Name": ""
+                        },
+                        "SingleQueryArgument": {
+                            "Name": ""
+                        },
+                        "AllQueryArguments": {},
+                        "UriPath": {},
+                        "QueryString": {},
+                        "Body": {},
+                        "Method": {}
+                    },
+                    "TextTransformations": [
+                        {
+                            "Priority": 0,
+                            "Type": "NONE"
+                        }
+                    ]
+                },
+                "XssMatchStatement": {
+                    "FieldToMatch": {
+                        "SingleHeader": {
+                            "Name": ""
+                        },
+                        "SingleQueryArgument": {
+                            "Name": ""
+                        },
+                        "AllQueryArguments": {},
+                        "UriPath": {},
+                        "QueryString": {},
+                        "Body": {},
+                        "Method": {}
+                    },
+                    "TextTransformations": [
+                        {
+                            "Priority": 0,
+                            "Type": "COMPRESS_WHITE_SPACE"
+                        }
+                    ]
+                },
+                "SizeConstraintStatement": {
+                    "FieldToMatch": {
+                        "SingleHeader": {
+                            "Name": ""
+                        },
+                        "SingleQueryArgument": {
+                            "Name": ""
+                        },
+                        "AllQueryArguments": {},
+                        "UriPath": {},
+                        "QueryString": {},
+                        "Body": {},
+                        "Method": {}
+                    },
+                    "ComparisonOperator": "NE",
+                    "Size": 0,
+                    "TextTransformations": [
+                        {
+                            "Priority": 0,
+                            "Type": "HTML_ENTITY_DECODE"
+                        }
+                    ]
+                },
+                "GeoMatchStatement": {
+                    "CountryCodes": [
+                        "NE"
+                    ],
+                    "ForwardedIPConfig": {
+                        "HeaderName": "",
+                        "FallbackBehavior": "MATCH"
+                    }
+                },
+                "RuleGroupReferenceStatement": {
+                    "ARN": "",
+                    "ExcludedRules": [
+                        {
+                            "Name": ""
+                        }
+                    ]
+                },
+                "IPSetReferenceStatement": {
+                    "ARN": "",
+                    "IPSetForwardedIPConfig": {
+                        "HeaderName": "",
+                        "FallbackBehavior": "MATCH",
+                        "Position": "ANY"
+                    }
+                },
+                "RegexPatternSetReferenceStatement": {
+                    "ARN": "",
+                    "FieldToMatch": {
+                        "SingleHeader": {
+                            "Name": ""
+                        },
+                        "SingleQueryArgument": {
+                            "Name": ""
+                        },
+                        "AllQueryArguments": {},
+                        "UriPath": {},
+                        "QueryString": {},
+                        "Body": {},
+                        "Method": {}
+                    },
+                    "TextTransformations": [
+                        {
+                            "Priority": 0,
+                            "Type": "NONE"
+                        }
+                    ]
+                },
+                "RateBasedStatement": {
+                    "Limit": 0,
+                    "AggregateKeyType": "IP",
+                    "ScopeDownStatement": {},
+                    "ForwardedIPConfig": {
+                        "HeaderName": "",
+                        "FallbackBehavior": "MATCH"
+                    }
+                },
+                "AndStatement": {
+                    "Statements": [
+                        {}
+                    ]
+                },
+                "OrStatement": {
+                    "Statements": [
+                        {}
+                    ]
+                },
+                "NotStatement": {
+                    "Statement": {}
+                },
+                "ManagedRuleGroupStatement": {
+                    "VendorName": "",
+                    "Name": "",
+                    "ExcludedRules": [
+                        {
+                            "Name": ""
+                        }
+                    ]
+                }
+            },
+            "Action": {
+                "Block": {},
+                "Allow": {},
+                "Count": {}
+            },
+            "OverrideAction": {
+                "Count": {},
+                "None": {}
+            },
+            "VisibilityConfig": {
+                "SampledRequestsEnabled": true,
+                "CloudWatchMetricsEnabled": true,
+                "MetricName": ""
+            }
+        }
+    ],
+    "VisibilityConfig": {
+        "SampledRequestsEnabled": true,
+        "CloudWatchMetricsEnabled": true,
+        "MetricName": ""
+    },
+    "LockToken": ""
+}

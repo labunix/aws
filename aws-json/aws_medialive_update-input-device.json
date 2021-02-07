@@ -1,0 +1,12 @@
+{
+    "HdDeviceSettings": {
+        "ConfiguredInput": "HDMI",
+        "MaxBitrate": 0
+    },
+    "InputDeviceId": "",
+    "Name": "",
+    "UhdDeviceSettings": {
+        "ConfiguredInput": "AUTO",
+        "MaxBitrate": 0
+    }
+}

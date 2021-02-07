@@ -1,0 +1,17 @@
+{
+    "Catalog": "",
+    "FilterList": [
+        {
+            "Name": "",
+            "ValueList": [
+                ""
+            ]
+        }
+    ],
+    "Sort": {
+        "SortBy": "",
+        "SortOrder": "DESCENDING"
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

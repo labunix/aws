@@ -1,0 +1,45 @@
+{
+    "name": "",
+    "version": "",
+    "roleArn": "",
+    "resourcesVpcConfig": {
+        "subnetIds": [
+            ""
+        ],
+        "securityGroupIds": [
+            ""
+        ],
+        "endpointPublicAccess": true,
+        "endpointPrivateAccess": true,
+        "publicAccessCidrs": [
+            ""
+        ]
+    },
+    "kubernetesNetworkConfig": {
+        "serviceIpv4Cidr": ""
+    },
+    "logging": {
+        "clusterLogging": [
+            {
+                "types": [
+                    "audit"
+                ],
+                "enabled": true
+            }
+        ]
+    },
+    "clientRequestToken": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "encryptionConfig": [
+        {
+            "resources": [
+                ""
+            ],
+            "provider": {
+                "keyArn": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+CLOUDSEARCHDOMAIN()                                        CLOUDSEARCHDOMAIN()
+
+
+
+NNAAMMEE
+       cloudsearchdomain -
+
+DDEESSCCRRIIPPTTIIOONN
+       You  use  the AmazonCloudSearch2013 API to upload documents to a search
+       domain and search those documents.
+
+       The endpoints for submitting UUppllooaaddDDooccuummeennttss , SSeeaarrcchh , and SSuuggggeesstt re-
+       quests  are  domain-specific. To get the endpoints for your domain, use
+       the Amazon CloudSearch configuration  service  DDeessccrriibbeeDDoommaaiinnss  action.
+       The  domain endpoints are also displayed on the domain dashboard in the
+       Amazon CloudSearch console. You submit suggest requests to  the  search
+       endpoint.
+
+       For more information, see the _A_m_a_z_o_n _C_l_o_u_d_S_e_a_r_c_h _D_e_v_e_l_o_p_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o help
+
+       +o search
+
+       +o suggest
+
+       +o upload-documents
+
+
+
+                                                           CLOUDSEARCHDOMAIN()

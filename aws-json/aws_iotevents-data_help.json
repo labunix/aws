@@ -1,0 +1,27 @@
+IOTEVENTS-DATA()                                              IOTEVENTS-DATA()
+
+
+
+NNAAMMEE
+       iotevents-data -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS IoT Events monitors your equipment or device fleets for failures or
+       changes in operation, and triggers actions when such events occur.  AWS
+       IoT  Events  Data  API commands enable you to send inputs to detectors,
+       list detectors, and view or update a detector's status.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o batch-put-message
+
+       +o batch-update-detector
+
+       +o describe-detector
+
+       +o help
+
+       +o list-detectors
+
+
+
+                                                              IOTEVENTS-DATA()

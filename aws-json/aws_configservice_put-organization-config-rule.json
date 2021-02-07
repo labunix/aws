@@ -1,0 +1,33 @@
+{
+    "OrganizationConfigRuleName": "",
+    "OrganizationManagedRuleMetadata": {
+        "Description": "",
+        "RuleIdentifier": "",
+        "InputParameters": "",
+        "MaximumExecutionFrequency": "Three_Hours",
+        "ResourceTypesScope": [
+            ""
+        ],
+        "ResourceIdScope": "",
+        "TagKeyScope": "",
+        "TagValueScope": ""
+    },
+    "OrganizationCustomRuleMetadata": {
+        "Description": "",
+        "LambdaFunctionArn": "",
+        "OrganizationConfigRuleTriggerTypes": [
+            "ConfigurationItemChangeNotification"
+        ],
+        "InputParameters": "",
+        "MaximumExecutionFrequency": "TwentyFour_Hours",
+        "ResourceTypesScope": [
+            ""
+        ],
+        "ResourceIdScope": "",
+        "TagKeyScope": "",
+        "TagValueScope": ""
+    },
+    "ExcludedAccounts": [
+        ""
+    ]
+}

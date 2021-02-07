@@ -1,0 +1,78 @@
+ACM-PCA()                                                            ACM-PCA()
+
+
+
+NNAAMMEE
+       acm-pca -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is  the  _A_C_M _P_r_i_v_a_t_e _C_A _A_P_I _R_e_f_e_r_e_n_c_e . It provides descriptions,
+       syntax, and usage examples for each of the actions and data  types  in-
+       volved  in  creating  and managing private certificate authorities (CA)
+       for your organization.
+
+       The documentation for each action shows the Query API  request  parame-
+       ters  and  the  XML response. Alternatively, you can use one of the AWS
+       SDKs to access an API that's tailored to the  programming  language  or
+       platform that you're using. For more information, see _A_W_S _S_D_K_s .
+
+       NNOOTTEE::
+          Each  ACM Private CA API action has a quota that determines the num-
+          ber of times the action can be called per second. For more  informa-
+          tion,  see  _A_P_I  _R_a_t_e _Q_u_o_t_a_s _i_n _A_C_M _P_r_i_v_a_t_e _C_A in the ACM Private CA
+          user guide.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-certificate-authority
+
+       +o create-certificate-authority-audit-report
+
+       +o create-permission
+
+       +o delete-certificate-authority
+
+       +o delete-permission
+
+       +o delete-policy
+
+       +o describe-certificate-authority
+
+       +o describe-certificate-authority-audit-report
+
+       +o get-certificate
+
+       +o get-certificate-authority-certificate
+
+       +o get-certificate-authority-csr
+
+       +o get-policy
+
+       +o help
+
+       +o import-certificate-authority-certificate
+
+       +o issue-certificate
+
+       +o list-certificate-authorities
+
+       +o list-permissions
+
+       +o list-tags
+
+       +o put-policy
+
+       +o restore-certificate-authority
+
+       +o revoke-certificate
+
+       +o tag-certificate-authority
+
+       +o untag-certificate-authority
+
+       +o update-certificate-authority
+
+       +o wait
+
+
+
+                                                                     ACM-PCA()

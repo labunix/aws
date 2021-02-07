@@ -1,0 +1,9 @@
+{
+    "DetectorId": "",
+    "DestinationType": "S3",
+    "DestinationProperties": {
+        "DestinationArn": "",
+        "KmsKeyArn": ""
+    },
+    "ClientToken": ""
+}

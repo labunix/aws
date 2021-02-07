@@ -1,0 +1,20 @@
+{
+    "TransitGatewayId": "",
+    "Options": {
+        "Igmpv2Support": "disable",
+        "StaticSourcesSupport": "enable",
+        "AutoAcceptSharedAssociations": "disable"
+    },
+    "TagSpecifications": [
+        {
+            "ResourceType": "subnet",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

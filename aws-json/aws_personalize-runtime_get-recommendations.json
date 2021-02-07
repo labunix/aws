@@ -1,0 +1,13 @@
+{
+    "campaignArn": "",
+    "itemId": "",
+    "userId": "",
+    "numResults": 0,
+    "context": {
+        "KeyName": ""
+    },
+    "filterArn": "",
+    "filterValues": {
+        "KeyName": ""
+    }
+}

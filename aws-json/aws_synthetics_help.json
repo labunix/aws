@@ -1,0 +1,56 @@
+SYNTHETICS()                                                      SYNTHETICS()
+
+
+
+NNAAMMEE
+       synthetics -
+
+DDEESSCCRRIIPPTTIIOONN
+       You  can  use  Amazon CloudWatch Synthetics to continually monitor your
+       services. You can create and  manage  _c_a_n_a_r_i_e_s  ,  which  are  modular,
+       lightweight  scripts that monitor your endpoints and APIs from the out-
+       side-in. You can set up your canaries to run 24 hours a day,  once  per
+       minute.  The  canaries  help  you check the availability and latency of
+       your web services and troubleshoot anomalies by investigating load time
+       data, screenshots of the UI, logs, and metrics. The canaries seamlessly
+       integrate with CloudWatch ServiceLens to help you trace the  causes  of
+       impacted  nodes  in  your applications. For more information, see _U_s_i_n_g
+       _S_e_r_v_i_c_e_L_e_n_s _t_o _M_o_n_i_t_o_r _t_h_e _H_e_a_l_t_h _o_f _Y_o_u_r _A_p_p_l_i_c_a_t_i_o_n_s  in  the  _A_m_a_z_o_n
+       _C_l_o_u_d_W_a_t_c_h _U_s_e_r _G_u_i_d_e .
+
+       Before you create and manage canaries, be aware of the security consid-
+       erations. For more information, see _S_e_c_u_r_i_t_y  _C_o_n_s_i_d_e_r_a_t_i_o_n_s  _f_o_r  _S_y_n_-
+       _t_h_e_t_i_c_s _C_a_n_a_r_i_e_s .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-canary
+
+       +o delete-canary
+
+       +o describe-canaries
+
+       +o describe-canaries-last-run
+
+       +o describe-runtime-versions
+
+       +o get-canary
+
+       +o get-canary-runs
+
+       +o help
+
+       +o list-tags-for-resource
+
+       +o start-canary
+
+       +o stop-canary
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-canary
+
+
+
+                                                                  SYNTHETICS()

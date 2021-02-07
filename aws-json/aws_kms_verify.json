@@ -1,0 +1,10 @@
+{
+    "KeyId": "",
+    "Message": null,
+    "MessageType": "DIGEST",
+    "Signature": null,
+    "SigningAlgorithm": "ECDSA_SHA_384",
+    "GrantTokens": [
+        ""
+    ]
+}

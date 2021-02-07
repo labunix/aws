@@ -1,0 +1,44 @@
+{
+    "serviceName": "",
+    "power": "large",
+    "scale": 0,
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "publicDomainNames": {
+        "KeyName": [
+            ""
+        ]
+    },
+    "deployment": {
+        "containers": {
+            "KeyName": {
+                "image": "",
+                "command": [
+                    ""
+                ],
+                "environment": {
+                    "KeyName": ""
+                },
+                "ports": {
+                    "KeyName": "TCP"
+                }
+            }
+        },
+        "publicEndpoint": {
+            "containerName": "",
+            "containerPort": 0,
+            "healthCheck": {
+                "healthyThreshold": 0,
+                "unhealthyThreshold": 0,
+                "timeoutSeconds": 0,
+                "intervalSeconds": 0,
+                "path": "",
+                "successCodes": ""
+            }
+        }
+    }
+}

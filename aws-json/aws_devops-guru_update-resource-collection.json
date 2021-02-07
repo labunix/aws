@@ -1,0 +1,10 @@
+{
+    "Action": "REMOVE",
+    "ResourceCollection": {
+        "CloudFormation": {
+            "StackNames": [
+                ""
+            ]
+        }
+    }
+}

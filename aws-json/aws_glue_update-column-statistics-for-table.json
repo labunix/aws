@@ -1,0 +1,61 @@
+{
+    "CatalogId": "",
+    "DatabaseName": "",
+    "TableName": "",
+    "ColumnStatisticsList": [
+        {
+            "ColumnName": "",
+            "ColumnType": "",
+            "AnalyzedTime": "1970-01-01T00:00:00",
+            "StatisticsData": {
+                "Type": "BOOLEAN",
+                "BooleanColumnStatisticsData": {
+                    "NumberOfTrues": 0,
+                    "NumberOfFalses": 0,
+                    "NumberOfNulls": 0
+                },
+                "DateColumnStatisticsData": {
+                    "MinimumValue": "1970-01-01T00:00:00",
+                    "MaximumValue": "1970-01-01T00:00:00",
+                    "NumberOfNulls": 0,
+                    "NumberOfDistinctValues": 0
+                },
+                "DecimalColumnStatisticsData": {
+                    "MinimumValue": {
+                        "UnscaledValue": null,
+                        "Scale": 0
+                    },
+                    "MaximumValue": {
+                        "UnscaledValue": null,
+                        "Scale": 0
+                    },
+                    "NumberOfNulls": 0,
+                    "NumberOfDistinctValues": 0
+                },
+                "DoubleColumnStatisticsData": {
+                    "MinimumValue": null,
+                    "MaximumValue": null,
+                    "NumberOfNulls": 0,
+                    "NumberOfDistinctValues": 0
+                },
+                "LongColumnStatisticsData": {
+                    "MinimumValue": 0,
+                    "MaximumValue": 0,
+                    "NumberOfNulls": 0,
+                    "NumberOfDistinctValues": 0
+                },
+                "StringColumnStatisticsData": {
+                    "MaximumLength": 0,
+                    "AverageLength": null,
+                    "NumberOfNulls": 0,
+                    "NumberOfDistinctValues": 0
+                },
+                "BinaryColumnStatisticsData": {
+                    "MaximumLength": 0,
+                    "AverageLength": null,
+                    "NumberOfNulls": 0
+                }
+            }
+        }
+    ]
+}

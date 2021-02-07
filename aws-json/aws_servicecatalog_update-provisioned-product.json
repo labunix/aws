@@ -1,0 +1,38 @@
+{
+    "AcceptLanguage": "",
+    "ProvisionedProductName": "",
+    "ProvisionedProductId": "",
+    "ProductId": "",
+    "ProductName": "",
+    "ProvisioningArtifactId": "",
+    "ProvisioningArtifactName": "",
+    "PathId": "",
+    "PathName": "",
+    "ProvisioningParameters": [
+        {
+            "Key": "",
+            "Value": "",
+            "UsePreviousValue": true
+        }
+    ],
+    "ProvisioningPreferences": {
+        "StackSetAccounts": [
+            ""
+        ],
+        "StackSetRegions": [
+            ""
+        ],
+        "StackSetFailureToleranceCount": 0,
+        "StackSetFailureTolerancePercentage": 0,
+        "StackSetMaxConcurrencyCount": 0,
+        "StackSetMaxConcurrencyPercentage": 0,
+        "StackSetOperationType": "DELETE"
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "UpdateToken": ""
+}

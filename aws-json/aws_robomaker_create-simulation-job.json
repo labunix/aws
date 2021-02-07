@@ -1,0 +1,88 @@
+{
+    "clientRequestToken": "",
+    "outputLocation": {
+        "s3Bucket": "",
+        "s3Prefix": ""
+    },
+    "loggingConfig": {
+        "recordAllRosTopics": true
+    },
+    "maxJobDurationInSeconds": 0,
+    "iamRole": "",
+    "failureBehavior": "Fail",
+    "robotApplications": [
+        {
+            "application": "",
+            "applicationVersion": "",
+            "launchConfig": {
+                "packageName": "",
+                "launchFile": "",
+                "environmentVariables": {
+                    "KeyName": ""
+                },
+                "portForwardingConfig": {
+                    "portMappings": [
+                        {
+                            "jobPort": 0,
+                            "applicationPort": 0,
+                            "enableOnPublicIp": true
+                        }
+                    ]
+                },
+                "streamUI": true
+            }
+        }
+    ],
+    "simulationApplications": [
+        {
+            "application": "",
+            "applicationVersion": "",
+            "launchConfig": {
+                "packageName": "",
+                "launchFile": "",
+                "environmentVariables": {
+                    "KeyName": ""
+                },
+                "portForwardingConfig": {
+                    "portMappings": [
+                        {
+                            "jobPort": 0,
+                            "applicationPort": 0,
+                            "enableOnPublicIp": true
+                        }
+                    ]
+                },
+                "streamUI": true
+            },
+            "worldConfigs": [
+                {
+                    "world": ""
+                }
+            ]
+        }
+    ],
+    "dataSources": [
+        {
+            "name": "",
+            "s3Bucket": "",
+            "s3Keys": [
+                ""
+            ]
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    },
+    "vpcConfig": {
+        "subnets": [
+            ""
+        ],
+        "securityGroups": [
+            ""
+        ],
+        "assignPublicIp": true
+    },
+    "compute": {
+        "simulationUnitLimit": 0
+    }
+}

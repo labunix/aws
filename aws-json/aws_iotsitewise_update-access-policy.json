@@ -1,0 +1,24 @@
+{
+    "accessPolicyId": "",
+    "accessPolicyIdentity": {
+        "user": {
+            "id": ""
+        },
+        "group": {
+            "id": ""
+        },
+        "iamUser": {
+            "arn": ""
+        }
+    },
+    "accessPolicyResource": {
+        "portal": {
+            "id": ""
+        },
+        "project": {
+            "id": ""
+        }
+    },
+    "accessPolicyPermission": "ADMINISTRATOR",
+    "clientToken": ""
+}

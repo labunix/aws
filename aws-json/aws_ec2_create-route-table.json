@@ -1,0 +1,15 @@
+{
+    "DryRun": true,
+    "VpcId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "image",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

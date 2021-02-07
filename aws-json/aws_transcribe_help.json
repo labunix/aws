@@ -1,0 +1,70 @@
+TRANSCRIBE()                                                      TRANSCRIBE()
+
+
+
+NNAAMMEE
+       transcribe -
+
+DDEESSCCRRIIPPTTIIOONN
+       Operations and objects for transcribing speech to text.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-language-model
+
+       +o create-medical-vocabulary
+
+       +o create-vocabulary
+
+       +o create-vocabulary-filter
+
+       +o delete-language-model
+
+       +o delete-medical-transcription-job
+
+       +o delete-medical-vocabulary
+
+       +o delete-transcription-job
+
+       +o delete-vocabulary
+
+       +o delete-vocabulary-filter
+
+       +o describe-language-model
+
+       +o get-medical-transcription-job
+
+       +o get-medical-vocabulary
+
+       +o get-transcription-job
+
+       +o get-vocabulary
+
+       +o get-vocabulary-filter
+
+       +o help
+
+       +o list-language-models
+
+       +o list-medical-transcription-jobs
+
+       +o list-medical-vocabularies
+
+       +o list-transcription-jobs
+
+       +o list-vocabularies
+
+       +o list-vocabulary-filters
+
+       +o start-medical-transcription-job
+
+       +o start-transcription-job
+
+       +o update-medical-vocabulary
+
+       +o update-vocabulary
+
+       +o update-vocabulary-filter
+
+
+
+                                                                  TRANSCRIBE()

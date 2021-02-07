@@ -1,0 +1,144 @@
+{
+    "connectorProfileName": "",
+    "kmsArn": "",
+    "connectorType": "Dynatrace",
+    "connectionMode": "Public",
+    "connectorProfileConfig": {
+        "connectorProfileProperties": {
+            "Amplitude": {},
+            "Datadog": {
+                "instanceUrl": ""
+            },
+            "Dynatrace": {
+                "instanceUrl": ""
+            },
+            "GoogleAnalytics": {},
+            "InforNexus": {
+                "instanceUrl": ""
+            },
+            "Marketo": {
+                "instanceUrl": ""
+            },
+            "Redshift": {
+                "databaseUrl": "",
+                "bucketName": "",
+                "bucketPrefix": "",
+                "roleArn": ""
+            },
+            "Salesforce": {
+                "instanceUrl": "",
+                "isSandboxEnvironment": true
+            },
+            "ServiceNow": {
+                "instanceUrl": ""
+            },
+            "Singular": {},
+            "Slack": {
+                "instanceUrl": ""
+            },
+            "Snowflake": {
+                "warehouse": "",
+                "stage": "",
+                "bucketName": "",
+                "bucketPrefix": "",
+                "privateLinkServiceName": "",
+                "accountName": "",
+                "region": ""
+            },
+            "Trendmicro": {},
+            "Veeva": {
+                "instanceUrl": ""
+            },
+            "Zendesk": {
+                "instanceUrl": ""
+            }
+        },
+        "connectorProfileCredentials": {
+            "Amplitude": {
+                "apiKey": "",
+                "secretKey": ""
+            },
+            "Datadog": {
+                "apiKey": "",
+                "applicationKey": ""
+            },
+            "Dynatrace": {
+                "apiToken": ""
+            },
+            "GoogleAnalytics": {
+                "clientId": "",
+                "clientSecret": "",
+                "accessToken": "",
+                "refreshToken": "",
+                "oAuthRequest": {
+                    "authCode": "",
+                    "redirectUri": ""
+                }
+            },
+            "InforNexus": {
+                "accessKeyId": "",
+                "userId": "",
+                "secretAccessKey": "",
+                "datakey": ""
+            },
+            "Marketo": {
+                "clientId": "",
+                "clientSecret": "",
+                "accessToken": "",
+                "oAuthRequest": {
+                    "authCode": "",
+                    "redirectUri": ""
+                }
+            },
+            "Redshift": {
+                "username": "",
+                "password": ""
+            },
+            "Salesforce": {
+                "accessToken": "",
+                "refreshToken": "",
+                "oAuthRequest": {
+                    "authCode": "",
+                    "redirectUri": ""
+                },
+                "clientCredentialsArn": ""
+            },
+            "ServiceNow": {
+                "username": "",
+                "password": ""
+            },
+            "Singular": {
+                "apiKey": ""
+            },
+            "Slack": {
+                "clientId": "",
+                "clientSecret": "",
+                "accessToken": "",
+                "oAuthRequest": {
+                    "authCode": "",
+                    "redirectUri": ""
+                }
+            },
+            "Snowflake": {
+                "username": "",
+                "password": ""
+            },
+            "Trendmicro": {
+                "apiSecretKey": ""
+            },
+            "Veeva": {
+                "username": "",
+                "password": ""
+            },
+            "Zendesk": {
+                "clientId": "",
+                "clientSecret": "",
+                "accessToken": "",
+                "oAuthRequest": {
+                    "authCode": "",
+                    "redirectUri": ""
+                }
+            }
+        }
+    }
+}

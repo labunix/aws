@@ -1,0 +1,21 @@
+{
+    "HomeDirectory": "",
+    "HomeDirectoryType": "LOGICAL",
+    "HomeDirectoryMappings": [
+        {
+            "Entry": "",
+            "Target": ""
+        }
+    ],
+    "Policy": "",
+    "Role": "",
+    "ServerId": "",
+    "SshPublicKeyBody": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "UserName": ""
+}

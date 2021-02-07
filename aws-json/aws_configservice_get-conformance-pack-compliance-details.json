@@ -1,0 +1,15 @@
+{
+    "ConformancePackName": "",
+    "Filters": {
+        "ConfigRuleNames": [
+            ""
+        ],
+        "ComplianceType": "NON_COMPLIANT",
+        "ResourceType": "",
+        "ResourceIds": [
+            ""
+        ]
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

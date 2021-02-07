@@ -1,0 +1,13 @@
+{
+    "ContactId": "",
+    "MaxResults": 0,
+    "NextToken": "",
+    "ScanDirection": "FORWARD",
+    "SortOrder": "ASCENDING",
+    "StartPosition": {
+        "Id": "",
+        "AbsoluteTime": "",
+        "MostRecent": 0
+    },
+    "ConnectionToken": ""
+}

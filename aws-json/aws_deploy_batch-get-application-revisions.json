@@ -1,0 +1,27 @@
+{
+    "applicationName": "",
+    "revisions": [
+        {
+            "revisionType": "GitHub",
+            "s3Location": {
+                "bucket": "",
+                "key": "",
+                "bundleType": "zip",
+                "version": "",
+                "eTag": ""
+            },
+            "gitHubLocation": {
+                "repository": "",
+                "commitId": ""
+            },
+            "string": {
+                "content": "",
+                "sha256": ""
+            },
+            "appSpecContent": {
+                "content": "",
+                "sha256": ""
+            }
+        }
+    ]
+}

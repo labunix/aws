@@ -1,0 +1,7 @@
+{
+    "ChannelARN": "",
+    "CurrentVersion": "",
+    "SingleMasterConfiguration": {
+        "MessageTtlSeconds": 0
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ProviderTypes": [
+        "CodeCommit"
+    ],
+    "States": [
+        "Disassociating"
+    ],
+    "Names": [
+        ""
+    ],
+    "Owners": [
+        ""
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

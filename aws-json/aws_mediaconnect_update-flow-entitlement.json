@@ -1,0 +1,20 @@
+{
+    "Description": "",
+    "Encryption": {
+        "Algorithm": "aes192",
+        "ConstantInitializationVector": "",
+        "DeviceId": "",
+        "KeyType": "speke",
+        "Region": "",
+        "ResourceId": "",
+        "RoleArn": "",
+        "SecretArn": "",
+        "Url": ""
+    },
+    "EntitlementArn": "",
+    "EntitlementStatus": "DISABLED",
+    "FlowArn": "",
+    "Subscribers": [
+        ""
+    ]
+}

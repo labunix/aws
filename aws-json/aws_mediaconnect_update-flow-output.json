@@ -1,0 +1,29 @@
+{
+    "CidrAllowList": [
+        ""
+    ],
+    "Description": "",
+    "Destination": "",
+    "Encryption": {
+        "Algorithm": "aes192",
+        "ConstantInitializationVector": "",
+        "DeviceId": "",
+        "KeyType": "speke",
+        "Region": "",
+        "ResourceId": "",
+        "RoleArn": "",
+        "SecretArn": "",
+        "Url": ""
+    },
+    "FlowArn": "",
+    "MaxLatency": 0,
+    "OutputArn": "",
+    "Port": 0,
+    "Protocol": "rtp",
+    "RemoteId": "",
+    "SmoothingLatency": 0,
+    "StreamId": "",
+    "VpcInterfaceAttachment": {
+        "VpcInterfaceName": ""
+    }
+}

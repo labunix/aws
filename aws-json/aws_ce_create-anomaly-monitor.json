@@ -1,0 +1,48 @@
+{
+    "AnomalyMonitor": {
+        "MonitorArn": "",
+        "MonitorName": "",
+        "CreationDate": "",
+        "LastUpdatedDate": "",
+        "LastEvaluatedDate": "",
+        "MonitorType": "CUSTOM",
+        "MonitorDimension": "SERVICE",
+        "MonitorSpecification": {
+            "Or": [
+                {}
+            ],
+            "And": [
+                {}
+            ],
+            "Not": {},
+            "Dimensions": {
+                "Key": "DATABASE_ENGINE",
+                "Values": [
+                    ""
+                ],
+                "MatchOptions": [
+                    "CONTAINS"
+                ]
+            },
+            "Tags": {
+                "Key": "",
+                "Values": [
+                    ""
+                ],
+                "MatchOptions": [
+                    "ENDS_WITH"
+                ]
+            },
+            "CostCategories": {
+                "Key": "",
+                "Values": [
+                    ""
+                ],
+                "MatchOptions": [
+                    "ENDS_WITH"
+                ]
+            }
+        },
+        "DimensionalValueCount": 0
+    }
+}

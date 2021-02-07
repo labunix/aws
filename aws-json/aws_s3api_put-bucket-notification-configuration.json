@@ -1,0 +1,63 @@
+{
+    "Bucket": "",
+    "NotificationConfiguration": {
+        "TopicConfigurations": [
+            {
+                "Id": "",
+                "TopicArn": "",
+                "Events": [
+                    "s3:Replication:OperationMissedThreshold"
+                ],
+                "Filter": {
+                    "Key": {
+                        "FilterRules": [
+                            {
+                                "Name": "prefix",
+                                "Value": ""
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "QueueConfigurations": [
+            {
+                "Id": "",
+                "QueueArn": "",
+                "Events": [
+                    "s3:ObjectCreated:CompleteMultipartUpload"
+                ],
+                "Filter": {
+                    "Key": {
+                        "FilterRules": [
+                            {
+                                "Name": "suffix",
+                                "Value": ""
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "LambdaFunctionConfigurations": [
+            {
+                "Id": "",
+                "LambdaFunctionArn": "",
+                "Events": [
+                    "s3:Replication:OperationReplicatedAfterThreshold"
+                ],
+                "Filter": {
+                    "Key": {
+                        "FilterRules": [
+                            {
+                                "Name": "prefix",
+                                "Value": ""
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "ExpectedBucketOwner": ""
+}

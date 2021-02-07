@@ -1,0 +1,28 @@
+{
+    "ArtifactName": "",
+    "Source": {
+        "SourceUri": "",
+        "SourceTypes": [
+            {
+                "SourceIdType": "MD5Hash",
+                "Value": ""
+            }
+        ]
+    },
+    "ArtifactType": "",
+    "Properties": {
+        "KeyName": ""
+    },
+    "MetadataProperties": {
+        "CommitId": "",
+        "Repository": "",
+        "GeneratedBy": "",
+        "ProjectId": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "ClientToken": "",
+    "Description": "",
+    "DiskImageFormat": "VMDK",
+    "DryRun": true,
+    "ImageId": "",
+    "S3ExportLocation": {
+        "S3Bucket": "",
+        "S3Prefix": ""
+    },
+    "RoleName": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "fleet",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

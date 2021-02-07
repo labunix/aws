@@ -1,0 +1,15 @@
+{
+    "directConnectGatewayId": "",
+    "directConnectGatewayOwnerAccount": "",
+    "gatewayId": "",
+    "addAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ],
+    "removeAllowedPrefixesToDirectConnectGateway": [
+        {
+            "cidr": ""
+        }
+    ]
+}

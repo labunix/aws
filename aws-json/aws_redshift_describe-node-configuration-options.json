@@ -1,0 +1,17 @@
+{
+    "ActionType": "restore-cluster",
+    "ClusterIdentifier": "",
+    "SnapshotIdentifier": "",
+    "OwnerAccount": "",
+    "Filters": [
+        {
+            "Name": "Mode",
+            "Operator": "between",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "Marker": "",
+    "MaxRecords": 0
+}

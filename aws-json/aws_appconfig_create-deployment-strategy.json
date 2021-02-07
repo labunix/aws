@@ -1,0 +1,12 @@
+{
+    "Name": "",
+    "Description": "",
+    "DeploymentDurationInMinutes": 0,
+    "FinalBakeTimeInMinutes": 0,
+    "GrowthFactor": 0.0,
+    "GrowthType": "EXPONENTIAL",
+    "ReplicateTo": "SSM_DOCUMENT",
+    "Tags": {
+        "KeyName": ""
+    }
+}

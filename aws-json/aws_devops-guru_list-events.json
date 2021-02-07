@@ -1,0 +1,21 @@
+{
+    "Filters": {
+        "InsightId": "",
+        "EventTimeRange": {
+            "FromTime": "1970-01-01T00:00:00",
+            "ToTime": "1970-01-01T00:00:00"
+        },
+        "EventClass": "SCHEMA_CHANGE",
+        "EventSource": "",
+        "DataSource": "AWS_CODE_DEPLOY",
+        "ResourceCollection": {
+            "CloudFormation": {
+                "StackNames": [
+                    ""
+                ]
+            }
+        }
+    },
+    "MaxResults": 0,
+    "NextToken": ""
+}

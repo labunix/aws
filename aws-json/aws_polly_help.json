@@ -1,0 +1,40 @@
+POLLY()                                                                POLLY()
+
+
+
+NNAAMMEE
+       polly -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon  Polly  is a web service that makes it easy to synthesize speech
+       from text.
+
+       The Amazon Polly  service  provides  API  operations  for  synthesizing
+       high-quality  speech  from  plain text and Speech Synthesis Markup Lan-
+       guage (SSML), along with managing pronunciations lexicons  that  enable
+       you to get the best results for your application domain.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o delete-lexicon
+
+       +o describe-voices
+
+       +o get-lexicon
+
+       +o get-speech-synthesis-task
+
+       +o help
+
+       +o list-lexicons
+
+       +o list-speech-synthesis-tasks
+
+       +o put-lexicon
+
+       +o start-speech-synthesis-task
+
+       +o synthesize-speech
+
+
+
+                                                                       POLLY()

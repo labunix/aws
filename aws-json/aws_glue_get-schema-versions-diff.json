@@ -1,0 +1,16 @@
+{
+    "SchemaId": {
+        "SchemaArn": "",
+        "SchemaName": "",
+        "RegistryName": ""
+    },
+    "FirstSchemaVersionNumber": {
+        "LatestVersion": true,
+        "VersionNumber": 0
+    },
+    "SecondSchemaVersionNumber": {
+        "LatestVersion": true,
+        "VersionNumber": 0
+    },
+    "SchemaDiffType": "SYNTAX_DIFF"
+}

@@ -1,0 +1,42 @@
+{
+    "PolicyName": "",
+    "ServiceNamespace": "lambda",
+    "ResourceId": "",
+    "ScalableDimension": "custom-resource:ResourceType:Property",
+    "PolicyType": "StepScaling",
+    "StepScalingPolicyConfiguration": {
+        "AdjustmentType": "ChangeInCapacity",
+        "StepAdjustments": [
+            {
+                "MetricIntervalLowerBound": null,
+                "MetricIntervalUpperBound": null,
+                "ScalingAdjustment": 0
+            }
+        ],
+        "MinAdjustmentMagnitude": 0,
+        "Cooldown": 0,
+        "MetricAggregationType": "Minimum"
+    },
+    "TargetTrackingScalingPolicyConfiguration": {
+        "TargetValue": null,
+        "PredefinedMetricSpecification": {
+            "PredefinedMetricType": "RDSReaderAverageDatabaseConnections",
+            "ResourceLabel": ""
+        },
+        "CustomizedMetricSpecification": {
+            "MetricName": "",
+            "Namespace": "",
+            "Dimensions": [
+                {
+                    "Name": "",
+                    "Value": ""
+                }
+            ],
+            "Statistic": "Minimum",
+            "Unit": ""
+        },
+        "ScaleOutCooldown": 0,
+        "ScaleInCooldown": 0,
+        "DisableScaleIn": true
+    }
+}

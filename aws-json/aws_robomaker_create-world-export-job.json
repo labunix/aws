@@ -1,0 +1,14 @@
+{
+    "clientRequestToken": "",
+    "worlds": [
+        ""
+    ],
+    "outputLocation": {
+        "s3Bucket": "",
+        "s3Prefix": ""
+    },
+    "iamRole": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

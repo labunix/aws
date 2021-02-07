@@ -1,0 +1,10 @@
+{
+    "Bucket": "",
+    "Delimiter": "",
+    "EncodingType": "url",
+    "KeyMarker": "",
+    "MaxKeys": 0,
+    "Prefix": "",
+    "VersionIdMarker": "",
+    "ExpectedBucketOwner": ""
+}

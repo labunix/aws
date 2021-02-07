@@ -1,0 +1,20 @@
+{
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "definition": {
+        "language": "GRAPHQL",
+        "text": ""
+    },
+    "target": "CLOUD",
+    "greengrassGroupName": "",
+    "s3BucketName": "",
+    "metricsConfiguration": {
+        "cloudMetricEnabled": true,
+        "metricRuleRoleArn": ""
+    },
+    "flowActionsRoleArn": ""
+}

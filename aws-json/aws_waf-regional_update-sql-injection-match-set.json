@@ -1,0 +1,16 @@
+{
+    "SqlInjectionMatchSetId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "SqlInjectionMatchTuple": {
+                "FieldToMatch": {
+                    "Type": "HEADER",
+                    "Data": ""
+                },
+                "TextTransformation": "HTML_ENTITY_DECODE"
+            }
+        }
+    ]
+}

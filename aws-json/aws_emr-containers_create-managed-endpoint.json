@@ -1,0 +1,35 @@
+{
+    "name": "",
+    "virtualClusterId": "",
+    "type": "",
+    "releaseLabel": "",
+    "executionRoleArn": "",
+    "certificateArn": "",
+    "configurationOverrides": {
+        "applicationConfiguration": [
+            {
+                "classification": "",
+                "properties": {
+                    "KeyName": ""
+                },
+                "configurations": [
+                    {}
+                ]
+            }
+        ],
+        "monitoringConfiguration": {
+            "persistentAppUI": "ENABLED",
+            "cloudWatchMonitoringConfiguration": {
+                "logGroupName": "",
+                "logStreamNamePrefix": ""
+            },
+            "s3MonitoringConfiguration": {
+                "logUri": ""
+            }
+        }
+    },
+    "clientToken": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,127 @@
+ELASTICBEANSTALK()                                          ELASTICBEANSTALK()
+
+
+
+NNAAMMEE
+       elasticbeanstalk -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS Elastic Beanstalk makes it easy for you to create, deploy, and man-
+       age scalable, fault-tolerant applications running  on  the  Amazon  Web
+       Services cloud.
+
+       For  more  information  about  this  product,  go  to  the  _A_W_S _E_l_a_s_t_i_c
+       _B_e_a_n_s_t_a_l_k  details  page.  The  location  of  the  latest  AWS  Elastic
+       Beanstalk                            WSDL                            is
+       _h_t_t_p_s_:_/_/_e_l_a_s_t_i_c_b_e_a_n_s_t_a_l_k_._s_3_._a_m_a_z_o_n_a_w_s_._c_o_m_/_d_o_c_/_2_0_1_0_-_1_2_-_0_1_/_A_W_S_E_l_a_s_t_i_c_B_e_a_n_s_t_a_l_k_._w_s_d_l
+       .  To install the Software Development Kits (SDKs), Integrated Develop-
+       ment Environment (IDE) Toolkits, and command line tools that enable you
+       to access the API, go to _T_o_o_l_s _f_o_r _A_m_a_z_o_n _W_e_b _S_e_r_v_i_c_e_s .
+          EEnnddppooiinnttss
+
+       For a list of region-specific endpoints that AWS Elastic Beanstalk sup-
+       ports, go to _R_e_g_i_o_n_s _a_n_d _E_n_d_p_o_i_n_t_s in the _A_m_a_z_o_n _W_e_b _S_e_r_v_i_c_e_s  _G_l_o_s_s_a_r_y
+       .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o abort-environment-update
+
+       +o apply-environment-managed-action
+
+       +o associate-environment-operations-role
+
+       +o check-dns-availability
+
+       +o compose-environments
+
+       +o create-application
+
+       +o create-application-version
+
+       +o create-configuration-template
+
+       +o create-environment
+
+       +o create-platform-version
+
+       +o create-storage-location
+
+       +o delete-application
+
+       +o delete-application-version
+
+       +o delete-configuration-template
+
+       +o delete-environment-configuration
+
+       +o delete-platform-version
+
+       +o describe-account-attributes
+
+       +o describe-application-versions
+
+       +o describe-applications
+
+       +o describe-configuration-options
+
+       +o describe-configuration-settings
+
+       +o describe-environment-health
+
+       +o describe-environment-managed-action-history
+
+       +o describe-environment-managed-actions
+
+       +o describe-environment-resources
+
+       +o describe-environments
+
+       +o describe-events
+
+       +o describe-instances-health
+
+       +o describe-platform-version
+
+       +o disassociate-environment-operations-role
+
+       +o help
+
+       +o list-available-solution-stacks
+
+       +o list-platform-branches
+
+       +o list-platform-versions
+
+       +o list-tags-for-resource
+
+       +o rebuild-environment
+
+       +o request-environment-info
+
+       +o restart-app-server
+
+       +o retrieve-environment-info
+
+       +o swap-environment-cnames
+
+       +o terminate-environment
+
+       +o update-application
+
+       +o update-application-resource-lifecycle
+
+       +o update-application-version
+
+       +o update-configuration-template
+
+       +o update-environment
+
+       +o update-tags-for-resource
+
+       +o validate-configuration-settings
+
+       +o wait
+
+
+
+                                                            ELASTICBEANSTALK()

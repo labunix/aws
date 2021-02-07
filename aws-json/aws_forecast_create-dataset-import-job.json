@@ -1,0 +1,21 @@
+{
+    "DatasetImportJobName": "",
+    "DatasetArn": "",
+    "DataSource": {
+        "S3Config": {
+            "Path": "",
+            "RoleArn": "",
+            "KMSKeyArn": ""
+        }
+    },
+    "TimestampFormat": "",
+    "TimeZone": "",
+    "UseGeolocationForTimeZone": true,
+    "GeolocationFormat": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

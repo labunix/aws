@@ -1,0 +1,13 @@
+{
+    "clusterName": "",
+    "nodegroupName": "",
+    "version": "",
+    "releaseVersion": "",
+    "launchTemplate": {
+        "name": "",
+        "version": "",
+        "id": ""
+    },
+    "force": true,
+    "clientRequestToken": ""
+}

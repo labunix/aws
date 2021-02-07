@@ -1,0 +1,28 @@
+{
+    "ClientVpnEndpointId": "",
+    "ServerCertificateArn": "",
+    "ConnectionLogOptions": {
+        "Enabled": true,
+        "CloudwatchLogGroup": "",
+        "CloudwatchLogStream": ""
+    },
+    "DnsServers": {
+        "CustomDnsServers": [
+            ""
+        ],
+        "Enabled": true
+    },
+    "VpnPort": 0,
+    "Description": "",
+    "SplitTunnel": true,
+    "DryRun": true,
+    "SecurityGroupIds": [
+        ""
+    ],
+    "VpcId": "",
+    "SelfServicePortal": "disabled",
+    "ClientConnectOptions": {
+        "Enabled": true,
+        "LambdaFunctionArn": ""
+    }
+}

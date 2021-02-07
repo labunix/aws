@@ -1,0 +1,19 @@
+{
+    "SyncName": "",
+    "SyncType": "",
+    "SyncSource": {
+        "SourceType": "",
+        "AwsOrganizationsSource": {
+            "OrganizationSourceType": "",
+            "OrganizationalUnits": [
+                {
+                    "OrganizationalUnitId": ""
+                }
+            ]
+        },
+        "SourceRegions": [
+            ""
+        ],
+        "IncludeFutureRegions": true
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "InstanceArn": "",
+    "TargetId": "",
+    "TargetType": "AWS_ACCOUNT",
+    "PermissionSetArn": "",
+    "PrincipalType": "GROUP",
+    "PrincipalId": ""
+}

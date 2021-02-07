@@ -1,0 +1,20 @@
+{
+    "CreatorRequestId": "",
+    "Name": "",
+    "SecurityGroupIds": [
+        ""
+    ],
+    "Direction": "OUTBOUND",
+    "IpAddresses": [
+        {
+            "SubnetId": "",
+            "Ip": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

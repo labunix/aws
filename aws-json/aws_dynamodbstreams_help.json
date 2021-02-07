@@ -1,0 +1,27 @@
+DYNAMODBSTREAMS()                                            DYNAMODBSTREAMS()
+
+
+
+NNAAMMEE
+       dynamodbstreams -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon  DynamoDB Streams provides API actions for accessing streams and
+       processing stream records. To learn more about application  development
+       with Streams, see _C_a_p_t_u_r_i_n_g _T_a_b_l_e _A_c_t_i_v_i_t_y _w_i_t_h _D_y_n_a_m_o_D_B _S_t_r_e_a_m_s in the
+       Amazon DynamoDB Developer Guide.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-stream
+
+       +o get-records
+
+       +o get-shard-iterator
+
+       +o help
+
+       +o list-streams
+
+
+
+                                                             DYNAMODBSTREAMS()

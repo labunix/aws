@@ -1,0 +1,60 @@
+{
+    "applicationName": "",
+    "deploymentGroupName": "",
+    "revision": {
+        "revisionType": "GitHub",
+        "s3Location": {
+            "bucket": "",
+            "key": "",
+            "bundleType": "tgz",
+            "version": "",
+            "eTag": ""
+        },
+        "gitHubLocation": {
+            "repository": "",
+            "commitId": ""
+        },
+        "string": {
+            "content": "",
+            "sha256": ""
+        },
+        "appSpecContent": {
+            "content": "",
+            "sha256": ""
+        }
+    },
+    "deploymentConfigName": "",
+    "description": "",
+    "ignoreApplicationStopFailures": true,
+    "targetInstances": {
+        "tagFilters": [
+            {
+                "Key": "",
+                "Value": "",
+                "Type": "VALUE_ONLY"
+            }
+        ],
+        "autoScalingGroups": [
+            ""
+        ],
+        "ec2TagSet": {
+            "ec2TagSetList": [
+                [
+                    {
+                        "Key": "",
+                        "Value": "",
+                        "Type": "KEY_ONLY"
+                    }
+                ]
+            ]
+        }
+    },
+    "autoRollbackConfiguration": {
+        "enabled": true,
+        "events": [
+            "DEPLOYMENT_STOP_ON_REQUEST"
+        ]
+    },
+    "updateOutdatedInstancesOnly": true,
+    "fileExistsBehavior": "OVERWRITE"
+}

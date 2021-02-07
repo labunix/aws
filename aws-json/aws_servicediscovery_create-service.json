@@ -1,0 +1,30 @@
+{
+    "Name": "",
+    "NamespaceId": "",
+    "CreatorRequestId": "",
+    "Description": "",
+    "DnsConfig": {
+        "NamespaceId": "",
+        "RoutingPolicy": "WEIGHTED",
+        "DnsRecords": [
+            {
+                "Type": "SRV",
+                "TTL": 0
+            }
+        ]
+    },
+    "HealthCheckConfig": {
+        "Type": "TCP",
+        "ResourcePath": "",
+        "FailureThreshold": 0
+    },
+    "HealthCheckCustomConfig": {
+        "FailureThreshold": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

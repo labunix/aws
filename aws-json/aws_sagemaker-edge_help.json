@@ -1,0 +1,21 @@
+SAGEMAKER-EDGE()                                              SAGEMAKER-EDGE()
+
+
+
+NNAAMMEE
+       sagemaker-edge -
+
+DDEESSCCRRIIPPTTIIOONN
+       SageMaker  Edge Manager dataplane service for communicating with active
+       agents.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o get-device-registration
+
+       +o help
+
+       +o send-heartbeat
+
+
+
+                                                              SAGEMAKER-EDGE()

@@ -1,0 +1,30 @@
+{
+    "ApiId": "",
+    "ConnectionId": "",
+    "ConnectionType": "INTERNET",
+    "ContentHandlingStrategy": "CONVERT_TO_TEXT",
+    "CredentialsArn": "",
+    "Description": "",
+    "IntegrationMethod": "",
+    "IntegrationSubtype": "",
+    "IntegrationType": "HTTP",
+    "IntegrationUri": "",
+    "PassthroughBehavior": "WHEN_NO_TEMPLATES",
+    "PayloadFormatVersion": "",
+    "RequestParameters": {
+        "KeyName": ""
+    },
+    "RequestTemplates": {
+        "KeyName": ""
+    },
+    "ResponseParameters": {
+        "KeyName": {
+            "KeyName": ""
+        }
+    },
+    "TemplateSelectionExpression": "",
+    "TimeoutInMillis": 0,
+    "TlsConfig": {
+        "ServerNameToVerify": ""
+    }
+}

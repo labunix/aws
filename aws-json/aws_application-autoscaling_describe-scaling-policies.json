@@ -1,0 +1,10 @@
+{
+    "PolicyNames": [
+        ""
+    ],
+    "ServiceNamespace": "sagemaker",
+    "ResourceId": "",
+    "ScalableDimension": "cassandra:table:WriteCapacityUnits",
+    "MaxResults": 0,
+    "NextToken": ""
+}

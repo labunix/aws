@@ -1,0 +1,16 @@
+{
+    "GroupName": "",
+    "GroupDesc": "",
+    "UserRules": [
+        {
+            "ipRule": "",
+            "ruleDesc": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "restApiId": "",
+    "responseType": "RESOURCE_NOT_FOUND",
+    "patchOperations": [
+        {
+            "op": "replace",
+            "path": "",
+            "value": "",
+            "from": ""
+        }
+    ]
+}

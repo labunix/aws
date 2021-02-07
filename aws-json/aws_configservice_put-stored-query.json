@@ -1,0 +1,15 @@
+{
+    "StoredQuery": {
+        "QueryId": "",
+        "QueryArn": "",
+        "QueryName": "",
+        "Description": "",
+        "Expression": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

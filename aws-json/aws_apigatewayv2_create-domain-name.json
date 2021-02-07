@@ -1,0 +1,23 @@
+{
+    "DomainName": "",
+    "DomainNameConfigurations": [
+        {
+            "ApiGatewayDomainName": "",
+            "CertificateArn": "",
+            "CertificateName": "",
+            "CertificateUploadDate": "1970-01-01T00:00:00",
+            "DomainNameStatus": "UPDATING",
+            "DomainNameStatusMessage": "",
+            "EndpointType": "REGIONAL",
+            "HostedZoneId": "",
+            "SecurityPolicy": "TLS_1_2"
+        }
+    ],
+    "MutualTlsAuthentication": {
+        "TruststoreUri": "",
+        "TruststoreVersion": ""
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

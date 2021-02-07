@@ -1,0 +1,8 @@
+{
+    "InstanceId": "",
+    "ContactFlowTypes": [
+        "OUTBOUND_WHISPER"
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

@@ -1,0 +1,29 @@
+{
+    "AvailabilityZones": [
+        ""
+    ],
+    "DBClusterIdentifier": "",
+    "SnapshotIdentifier": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "Port": 0,
+    "DBSubnetGroupName": "",
+    "DatabaseName": "",
+    "OptionGroupName": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "KmsKeyId": "",
+    "EnableIAMDatabaseAuthentication": true,
+    "EnableCloudwatchLogsExports": [
+        ""
+    ],
+    "DBClusterParameterGroupName": "",
+    "DeletionProtection": true
+}

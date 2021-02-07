@@ -1,0 +1,29 @@
+{
+    "TaskArn": "",
+    "Options": {
+        "VerifyMode": "POINT_IN_TIME_CONSISTENT",
+        "OverwriteMode": "ALWAYS",
+        "Atime": "BEST_EFFORT",
+        "Mtime": "PRESERVE",
+        "Uid": "NONE",
+        "Gid": "NONE",
+        "PreserveDeletedFiles": "REMOVE",
+        "PreserveDevices": "NONE",
+        "PosixPermissions": "PRESERVE",
+        "BytesPerSecond": 0,
+        "TaskQueueing": "ENABLED",
+        "LogLevel": "OFF",
+        "TransferMode": "ALL"
+    },
+    "Excludes": [
+        {
+            "FilterType": "SIMPLE_PATTERN",
+            "Value": ""
+        }
+    ],
+    "Schedule": {
+        "ScheduleExpression": ""
+    },
+    "Name": "",
+    "CloudWatchLogGroupArn": ""
+}

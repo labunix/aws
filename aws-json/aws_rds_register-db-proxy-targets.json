@@ -1,0 +1,10 @@
+{
+    "DBProxyName": "",
+    "TargetGroupName": "",
+    "DBInstanceIdentifiers": [
+        ""
+    ],
+    "DBClusterIdentifiers": [
+        ""
+    ]
+}

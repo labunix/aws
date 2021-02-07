@@ -1,0 +1,15 @@
+{
+    "InstanceArn": "",
+    "InstanceAccessControlAttributeConfiguration": {
+        "AccessControlAttributes": [
+            {
+                "Key": "",
+                "Value": {
+                    "Source": [
+                        ""
+                    ]
+                }
+            }
+        ]
+    }
+}

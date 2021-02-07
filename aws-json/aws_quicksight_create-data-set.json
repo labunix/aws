@@ -1,0 +1,150 @@
+{
+    "AwsAccountId": "",
+    "DataSetId": "",
+    "Name": "",
+    "PhysicalTableMap": {
+        "KeyName": {
+            "RelationalTable": {
+                "DataSourceArn": "",
+                "Catalog": "",
+                "Schema": "",
+                "Name": "",
+                "InputColumns": [
+                    {
+                        "Name": "",
+                        "Type": "STRING"
+                    }
+                ]
+            },
+            "CustomSql": {
+                "DataSourceArn": "",
+                "Name": "",
+                "SqlQuery": "",
+                "Columns": [
+                    {
+                        "Name": "",
+                        "Type": "STRING"
+                    }
+                ]
+            },
+            "S3Source": {
+                "DataSourceArn": "",
+                "UploadSettings": {
+                    "Format": "JSON",
+                    "StartFromRow": 0,
+                    "ContainsHeader": true,
+                    "TextQualifier": "SINGLE_QUOTE",
+                    "Delimiter": ""
+                },
+                "InputColumns": [
+                    {
+                        "Name": "",
+                        "Type": "STRING"
+                    }
+                ]
+            }
+        }
+    },
+    "LogicalTableMap": {
+        "KeyName": {
+            "Alias": "",
+            "DataTransforms": [
+                {
+                    "ProjectOperation": {
+                        "ProjectedColumns": [
+                            ""
+                        ]
+                    },
+                    "FilterOperation": {
+                        "ConditionExpression": ""
+                    },
+                    "CreateColumnsOperation": {
+                        "Columns": [
+                            {
+                                "ColumnName": "",
+                                "ColumnId": "",
+                                "Expression": ""
+                            }
+                        ]
+                    },
+                    "RenameColumnOperation": {
+                        "ColumnName": "",
+                        "NewColumnName": ""
+                    },
+                    "CastColumnTypeOperation": {
+                        "ColumnName": "",
+                        "NewColumnType": "STRING",
+                        "Format": ""
+                    },
+                    "TagColumnOperation": {
+                        "ColumnName": "",
+                        "Tags": [
+                            {
+                                "ColumnGeographicRole": "CITY",
+                                "ColumnDescription": {
+                                    "Text": ""
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "Source": {
+                "JoinInstruction": {
+                    "LeftOperand": "",
+                    "RightOperand": "",
+                    "LeftJoinKeyProperties": {
+                        "UniqueKey": true
+                    },
+                    "RightJoinKeyProperties": {
+                        "UniqueKey": true
+                    },
+                    "Type": "LEFT",
+                    "OnClause": ""
+                },
+                "PhysicalTableId": ""
+            }
+        }
+    },
+    "ImportMode": "DIRECT_QUERY",
+    "ColumnGroups": [
+        {
+            "GeoSpatialColumnGroup": {
+                "Name": "",
+                "CountryCode": "US",
+                "Columns": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "Permissions": [
+        {
+            "Principal": "",
+            "Actions": [
+                ""
+            ]
+        }
+    ],
+    "RowLevelPermissionDataSet": {
+        "Namespace": "",
+        "Arn": "",
+        "PermissionPolicy": "GRANT_ACCESS"
+    },
+    "ColumnLevelPermissionRules": [
+        {
+            "Principals": [
+                ""
+            ],
+            "ColumnNames": [
+                ""
+            ]
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

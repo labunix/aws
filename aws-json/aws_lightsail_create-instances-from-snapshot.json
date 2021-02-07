@@ -1,0 +1,35 @@
+{
+    "instanceNames": [
+        ""
+    ],
+    "attachedDiskMapping": {
+        "KeyName": [
+            {
+                "originalDiskPath": "",
+                "newDiskName": ""
+            }
+        ]
+    },
+    "availabilityZone": "",
+    "instanceSnapshotName": "",
+    "bundleId": "",
+    "userData": "",
+    "keyPairName": "",
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ],
+    "addOns": [
+        {
+            "addOnType": "AutoSnapshot",
+            "autoSnapshotAddOnRequest": {
+                "snapshotTimeOfDay": ""
+            }
+        }
+    ],
+    "sourceInstanceName": "",
+    "restoreDate": "",
+    "useLatestRestorableAutoSnapshot": true
+}

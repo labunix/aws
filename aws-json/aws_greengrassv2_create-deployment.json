@@ -1,0 +1,57 @@
+{
+    "targetArn": "",
+    "deploymentName": "",
+    "components": {
+        "KeyName": {
+            "componentVersion": "",
+            "configurationUpdate": {
+                "merge": "",
+                "reset": [
+                    ""
+                ]
+            },
+            "runWith": {
+                "posixUser": ""
+            }
+        }
+    },
+    "iotJobConfiguration": {
+        "jobExecutionsRolloutConfig": {
+            "exponentialRate": {
+                "baseRatePerMinute": 0,
+                "incrementFactor": null,
+                "rateIncreaseCriteria": {
+                    "numberOfNotifiedThings": 0,
+                    "numberOfSucceededThings": 0
+                }
+            },
+            "maximumPerMinute": 0
+        },
+        "abortConfig": {
+            "criteriaList": [
+                {
+                    "failureType": "FAILED",
+                    "action": "CANCEL",
+                    "thresholdPercentage": null,
+                    "minNumberOfExecutedThings": 0
+                }
+            ]
+        },
+        "timeoutConfig": {
+            "inProgressTimeoutInMinutes": 0
+        }
+    },
+    "deploymentPolicies": {
+        "failureHandlingPolicy": "ROLLBACK",
+        "componentUpdatePolicy": {
+            "timeoutInSeconds": 0,
+            "action": "SKIP_NOTIFY_COMPONENTS"
+        },
+        "configurationValidationPolicy": {
+            "timeoutInSeconds": 0
+        }
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

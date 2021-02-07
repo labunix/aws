@@ -1,0 +1,9 @@
+{
+    "ProtectionGroupId": "",
+    "Aggregation": "MAX",
+    "Pattern": "ARBITRARY",
+    "ResourceType": "ELASTIC_IP_ALLOCATION",
+    "Members": [
+        ""
+    ]
+}

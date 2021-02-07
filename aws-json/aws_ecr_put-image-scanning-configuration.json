@@ -1,0 +1,7 @@
+{
+    "registryId": "",
+    "repositoryName": "",
+    "imageScanningConfiguration": {
+        "scanOnPush": true
+    }
+}

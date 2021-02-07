@@ -1,0 +1,11 @@
+{
+    "ExportTaskIdentifier": "",
+    "SourceArn": "",
+    "S3BucketName": "",
+    "IamRoleArn": "",
+    "KmsKeyId": "",
+    "S3Prefix": "",
+    "ExportOnly": [
+        ""
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "ConfigRuleName": "",
+    "ResourceKeys": [
+        {
+            "resourceType": "AWS::ShieldRegional::Protection",
+            "resourceId": ""
+        }
+    ],
+    "Limit": 0,
+    "NextToken": ""
+}

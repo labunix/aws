@@ -1,0 +1,6 @@
+{
+    "SipMediaApplicationId": "",
+    "SipMediaApplicationLoggingConfiguration": {
+        "EnableSipMediaApplicationMessageLogs": true
+    }
+}

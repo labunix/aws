@@ -1,0 +1,13 @@
+{
+    "EmailIdentity": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "DkimSigningAttributes": {
+        "DomainSigningSelector": "",
+        "DomainSigningPrivateKey": ""
+    }
+}

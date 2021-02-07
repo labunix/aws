@@ -1,0 +1,13 @@
+{
+    "projectArn": "",
+    "name": "",
+    "description": "",
+    "rules": [
+        {
+            "attribute": "AVAILABILITY",
+            "operator": "NOT_IN",
+            "value": ""
+        }
+    ],
+    "maxDevices": 0
+}

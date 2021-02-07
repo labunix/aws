@@ -1,0 +1,17 @@
+{
+    "Name": "",
+    "Version": "",
+    "StorageLocation": {
+        "Bucket": "",
+        "Key": "",
+        "RoleArn": "",
+        "ObjectVersion": ""
+    },
+    "OperatingSystem": "AMAZON_LINUX",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

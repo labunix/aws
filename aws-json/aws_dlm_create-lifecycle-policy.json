@@ -1,0 +1,112 @@
+{
+    "ExecutionRoleArn": "",
+    "Description": "",
+    "State": "DISABLED",
+    "PolicyDetails": {
+        "PolicyType": "EBS_SNAPSHOT_MANAGEMENT",
+        "ResourceTypes": [
+            "INSTANCE"
+        ],
+        "TargetTags": [
+            {
+                "Key": "",
+                "Value": ""
+            }
+        ],
+        "Schedules": [
+            {
+                "Name": "",
+                "CopyTags": true,
+                "TagsToAdd": [
+                    {
+                        "Key": "",
+                        "Value": ""
+                    }
+                ],
+                "VariableTags": [
+                    {
+                        "Key": "",
+                        "Value": ""
+                    }
+                ],
+                "CreateRule": {
+                    "Interval": 0,
+                    "IntervalUnit": "HOURS",
+                    "Times": [
+                        ""
+                    ],
+                    "CronExpression": ""
+                },
+                "RetainRule": {
+                    "Count": 0,
+                    "Interval": 0,
+                    "IntervalUnit": "DAYS"
+                },
+                "FastRestoreRule": {
+                    "Count": 0,
+                    "Interval": 0,
+                    "IntervalUnit": "WEEKS",
+                    "AvailabilityZones": [
+                        ""
+                    ]
+                },
+                "CrossRegionCopyRules": [
+                    {
+                        "TargetRegion": "",
+                        "Encrypted": true,
+                        "CmkArn": "",
+                        "CopyTags": true,
+                        "RetainRule": {
+                            "Interval": 0,
+                            "IntervalUnit": "MONTHS"
+                        }
+                    }
+                ],
+                "ShareRules": [
+                    {
+                        "TargetAccounts": [
+                            ""
+                        ],
+                        "UnshareInterval": 0,
+                        "UnshareIntervalUnit": "YEARS"
+                    }
+                ]
+            }
+        ],
+        "Parameters": {
+            "ExcludeBootVolume": true,
+            "NoReboot": true
+        },
+        "EventSource": {
+            "Type": "MANAGED_CWE",
+            "Parameters": {
+                "EventType": "shareSnapshot",
+                "SnapshotOwner": [
+                    ""
+                ],
+                "DescriptionRegex": ""
+            }
+        },
+        "Actions": [
+            {
+                "Name": "",
+                "CrossRegionCopy": [
+                    {
+                        "Target": "",
+                        "EncryptionConfiguration": {
+                            "Encrypted": true,
+                            "CmkArn": ""
+                        },
+                        "RetainRule": {
+                            "Interval": 0,
+                            "IntervalUnit": "YEARS"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Tags": {
+        "KeyName": ""
+    }
+}

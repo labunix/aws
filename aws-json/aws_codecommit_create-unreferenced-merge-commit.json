@@ -1,0 +1,33 @@
+{
+    "repositoryName": "",
+    "sourceCommitSpecifier": "",
+    "destinationCommitSpecifier": "",
+    "mergeOption": "SQUASH_MERGE",
+    "conflictDetailLevel": "LINE_LEVEL",
+    "conflictResolutionStrategy": "NONE",
+    "authorName": "",
+    "email": "",
+    "commitMessage": "",
+    "keepEmptyFolders": true,
+    "conflictResolution": {
+        "replaceContents": [
+            {
+                "filePath": "",
+                "replacementType": "KEEP_DESTINATION",
+                "content": null,
+                "fileMode": "NORMAL"
+            }
+        ],
+        "deleteFiles": [
+            {
+                "filePath": ""
+            }
+        ],
+        "setFileModes": [
+            {
+                "filePath": "",
+                "fileMode": "SYMLINK"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "EgressAccessLogs": {
+        "LogGroupName": ""
+    },
+    "Id": "",
+    "IngressAccessLogs": {
+        "LogGroupName": ""
+    }
+}

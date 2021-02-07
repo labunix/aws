@@ -1,0 +1,35 @@
+{
+    "ClusterId": "",
+    "InstanceGroups": [
+        {
+            "InstanceGroupId": "",
+            "InstanceCount": 0,
+            "EC2InstanceIdsToTerminate": [
+                ""
+            ],
+            "ShrinkPolicy": {
+                "DecommissionTimeout": 0,
+                "InstanceResizePolicy": {
+                    "InstancesToTerminate": [
+                        ""
+                    ],
+                    "InstancesToProtect": [
+                        ""
+                    ],
+                    "InstanceTerminationTimeout": 0
+                }
+            },
+            "Configurations": [
+                {
+                    "Classification": "",
+                    "Configurations": [
+                        {}
+                    ],
+                    "Properties": {
+                        "KeyName": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

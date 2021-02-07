@@ -1,0 +1,14 @@
+{
+    "ApiId": "",
+    "ContentHandlingStrategy": "CONVERT_TO_TEXT",
+    "IntegrationId": "",
+    "IntegrationResponseId": "",
+    "IntegrationResponseKey": "",
+    "ResponseParameters": {
+        "KeyName": ""
+    },
+    "ResponseTemplates": {
+        "KeyName": ""
+    },
+    "TemplateSelectionExpression": ""
+}

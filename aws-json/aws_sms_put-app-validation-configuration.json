@@ -1,0 +1,60 @@
+{
+    "appId": "",
+    "appValidationConfigurations": [
+        {
+            "validationId": "",
+            "name": "",
+            "appValidationStrategy": "SSM",
+            "ssmValidationParameters": {
+                "source": {
+                    "s3Location": {
+                        "bucket": "",
+                        "key": ""
+                    }
+                },
+                "instanceId": "",
+                "scriptType": "POWERSHELL_SCRIPT",
+                "command": "",
+                "executionTimeoutSeconds": 0,
+                "outputS3BucketName": ""
+            }
+        }
+    ],
+    "serverGroupValidationConfigurations": [
+        {
+            "serverGroupId": "",
+            "serverValidationConfigurations": [
+                {
+                    "server": {
+                        "serverId": "",
+                        "serverType": "VIRTUAL_MACHINE",
+                        "vmServer": {
+                            "vmServerAddress": {
+                                "vmManagerId": "",
+                                "vmId": ""
+                            },
+                            "vmName": "",
+                            "vmManagerName": "",
+                            "vmManagerType": "VSPHERE",
+                            "vmPath": ""
+                        },
+                        "replicationJobId": "",
+                        "replicationJobTerminated": true
+                    },
+                    "validationId": "",
+                    "name": "",
+                    "serverValidationStrategy": "USERDATA",
+                    "userDataValidationParameters": {
+                        "source": {
+                            "s3Location": {
+                                "bucket": "",
+                                "key": ""
+                            }
+                        },
+                        "scriptType": "POWERSHELL_SCRIPT"
+                    }
+                }
+            ]
+        }
+    ]
+}

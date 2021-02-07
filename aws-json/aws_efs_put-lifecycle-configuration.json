@@ -1,0 +1,8 @@
+{
+    "FileSystemId": "",
+    "LifecyclePolicies": [
+        {
+            "TransitionToIA": "AFTER_90_DAYS"
+        }
+    ]
+}

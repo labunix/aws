@@ -1,0 +1,48 @@
+MEDIAPACKAGE-VOD()                                          MEDIAPACKAGE-VOD()
+
+
+
+NNAAMMEE
+       mediapackage-vod -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS Elemental MediaPackage VOD
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-asset
+
+       +o create-packaging-configuration
+
+       +o create-packaging-group
+
+       +o delete-asset
+
+       +o delete-packaging-configuration
+
+       +o delete-packaging-group
+
+       +o describe-asset
+
+       +o describe-packaging-configuration
+
+       +o describe-packaging-group
+
+       +o help
+
+       +o list-assets
+
+       +o list-packaging-configurations
+
+       +o list-packaging-groups
+
+       +o list-tags-for-resource
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-packaging-group
+
+
+
+                                                            MEDIAPACKAGE-VOD()

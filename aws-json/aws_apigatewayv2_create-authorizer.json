@@ -1,0 +1,20 @@
+{
+    "ApiId": "",
+    "AuthorizerCredentialsArn": "",
+    "AuthorizerPayloadFormatVersion": "",
+    "AuthorizerResultTtlInSeconds": 0,
+    "AuthorizerType": "REQUEST",
+    "AuthorizerUri": "",
+    "EnableSimpleResponses": true,
+    "IdentitySource": [
+        ""
+    ],
+    "IdentityValidationExpression": "",
+    "JwtConfiguration": {
+        "Audience": [
+            ""
+        ],
+        "Issuer": ""
+    },
+    "Name": ""
+}

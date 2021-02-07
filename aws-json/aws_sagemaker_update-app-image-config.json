@@ -1,0 +1,16 @@
+{
+    "AppImageConfigName": "",
+    "KernelGatewayImageConfig": {
+        "KernelSpecs": [
+            {
+                "Name": "",
+                "DisplayName": ""
+            }
+        ],
+        "FileSystemConfig": {
+            "MountPath": "",
+            "DefaultUid": 0,
+            "DefaultGid": 0
+        }
+    }
+}

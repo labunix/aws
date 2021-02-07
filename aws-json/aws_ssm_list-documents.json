@@ -1,0 +1,18 @@
+{
+    "DocumentFilterList": [
+        {
+            "key": "Owner",
+            "value": ""
+        }
+    ],
+    "Filters": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

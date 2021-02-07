@@ -1,0 +1,19 @@
+{
+    "Domain": "vpc",
+    "Address": "",
+    "PublicIpv4Pool": "",
+    "NetworkBorderGroup": "",
+    "CustomerOwnedIpv4Pool": "",
+    "DryRun": true,
+    "TagSpecifications": [
+        {
+            "ResourceType": "transit-gateway-attachment",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ]
+}

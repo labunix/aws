@@ -1,0 +1,32 @@
+{
+    "deploymentConfig": {
+        "concurrentDeploymentPercentage": 0,
+        "failureThresholdPercentage": 0,
+        "robotDeploymentTimeoutInSeconds": 0,
+        "downloadConditionFile": {
+            "bucket": "",
+            "key": "",
+            "etag": ""
+        }
+    },
+    "clientRequestToken": "",
+    "fleet": "",
+    "deploymentApplicationConfigs": [
+        {
+            "application": "",
+            "applicationVersion": "",
+            "launchConfig": {
+                "packageName": "",
+                "preLaunchFile": "",
+                "launchFile": "",
+                "postLaunchFile": "",
+                "environmentVariables": {
+                    "KeyName": ""
+                }
+            }
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    }
+}

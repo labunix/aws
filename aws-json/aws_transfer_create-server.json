@@ -1,0 +1,34 @@
+{
+    "Certificate": "",
+    "EndpointDetails": {
+        "AddressAllocationIds": [
+            ""
+        ],
+        "SubnetIds": [
+            ""
+        ],
+        "VpcEndpointId": "",
+        "VpcId": "",
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "EndpointType": "VPC",
+    "HostKey": "",
+    "IdentityProviderDetails": {
+        "Url": "",
+        "InvocationRole": ""
+    },
+    "IdentityProviderType": "API_GATEWAY",
+    "LoggingRole": "",
+    "Protocols": [
+        "SFTP"
+    ],
+    "SecurityPolicyName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "JobName": "",
+    "JobUpdate": {
+        "Description": "",
+        "LogUri": "",
+        "Role": "",
+        "ExecutionProperty": {
+            "MaxConcurrentRuns": 0
+        },
+        "Command": {
+            "Name": "",
+            "ScriptLocation": "",
+            "PythonVersion": ""
+        },
+        "DefaultArguments": {
+            "KeyName": ""
+        },
+        "NonOverridableArguments": {
+            "KeyName": ""
+        },
+        "Connections": {
+            "Connections": [
+                ""
+            ]
+        },
+        "MaxRetries": 0,
+        "AllocatedCapacity": 0,
+        "Timeout": 0,
+        "MaxCapacity": null,
+        "WorkerType": "G.1X",
+        "NumberOfWorkers": 0,
+        "SecurityConfiguration": "",
+        "NotificationProperty": {
+            "NotifyDelayAfter": 0
+        },
+        "GlueVersion": ""
+    }
+}

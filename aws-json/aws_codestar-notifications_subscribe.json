@@ -1,0 +1,8 @@
+{
+    "Arn": "",
+    "Target": {
+        "TargetType": "",
+        "TargetAddress": ""
+    },
+    "ClientRequestToken": ""
+}

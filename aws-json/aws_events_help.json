@@ -1,0 +1,117 @@
+EVENTS()                                                              EVENTS()
+
+
+
+NNAAMMEE
+       events -
+
+DDEESSCCRRIIPPTTIIOONN
+       Amazon  EventBridge  helps  you to respond to state changes in your AWS
+       resources. When your resources change state,  they  automatically  send
+       events  into  an event stream. You can create rules that match selected
+       events in the stream and route them to targets to take action. You  can
+       also use rules to take action on a predetermined schedule. For example,
+       you can configure rules to:
+
+       +o Automatically invoke an AWS Lambda function  to  update  DNS  entries
+         when  an  event notifies you that Amazon EC2 instance enters the run-
+         ning state.
+
+       +o Direct specific API records from AWS CloudTrail to an Amazon  Kinesis
+         data stream for detailed analysis of potential security or availabil-
+         ity risks.
+
+       +o Periodically invoke a built-in target to create a snapshot of an Ama-
+         zon EBS volume.
+
+       For  more information about the features of Amazon EventBridge, see the
+       _A_m_a_z_o_n _E_v_e_n_t_B_r_i_d_g_e _U_s_e_r _G_u_i_d_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o activate-event-source
+
+       +o cancel-replay
+
+       +o create-archive
+
+       +o create-event-bus
+
+       +o create-partner-event-source
+
+       +o deactivate-event-source
+
+       +o delete-archive
+
+       +o delete-event-bus
+
+       +o delete-partner-event-source
+
+       +o delete-rule
+
+       +o describe-archive
+
+       +o describe-event-bus
+
+       +o describe-event-source
+
+       +o describe-partner-event-source
+
+       +o describe-replay
+
+       +o describe-rule
+
+       +o disable-rule
+
+       +o enable-rule
+
+       +o help
+
+       +o list-archives
+
+       +o list-event-buses
+
+       +o list-event-sources
+
+       +o list-partner-event-source-accounts
+
+       +o list-partner-event-sources
+
+       +o list-replays
+
+       +o list-rule-names-by-target
+
+       +o list-rules
+
+       +o list-tags-for-resource
+
+       +o list-targets-by-rule
+
+       +o put-events
+
+       +o put-partner-events
+
+       +o put-permission
+
+       +o put-rule
+
+       +o put-targets
+
+       +o remove-permission
+
+       +o remove-targets
+
+       +o start-replay
+
+       +o tag-resource
+
+       +o test-event-pattern
+
+       +o untag-resource
+
+       +o update-archive
+
+       +o wizard
+
+
+
+                                                                      EVENTS()

@@ -1,0 +1,19 @@
+{
+    "ScheduleName": "",
+    "S3BucketName": "",
+    "S3KeyPrefix": "",
+    "Format": "CSV",
+    "ContentRange": {
+        "Interval": "ONE_WEEK"
+    },
+    "Recurrence": {
+        "StartDate": ""
+    },
+    "ClientRequestToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

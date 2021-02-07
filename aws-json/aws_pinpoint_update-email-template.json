@@ -1,0 +1,16 @@
+{
+    "CreateNewVersion": true,
+    "EmailTemplateRequest": {
+        "DefaultSubstitutions": "",
+        "HtmlPart": "",
+        "RecommenderId": "",
+        "Subject": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "TemplateDescription": "",
+        "TextPart": ""
+    },
+    "TemplateName": "",
+    "Version": ""
+}

@@ -1,0 +1,17 @@
+{
+    "StreamName": "",
+    "StreamARN": "",
+    "PlaybackMode": "LIVE_REPLAY",
+    "HLSFragmentSelector": {
+        "FragmentSelectorType": "PRODUCER_TIMESTAMP",
+        "TimestampRange": {
+            "StartTimestamp": "1970-01-01T00:00:00",
+            "EndTimestamp": "1970-01-01T00:00:00"
+        }
+    },
+    "ContainerFormat": "MPEG_TS",
+    "DiscontinuityMode": "ON_DISCONTINUITY",
+    "DisplayFragmentTimestamp": "NEVER",
+    "Expires": 0,
+    "MaxMediaPlaylistFragmentResults": 0
+}

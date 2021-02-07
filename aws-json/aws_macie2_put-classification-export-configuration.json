@@ -1,0 +1,9 @@
+{
+    "configuration": {
+        "s3Destination": {
+            "bucketName": "",
+            "keyPrefix": "",
+            "kmsKeyArn": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "CognitoConfig": {
+        "UserPool": "",
+        "ClientId": ""
+    },
+    "OidcConfig": {
+        "ClientId": "",
+        "ClientSecret": "",
+        "Issuer": "",
+        "AuthorizationEndpoint": "",
+        "TokenEndpoint": "",
+        "UserInfoEndpoint": "",
+        "LogoutEndpoint": "",
+        "JwksUri": ""
+    },
+    "SourceIpConfig": {
+        "Cidrs": [
+            ""
+        ]
+    },
+    "WorkforceName": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

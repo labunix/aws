@@ -1,0 +1,14 @@
+{
+    "ProjectName": "",
+    "DatasetType": "",
+    "DatasetSource": {
+        "GroundTruthManifest": {
+            "S3Object": {
+                "Bucket": "",
+                "Key": "",
+                "VersionId": ""
+            }
+        }
+    },
+    "ClientToken": ""
+}

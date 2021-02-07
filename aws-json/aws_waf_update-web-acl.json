@@ -1,0 +1,28 @@
+{
+    "WebACLId": "",
+    "ChangeToken": "",
+    "Updates": [
+        {
+            "Action": "DELETE",
+            "ActivatedRule": {
+                "Priority": 0,
+                "RuleId": "",
+                "Action": {
+                    "Type": "ALLOW"
+                },
+                "OverrideAction": {
+                    "Type": "NONE"
+                },
+                "Type": "REGULAR",
+                "ExcludedRules": [
+                    {
+                        "RuleId": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "DefaultAction": {
+        "Type": "ALLOW"
+    }
+}

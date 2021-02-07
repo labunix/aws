@@ -1,0 +1,9 @@
+{
+    "resourceName": "",
+    "addOnRequest": {
+        "addOnType": "AutoSnapshot",
+        "autoSnapshotAddOnRequest": {
+            "snapshotTimeOfDay": ""
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "reportArn": "",
+    "nextToken": "",
+    "maxResults": 0,
+    "sortOrder": "DESCENDING",
+    "sortBy": "FILE_PATH",
+    "minLineCoveragePercentage": null,
+    "maxLineCoveragePercentage": null
+}

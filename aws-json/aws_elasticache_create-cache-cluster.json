@@ -1,0 +1,43 @@
+{
+    "CacheClusterId": "",
+    "ReplicationGroupId": "",
+    "AZMode": "single-az",
+    "PreferredAvailabilityZone": "",
+    "PreferredAvailabilityZones": [
+        ""
+    ],
+    "NumCacheNodes": 0,
+    "CacheNodeType": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "CacheParameterGroupName": "",
+    "CacheSubnetGroupName": "",
+    "CacheSecurityGroupNames": [
+        ""
+    ],
+    "SecurityGroupIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "SnapshotArns": [
+        ""
+    ],
+    "SnapshotName": "",
+    "PreferredMaintenanceWindow": "",
+    "Port": 0,
+    "NotificationTopicArn": "",
+    "AutoMinorVersionUpgrade": true,
+    "SnapshotRetentionLimit": 0,
+    "SnapshotWindow": "",
+    "AuthToken": "",
+    "OutpostMode": "single-outpost",
+    "PreferredOutpostArn": "",
+    "PreferredOutpostArns": [
+        ""
+    ]
+}

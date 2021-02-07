@@ -1,0 +1,20 @@
+{
+    "fargateProfileName": "",
+    "clusterName": "",
+    "podExecutionRoleArn": "",
+    "subnets": [
+        ""
+    ],
+    "selectors": [
+        {
+            "namespace": "",
+            "labels": {
+                "KeyName": ""
+            }
+        }
+    ],
+    "clientRequestToken": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

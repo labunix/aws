@@ -1,0 +1,19 @@
+{
+    "authorizerName": "",
+    "token": "",
+    "tokenSignature": "",
+    "httpContext": {
+        "headers": {
+            "KeyName": ""
+        },
+        "queryString": ""
+    },
+    "mqttContext": {
+        "username": "",
+        "password": null,
+        "clientId": ""
+    },
+    "tlsContext": {
+        "serverName": ""
+    }
+}

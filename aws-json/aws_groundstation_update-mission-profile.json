@@ -1,0 +1,13 @@
+{
+    "contactPostPassDurationSeconds": 0,
+    "contactPrePassDurationSeconds": 0,
+    "dataflowEdges": [
+        [
+            ""
+        ]
+    ],
+    "minimumViableContactDurationSeconds": 0,
+    "missionProfileId": "",
+    "name": "",
+    "trackingConfigArn": ""
+}

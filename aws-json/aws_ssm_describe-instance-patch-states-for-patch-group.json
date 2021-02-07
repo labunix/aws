@@ -1,0 +1,14 @@
+{
+    "PatchGroup": "",
+    "Filters": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "Type": "Equal"
+        }
+    ],
+    "NextToken": "",
+    "MaxResults": 0
+}

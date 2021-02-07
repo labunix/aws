@@ -1,0 +1,16 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "meshOwner": "",
+    "spec": {
+        "provider": {
+            "virtualNode": {
+                "virtualNodeName": ""
+            },
+            "virtualRouter": {
+                "virtualRouterName": ""
+            }
+        }
+    },
+    "virtualServiceName": ""
+}

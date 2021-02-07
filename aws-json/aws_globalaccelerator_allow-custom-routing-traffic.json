@@ -1,0 +1,11 @@
+{
+    "EndpointGroupArn": "",
+    "EndpointId": "",
+    "DestinationAddresses": [
+        ""
+    ],
+    "DestinationPorts": [
+        0
+    ],
+    "AllowAllTrafficToEndpoint": true
+}

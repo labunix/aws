@@ -1,0 +1,78 @@
+{
+    "DomainName": "",
+    "ElasticsearchClusterConfig": {
+        "InstanceType": "i3.4xlarge.elasticsearch",
+        "InstanceCount": 0,
+        "DedicatedMasterEnabled": true,
+        "ZoneAwarenessEnabled": true,
+        "ZoneAwarenessConfig": {
+            "AvailabilityZoneCount": 0
+        },
+        "DedicatedMasterType": "m5.2xlarge.elasticsearch",
+        "DedicatedMasterCount": 0,
+        "WarmEnabled": true,
+        "WarmType": "ultrawarm1.medium.elasticsearch",
+        "WarmCount": 0
+    },
+    "EBSOptions": {
+        "EBSEnabled": true,
+        "VolumeType": "standard",
+        "VolumeSize": 0,
+        "Iops": 0
+    },
+    "SnapshotOptions": {
+        "AutomatedSnapshotStartHour": 0
+    },
+    "VPCOptions": {
+        "SubnetIds": [
+            ""
+        ],
+        "SecurityGroupIds": [
+            ""
+        ]
+    },
+    "CognitoOptions": {
+        "Enabled": true,
+        "UserPoolId": "",
+        "IdentityPoolId": "",
+        "RoleArn": ""
+    },
+    "AdvancedOptions": {
+        "KeyName": ""
+    },
+    "AccessPolicies": "",
+    "LogPublishingOptions": {
+        "KeyName": {
+            "CloudWatchLogsLogGroupArn": "",
+            "Enabled": true
+        }
+    },
+    "DomainEndpointOptions": {
+        "EnforceHTTPS": true,
+        "TLSSecurityPolicy": "Policy-Min-TLS-1-0-2019-07",
+        "CustomEndpointEnabled": true,
+        "CustomEndpoint": "",
+        "CustomEndpointCertificateArn": ""
+    },
+    "AdvancedSecurityOptions": {
+        "Enabled": true,
+        "InternalUserDatabaseEnabled": true,
+        "MasterUserOptions": {
+            "MasterUserARN": "",
+            "MasterUserName": "",
+            "MasterUserPassword": ""
+        },
+        "SAMLOptions": {
+            "Enabled": true,
+            "Idp": {
+                "MetadataContent": "",
+                "EntityId": ""
+            },
+            "MasterUserName": "",
+            "MasterBackendRole": "",
+            "SubjectKey": "",
+            "RolesKey": "",
+            "SessionTimeoutMinutes": 0
+        }
+    }
+}

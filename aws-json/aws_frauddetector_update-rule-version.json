@@ -1,0 +1,19 @@
+{
+    "rule": {
+        "detectorId": "",
+        "ruleId": "",
+        "ruleVersion": ""
+    },
+    "description": "",
+    "expression": "",
+    "language": "DETECTORPL",
+    "outcomes": [
+        ""
+    ],
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

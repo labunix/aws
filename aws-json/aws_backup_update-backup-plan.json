@@ -1,0 +1,39 @@
+{
+    "BackupPlanId": "",
+    "BackupPlan": {
+        "BackupPlanName": "",
+        "Rules": [
+            {
+                "RuleName": "",
+                "TargetBackupVaultName": "",
+                "ScheduleExpression": "",
+                "StartWindowMinutes": 0,
+                "CompletionWindowMinutes": 0,
+                "Lifecycle": {
+                    "MoveToColdStorageAfterDays": 0,
+                    "DeleteAfterDays": 0
+                },
+                "RecoveryPointTags": {
+                    "KeyName": ""
+                },
+                "CopyActions": [
+                    {
+                        "Lifecycle": {
+                            "MoveToColdStorageAfterDays": 0,
+                            "DeleteAfterDays": 0
+                        },
+                        "DestinationBackupVaultArn": ""
+                    }
+                ]
+            }
+        ],
+        "AdvancedBackupSettings": [
+            {
+                "ResourceType": "",
+                "BackupOptions": {
+                    "KeyName": ""
+                }
+            }
+        ]
+    }
+}

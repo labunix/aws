@@ -1,0 +1,20 @@
+MARKETPLACECOMMERCEANALYTICS()                  MARKETPLACECOMMERCEANALYTICS()
+
+
+
+NNAAMMEE
+       marketplacecommerceanalytics -
+
+DDEESSCCRRIIPPTTIIOONN
+       Provides AWS Marketplace business intelligence data on-demand.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o generate-data-set
+
+       +o help
+
+       +o start-support-data-export
+
+
+
+                                                MARKETPLACECOMMERCEANALYTICS()

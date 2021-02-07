@@ -1,0 +1,24 @@
+{
+    "detectors": [
+        {
+            "messageId": "",
+            "detectorModelName": "",
+            "keyValue": "",
+            "state": {
+                "stateName": "",
+                "variables": [
+                    {
+                        "name": "",
+                        "value": ""
+                    }
+                ],
+                "timers": [
+                    {
+                        "name": "",
+                        "seconds": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

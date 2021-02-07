@@ -1,0 +1,36 @@
+{
+    "SourceLocationArn": "",
+    "DestinationLocationArn": "",
+    "CloudWatchLogGroupArn": "",
+    "Name": "",
+    "Options": {
+        "VerifyMode": "NONE",
+        "OverwriteMode": "NEVER",
+        "Atime": "NONE",
+        "Mtime": "NONE",
+        "Uid": "BOTH",
+        "Gid": "NONE",
+        "PreserveDeletedFiles": "REMOVE",
+        "PreserveDevices": "NONE",
+        "PosixPermissions": "NONE",
+        "BytesPerSecond": 0,
+        "TaskQueueing": "DISABLED",
+        "LogLevel": "TRANSFER",
+        "TransferMode": "ALL"
+    },
+    "Excludes": [
+        {
+            "FilterType": "SIMPLE_PATTERN",
+            "Value": ""
+        }
+    ],
+    "Schedule": {
+        "ScheduleExpression": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

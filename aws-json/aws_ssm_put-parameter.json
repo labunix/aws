@@ -1,0 +1,18 @@
+{
+    "Name": "",
+    "Description": "",
+    "Value": "",
+    "Type": "SecureString",
+    "KeyId": "",
+    "Overwrite": true,
+    "AllowedPattern": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "Tier": "Advanced",
+    "Policies": "",
+    "DataType": ""
+}

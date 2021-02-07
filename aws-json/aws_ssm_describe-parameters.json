@@ -1,0 +1,21 @@
+{
+    "Filters": [
+        {
+            "Key": "Type",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "ParameterFilters": [
+        {
+            "Key": "",
+            "Option": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

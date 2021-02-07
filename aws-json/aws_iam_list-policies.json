@@ -1,0 +1,8 @@
+{
+    "Scope": "AWS",
+    "OnlyAttached": true,
+    "PathPrefix": "",
+    "PolicyUsageFilter": "PermissionsPolicy",
+    "Marker": "",
+    "MaxItems": 0
+}

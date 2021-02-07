@@ -1,0 +1,12 @@
+{
+    "ResourceGroupName": "",
+    "OpsCenterEnabled": true,
+    "CWEMonitorEnabled": true,
+    "OpsItemSNSTopicArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

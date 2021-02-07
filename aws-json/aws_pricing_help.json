@@ -1,0 +1,47 @@
+PRICING()                                                            PRICING()
+
+
+
+NNAAMMEE
+       pricing -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS  Price  List  Service API (AWS Price List Service) is a centralized
+       and convenient way to programmatically query Amazon  Web  Services  for
+       services, products, and pricing information. The AWS Price List Service
+       uses standardized product attributes such as LLooccaattiioonn , SSttoorraaggee CCllaassss ,
+       and  OOppeerraattiinngg  SSyysstteemm  , and provides prices at the SKU level. You can
+       use the AWS Price List Service to build cost control and scenario plan-
+       ning tools, reconcile billing data, forecast future spend for budgeting
+       purposes, and provide cost benefit analysis that compare your  internal
+       workloads with AWS.
+
+       Use  GGeettSSeerrvviicceess  without  a service code to retrieve the service codes
+       for all AWS services, then GGeettSSeerrvviicceess with a service code to  retreive
+       the  attribute  names for that service. After you have the service code
+       and attribute names, you can use GGeettAAttttrriibbuutteeVVaalluueess to see what  values
+       are  available for an attribute. With the service code and an attribute
+       name and value, you can use GGeettPPrroodduuccttss to find specific products  that
+       you're interested in, such as an AAmmaazzoonnEECC22 instance, with a PPrroovviissiioonneedd
+       IIOOPPSS  vvoolluummeeTTyyppee .
+
+       Service Endpoint
+
+       AWS Price List Service API provides the following two endpoints:
+
+       +o _h_t_t_p_s_:_/_/_a_p_i_._p_r_i_c_i_n_g_._u_s_-_e_a_s_t_-_1_._a_m_a_z_o_n_a_w_s_._c_o_m
+
+       +o _h_t_t_p_s_:_/_/_a_p_i_._p_r_i_c_i_n_g_._a_p_-_s_o_u_t_h_-_1_._a_m_a_z_o_n_a_w_s_._c_o_m
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o describe-services
+
+       +o get-attribute-values
+
+       +o get-products
+
+       +o help
+
+
+
+                                                                     PRICING()

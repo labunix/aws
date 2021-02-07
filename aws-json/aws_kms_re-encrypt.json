@@ -1,0 +1,16 @@
+{
+    "CiphertextBlob": null,
+    "SourceEncryptionContext": {
+        "KeyName": ""
+    },
+    "SourceKeyId": "",
+    "DestinationKeyId": "",
+    "DestinationEncryptionContext": {
+        "KeyName": ""
+    },
+    "SourceEncryptionAlgorithm": "RSAES_OAEP_SHA_256",
+    "DestinationEncryptionAlgorithm": "RSAES_OAEP_SHA_256",
+    "GrantTokens": [
+        ""
+    ]
+}

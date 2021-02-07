@@ -1,0 +1,8 @@
+{
+    "InstanceId": "",
+    "IntegrationType": "EVENT",
+    "IntegrationArn": "",
+    "SourceApplicationUrl": "",
+    "SourceApplicationName": "",
+    "SourceType": "SALESFORCE"
+}

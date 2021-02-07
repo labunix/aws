@@ -1,0 +1,22 @@
+{
+    "DBClusterIdentifier": "",
+    "SourceDBClusterIdentifier": "",
+    "RestoreToTime": "1970-01-01T00:00:00",
+    "UseLatestRestorableTime": true,
+    "Port": 0,
+    "DBSubnetGroupName": "",
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "KmsKeyId": "",
+    "EnableCloudwatchLogsExports": [
+        ""
+    ],
+    "DeletionProtection": true
+}

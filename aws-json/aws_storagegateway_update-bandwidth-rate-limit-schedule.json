@@ -1,0 +1,16 @@
+{
+    "GatewayARN": "",
+    "BandwidthRateLimitIntervals": [
+        {
+            "StartHourOfDay": 0,
+            "StartMinuteOfHour": 0,
+            "EndHourOfDay": 0,
+            "EndMinuteOfHour": 0,
+            "DaysOfWeek": [
+                0
+            ],
+            "AverageUploadRateLimitInBitsPerSec": 0,
+            "AverageDownloadRateLimitInBitsPerSec": 0
+        }
+    ]
+}

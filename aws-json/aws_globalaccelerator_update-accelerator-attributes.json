@@ -1,0 +1,6 @@
+{
+    "AcceleratorArn": "",
+    "FlowLogsEnabled": true,
+    "FlowLogsS3Bucket": "",
+    "FlowLogsS3Prefix": ""
+}

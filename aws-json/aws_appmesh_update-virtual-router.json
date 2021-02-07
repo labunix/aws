@@ -1,0 +1,16 @@
+{
+    "clientToken": "",
+    "meshName": "",
+    "meshOwner": "",
+    "spec": {
+        "listeners": [
+            {
+                "portMapping": {
+                    "port": 0,
+                    "protocol": "http2"
+                }
+            }
+        ]
+    },
+    "virtualRouterName": ""
+}

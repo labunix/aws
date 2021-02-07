@@ -1,0 +1,21 @@
+{
+    "ConfigurationSetName": "",
+    "EventDestination": {
+        "CloudWatchLogsDestination": {
+            "IamRoleArn": "",
+            "LogGroupArn": ""
+        },
+        "Enabled": true,
+        "KinesisFirehoseDestination": {
+            "DeliveryStreamArn": "",
+            "IamRoleArn": ""
+        },
+        "MatchingEventTypes": [
+            "RINGING"
+        ],
+        "SnsDestination": {
+            "TopicArn": ""
+        }
+    },
+    "EventDestinationName": ""
+}

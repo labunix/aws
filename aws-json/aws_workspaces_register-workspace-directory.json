@@ -1,0 +1,15 @@
+{
+    "DirectoryId": "",
+    "SubnetIds": [
+        ""
+    ],
+    "EnableWorkDocs": true,
+    "EnableSelfService": true,
+    "Tenancy": "DEDICATED",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

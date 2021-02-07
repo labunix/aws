@@ -1,0 +1,16 @@
+{
+    "DeviceFleetName": "",
+    "Devices": [
+        {
+            "DeviceName": "",
+            "Description": "",
+            "IotThingName": ""
+        }
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

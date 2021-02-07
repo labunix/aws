@@ -1,0 +1,20 @@
+{
+    "ApplicationName": "",
+    "RunConfiguration": {
+        "FlinkRunConfiguration": {
+            "AllowNonRestoredState": true
+        },
+        "SqlRunConfigurations": [
+            {
+                "InputId": "",
+                "InputStartingPositionConfiguration": {
+                    "InputStartingPosition": "TRIM_HORIZON"
+                }
+            }
+        ],
+        "ApplicationRestoreConfiguration": {
+            "ApplicationRestoreType": "SKIP_RESTORE_FROM_SNAPSHOT",
+            "SnapshotName": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "clientRequestToken": "",
+    "name": "",
+    "templateBody": "",
+    "templateLocation": {
+        "s3Bucket": "",
+        "s3Key": ""
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

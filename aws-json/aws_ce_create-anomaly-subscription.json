@@ -1,0 +1,19 @@
+{
+    "AnomalySubscription": {
+        "SubscriptionArn": "",
+        "AccountId": "",
+        "MonitorArnList": [
+            ""
+        ],
+        "Subscribers": [
+            {
+                "Address": "",
+                "Type": "EMAIL",
+                "Status": "CONFIRMED"
+            }
+        ],
+        "Threshold": null,
+        "Frequency": "WEEKLY",
+        "SubscriptionName": ""
+    }
+}

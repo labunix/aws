@@ -1,0 +1,13 @@
+{
+    "ProjectVersionArn": "",
+    "Image": {
+        "Bytes": null,
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "MaxResults": 0,
+    "MinConfidence": 0.0
+}

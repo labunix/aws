@@ -1,0 +1,18 @@
+{
+    "ServerHostname": "",
+    "ServerPort": 0,
+    "ServerProtocol": "HTTPS",
+    "Subdirectory": "",
+    "BucketName": "",
+    "AccessKey": "",
+    "SecretKey": "",
+    "AgentArns": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

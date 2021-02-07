@@ -1,0 +1,26 @@
+{
+    "DryRun": true,
+    "ClientToken": "",
+    "DeliverLogsPermissionArn": "",
+    "LogGroupName": "",
+    "ResourceIds": [
+        ""
+    ],
+    "ResourceType": "NetworkInterface",
+    "TrafficType": "ACCEPT",
+    "LogDestinationType": "cloud-watch-logs",
+    "LogDestination": "",
+    "LogFormat": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "reserved-instances",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "MaxAggregationInterval": 0
+}

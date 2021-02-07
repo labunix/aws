@@ -1,0 +1,10 @@
+{
+    "DeviceName": "",
+    "StreamName": "",
+    "MediaType": "",
+    "KmsKeyId": "",
+    "DataRetentionInHours": 0,
+    "Tags": {
+        "KeyName": ""
+    }
+}

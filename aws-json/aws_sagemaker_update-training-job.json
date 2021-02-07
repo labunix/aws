@@ -1,0 +1,24 @@
+{
+    "TrainingJobName": "",
+    "ProfilerConfig": {
+        "S3OutputPath": "",
+        "ProfilingIntervalInMilliseconds": 0,
+        "ProfilingParameters": {
+            "KeyName": ""
+        },
+        "DisableProfiler": true
+    },
+    "ProfilerRuleConfigurations": [
+        {
+            "RuleConfigurationName": "",
+            "LocalPath": "",
+            "S3OutputPath": "",
+            "RuleEvaluatorImage": "",
+            "InstanceType": "ml.c5.xlarge",
+            "VolumeSizeInGB": 0,
+            "RuleParameters": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

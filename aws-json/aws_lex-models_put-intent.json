@@ -1,0 +1,125 @@
+{
+    "name": "",
+    "description": "",
+    "slots": [
+        {
+            "name": "",
+            "description": "",
+            "slotConstraint": "Optional",
+            "slotType": "",
+            "slotTypeVersion": "",
+            "valueElicitationPrompt": {
+                "messages": [
+                    {
+                        "contentType": "CustomPayload",
+                        "content": "",
+                        "groupNumber": 0
+                    }
+                ],
+                "maxAttempts": 0,
+                "responseCard": ""
+            },
+            "priority": 0,
+            "sampleUtterances": [
+                ""
+            ],
+            "responseCard": "",
+            "obfuscationSetting": "DEFAULT_OBFUSCATION",
+            "defaultValueSpec": {
+                "defaultValueList": [
+                    {
+                        "defaultValue": ""
+                    }
+                ]
+            }
+        }
+    ],
+    "sampleUtterances": [
+        ""
+    ],
+    "confirmationPrompt": {
+        "messages": [
+            {
+                "contentType": "SSML",
+                "content": "",
+                "groupNumber": 0
+            }
+        ],
+        "maxAttempts": 0,
+        "responseCard": ""
+    },
+    "rejectionStatement": {
+        "messages": [
+            {
+                "contentType": "CustomPayload",
+                "content": "",
+                "groupNumber": 0
+            }
+        ],
+        "responseCard": ""
+    },
+    "followUpPrompt": {
+        "prompt": {
+            "messages": [
+                {
+                    "contentType": "SSML",
+                    "content": "",
+                    "groupNumber": 0
+                }
+            ],
+            "maxAttempts": 0,
+            "responseCard": ""
+        },
+        "rejectionStatement": {
+            "messages": [
+                {
+                    "contentType": "PlainText",
+                    "content": "",
+                    "groupNumber": 0
+                }
+            ],
+            "responseCard": ""
+        }
+    },
+    "conclusionStatement": {
+        "messages": [
+            {
+                "contentType": "PlainText",
+                "content": "",
+                "groupNumber": 0
+            }
+        ],
+        "responseCard": ""
+    },
+    "dialogCodeHook": {
+        "uri": "",
+        "messageVersion": ""
+    },
+    "fulfillmentActivity": {
+        "type": "ReturnIntent",
+        "codeHook": {
+            "uri": "",
+            "messageVersion": ""
+        }
+    },
+    "parentIntentSignature": "",
+    "checksum": "",
+    "createVersion": true,
+    "kendraConfiguration": {
+        "kendraIndex": "",
+        "queryFilterString": "",
+        "role": ""
+    },
+    "inputContexts": [
+        {
+            "name": ""
+        }
+    ],
+    "outputContexts": [
+        {
+            "name": "",
+            "timeToLiveInSeconds": 0,
+            "turnsToLive": 0
+        }
+    ]
+}

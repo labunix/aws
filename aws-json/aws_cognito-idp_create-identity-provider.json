@@ -1,0 +1,14 @@
+{
+    "UserPoolId": "",
+    "ProviderName": "",
+    "ProviderType": "OIDC",
+    "ProviderDetails": {
+        "KeyName": ""
+    },
+    "AttributeMapping": {
+        "KeyName": ""
+    },
+    "IdpIdentifiers": [
+        ""
+    ]
+}

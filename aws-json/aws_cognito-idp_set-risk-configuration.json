@@ -1,0 +1,56 @@
+{
+    "UserPoolId": "",
+    "ClientId": "",
+    "CompromisedCredentialsRiskConfiguration": {
+        "EventFilter": [
+            "PASSWORD_CHANGE"
+        ],
+        "Actions": {
+            "EventAction": "NO_ACTION"
+        }
+    },
+    "AccountTakeoverRiskConfiguration": {
+        "NotifyConfiguration": {
+            "From": "",
+            "ReplyTo": "",
+            "SourceArn": "",
+            "BlockEmail": {
+                "Subject": "",
+                "HtmlBody": "",
+                "TextBody": ""
+            },
+            "NoActionEmail": {
+                "Subject": "",
+                "HtmlBody": "",
+                "TextBody": ""
+            },
+            "MfaEmail": {
+                "Subject": "",
+                "HtmlBody": "",
+                "TextBody": ""
+            }
+        },
+        "Actions": {
+            "LowAction": {
+                "Notify": true,
+                "EventAction": "NO_ACTION"
+            },
+            "MediumAction": {
+                "Notify": true,
+                "EventAction": "MFA_IF_CONFIGURED"
+            },
+            "HighAction": {
+                "Notify": true,
+                "EventAction": "BLOCK"
+            }
+        }
+    },
+    "RiskExceptionConfiguration": {
+        "BlockedIPRangeList": [
+            ""
+        ],
+        "SkippedIPRangeList": [
+            ""
+        ]
+    }
+}

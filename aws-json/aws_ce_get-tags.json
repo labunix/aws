@@ -1,0 +1,52 @@
+{
+    "SearchString": "",
+    "TimePeriod": {
+        "Start": "",
+        "End": ""
+    },
+    "TagKey": "",
+    "Filter": {
+        "Or": [
+            {}
+        ],
+        "And": [
+            {}
+        ],
+        "Not": {},
+        "Dimensions": {
+            "Key": "RIGHTSIZING_TYPE",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        },
+        "Tags": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "STARTS_WITH"
+            ]
+        },
+        "CostCategories": {
+            "Key": "",
+            "Values": [
+                ""
+            ],
+            "MatchOptions": [
+                "ABSENT"
+            ]
+        }
+    },
+    "SortBy": [
+        {
+            "Key": "",
+            "SortOrder": "DESCENDING"
+        }
+    ],
+    "MaxResults": 0,
+    "NextPageToken": ""
+}

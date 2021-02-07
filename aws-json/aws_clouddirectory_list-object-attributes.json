@@ -1,0 +1,13 @@
+{
+    "DirectoryArn": "",
+    "ObjectReference": {
+        "Selector": ""
+    },
+    "NextToken": "",
+    "MaxResults": 0,
+    "ConsistencyLevel": "SERIALIZABLE",
+    "FacetFilter": {
+        "SchemaArn": "",
+        "FacetName": ""
+    }
+}

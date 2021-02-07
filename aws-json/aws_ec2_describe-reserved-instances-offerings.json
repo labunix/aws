@@ -1,0 +1,26 @@
+{
+    "AvailabilityZone": "",
+    "Filters": [
+        {
+            "Name": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "IncludeMarketplace": true,
+    "InstanceType": "r5n.12xlarge",
+    "MaxDuration": 0,
+    "MaxInstanceCount": 0,
+    "MinDuration": 0,
+    "OfferingClass": "convertible",
+    "ProductDescription": "Linux/UNIX (Amazon VPC)",
+    "ReservedInstancesOfferingIds": [
+        ""
+    ],
+    "DryRun": true,
+    "InstanceTenancy": "default",
+    "MaxResults": 0,
+    "NextToken": "",
+    "OfferingType": "Light Utilization"
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "",
+    "Description": "",
+    "EventFilter": {
+        "Source": ""
+    },
+    "EventBridgeBus": "",
+    "ClientToken": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

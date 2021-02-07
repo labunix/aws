@@ -1,0 +1,14 @@
+{
+    "LedgerName": "",
+    "RoleArn": "",
+    "Tags": {
+        "KeyName": ""
+    },
+    "InclusiveStartTime": "1970-01-01T00:00:00",
+    "ExclusiveEndTime": "1970-01-01T00:00:00",
+    "KinesisConfiguration": {
+        "StreamArn": "",
+        "AggregationEnabled": true
+    },
+    "StreamName": ""
+}

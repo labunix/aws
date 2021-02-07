@@ -1,0 +1,45 @@
+{
+    "computeEnvironmentName": "",
+    "type": "MANAGED",
+    "state": "DISABLED",
+    "computeResources": {
+        "type": "FARGATE",
+        "allocationStrategy": "SPOT_CAPACITY_OPTIMIZED",
+        "minvCpus": 0,
+        "maxvCpus": 0,
+        "desiredvCpus": 0,
+        "instanceTypes": [
+            ""
+        ],
+        "imageId": "",
+        "subnets": [
+            ""
+        ],
+        "securityGroupIds": [
+            ""
+        ],
+        "ec2KeyPair": "",
+        "instanceRole": "",
+        "tags": {
+            "KeyName": ""
+        },
+        "placementGroup": "",
+        "bidPercentage": 0,
+        "spotIamFleetRole": "",
+        "launchTemplate": {
+            "launchTemplateId": "",
+            "launchTemplateName": "",
+            "version": ""
+        },
+        "ec2Configuration": [
+            {
+                "imageType": "",
+                "imageIdOverride": ""
+            }
+        ]
+    },
+    "serviceRole": "",
+    "tags": {
+        "KeyName": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "DocumentLocation": {
+        "S3Object": {
+            "Bucket": "",
+            "Name": "",
+            "Version": ""
+        }
+    },
+    "FeatureTypes": [
+        "TABLES"
+    ],
+    "ClientRequestToken": "",
+    "JobTag": "",
+    "NotificationChannel": {
+        "SNSTopicArn": "",
+        "RoleArn": ""
+    },
+    "OutputConfig": {
+        "S3Bucket": "",
+        "S3Prefix": ""
+    },
+    "KMSKeyId": ""
+}

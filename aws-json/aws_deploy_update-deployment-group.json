@@ -1,0 +1,124 @@
+{
+    "applicationName": "",
+    "currentDeploymentGroupName": "",
+    "newDeploymentGroupName": "",
+    "deploymentConfigName": "",
+    "ec2TagFilters": [
+        {
+            "Key": "",
+            "Value": "",
+            "Type": "VALUE_ONLY"
+        }
+    ],
+    "onPremisesInstanceTagFilters": [
+        {
+            "Key": "",
+            "Value": "",
+            "Type": "KEY_AND_VALUE"
+        }
+    ],
+    "autoScalingGroups": [
+        ""
+    ],
+    "serviceRoleArn": "",
+    "triggerConfigurations": [
+        {
+            "triggerName": "",
+            "triggerTargetArn": "",
+            "triggerEvents": [
+                "DeploymentRollback"
+            ]
+        }
+    ],
+    "alarmConfiguration": {
+        "enabled": true,
+        "ignorePollAlarmFailure": true,
+        "alarms": [
+            {
+                "name": ""
+            }
+        ]
+    },
+    "autoRollbackConfiguration": {
+        "enabled": true,
+        "events": [
+            "DEPLOYMENT_STOP_ON_REQUEST"
+        ]
+    },
+    "deploymentStyle": {
+        "deploymentType": "BLUE_GREEN",
+        "deploymentOption": "WITHOUT_TRAFFIC_CONTROL"
+    },
+    "blueGreenDeploymentConfiguration": {
+        "terminateBlueInstancesOnDeploymentSuccess": {
+            "action": "TERMINATE",
+            "terminationWaitTimeInMinutes": 0
+        },
+        "deploymentReadyOption": {
+            "actionOnTimeout": "CONTINUE_DEPLOYMENT",
+            "waitTimeInMinutes": 0
+        },
+        "greenFleetProvisioningOption": {
+            "action": "DISCOVER_EXISTING"
+        }
+    },
+    "loadBalancerInfo": {
+        "elbInfoList": [
+            {
+                "name": ""
+            }
+        ],
+        "targetGroupInfoList": [
+            {
+                "name": ""
+            }
+        ],
+        "targetGroupPairInfoList": [
+            {
+                "targetGroups": [
+                    {
+                        "name": ""
+                    }
+                ],
+                "prodTrafficRoute": {
+                    "listenerArns": [
+                        ""
+                    ]
+                },
+                "testTrafficRoute": {
+                    "listenerArns": [
+                        ""
+                    ]
+                }
+            }
+        ]
+    },
+    "ec2TagSet": {
+        "ec2TagSetList": [
+            [
+                {
+                    "Key": "",
+                    "Value": "",
+                    "Type": "KEY_AND_VALUE"
+                }
+            ]
+        ]
+    },
+    "ecsServices": [
+        {
+            "serviceName": "",
+            "clusterName": ""
+        }
+    ],
+    "onPremisesTagSet": {
+        "onPremisesTagSetList": [
+            [
+                {
+                    "Key": "",
+                    "Value": "",
+                    "Type": "KEY_ONLY"
+                }
+            ]
+        ]
+    }
+}

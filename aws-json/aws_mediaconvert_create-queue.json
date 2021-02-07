@@ -1,0 +1,14 @@
+{
+    "Description": "",
+    "Name": "",
+    "PricingPlan": "ON_DEMAND",
+    "ReservationPlanSettings": {
+        "Commitment": "ONE_YEAR",
+        "RenewalType": "EXPIRE",
+        "ReservedSlots": 0
+    },
+    "Status": "ACTIVE",
+    "Tags": {
+        "KeyName": ""
+    }
+}

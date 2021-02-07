@@ -1,0 +1,178 @@
+{
+    "flowName": "",
+    "description": "",
+    "kmsArn": "",
+    "triggerConfig": {
+        "triggerType": "Scheduled",
+        "triggerProperties": {
+            "Scheduled": {
+                "scheduleExpression": "",
+                "dataPullMode": "Incremental",
+                "scheduleStartTime": "1970-01-01T00:00:00",
+                "scheduleEndTime": "1970-01-01T00:00:00",
+                "timezone": ""
+            }
+        }
+    },
+    "sourceFlowConfig": {
+        "connectorType": "Redshift",
+        "connectorProfileName": "",
+        "sourceConnectorProperties": {
+            "Amplitude": {
+                "object": ""
+            },
+            "Datadog": {
+                "object": ""
+            },
+            "Dynatrace": {
+                "object": ""
+            },
+            "GoogleAnalytics": {
+                "object": ""
+            },
+            "InforNexus": {
+                "object": ""
+            },
+            "Marketo": {
+                "object": ""
+            },
+            "S3": {
+                "bucketName": "",
+                "bucketPrefix": ""
+            },
+            "Salesforce": {
+                "object": "",
+                "enableDynamicFieldUpdate": true,
+                "includeDeletedRecords": true
+            },
+            "ServiceNow": {
+                "object": ""
+            },
+            "Singular": {
+                "object": ""
+            },
+            "Slack": {
+                "object": ""
+            },
+            "Trendmicro": {
+                "object": ""
+            },
+            "Veeva": {
+                "object": ""
+            },
+            "Zendesk": {
+                "object": ""
+            }
+        },
+        "incrementalPullConfig": {
+            "datetimeTypeFieldName": ""
+        }
+    },
+    "destinationFlowConfigList": [
+        {
+            "connectorType": "Zendesk",
+            "connectorProfileName": "",
+            "destinationConnectorProperties": {
+                "Redshift": {
+                    "object": "",
+                    "intermediateBucketName": "",
+                    "bucketPrefix": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "S3": {
+                    "bucketName": "",
+                    "bucketPrefix": "",
+                    "s3OutputFormatConfig": {
+                        "fileType": "CSV",
+                        "prefixConfig": {
+                            "prefixType": "PATH_AND_FILENAME",
+                            "prefixFormat": "MONTH"
+                        },
+                        "aggregationConfig": {
+                            "aggregationType": "None"
+                        }
+                    }
+                },
+                "Salesforce": {
+                    "object": "",
+                    "idFieldNames": [
+                        ""
+                    ],
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    },
+                    "writeOperationType": "UPSERT"
+                },
+                "Snowflake": {
+                    "object": "",
+                    "intermediateBucketName": "",
+                    "bucketPrefix": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "EventBridge": {
+                    "object": "",
+                    "errorHandlingConfig": {
+                        "failOnFirstDestinationError": true,
+                        "bucketPrefix": "",
+                        "bucketName": ""
+                    }
+                },
+                "Upsolver": {
+                    "bucketName": "",
+                    "bucketPrefix": "",
+                    "s3OutputFormatConfig": {
+                        "fileType": "CSV",
+                        "prefixConfig": {
+                            "prefixType": "PATH_AND_FILENAME",
+                            "prefixFormat": "MONTH"
+                        },
+                        "aggregationConfig": {
+                            "aggregationType": "SingleFile"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "sourceFields": [
+                ""
+            ],
+            "connectorOperator": {
+                "Amplitude": "BETWEEN",
+                "Datadog": "MASK_FIRST_N",
+                "Dynatrace": "MASK_ALL",
+                "GoogleAnalytics": "BETWEEN",
+                "InforNexus": "VALIDATE_NON_NULL",
+                "Marketo": "DIVISION",
+                "S3": "NOT_EQUAL_TO",
+                "Salesforce": "VALIDATE_NON_ZERO",
+                "ServiceNow": "VALIDATE_NON_ZERO",
+                "Singular": "EQUAL_TO",
+                "Slack": "NO_OP",
+                "Trendmicro": "MULTIPLICATION",
+                "Veeva": "PROJECTION",
+                "Zendesk": "MASK_FIRST_N"
+            },
+            "destinationField": "",
+            "taskType": "Truncate",
+            "taskProperties": {
+                "KeyName": ""
+            }
+        }
+    ],
+    "tags": {
+        "KeyName": ""
+    }
+}

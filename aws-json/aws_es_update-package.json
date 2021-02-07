@@ -1,0 +1,9 @@
+{
+    "PackageID": "",
+    "PackageSource": {
+        "S3BucketName": "",
+        "S3Key": ""
+    },
+    "PackageDescription": "",
+    "CommitMessage": ""
+}

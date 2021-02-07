@@ -1,0 +1,82 @@
+{
+    "JobDefinitionName": "",
+    "DataQualityBaselineConfig": {
+        "BaseliningJobName": "",
+        "ConstraintsResource": {
+            "S3Uri": ""
+        },
+        "StatisticsResource": {
+            "S3Uri": ""
+        }
+    },
+    "DataQualityAppSpecification": {
+        "ImageUri": "",
+        "ContainerEntrypoint": [
+            ""
+        ],
+        "ContainerArguments": [
+            ""
+        ],
+        "RecordPreprocessorSourceUri": "",
+        "PostAnalyticsProcessorSourceUri": "",
+        "Environment": {
+            "KeyName": ""
+        }
+    },
+    "DataQualityJobInput": {
+        "EndpointInput": {
+            "EndpointName": "",
+            "LocalPath": "",
+            "S3InputMode": "Pipe",
+            "S3DataDistributionType": "FullyReplicated",
+            "FeaturesAttribute": "",
+            "InferenceAttribute": "",
+            "ProbabilityAttribute": "",
+            "ProbabilityThresholdAttribute": null,
+            "StartTimeOffset": "",
+            "EndTimeOffset": ""
+        }
+    },
+    "DataQualityJobOutputConfig": {
+        "MonitoringOutputs": [
+            {
+                "S3Output": {
+                    "S3Uri": "",
+                    "LocalPath": "",
+                    "S3UploadMode": "Continuous"
+                }
+            }
+        ],
+        "KmsKeyId": ""
+    },
+    "JobResources": {
+        "ClusterConfig": {
+            "InstanceCount": 0,
+            "InstanceType": "ml.m5.4xlarge",
+            "VolumeSizeInGB": 0,
+            "VolumeKmsKeyId": ""
+        }
+    },
+    "NetworkConfig": {
+        "EnableInterContainerTrafficEncryption": true,
+        "EnableNetworkIsolation": true,
+        "VpcConfig": {
+            "SecurityGroupIds": [
+                ""
+            ],
+            "Subnets": [
+                ""
+            ]
+        }
+    },
+    "RoleArn": "",
+    "StoppingCondition": {
+        "MaxRuntimeInSeconds": 0
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

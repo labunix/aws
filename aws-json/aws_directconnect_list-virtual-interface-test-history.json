@@ -1,0 +1,10 @@
+{
+    "testId": "",
+    "virtualInterfaceId": "",
+    "bgpPeers": [
+        ""
+    ],
+    "status": "",
+    "maxResults": 0,
+    "nextToken": ""
+}

@@ -1,0 +1,60 @@
+SAGEMAKER-A2I-RUNTIME()                                SAGEMAKER-A2I-RUNTIME()
+
+
+
+NNAAMMEE
+       sagemaker-a2i-runtime -
+
+DDEESSCCRRIIPPTTIIOONN
+       WWAARRNNIINNGG::
+          Amazon  Augmented AI is in preview release and is subject to change.
+          We do not recommend using this product in production environments.
+
+       Amazon Augmented AI (Amazon A2I) adds the benefit of human judgment  to
+       any machine learning application. When an AI application can't evaluate
+       data with a high degree of confidence, human reviewers can  take  over.
+       This  human  review  is  called  a human review workflow. To create and
+       start a human review workflow, you need three resources: a _w_o_r_k_e_r  _t_a_s_k
+       _t_e_m_p_l_a_t_e , a _f_l_o_w _d_e_f_i_n_i_t_i_o_n , and a _h_u_m_a_n _l_o_o_p .
+
+       For  information about these resources and prerequisites for using Ama-
+       zon A2I, see _G_e_t _S_t_a_r_t_e_d _w_i_t_h _A_m_a_z_o_n _A_u_g_m_e_n_t_e_d _A_I in the  Amazon  Sage-
+       Maker Developer Guide.
+
+       This  API  reference  includes  information  about API actions and data
+       types that you can use to interact with  Amazon  A2I  programmatically.
+       Use this guide to:
+
+       +o Start  a human loop with the SSttaarrttHHuummaannLLoooopp operation when using Ama-
+         zon A2I with a _c_u_s_t_o_m _t_a_s_k _t_y_p_e . To learn more about the  difference
+         between custom and built-in task types, see _U_s_e _T_a_s_k _T_y_p_e_s . To learn
+         how to start a human loop using this API, see _C_r_e_a_t_e _a_n_d _S_t_a_r_t _a  _H_u_-
+         _m_a_n  _L_o_o_p  _f_o_r  _a  _C_u_s_t_o_m _T_a_s_k _T_y_p_e in the Amazon SageMaker Developer
+         Guide.
+
+       +o Manage your human loops. You can list all human loops that  you  have
+         created,  describe  individual human loops, and stop and delete human
+         loops. To learn more, see _M_o_n_i_t_o_r _a_n_d _M_a_n_a_g_e _Y_o_u_r _H_u_m_a_n _L_o_o_p  in  the
+         Amazon SageMaker Developer Guide.
+
+       Amazon  A2I  integrates  APIs  from  various AWS services to create and
+       start human review workflows for those services. To  learn  how  Amazon
+       A2I uses these APIs, see _U_s_e _A_P_I_s _i_n _A_m_a_z_o_n _A_2_I in the Amazon SageMaker
+       Developer Guide.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o delete-human-loop
+
+       +o describe-human-loop
+
+       +o help
+
+       +o list-human-loops
+
+       +o start-human-loop
+
+       +o stop-human-loop
+
+
+
+                                                       SAGEMAKER-A2I-RUNTIME()

@@ -1,0 +1,22 @@
+{
+    "DhcpConfigurations": [
+        {
+            "Key": "",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "TagSpecifications": [
+        {
+            "ResourceType": "dhcp-options",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

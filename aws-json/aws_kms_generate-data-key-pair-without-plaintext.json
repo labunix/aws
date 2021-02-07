@@ -1,0 +1,10 @@
+{
+    "EncryptionContext": {
+        "KeyName": ""
+    },
+    "KeyId": "",
+    "KeyPairSpec": "ECC_NIST_P521",
+    "GrantTokens": [
+        ""
+    ]
+}

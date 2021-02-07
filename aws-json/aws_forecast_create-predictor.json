@@ -1,0 +1,83 @@
+{
+    "PredictorName": "",
+    "AlgorithmArn": "",
+    "ForecastHorizon": 0,
+    "ForecastTypes": [
+        ""
+    ],
+    "PerformAutoML": true,
+    "PerformHPO": true,
+    "TrainingParameters": {
+        "KeyName": ""
+    },
+    "EvaluationParameters": {
+        "NumberOfBacktestWindows": 0,
+        "BackTestWindowOffset": 0
+    },
+    "HPOConfig": {
+        "ParameterRanges": {
+            "CategoricalParameterRanges": [
+                {
+                    "Name": "",
+                    "Values": [
+                        ""
+                    ]
+                }
+            ],
+            "ContinuousParameterRanges": [
+                {
+                    "Name": "",
+                    "MaxValue": null,
+                    "MinValue": null,
+                    "ScalingType": "Auto"
+                }
+            ],
+            "IntegerParameterRanges": [
+                {
+                    "Name": "",
+                    "MaxValue": 0,
+                    "MinValue": 0,
+                    "ScalingType": "ReverseLogarithmic"
+                }
+            ]
+        }
+    },
+    "InputDataConfig": {
+        "DatasetGroupArn": "",
+        "SupplementaryFeatures": [
+            {
+                "Name": "",
+                "Value": ""
+            }
+        ]
+    },
+    "FeaturizationConfig": {
+        "ForecastFrequency": "",
+        "ForecastDimensions": [
+            ""
+        ],
+        "Featurizations": [
+            {
+                "AttributeName": "",
+                "FeaturizationPipeline": [
+                    {
+                        "FeaturizationMethodName": "filling",
+                        "FeaturizationMethodParameters": {
+                            "KeyName": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "EncryptionConfig": {
+        "RoleArn": "",
+        "KMSKeyArn": ""
+    },
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

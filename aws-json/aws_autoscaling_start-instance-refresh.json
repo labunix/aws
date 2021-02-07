@@ -1,0 +1,8 @@
+{
+    "AutoScalingGroupName": "",
+    "Strategy": "Rolling",
+    "Preferences": {
+        "MinHealthyPercentage": 0,
+        "InstanceWarmup": 0
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "OrganizationConformancePackName": "",
+    "Filters": {
+        "AccountId": "",
+        "Status": "UPDATE_FAILED"
+    },
+    "Limit": 0,
+    "NextToken": ""
+}

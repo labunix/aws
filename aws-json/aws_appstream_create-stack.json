@@ -1,0 +1,38 @@
+{
+    "Name": "",
+    "Description": "",
+    "DisplayName": "",
+    "StorageConnectors": [
+        {
+            "ConnectorType": "ONE_DRIVE",
+            "ResourceIdentifier": "",
+            "Domains": [
+                ""
+            ]
+        }
+    ],
+    "RedirectURL": "",
+    "FeedbackURL": "",
+    "UserSettings": [
+        {
+            "Action": "CLIPBOARD_COPY_TO_LOCAL_DEVICE",
+            "Permission": "DISABLED"
+        }
+    ],
+    "ApplicationSettings": {
+        "Enabled": true,
+        "SettingsGroup": ""
+    },
+    "Tags": {
+        "KeyName": ""
+    },
+    "AccessEndpoints": [
+        {
+            "EndpointType": "STREAMING",
+            "VpceId": ""
+        }
+    ],
+    "EmbedHostDomains": [
+        ""
+    ]
+}

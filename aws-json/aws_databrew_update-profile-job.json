@@ -1,0 +1,14 @@
+{
+    "EncryptionKeyArn": "",
+    "EncryptionMode": "SSE-S3",
+    "Name": "",
+    "LogSubscription": "DISABLE",
+    "MaxCapacity": 0,
+    "MaxRetries": 0,
+    "OutputLocation": {
+        "Bucket": "",
+        "Key": ""
+    },
+    "RoleArn": "",
+    "Timeout": 0
+}

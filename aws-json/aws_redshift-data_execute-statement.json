@@ -1,0 +1,9 @@
+{
+    "ClusterIdentifier": "",
+    "Database": "",
+    "DbUser": "",
+    "SecretArn": "",
+    "Sql": "",
+    "StatementName": "",
+    "WithEvent": true
+}

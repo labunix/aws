@@ -1,0 +1,24 @@
+{
+    "botName": "",
+    "botAlias": "",
+    "userId": "",
+    "sessionAttributes": {
+        "KeyName": ""
+    },
+    "requestAttributes": {
+        "KeyName": ""
+    },
+    "inputText": "",
+    "activeContexts": [
+        {
+            "name": "",
+            "timeToLive": {
+                "timeToLiveInSeconds": 0,
+                "turnsToLive": 0
+            },
+            "parameters": {
+                "KeyName": ""
+            }
+        }
+    ]
+}

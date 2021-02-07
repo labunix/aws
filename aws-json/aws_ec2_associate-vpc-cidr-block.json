@@ -1,0 +1,8 @@
+{
+    "AmazonProvidedIpv6CidrBlock": true,
+    "CidrBlock": "",
+    "VpcId": "",
+    "Ipv6CidrBlockNetworkBorderGroup": "",
+    "Ipv6Pool": "",
+    "Ipv6CidrBlock": ""
+}

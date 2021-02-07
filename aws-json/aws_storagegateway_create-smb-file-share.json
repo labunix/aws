@@ -1,0 +1,38 @@
+{
+    "ClientToken": "",
+    "GatewayARN": "",
+    "KMSEncrypted": true,
+    "KMSKey": "",
+    "Role": "",
+    "LocationARN": "",
+    "DefaultStorageClass": "",
+    "ObjectACL": "public-read",
+    "ReadOnly": true,
+    "GuessMIMETypeEnabled": true,
+    "RequesterPays": true,
+    "SMBACLEnabled": true,
+    "AccessBasedEnumeration": true,
+    "AdminUserList": [
+        ""
+    ],
+    "ValidUserList": [
+        ""
+    ],
+    "InvalidUserList": [
+        ""
+    ],
+    "AuditDestinationARN": "",
+    "Authentication": "",
+    "CaseSensitivity": "ClientSpecified",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "FileShareName": "",
+    "CacheAttributes": {
+        "CacheStaleTimeoutInSeconds": 0
+    },
+    "NotificationPolicy": ""
+}

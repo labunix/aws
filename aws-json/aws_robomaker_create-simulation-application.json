@@ -1,0 +1,25 @@
+{
+    "name": "",
+    "sources": [
+        {
+            "s3Bucket": "",
+            "s3Key": "",
+            "architecture": "ARM64"
+        }
+    ],
+    "simulationSoftwareSuite": {
+        "name": "Gazebo",
+        "version": ""
+    },
+    "robotSoftwareSuite": {
+        "name": "ROS",
+        "version": "Melodic"
+    },
+    "renderingEngine": {
+        "name": "OGRE",
+        "version": ""
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

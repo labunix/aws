@@ -1,0 +1,87 @@
+{
+    "MonitoringScheduleName": "",
+    "MonitoringScheduleConfig": {
+        "ScheduleConfig": {
+            "ScheduleExpression": ""
+        },
+        "MonitoringJobDefinition": {
+            "BaselineConfig": {
+                "BaseliningJobName": "",
+                "ConstraintsResource": {
+                    "S3Uri": ""
+                },
+                "StatisticsResource": {
+                    "S3Uri": ""
+                }
+            },
+            "MonitoringInputs": [
+                {
+                    "EndpointInput": {
+                        "EndpointName": "",
+                        "LocalPath": "",
+                        "S3InputMode": "File",
+                        "S3DataDistributionType": "FullyReplicated",
+                        "FeaturesAttribute": "",
+                        "InferenceAttribute": "",
+                        "ProbabilityAttribute": "",
+                        "ProbabilityThresholdAttribute": null,
+                        "StartTimeOffset": "",
+                        "EndTimeOffset": ""
+                    }
+                }
+            ],
+            "MonitoringOutputConfig": {
+                "MonitoringOutputs": [
+                    {
+                        "S3Output": {
+                            "S3Uri": "",
+                            "LocalPath": "",
+                            "S3UploadMode": "Continuous"
+                        }
+                    }
+                ],
+                "KmsKeyId": ""
+            },
+            "MonitoringResources": {
+                "ClusterConfig": {
+                    "InstanceCount": 0,
+                    "InstanceType": "ml.p2.16xlarge",
+                    "VolumeSizeInGB": 0,
+                    "VolumeKmsKeyId": ""
+                }
+            },
+            "MonitoringAppSpecification": {
+                "ImageUri": "",
+                "ContainerEntrypoint": [
+                    ""
+                ],
+                "ContainerArguments": [
+                    ""
+                ],
+                "RecordPreprocessorSourceUri": "",
+                "PostAnalyticsProcessorSourceUri": ""
+            },
+            "StoppingCondition": {
+                "MaxRuntimeInSeconds": 0
+            },
+            "Environment": {
+                "KeyName": ""
+            },
+            "NetworkConfig": {
+                "EnableInterContainerTrafficEncryption": true,
+                "EnableNetworkIsolation": true,
+                "VpcConfig": {
+                    "SecurityGroupIds": [
+                        ""
+                    ],
+                    "Subnets": [
+                        ""
+                    ]
+                }
+            },
+            "RoleArn": ""
+        },
+        "MonitoringJobDefinitionName": "",
+        "MonitoringType": "ModelExplainability"
+    }
+}

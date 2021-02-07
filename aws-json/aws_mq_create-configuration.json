@@ -1,0 +1,9 @@
+{
+    "AuthenticationStrategy": "SIMPLE",
+    "EngineType": "RABBITMQ",
+    "EngineVersion": "",
+    "Name": "",
+    "Tags": {
+        "KeyName": ""
+    }
+}

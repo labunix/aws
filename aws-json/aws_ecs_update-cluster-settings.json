@@ -1,0 +1,9 @@
+{
+    "cluster": "",
+    "settings": [
+        {
+            "name": "containerInsights",
+            "value": ""
+        }
+    ]
+}

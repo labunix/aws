@@ -1,0 +1,15 @@
+{
+    "PolicyIds": [
+        ""
+    ],
+    "State": "DISABLED",
+    "ResourceTypes": [
+        "INSTANCE"
+    ],
+    "TargetTags": [
+        ""
+    ],
+    "TagsToAdd": [
+        ""
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "LocalGatewayRouteTableId": "",
+    "VpcId": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "client-vpn-endpoint",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

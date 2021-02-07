@@ -1,0 +1,10 @@
+{
+    "campaignArn": "",
+    "solutionVersionArn": "",
+    "minProvisionedTPS": 0,
+    "campaignConfig": {
+        "itemExplorationConfig": {
+            "KeyName": ""
+        }
+    }
+}

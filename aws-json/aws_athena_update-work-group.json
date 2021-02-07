@@ -1,0 +1,21 @@
+{
+    "WorkGroup": "",
+    "Description": "",
+    "ConfigurationUpdates": {
+        "EnforceWorkGroupConfiguration": true,
+        "ResultConfigurationUpdates": {
+            "OutputLocation": "",
+            "RemoveOutputLocation": true,
+            "EncryptionConfiguration": {
+                "EncryptionOption": "SSE_KMS",
+                "KmsKey": ""
+            },
+            "RemoveEncryptionConfiguration": true
+        },
+        "PublishCloudWatchMetricsEnabled": true,
+        "BytesScannedCutoffPerQuery": 0,
+        "RemoveBytesScannedCutoffPerQuery": true,
+        "RequesterPaysEnabled": true
+    },
+    "State": "ENABLED"
+}

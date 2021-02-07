@@ -1,0 +1,65 @@
+{
+    "Name": "",
+    "Role": "",
+    "DatabaseName": "",
+    "Description": "",
+    "Targets": {
+        "S3Targets": [
+            {
+                "Path": "",
+                "Exclusions": [
+                    ""
+                ],
+                "ConnectionName": ""
+            }
+        ],
+        "JdbcTargets": [
+            {
+                "ConnectionName": "",
+                "Path": "",
+                "Exclusions": [
+                    ""
+                ]
+            }
+        ],
+        "MongoDBTargets": [
+            {
+                "ConnectionName": "",
+                "Path": "",
+                "ScanAll": true
+            }
+        ],
+        "DynamoDBTargets": [
+            {
+                "Path": "",
+                "scanAll": true,
+                "scanRate": null
+            }
+        ],
+        "CatalogTargets": [
+            {
+                "DatabaseName": "",
+                "Tables": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "Schedule": "",
+    "Classifiers": [
+        ""
+    ],
+    "TablePrefix": "",
+    "SchemaChangePolicy": {
+        "UpdateBehavior": "LOG",
+        "DeleteBehavior": "LOG"
+    },
+    "RecrawlPolicy": {
+        "RecrawlBehavior": "CRAWL_EVERYTHING"
+    },
+    "LineageConfiguration": {
+        "CrawlerLineageSettings": "ENABLE"
+    },
+    "Configuration": "",
+    "CrawlerSecurityConfiguration": ""
+}

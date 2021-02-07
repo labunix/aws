@@ -1,0 +1,14 @@
+{
+    "ApplicationId": "",
+    "Name": "",
+    "Description": "",
+    "Monitors": [
+        {
+            "AlarmArn": "",
+            "AlarmRoleArn": ""
+        }
+    ],
+    "Tags": {
+        "KeyName": ""
+    }
+}

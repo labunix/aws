@@ -1,0 +1,8 @@
+{
+    "ClientVpnEndpointId": "",
+    "VpcId": "",
+    "SecurityGroupIds": [
+        ""
+    ],
+    "DryRun": true
+}

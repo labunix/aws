@@ -1,0 +1,11 @@
+{
+    "clientCertificateId": "",
+    "patchOperations": [
+        {
+            "op": "test",
+            "path": "",
+            "value": "",
+            "from": ""
+        }
+    ]
+}

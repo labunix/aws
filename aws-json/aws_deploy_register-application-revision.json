@@ -1,0 +1,26 @@
+{
+    "applicationName": "",
+    "description": "",
+    "revision": {
+        "revisionType": "S3",
+        "s3Location": {
+            "bucket": "",
+            "key": "",
+            "bundleType": "YAML",
+            "version": "",
+            "eTag": ""
+        },
+        "gitHubLocation": {
+            "repository": "",
+            "commitId": ""
+        },
+        "string": {
+            "content": "",
+            "sha256": ""
+        },
+        "appSpecContent": {
+            "content": "",
+            "sha256": ""
+        }
+    }
+}

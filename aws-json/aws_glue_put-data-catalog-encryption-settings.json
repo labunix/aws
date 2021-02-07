@@ -1,0 +1,13 @@
+{
+    "CatalogId": "",
+    "DataCatalogEncryptionSettings": {
+        "EncryptionAtRest": {
+            "CatalogEncryptionMode": "SSE-KMS",
+            "SseAwsKmsKeyId": ""
+        },
+        "ConnectionPasswordEncryption": {
+            "ReturnConnectionPasswordEncrypted": true,
+            "AwsKmsKeyId": ""
+        }
+    }
+}

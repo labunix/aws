@@ -1,0 +1,63 @@
+{
+    "AuthenticationStrategy": "SIMPLE",
+    "AutoMinorVersionUpgrade": true,
+    "BrokerName": "",
+    "Configuration": {
+        "Id": "",
+        "Revision": 0
+    },
+    "CreatorRequestId": "",
+    "DeploymentMode": "ACTIVE_STANDBY_MULTI_AZ",
+    "EncryptionOptions": {
+        "KmsKeyId": "",
+        "UseAwsOwnedKey": true
+    },
+    "EngineType": "RABBITMQ",
+    "EngineVersion": "",
+    "HostInstanceType": "",
+    "LdapServerMetadata": {
+        "Hosts": [
+            ""
+        ],
+        "RoleBase": "",
+        "RoleName": "",
+        "RoleSearchMatching": "",
+        "RoleSearchSubtree": true,
+        "ServiceAccountPassword": "",
+        "ServiceAccountUsername": "",
+        "UserBase": "",
+        "UserRoleName": "",
+        "UserSearchMatching": "",
+        "UserSearchSubtree": true
+    },
+    "Logs": {
+        "Audit": true,
+        "General": true
+    },
+    "MaintenanceWindowStartTime": {
+        "DayOfWeek": "SATURDAY",
+        "TimeOfDay": "",
+        "TimeZone": ""
+    },
+    "PubliclyAccessible": true,
+    "SecurityGroups": [
+        ""
+    ],
+    "StorageType": "EBS",
+    "SubnetIds": [
+        ""
+    ],
+    "Tags": {
+        "KeyName": ""
+    },
+    "Users": [
+        {
+            "ConsoleAccess": true,
+            "Groups": [
+                ""
+            ],
+            "Password": "",
+            "Username": ""
+        }
+    ]
+}

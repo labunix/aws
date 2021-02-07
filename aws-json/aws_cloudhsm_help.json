@@ -1,0 +1,61 @@
+CLOUDHSM()                                                          CLOUDHSM()
+
+
+
+NNAAMMEE
+       cloudhsm -
+
+DDEESSCCRRIIPPTTIIOONN
+       This  is documentation for AAWWSS CClloouuddHHSSMM CCllaassssiicc . For more information,
+       see _A_W_S _C_l_o_u_d_H_S_M _C_l_a_s_s_i_c _F_A_Q_s , the _A_W_S _C_l_o_u_d_H_S_M _C_l_a_s_s_i_c _U_s_e_r  _G_u_i_d_e  ,
+       and the _A_W_S _C_l_o_u_d_H_S_M _C_l_a_s_s_i_c _A_P_I _R_e_f_e_r_e_n_c_e .
+          FFoorr  iinnffoorrmmaattiioonn aabboouutt tthhee ccuurrrreenntt vveerrssiioonn ooff AAWWSS CClloouuddHHSSMM , see _A_W_S
+          _C_l_o_u_d_H_S_M , the _A_W_S _C_l_o_u_d_H_S_M _U_s_e_r _G_u_i_d_e , and the  _A_W_S  _C_l_o_u_d_H_S_M  _A_P_I
+          _R_e_f_e_r_e_n_c_e .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o add-tags-to-resource
+
+       +o create-hapg
+
+       +o create-hsm
+
+       +o create-luna-client
+
+       +o delete-hapg
+
+       +o delete-hsm
+
+       +o delete-luna-client
+
+       +o describe-hapg
+
+       +o describe-hsm
+
+       +o describe-luna-client
+
+       +o get-config
+
+       +o help
+
+       +o list-available-zones
+
+       +o list-hapgs
+
+       +o list-hsms
+
+       +o list-luna-clients
+
+       +o list-tags-for-resource
+
+       +o modify-hapg
+
+       +o modify-hsm
+
+       +o modify-luna-client
+
+       +o remove-tags-from-resource
+
+
+
+                                                                    CLOUDHSM()

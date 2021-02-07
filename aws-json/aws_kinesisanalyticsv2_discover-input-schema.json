@@ -1,0 +1,16 @@
+{
+    "ResourceARN": "",
+    "ServiceExecutionRole": "",
+    "InputStartingPositionConfiguration": {
+        "InputStartingPosition": "NOW"
+    },
+    "S3Configuration": {
+        "BucketARN": "",
+        "FileKey": ""
+    },
+    "InputProcessingConfiguration": {
+        "InputLambdaProcessor": {
+            "ResourceARN": ""
+        }
+    }
+}

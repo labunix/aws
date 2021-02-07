@@ -1,0 +1,9 @@
+{
+    "actionTypeId": {
+        "category": "Source",
+        "owner": "AWS",
+        "provider": "",
+        "version": ""
+    },
+    "maxBatchSize": 0
+}

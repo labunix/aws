@@ -1,0 +1,29 @@
+{
+    "DBProxyName": "",
+    "EngineFamily": "MYSQL",
+    "Auth": [
+        {
+            "Description": "",
+            "UserName": "",
+            "AuthScheme": "SECRETS",
+            "SecretArn": "",
+            "IAMAuth": "REQUIRED"
+        }
+    ],
+    "RoleArn": "",
+    "VpcSubnetIds": [
+        ""
+    ],
+    "VpcSecurityGroupIds": [
+        ""
+    ],
+    "RequireTLS": true,
+    "IdleClientTimeout": 0,
+    "DebugLogging": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "instanceArns": [
+        ""
+    ],
+    "nextToken": "",
+    "maxResults": 0,
+    "filters": [
+        {
+            "name": "RecommendationSourceType",
+            "values": [
+                ""
+            ]
+        }
+    ],
+    "accountIds": [
+        ""
+    ]
+}

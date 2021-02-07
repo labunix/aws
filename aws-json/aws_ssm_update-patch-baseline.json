@@ -1,0 +1,54 @@
+{
+    "BaselineId": "",
+    "Name": "",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "SEVERITY",
+                "Values": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "ARCH",
+                            "Values": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 0,
+                "ApproveUntilDate": "",
+                "EnableNonSecurity": true
+            }
+        ]
+    },
+    "ApprovedPatches": [
+        ""
+    ],
+    "ApprovedPatchesComplianceLevel": "LOW",
+    "ApprovedPatchesEnableNonSecurity": true,
+    "RejectedPatches": [
+        ""
+    ],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "Description": "",
+    "Sources": [
+        {
+            "Name": "",
+            "Products": [
+                ""
+            ],
+            "Configuration": ""
+        }
+    ],
+    "Replace": true
+}

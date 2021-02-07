@@ -1,0 +1,34 @@
+IOTSECURETUNNELING()                                      IOTSECURETUNNELING()
+
+
+
+NNAAMMEE
+       iotsecuretunneling -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS IoT Secure Tunnling enables you to create remote connections to de-
+       vices deployed in the field.
+
+       For more information about how AWS IoT Secure Tunneling works, see  _A_W_S
+       _I_o_T _S_e_c_u_r_e _T_u_n_n_e_l_i_n_g .
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o close-tunnel
+
+       +o describe-tunnel
+
+       +o help
+
+       +o list-tags-for-resource
+
+       +o list-tunnels
+
+       +o open-tunnel
+
+       +o tag-resource
+
+       +o untag-resource
+
+
+
+                                                          IOTSECURETUNNELING()

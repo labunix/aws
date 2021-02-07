@@ -1,0 +1,10 @@
+{
+    "capacityProviders": [
+        ""
+    ],
+    "include": [
+        "TAGS"
+    ],
+    "maxResults": 0,
+    "nextToken": ""
+}

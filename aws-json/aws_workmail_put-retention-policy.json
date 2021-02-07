@@ -1,0 +1,13 @@
+{
+    "OrganizationId": "",
+    "Id": "",
+    "Name": "",
+    "Description": "",
+    "FolderConfigurations": [
+        {
+            "Name": "DRAFTS",
+            "Action": "PERMANENTLY_DELETE",
+            "Period": 0
+        }
+    ]
+}

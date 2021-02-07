@@ -1,0 +1,15 @@
+{
+    "FirewallArn": "",
+    "FirewallName": "",
+    "LoggingConfiguration": {
+        "LogDestinationConfigs": [
+            {
+                "LogType": "FLOW",
+                "LogDestinationType": "S3",
+                "LogDestination": {
+                    "KeyName": ""
+                }
+            }
+        ]
+    }
+}

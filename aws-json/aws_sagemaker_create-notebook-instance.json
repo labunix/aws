@@ -1,0 +1,27 @@
+{
+    "NotebookInstanceName": "",
+    "InstanceType": "ml.p2.8xlarge",
+    "SubnetId": "",
+    "SecurityGroupIds": [
+        ""
+    ],
+    "RoleArn": "",
+    "KmsKeyId": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "LifecycleConfigName": "",
+    "DirectInternetAccess": "Disabled",
+    "VolumeSizeInGB": 0,
+    "AcceleratorTypes": [
+        "ml.eia2.medium"
+    ],
+    "DefaultCodeRepository": "",
+    "AdditionalCodeRepositories": [
+        ""
+    ],
+    "RootAccess": "Disabled"
+}

@@ -1,0 +1,11 @@
+{
+    "CertificateAuthorityArn": "",
+    "Csr": null,
+    "SigningAlgorithm": "SHA256WITHRSA",
+    "TemplateArn": "",
+    "Validity": {
+        "Value": 0,
+        "Type": "MONTHS"
+    },
+    "IdempotencyToken": ""
+}

@@ -1,0 +1,17 @@
+{
+    "suiteDefinitionConfiguration": {
+        "suiteDefinitionName": "",
+        "devices": [
+            {
+                "thingArn": "",
+                "certificateArn": ""
+            }
+        ],
+        "intendedForQualification": true,
+        "rootGroup": "",
+        "devicePermissionRoleArn": ""
+    },
+    "tags": {
+        "KeyName": ""
+    }
+}

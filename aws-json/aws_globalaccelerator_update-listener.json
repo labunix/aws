@@ -1,0 +1,11 @@
+{
+    "ListenerArn": "",
+    "PortRanges": [
+        {
+            "FromPort": 0,
+            "ToPort": 0
+        }
+    ],
+    "Protocol": "UDP",
+    "ClientAffinity": "NONE"
+}

@@ -1,0 +1,13 @@
+{
+    "AssignIpv6AddressOnCreation": {
+        "Value": true
+    },
+    "MapPublicIpOnLaunch": {
+        "Value": true
+    },
+    "SubnetId": "",
+    "MapCustomerOwnedIpOnLaunch": {
+        "Value": true
+    },
+    "CustomerOwnedIpv4Pool": ""
+}

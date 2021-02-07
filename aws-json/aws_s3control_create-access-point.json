@@ -1,0 +1,14 @@
+{
+    "AccountId": "",
+    "Name": "",
+    "Bucket": "",
+    "VpcConfiguration": {
+        "VpcId": ""
+    },
+    "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+    }
+}

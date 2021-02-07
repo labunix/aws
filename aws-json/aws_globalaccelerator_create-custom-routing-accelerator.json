@@ -1,0 +1,12 @@
+{
+    "Name": "",
+    "IpAddressType": "IPV4",
+    "Enabled": true,
+    "IdempotencyToken": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

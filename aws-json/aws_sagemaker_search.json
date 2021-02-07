@@ -1,0 +1,32 @@
+{
+    "Resource": "TrainingJob",
+    "SearchExpression": {
+        "Filters": [
+            {
+                "Name": "",
+                "Operator": "LessThanOrEqualTo",
+                "Value": ""
+            }
+        ],
+        "NestedFilters": [
+            {
+                "NestedPropertyName": "",
+                "Filters": [
+                    {
+                        "Name": "",
+                        "Operator": "NotEquals",
+                        "Value": ""
+                    }
+                ]
+            }
+        ],
+        "SubExpressions": [
+            {}
+        ],
+        "Operator": "And"
+    },
+    "SortBy": "",
+    "SortOrder": "Descending",
+    "NextToken": "",
+    "MaxResults": 0
+}

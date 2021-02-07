@@ -1,0 +1,1630 @@
+{
+    "Findings": [
+        {
+            "SchemaVersion": "",
+            "Id": "",
+            "ProductArn": "",
+            "GeneratorId": "",
+            "AwsAccountId": "",
+            "Types": [
+                ""
+            ],
+            "FirstObservedAt": "",
+            "LastObservedAt": "",
+            "CreatedAt": "",
+            "UpdatedAt": "",
+            "Severity": {
+                "Product": null,
+                "Label": "HIGH",
+                "Normalized": 0,
+                "Original": ""
+            },
+            "Confidence": 0,
+            "Criticality": 0,
+            "Title": "",
+            "Description": "",
+            "Remediation": {
+                "Recommendation": {
+                    "Text": "",
+                    "Url": ""
+                }
+            },
+            "SourceUrl": "",
+            "ProductFields": {
+                "KeyName": ""
+            },
+            "UserDefinedFields": {
+                "KeyName": ""
+            },
+            "Malware": [
+                {
+                    "Name": "",
+                    "Type": "TROJAN",
+                    "Path": "",
+                    "State": "REMOVED"
+                }
+            ],
+            "Network": {
+                "Direction": "OUT",
+                "Protocol": "",
+                "OpenPortRange": {
+                    "Begin": 0,
+                    "End": 0
+                },
+                "SourceIpV4": "",
+                "SourceIpV6": "",
+                "SourcePort": 0,
+                "SourceDomain": "",
+                "SourceMac": "",
+                "DestinationIpV4": "",
+                "DestinationIpV6": "",
+                "DestinationPort": 0,
+                "DestinationDomain": ""
+            },
+            "NetworkPath": [
+                {
+                    "ComponentId": "",
+                    "ComponentType": "",
+                    "Egress": {
+                        "Protocol": "",
+                        "Destination": {
+                            "Address": [
+                                ""
+                            ],
+                            "PortRanges": [
+                                {
+                                    "Begin": 0,
+                                    "End": 0
+                                }
+                            ]
+                        },
+                        "Source": {
+                            "Address": [
+                                ""
+                            ],
+                            "PortRanges": [
+                                {
+                                    "Begin": 0,
+                                    "End": 0
+                                }
+                            ]
+                        }
+                    },
+                    "Ingress": {
+                        "Protocol": "",
+                        "Destination": {
+                            "Address": [
+                                ""
+                            ],
+                            "PortRanges": [
+                                {
+                                    "Begin": 0,
+                                    "End": 0
+                                }
+                            ]
+                        },
+                        "Source": {
+                            "Address": [
+                                ""
+                            ],
+                            "PortRanges": [
+                                {
+                                    "Begin": 0,
+                                    "End": 0
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "Process": {
+                "Name": "",
+                "Path": "",
+                "Pid": 0,
+                "ParentPid": 0,
+                "LaunchedAt": "",
+                "TerminatedAt": ""
+            },
+            "ThreatIntelIndicators": [
+                {
+                    "Type": "IPV6_ADDRESS",
+                    "Value": "",
+                    "Category": "EXPLOIT_SITE",
+                    "LastObservedAt": "",
+                    "Source": "",
+                    "SourceUrl": ""
+                }
+            ],
+            "Resources": [
+                {
+                    "Type": "",
+                    "Id": "",
+                    "Partition": "aws",
+                    "Region": "",
+                    "ResourceRole": "",
+                    "Tags": {
+                        "KeyName": ""
+                    },
+                    "Details": {
+                        "AwsAutoScalingAutoScalingGroup": {
+                            "LaunchConfigurationName": "",
+                            "LoadBalancerNames": [
+                                ""
+                            ],
+                            "HealthCheckType": "",
+                            "HealthCheckGracePeriod": 0,
+                            "CreatedTime": ""
+                        },
+                        "AwsCodeBuildProject": {
+                            "EncryptionKey": "",
+                            "Environment": {
+                                "Certificate": "",
+                                "ImagePullCredentialsType": "",
+                                "RegistryCredential": {
+                                    "Credential": "",
+                                    "CredentialProvider": ""
+                                },
+                                "Type": ""
+                            },
+                            "Name": "",
+                            "Source": {
+                                "Type": "",
+                                "Location": "",
+                                "GitCloneDepth": 0,
+                                "InsecureSsl": true
+                            },
+                            "ServiceRole": "",
+                            "VpcConfig": {
+                                "VpcId": "",
+                                "Subnets": [
+                                    ""
+                                ],
+                                "SecurityGroupIds": [
+                                    ""
+                                ]
+                            }
+                        },
+                        "AwsCloudFrontDistribution": {
+                            "CacheBehaviors": {
+                                "Items": [
+                                    {
+                                        "ViewerProtocolPolicy": ""
+                                    }
+                                ]
+                            },
+                            "DefaultCacheBehavior": {
+                                "ViewerProtocolPolicy": ""
+                            },
+                            "DefaultRootObject": "",
+                            "DomainName": "",
+                            "ETag": "",
+                            "LastModifiedTime": "",
+                            "Logging": {
+                                "Bucket": "",
+                                "Enabled": true,
+                                "IncludeCookies": true,
+                                "Prefix": ""
+                            },
+                            "Origins": {
+                                "Items": [
+                                    {
+                                        "DomainName": "",
+                                        "Id": "",
+                                        "OriginPath": "",
+                                        "S3OriginConfig": {
+                                            "OriginAccessIdentity": ""
+                                        }
+                                    }
+                                ]
+                            },
+                            "OriginGroups": {
+                                "Items": [
+                                    {
+                                        "FailoverCriteria": {
+                                            "StatusCodes": {
+                                                "Items": [
+                                                    0
+                                                ],
+                                                "Quantity": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "Status": "",
+                            "WebAclId": ""
+                        },
+                        "AwsEc2Instance": {
+                            "Type": "",
+                            "ImageId": "",
+                            "IpV4Addresses": [
+                                ""
+                            ],
+                            "IpV6Addresses": [
+                                ""
+                            ],
+                            "KeyName": "",
+                            "IamInstanceProfileArn": "",
+                            "VpcId": "",
+                            "SubnetId": "",
+                            "LaunchedAt": ""
+                        },
+                        "AwsEc2NetworkInterface": {
+                            "Attachment": {
+                                "AttachTime": "",
+                                "AttachmentId": "",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "InstanceId": "",
+                                "InstanceOwnerId": "",
+                                "Status": ""
+                            },
+                            "NetworkInterfaceId": "",
+                            "SecurityGroups": [
+                                {
+                                    "GroupName": "",
+                                    "GroupId": ""
+                                }
+                            ],
+                            "SourceDestCheck": true
+                        },
+                        "AwsEc2SecurityGroup": {
+                            "GroupName": "",
+                            "GroupId": "",
+                            "OwnerId": "",
+                            "VpcId": "",
+                            "IpPermissions": [
+                                {
+                                    "IpProtocol": "",
+                                    "FromPort": 0,
+                                    "ToPort": 0,
+                                    "UserIdGroupPairs": [
+                                        {
+                                            "GroupId": "",
+                                            "GroupName": "",
+                                            "PeeringStatus": "",
+                                            "UserId": "",
+                                            "VpcId": "",
+                                            "VpcPeeringConnectionId": ""
+                                        }
+                                    ],
+                                    "IpRanges": [
+                                        {
+                                            "CidrIp": ""
+                                        }
+                                    ],
+                                    "Ipv6Ranges": [
+                                        {
+                                            "CidrIpv6": ""
+                                        }
+                                    ],
+                                    "PrefixListIds": [
+                                        {
+                                            "PrefixListId": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "IpPermissionsEgress": [
+                                {
+                                    "IpProtocol": "",
+                                    "FromPort": 0,
+                                    "ToPort": 0,
+                                    "UserIdGroupPairs": [
+                                        {
+                                            "GroupId": "",
+                                            "GroupName": "",
+                                            "PeeringStatus": "",
+                                            "UserId": "",
+                                            "VpcId": "",
+                                            "VpcPeeringConnectionId": ""
+                                        }
+                                    ],
+                                    "IpRanges": [
+                                        {
+                                            "CidrIp": ""
+                                        }
+                                    ],
+                                    "Ipv6Ranges": [
+                                        {
+                                            "CidrIpv6": ""
+                                        }
+                                    ],
+                                    "PrefixListIds": [
+                                        {
+                                            "PrefixListId": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "AwsEc2Volume": {
+                            "CreateTime": "",
+                            "Encrypted": true,
+                            "Size": 0,
+                            "SnapshotId": "",
+                            "Status": "",
+                            "KmsKeyId": "",
+                            "Attachments": [
+                                {
+                                    "AttachTime": "",
+                                    "DeleteOnTermination": true,
+                                    "InstanceId": "",
+                                    "Status": ""
+                                }
+                            ]
+                        },
+                        "AwsEc2Vpc": {
+                            "CidrBlockAssociationSet": [
+                                {
+                                    "AssociationId": "",
+                                    "CidrBlock": "",
+                                    "CidrBlockState": ""
+                                }
+                            ],
+                            "Ipv6CidrBlockAssociationSet": [
+                                {
+                                    "AssociationId": "",
+                                    "Ipv6CidrBlock": "",
+                                    "CidrBlockState": ""
+                                }
+                            ],
+                            "DhcpOptionsId": "",
+                            "State": ""
+                        },
+                        "AwsEc2Eip": {
+                            "InstanceId": "",
+                            "PublicIp": "",
+                            "AllocationId": "",
+                            "AssociationId": "",
+                            "Domain": "",
+                            "PublicIpv4Pool": "",
+                            "NetworkBorderGroup": "",
+                            "NetworkInterfaceId": "",
+                            "NetworkInterfaceOwnerId": "",
+                            "PrivateIpAddress": ""
+                        },
+                        "AwsElbv2LoadBalancer": {
+                            "AvailabilityZones": [
+                                {
+                                    "ZoneName": "",
+                                    "SubnetId": ""
+                                }
+                            ],
+                            "CanonicalHostedZoneId": "",
+                            "CreatedTime": "",
+                            "DNSName": "",
+                            "IpAddressType": "",
+                            "Scheme": "",
+                            "SecurityGroups": [
+                                ""
+                            ],
+                            "State": {
+                                "Code": "",
+                                "Reason": ""
+                            },
+                            "Type": "",
+                            "VpcId": ""
+                        },
+                        "AwsElasticsearchDomain": {
+                            "AccessPolicies": "",
+                            "DomainEndpointOptions": {
+                                "EnforceHTTPS": true,
+                                "TLSSecurityPolicy": ""
+                            },
+                            "DomainId": "",
+                            "DomainName": "",
+                            "Endpoint": "",
+                            "Endpoints": {
+                                "KeyName": ""
+                            },
+                            "ElasticsearchVersion": "",
+                            "EncryptionAtRestOptions": {
+                                "Enabled": true,
+                                "KmsKeyId": ""
+                            },
+                            "NodeToNodeEncryptionOptions": {
+                                "Enabled": true
+                            },
+                            "VPCOptions": {
+                                "AvailabilityZones": [
+                                    ""
+                                ],
+                                "SecurityGroupIds": [
+                                    ""
+                                ],
+                                "SubnetIds": [
+                                    ""
+                                ],
+                                "VPCId": ""
+                            }
+                        },
+                        "AwsS3Bucket": {
+                            "OwnerId": "",
+                            "OwnerName": "",
+                            "CreatedAt": "",
+                            "ServerSideEncryptionConfiguration": {
+                                "Rules": [
+                                    {
+                                        "ApplyServerSideEncryptionByDefault": {
+                                            "SSEAlgorithm": "",
+                                            "KMSMasterKeyID": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "AwsS3Object": {
+                            "LastModified": "",
+                            "ETag": "",
+                            "VersionId": "",
+                            "ContentType": "",
+                            "ServerSideEncryption": "",
+                            "SSEKMSKeyId": ""
+                        },
+                        "AwsSecretsManagerSecret": {
+                            "RotationRules": {
+                                "AutomaticallyAfterDays": 0
+                            },
+                            "RotationOccurredWithinFrequency": true,
+                            "KmsKeyId": "",
+                            "RotationEnabled": true,
+                            "RotationLambdaArn": "",
+                            "Deleted": true,
+                            "Name": "",
+                            "Description": ""
+                        },
+                        "AwsIamAccessKey": {
+                            "UserName": "",
+                            "Status": "Inactive",
+                            "CreatedAt": "",
+                            "PrincipalId": "",
+                            "PrincipalType": "",
+                            "PrincipalName": "",
+                            "AccountId": "",
+                            "AccessKeyId": "",
+                            "SessionContext": {
+                                "Attributes": {
+                                    "MfaAuthenticated": true,
+                                    "CreationDate": ""
+                                },
+                                "SessionIssuer": {
+                                    "Type": "",
+                                    "PrincipalId": "",
+                                    "Arn": "",
+                                    "AccountId": "",
+                                    "UserName": ""
+                                }
+                            }
+                        },
+                        "AwsIamUser": {
+                            "AttachedManagedPolicies": [
+                                {
+                                    "PolicyName": "",
+                                    "PolicyArn": ""
+                                }
+                            ],
+                            "CreateDate": "",
+                            "GroupList": [
+                                ""
+                            ],
+                            "Path": "",
+                            "PermissionsBoundary": {
+                                "PermissionsBoundaryArn": "",
+                                "PermissionsBoundaryType": ""
+                            },
+                            "UserId": "",
+                            "UserName": "",
+                            "UserPolicyList": [
+                                {
+                                    "PolicyName": ""
+                                }
+                            ]
+                        },
+                        "AwsIamPolicy": {
+                            "AttachmentCount": 0,
+                            "CreateDate": "",
+                            "DefaultVersionId": "",
+                            "Description": "",
+                            "IsAttachable": true,
+                            "Path": "",
+                            "PermissionsBoundaryUsageCount": 0,
+                            "PolicyId": "",
+                            "PolicyName": "",
+                            "PolicyVersionList": [
+                                {
+                                    "VersionId": "",
+                                    "IsDefaultVersion": true,
+                                    "CreateDate": ""
+                                }
+                            ],
+                            "UpdateDate": ""
+                        },
+                        "AwsApiGatewayV2Stage": {
+                            "CreatedDate": "",
+                            "Description": "",
+                            "DefaultRouteSettings": {
+                                "DetailedMetricsEnabled": true,
+                                "LoggingLevel": "",
+                                "DataTraceEnabled": true,
+                                "ThrottlingBurstLimit": 0,
+                                "ThrottlingRateLimit": null
+                            },
+                            "DeploymentId": "",
+                            "LastUpdatedDate": "",
+                            "RouteSettings": {
+                                "DetailedMetricsEnabled": true,
+                                "LoggingLevel": "",
+                                "DataTraceEnabled": true,
+                                "ThrottlingBurstLimit": 0,
+                                "ThrottlingRateLimit": null
+                            },
+                            "StageName": "",
+                            "StageVariables": {
+                                "KeyName": ""
+                            },
+                            "AccessLogSettings": {
+                                "Format": "",
+                                "DestinationArn": ""
+                            },
+                            "AutoDeploy": true,
+                            "LastDeploymentStatusMessage": "",
+                            "ApiGatewayManaged": true
+                        },
+                        "AwsApiGatewayV2Api": {
+                            "ApiEndpoint": "",
+                            "ApiId": "",
+                            "ApiKeySelectionExpression": "",
+                            "CreatedDate": "",
+                            "Description": "",
+                            "Version": "",
+                            "Name": "",
+                            "ProtocolType": "",
+                            "RouteSelectionExpression": "",
+                            "CorsConfiguration": {
+                                "AllowOrigins": [
+                                    ""
+                                ],
+                                "AllowCredentials": true,
+                                "ExposeHeaders": [
+                                    ""
+                                ],
+                                "MaxAge": 0,
+                                "AllowMethods": [
+                                    ""
+                                ],
+                                "AllowHeaders": [
+                                    ""
+                                ]
+                            }
+                        },
+                        "AwsDynamoDbTable": {
+                            "AttributeDefinitions": [
+                                {
+                                    "AttributeName": "",
+                                    "AttributeType": ""
+                                }
+                            ],
+                            "BillingModeSummary": {
+                                "BillingMode": "",
+                                "LastUpdateToPayPerRequestDateTime": ""
+                            },
+                            "CreationDateTime": "",
+                            "GlobalSecondaryIndexes": [
+                                {
+                                    "Backfilling": true,
+                                    "IndexArn": "",
+                                    "IndexName": "",
+                                    "IndexSizeBytes": 0,
+                                    "IndexStatus": "",
+                                    "ItemCount": 0,
+                                    "KeySchema": [
+                                        {
+                                            "AttributeName": "",
+                                            "KeyType": ""
+                                        }
+                                    ],
+                                    "Projection": {
+                                        "NonKeyAttributes": [
+                                            ""
+                                        ],
+                                        "ProjectionType": ""
+                                    },
+                                    "ProvisionedThroughput": {
+                                        "LastDecreaseDateTime": "",
+                                        "LastIncreaseDateTime": "",
+                                        "NumberOfDecreasesToday": 0,
+                                        "ReadCapacityUnits": 0,
+                                        "WriteCapacityUnits": 0
+                                    }
+                                }
+                            ],
+                            "GlobalTableVersion": "",
+                            "ItemCount": 0,
+                            "KeySchema": [
+                                {
+                                    "AttributeName": "",
+                                    "KeyType": ""
+                                }
+                            ],
+                            "LatestStreamArn": "",
+                            "LatestStreamLabel": "",
+                            "LocalSecondaryIndexes": [
+                                {
+                                    "IndexArn": "",
+                                    "IndexName": "",
+                                    "KeySchema": [
+                                        {
+                                            "AttributeName": "",
+                                            "KeyType": ""
+                                        }
+                                    ],
+                                    "Projection": {
+                                        "NonKeyAttributes": [
+                                            ""
+                                        ],
+                                        "ProjectionType": ""
+                                    }
+                                }
+                            ],
+                            "ProvisionedThroughput": {
+                                "LastDecreaseDateTime": "",
+                                "LastIncreaseDateTime": "",
+                                "NumberOfDecreasesToday": 0,
+                                "ReadCapacityUnits": 0,
+                                "WriteCapacityUnits": 0
+                            },
+                            "Replicas": [
+                                {
+                                    "GlobalSecondaryIndexes": [
+                                        {
+                                            "IndexName": "",
+                                            "ProvisionedThroughputOverride": {
+                                                "ReadCapacityUnits": 0
+                                            }
+                                        }
+                                    ],
+                                    "KmsMasterKeyId": "",
+                                    "ProvisionedThroughputOverride": {
+                                        "ReadCapacityUnits": 0
+                                    },
+                                    "RegionName": "",
+                                    "ReplicaStatus": "",
+                                    "ReplicaStatusDescription": ""
+                                }
+                            ],
+                            "RestoreSummary": {
+                                "SourceBackupArn": "",
+                                "SourceTableArn": "",
+                                "RestoreDateTime": "",
+                                "RestoreInProgress": true
+                            },
+                            "SseDescription": {
+                                "InaccessibleEncryptionDateTime": "",
+                                "Status": "",
+                                "SseType": "",
+                                "KmsMasterKeyArn": ""
+                            },
+                            "StreamSpecification": {
+                                "StreamEnabled": true,
+                                "StreamViewType": ""
+                            },
+                            "TableId": "",
+                            "TableName": "",
+                            "TableSizeBytes": 0,
+                            "TableStatus": ""
+                        },
+                        "AwsApiGatewayStage": {
+                            "DeploymentId": "",
+                            "ClientCertificateId": "",
+                            "StageName": "",
+                            "Description": "",
+                            "CacheClusterEnabled": true,
+                            "CacheClusterSize": "",
+                            "CacheClusterStatus": "",
+                            "MethodSettings": [
+                                {
+                                    "MetricsEnabled": true,
+                                    "LoggingLevel": "",
+                                    "DataTraceEnabled": true,
+                                    "ThrottlingBurstLimit": 0,
+                                    "ThrottlingRateLimit": null,
+                                    "CachingEnabled": true,
+                                    "CacheTtlInSeconds": 0,
+                                    "CacheDataEncrypted": true,
+                                    "RequireAuthorizationForCacheControl": true,
+                                    "UnauthorizedCacheControlHeaderStrategy": "",
+                                    "HttpMethod": "",
+                                    "ResourcePath": ""
+                                }
+                            ],
+                            "Variables": {
+                                "KeyName": ""
+                            },
+                            "DocumentationVersion": "",
+                            "AccessLogSettings": {
+                                "Format": "",
+                                "DestinationArn": ""
+                            },
+                            "CanarySettings": {
+                                "PercentTraffic": null,
+                                "DeploymentId": "",
+                                "StageVariableOverrides": {
+                                    "KeyName": ""
+                                },
+                                "UseStageCache": true
+                            },
+                            "TracingEnabled": true,
+                            "CreatedDate": "",
+                            "LastUpdatedDate": "",
+                            "WebAclArn": ""
+                        },
+                        "AwsApiGatewayRestApi": {
+                            "Id": "",
+                            "Name": "",
+                            "Description": "",
+                            "CreatedDate": "",
+                            "Version": "",
+                            "BinaryMediaTypes": [
+                                ""
+                            ],
+                            "MinimumCompressionSize": 0,
+                            "ApiKeySource": "",
+                            "EndpointConfiguration": {
+                                "Types": [
+                                    ""
+                                ]
+                            }
+                        },
+                        "AwsCloudTrailTrail": {
+                            "CloudWatchLogsLogGroupArn": "",
+                            "CloudWatchLogsRoleArn": "",
+                            "HasCustomEventSelectors": true,
+                            "HomeRegion": "",
+                            "IncludeGlobalServiceEvents": true,
+                            "IsMultiRegionTrail": true,
+                            "IsOrganizationTrail": true,
+                            "KmsKeyId": "",
+                            "LogFileValidationEnabled": true,
+                            "Name": "",
+                            "S3BucketName": "",
+                            "S3KeyPrefix": "",
+                            "SnsTopicArn": "",
+                            "SnsTopicName": "",
+                            "TrailArn": ""
+                        },
+                        "AwsCertificateManagerCertificate": {
+                            "CertificateAuthorityArn": "",
+                            "CreatedAt": "",
+                            "DomainName": "",
+                            "DomainValidationOptions": [
+                                {
+                                    "DomainName": "",
+                                    "ResourceRecord": {
+                                        "Name": "",
+                                        "Type": "",
+                                        "Value": ""
+                                    },
+                                    "ValidationDomain": "",
+                                    "ValidationEmails": [
+                                        ""
+                                    ],
+                                    "ValidationMethod": "",
+                                    "ValidationStatus": ""
+                                }
+                            ],
+                            "ExtendedKeyUsages": [
+                                {
+                                    "Name": "",
+                                    "OId": ""
+                                }
+                            ],
+                            "FailureReason": "",
+                            "ImportedAt": "",
+                            "InUseBy": [
+                                ""
+                            ],
+                            "IssuedAt": "",
+                            "Issuer": "",
+                            "KeyAlgorithm": "",
+                            "KeyUsages": [
+                                {
+                                    "Name": ""
+                                }
+                            ],
+                            "NotAfter": "",
+                            "NotBefore": "",
+                            "Options": {
+                                "CertificateTransparencyLoggingPreference": ""
+                            },
+                            "RenewalEligibility": "",
+                            "RenewalSummary": {
+                                "DomainValidationOptions": [
+                                    {
+                                        "DomainName": "",
+                                        "ResourceRecord": {
+                                            "Name": "",
+                                            "Type": "",
+                                            "Value": ""
+                                        },
+                                        "ValidationDomain": "",
+                                        "ValidationEmails": [
+                                            ""
+                                        ],
+                                        "ValidationMethod": "",
+                                        "ValidationStatus": ""
+                                    }
+                                ],
+                                "RenewalStatus": "",
+                                "RenewalStatusReason": "",
+                                "UpdatedAt": ""
+                            },
+                            "Serial": "",
+                            "SignatureAlgorithm": "",
+                            "Status": "",
+                            "Subject": "",
+                            "SubjectAlternativeNames": [
+                                ""
+                            ],
+                            "Type": ""
+                        },
+                        "AwsRedshiftCluster": {
+                            "AllowVersionUpgrade": true,
+                            "AutomatedSnapshotRetentionPeriod": 0,
+                            "AvailabilityZone": "",
+                            "ClusterAvailabilityStatus": "",
+                            "ClusterCreateTime": "",
+                            "ClusterIdentifier": "",
+                            "ClusterNodes": [
+                                {
+                                    "NodeRole": "",
+                                    "PrivateIpAddress": "",
+                                    "PublicIpAddress": ""
+                                }
+                            ],
+                            "ClusterParameterGroups": [
+                                {
+                                    "ClusterParameterStatusList": [
+                                        {
+                                            "ParameterName": "",
+                                            "ParameterApplyStatus": "",
+                                            "ParameterApplyErrorDescription": ""
+                                        }
+                                    ],
+                                    "ParameterApplyStatus": "",
+                                    "ParameterGroupName": ""
+                                }
+                            ],
+                            "ClusterPublicKey": "",
+                            "ClusterRevisionNumber": "",
+                            "ClusterSecurityGroups": [
+                                {
+                                    "ClusterSecurityGroupName": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "ClusterSnapshotCopyStatus": {
+                                "DestinationRegion": "",
+                                "ManualSnapshotRetentionPeriod": 0,
+                                "RetentionPeriod": 0,
+                                "SnapshotCopyGrantName": ""
+                            },
+                            "ClusterStatus": "",
+                            "ClusterSubnetGroupName": "",
+                            "ClusterVersion": "",
+                            "DBName": "",
+                            "DeferredMaintenanceWindows": [
+                                {
+                                    "DeferMaintenanceEndTime": "",
+                                    "DeferMaintenanceIdentifier": "",
+                                    "DeferMaintenanceStartTime": ""
+                                }
+                            ],
+                            "ElasticIpStatus": {
+                                "ElasticIp": "",
+                                "Status": ""
+                            },
+                            "ElasticResizeNumberOfNodeOptions": "",
+                            "Encrypted": true,
+                            "Endpoint": {
+                                "Address": "",
+                                "Port": 0
+                            },
+                            "EnhancedVpcRouting": true,
+                            "ExpectedNextSnapshotScheduleTime": "",
+                            "ExpectedNextSnapshotScheduleTimeStatus": "",
+                            "HsmStatus": {
+                                "HsmClientCertificateIdentifier": "",
+                                "HsmConfigurationIdentifier": "",
+                                "Status": ""
+                            },
+                            "IamRoles": [
+                                {
+                                    "ApplyStatus": "",
+                                    "IamRoleArn": ""
+                                }
+                            ],
+                            "KmsKeyId": "",
+                            "MaintenanceTrackName": "",
+                            "ManualSnapshotRetentionPeriod": 0,
+                            "MasterUsername": "",
+                            "NextMaintenanceWindowStartTime": "",
+                            "NodeType": "",
+                            "NumberOfNodes": 0,
+                            "PendingActions": [
+                                ""
+                            ],
+                            "PendingModifiedValues": {
+                                "AutomatedSnapshotRetentionPeriod": 0,
+                                "ClusterIdentifier": "",
+                                "ClusterType": "",
+                                "ClusterVersion": "",
+                                "EncryptionType": "",
+                                "EnhancedVpcRouting": true,
+                                "MaintenanceTrackName": "",
+                                "MasterUserPassword": "",
+                                "NodeType": "",
+                                "NumberOfNodes": 0,
+                                "PubliclyAccessible": true
+                            },
+                            "PreferredMaintenanceWindow": "",
+                            "PubliclyAccessible": true,
+                            "ResizeInfo": {
+                                "AllowCancelResize": true,
+                                "ResizeType": ""
+                            },
+                            "RestoreStatus": {
+                                "CurrentRestoreRateInMegaBytesPerSecond": null,
+                                "ElapsedTimeInSeconds": 0,
+                                "EstimatedTimeToCompletionInSeconds": 0,
+                                "ProgressInMegaBytes": 0,
+                                "SnapshotSizeInMegaBytes": 0,
+                                "Status": ""
+                            },
+                            "SnapshotScheduleIdentifier": "",
+                            "SnapshotScheduleState": "",
+                            "VpcId": "",
+                            "VpcSecurityGroups": [
+                                {
+                                    "Status": "",
+                                    "VpcSecurityGroupId": ""
+                                }
+                            ]
+                        },
+                        "AwsElbLoadBalancer": {
+                            "AvailabilityZones": [
+                                ""
+                            ],
+                            "BackendServerDescriptions": [
+                                {
+                                    "InstancePort": 0,
+                                    "PolicyNames": [
+                                        ""
+                                    ]
+                                }
+                            ],
+                            "CanonicalHostedZoneName": "",
+                            "CanonicalHostedZoneNameID": "",
+                            "CreatedTime": "",
+                            "DnsName": "",
+                            "HealthCheck": {
+                                "HealthyThreshold": 0,
+                                "Interval": 0,
+                                "Target": "",
+                                "Timeout": 0,
+                                "UnhealthyThreshold": 0
+                            },
+                            "Instances": [
+                                {
+                                    "InstanceId": ""
+                                }
+                            ],
+                            "ListenerDescriptions": [
+                                {
+                                    "Listener": {
+                                        "InstancePort": 0,
+                                        "InstanceProtocol": "",
+                                        "LoadBalancerPort": 0,
+                                        "Protocol": "",
+                                        "SslCertificateId": ""
+                                    },
+                                    "PolicyNames": [
+                                        ""
+                                    ]
+                                }
+                            ],
+                            "LoadBalancerAttributes": {
+                                "AccessLog": {
+                                    "EmitInterval": 0,
+                                    "Enabled": true,
+                                    "S3BucketName": "",
+                                    "S3BucketPrefix": ""
+                                },
+                                "ConnectionDraining": {
+                                    "Enabled": true,
+                                    "Timeout": 0
+                                },
+                                "ConnectionSettings": {
+                                    "IdleTimeout": 0
+                                },
+                                "CrossZoneLoadBalancing": {
+                                    "Enabled": true
+                                }
+                            },
+                            "LoadBalancerName": "",
+                            "Policies": {
+                                "AppCookieStickinessPolicies": [
+                                    {
+                                        "CookieName": "",
+                                        "PolicyName": ""
+                                    }
+                                ],
+                                "LbCookieStickinessPolicies": [
+                                    {
+                                        "CookieExpirationPeriod": 0,
+                                        "PolicyName": ""
+                                    }
+                                ],
+                                "OtherPolicies": [
+                                    ""
+                                ]
+                            },
+                            "Scheme": "",
+                            "SecurityGroups": [
+                                ""
+                            ],
+                            "SourceSecurityGroup": {
+                                "GroupName": "",
+                                "OwnerAlias": ""
+                            },
+                            "Subnets": [
+                                ""
+                            ],
+                            "VpcId": ""
+                        },
+                        "AwsIamGroup": {
+                            "AttachedManagedPolicies": [
+                                {
+                                    "PolicyName": "",
+                                    "PolicyArn": ""
+                                }
+                            ],
+                            "CreateDate": "",
+                            "GroupId": "",
+                            "GroupName": "",
+                            "GroupPolicyList": [
+                                {
+                                    "PolicyName": ""
+                                }
+                            ],
+                            "Path": ""
+                        },
+                        "AwsIamRole": {
+                            "AssumeRolePolicyDocument": "",
+                            "AttachedManagedPolicies": [
+                                {
+                                    "PolicyName": "",
+                                    "PolicyArn": ""
+                                }
+                            ],
+                            "CreateDate": "",
+                            "InstanceProfileList": [
+                                {
+                                    "Arn": "",
+                                    "CreateDate": "",
+                                    "InstanceProfileId": "",
+                                    "InstanceProfileName": "",
+                                    "Path": "",
+                                    "Roles": [
+                                        {
+                                            "Arn": "",
+                                            "AssumeRolePolicyDocument": "",
+                                            "CreateDate": "",
+                                            "Path": "",
+                                            "RoleId": "",
+                                            "RoleName": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "PermissionsBoundary": {
+                                "PermissionsBoundaryArn": "",
+                                "PermissionsBoundaryType": ""
+                            },
+                            "RoleId": "",
+                            "RoleName": "",
+                            "RolePolicyList": [
+                                {
+                                    "PolicyName": ""
+                                }
+                            ],
+                            "MaxSessionDuration": 0,
+                            "Path": ""
+                        },
+                        "AwsKmsKey": {
+                            "AWSAccountId": "",
+                            "CreationDate": null,
+                            "KeyId": "",
+                            "KeyManager": "",
+                            "KeyState": "",
+                            "Origin": "",
+                            "Description": ""
+                        },
+                        "AwsLambdaFunction": {
+                            "Code": {
+                                "S3Bucket": "",
+                                "S3Key": "",
+                                "S3ObjectVersion": "",
+                                "ZipFile": ""
+                            },
+                            "CodeSha256": "",
+                            "DeadLetterConfig": {
+                                "TargetArn": ""
+                            },
+                            "Environment": {
+                                "Variables": {
+                                    "KeyName": ""
+                                },
+                                "Error": {
+                                    "ErrorCode": "",
+                                    "Message": ""
+                                }
+                            },
+                            "FunctionName": "",
+                            "Handler": "",
+                            "KmsKeyArn": "",
+                            "LastModified": "",
+                            "Layers": [
+                                {
+                                    "Arn": "",
+                                    "CodeSize": 0
+                                }
+                            ],
+                            "MasterArn": "",
+                            "MemorySize": 0,
+                            "RevisionId": "",
+                            "Role": "",
+                            "Runtime": "",
+                            "Timeout": 0,
+                            "TracingConfig": {
+                                "Mode": ""
+                            },
+                            "VpcConfig": {
+                                "SecurityGroupIds": [
+                                    ""
+                                ],
+                                "SubnetIds": [
+                                    ""
+                                ],
+                                "VpcId": ""
+                            },
+                            "Version": ""
+                        },
+                        "AwsLambdaLayerVersion": {
+                            "Version": 0,
+                            "CompatibleRuntimes": [
+                                ""
+                            ],
+                            "CreatedDate": ""
+                        },
+                        "AwsRdsDbInstance": {
+                            "AssociatedRoles": [
+                                {
+                                    "RoleArn": "",
+                                    "FeatureName": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "CACertificateIdentifier": "",
+                            "DBClusterIdentifier": "",
+                            "DBInstanceIdentifier": "",
+                            "DBInstanceClass": "",
+                            "DbInstancePort": 0,
+                            "DbiResourceId": "",
+                            "DBName": "",
+                            "DeletionProtection": true,
+                            "Endpoint": {
+                                "Address": "",
+                                "Port": 0,
+                                "HostedZoneId": ""
+                            },
+                            "Engine": "",
+                            "EngineVersion": "",
+                            "IAMDatabaseAuthenticationEnabled": true,
+                            "InstanceCreateTime": "",
+                            "KmsKeyId": "",
+                            "PubliclyAccessible": true,
+                            "StorageEncrypted": true,
+                            "TdeCredentialArn": "",
+                            "VpcSecurityGroups": [
+                                {
+                                    "VpcSecurityGroupId": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "MultiAz": true,
+                            "EnhancedMonitoringResourceArn": "",
+                            "DbInstanceStatus": "",
+                            "MasterUsername": "",
+                            "AllocatedStorage": 0,
+                            "PreferredBackupWindow": "",
+                            "BackupRetentionPeriod": 0,
+                            "DbSecurityGroups": [
+                                ""
+                            ],
+                            "DbParameterGroups": [
+                                {
+                                    "DbParameterGroupName": "",
+                                    "ParameterApplyStatus": ""
+                                }
+                            ],
+                            "AvailabilityZone": "",
+                            "DbSubnetGroup": {
+                                "DbSubnetGroupName": "",
+                                "DbSubnetGroupDescription": "",
+                                "VpcId": "",
+                                "SubnetGroupStatus": "",
+                                "Subnets": [
+                                    {
+                                        "SubnetIdentifier": "",
+                                        "SubnetAvailabilityZone": {
+                                            "Name": ""
+                                        },
+                                        "SubnetStatus": ""
+                                    }
+                                ],
+                                "DbSubnetGroupArn": ""
+                            },
+                            "PreferredMaintenanceWindow": "",
+                            "PendingModifiedValues": {
+                                "DbInstanceClass": "",
+                                "AllocatedStorage": 0,
+                                "MasterUserPassword": "",
+                                "Port": 0,
+                                "BackupRetentionPeriod": 0,
+                                "MultiAZ": true,
+                                "EngineVersion": "",
+                                "LicenseModel": "",
+                                "Iops": 0,
+                                "DbInstanceIdentifier": "",
+                                "StorageType": "",
+                                "CaCertificateIdentifier": "",
+                                "DbSubnetGroupName": "",
+                                "PendingCloudWatchLogsExports": {
+                                    "LogTypesToEnable": [
+                                        ""
+                                    ],
+                                    "LogTypesToDisable": [
+                                        ""
+                                    ]
+                                },
+                                "ProcessorFeatures": [
+                                    {
+                                        "Name": "",
+                                        "Value": ""
+                                    }
+                                ]
+                            },
+                            "LatestRestorableTime": "",
+                            "AutoMinorVersionUpgrade": true,
+                            "ReadReplicaSourceDBInstanceIdentifier": "",
+                            "ReadReplicaDBInstanceIdentifiers": [
+                                ""
+                            ],
+                            "ReadReplicaDBClusterIdentifiers": [
+                                ""
+                            ],
+                            "LicenseModel": "",
+                            "Iops": 0,
+                            "OptionGroupMemberships": [
+                                {
+                                    "OptionGroupName": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "CharacterSetName": "",
+                            "SecondaryAvailabilityZone": "",
+                            "StatusInfos": [
+                                {
+                                    "StatusType": "",
+                                    "Normal": true,
+                                    "Status": "",
+                                    "Message": ""
+                                }
+                            ],
+                            "StorageType": "",
+                            "DomainMemberships": [
+                                {
+                                    "Domain": "",
+                                    "Status": "",
+                                    "Fqdn": "",
+                                    "IamRoleName": ""
+                                }
+                            ],
+                            "CopyTagsToSnapshot": true,
+                            "MonitoringInterval": 0,
+                            "MonitoringRoleArn": "",
+                            "PromotionTier": 0,
+                            "Timezone": "",
+                            "PerformanceInsightsEnabled": true,
+                            "PerformanceInsightsKmsKeyId": "",
+                            "PerformanceInsightsRetentionPeriod": 0,
+                            "EnabledCloudWatchLogsExports": [
+                                ""
+                            ],
+                            "ProcessorFeatures": [
+                                {
+                                    "Name": "",
+                                    "Value": ""
+                                }
+                            ],
+                            "ListenerEndpoint": {
+                                "Address": "",
+                                "Port": 0,
+                                "HostedZoneId": ""
+                            },
+                            "MaxAllocatedStorage": 0
+                        },
+                        "AwsSnsTopic": {
+                            "KmsMasterKeyId": "",
+                            "Subscription": [
+                                {
+                                    "Endpoint": "",
+                                    "Protocol": ""
+                                }
+                            ],
+                            "TopicName": "",
+                            "Owner": ""
+                        },
+                        "AwsSqsQueue": {
+                            "KmsDataKeyReusePeriodSeconds": 0,
+                            "KmsMasterKeyId": "",
+                            "QueueName": "",
+                            "DeadLetterTargetArn": ""
+                        },
+                        "AwsWafWebAcl": {
+                            "Name": "",
+                            "DefaultAction": "",
+                            "Rules": [
+                                {
+                                    "Action": {
+                                        "Type": ""
+                                    },
+                                    "ExcludedRules": [
+                                        {
+                                            "RuleId": ""
+                                        }
+                                    ],
+                                    "OverrideAction": {
+                                        "Type": ""
+                                    },
+                                    "Priority": 0,
+                                    "RuleId": "",
+                                    "Type": ""
+                                }
+                            ],
+                            "WebAclId": ""
+                        },
+                        "AwsRdsDbSnapshot": {
+                            "DbSnapshotIdentifier": "",
+                            "DbInstanceIdentifier": "",
+                            "SnapshotCreateTime": "",
+                            "Engine": "",
+                            "AllocatedStorage": 0,
+                            "Status": "",
+                            "Port": 0,
+                            "AvailabilityZone": "",
+                            "VpcId": "",
+                            "InstanceCreateTime": "",
+                            "MasterUsername": "",
+                            "EngineVersion": "",
+                            "LicenseModel": "",
+                            "SnapshotType": "",
+                            "Iops": 0,
+                            "OptionGroupName": "",
+                            "PercentProgress": 0,
+                            "SourceRegion": "",
+                            "SourceDbSnapshotIdentifier": "",
+                            "StorageType": "",
+                            "TdeCredentialArn": "",
+                            "Encrypted": true,
+                            "KmsKeyId": "",
+                            "Timezone": "",
+                            "IamDatabaseAuthenticationEnabled": true,
+                            "ProcessorFeatures": [
+                                {
+                                    "Name": "",
+                                    "Value": ""
+                                }
+                            ],
+                            "DbiResourceId": ""
+                        },
+                        "AwsRdsDbClusterSnapshot": {
+                            "AvailabilityZones": [
+                                ""
+                            ],
+                            "SnapshotCreateTime": "",
+                            "Engine": "",
+                            "AllocatedStorage": 0,
+                            "Status": "",
+                            "Port": 0,
+                            "VpcId": "",
+                            "ClusterCreateTime": "",
+                            "MasterUsername": "",
+                            "EngineVersion": "",
+                            "LicenseModel": "",
+                            "SnapshotType": "",
+                            "PercentProgress": 0,
+                            "StorageEncrypted": true,
+                            "KmsKeyId": "",
+                            "DbClusterIdentifier": "",
+                            "DbClusterSnapshotIdentifier": "",
+                            "IamDatabaseAuthenticationEnabled": true
+                        },
+                        "AwsRdsDbCluster": {
+                            "AllocatedStorage": 0,
+                            "AvailabilityZones": [
+                                ""
+                            ],
+                            "BackupRetentionPeriod": 0,
+                            "DatabaseName": "",
+                            "Status": "",
+                            "Endpoint": "",
+                            "ReaderEndpoint": "",
+                            "CustomEndpoints": [
+                                ""
+                            ],
+                            "MultiAz": true,
+                            "Engine": "",
+                            "EngineVersion": "",
+                            "Port": 0,
+                            "MasterUsername": "",
+                            "PreferredBackupWindow": "",
+                            "PreferredMaintenanceWindow": "",
+                            "ReadReplicaIdentifiers": [
+                                ""
+                            ],
+                            "VpcSecurityGroups": [
+                                {
+                                    "VpcSecurityGroupId": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "HostedZoneId": "",
+                            "StorageEncrypted": true,
+                            "KmsKeyId": "",
+                            "DbClusterResourceId": "",
+                            "AssociatedRoles": [
+                                {
+                                    "RoleArn": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "ClusterCreateTime": "",
+                            "EnabledCloudWatchLogsExports": [
+                                ""
+                            ],
+                            "EngineMode": "",
+                            "DeletionProtection": true,
+                            "HttpEndpointEnabled": true,
+                            "ActivityStreamStatus": "",
+                            "CopyTagsToSnapshot": true,
+                            "CrossAccountClone": true,
+                            "DomainMemberships": [
+                                {
+                                    "Domain": "",
+                                    "Status": "",
+                                    "Fqdn": "",
+                                    "IamRoleName": ""
+                                }
+                            ],
+                            "DbClusterParameterGroup": "",
+                            "DbSubnetGroup": "",
+                            "DbClusterOptionGroupMemberships": [
+                                {
+                                    "DbClusterOptionGroupName": "",
+                                    "Status": ""
+                                }
+                            ],
+                            "DbClusterIdentifier": "",
+                            "DbClusterMembers": [
+                                {
+                                    "IsClusterWriter": true,
+                                    "PromotionTier": 0,
+                                    "DbInstanceIdentifier": "",
+                                    "DbClusterParameterGroupStatus": ""
+                                }
+                            ],
+                            "IamDatabaseAuthenticationEnabled": true
+                        },
+                        "Container": {
+                            "Name": "",
+                            "ImageId": "",
+                            "ImageName": "",
+                            "LaunchedAt": ""
+                        },
+                        "Other": {
+                            "KeyName": ""
+                        }
+                    }
+                }
+            ],
+            "Compliance": {
+                "Status": "WARNING",
+                "RelatedRequirements": [
+                    ""
+                ],
+                "StatusReasons": [
+                    {
+                        "ReasonCode": "",
+                        "Description": ""
+                    }
+                ]
+            },
+            "VerificationState": "TRUE_POSITIVE",
+            "WorkflowState": "DEFERRED",
+            "Workflow": {
+                "Status": "NEW"
+            },
+            "RecordState": "ACTIVE",
+            "RelatedFindings": [
+                {
+                    "ProductArn": "",
+                    "Id": ""
+                }
+            ],
+            "Note": {
+                "Text": "",
+                "UpdatedBy": "",
+                "UpdatedAt": ""
+            },
+            "Vulnerabilities": [
+                {
+                    "Id": "",
+                    "VulnerablePackages": [
+                        {
+                            "Name": "",
+                            "Version": "",
+                            "Epoch": "",
+                            "Release": "",
+                            "Architecture": ""
+                        }
+                    ],
+                    "Cvss": [
+                        {
+                            "Version": "",
+                            "BaseScore": null,
+                            "BaseVector": ""
+                        }
+                    ],
+                    "RelatedVulnerabilities": [
+                        ""
+                    ],
+                    "Vendor": {
+                        "Name": "",
+                        "Url": "",
+                        "VendorSeverity": "",
+                        "VendorCreatedAt": "",
+                        "VendorUpdatedAt": ""
+                    },
+                    "ReferenceUrls": [
+                        ""
+                    ]
+                }
+            ],
+            "PatchSummary": {
+                "Id": "",
+                "InstalledCount": 0,
+                "MissingCount": 0,
+                "FailedCount": 0,
+                "InstalledOtherCount": 0,
+                "InstalledRejectedCount": 0,
+                "InstalledPendingReboot": 0,
+                "OperationStartTime": "",
+                "OperationEndTime": "",
+                "RebootOption": "",
+                "Operation": ""
+            }
+        }
+    ]
+}

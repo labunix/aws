@@ -1,0 +1,22 @@
+{
+    "NetworkInterfaceId": "",
+    "TrafficMirrorTargetId": "",
+    "TrafficMirrorFilterId": "",
+    "PacketLength": 0,
+    "SessionNumber": 0,
+    "VirtualNetworkId": 0,
+    "Description": "",
+    "TagSpecifications": [
+        {
+            "ResourceType": "import-image-task",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true,
+    "ClientToken": ""
+}

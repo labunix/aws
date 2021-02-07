@@ -1,0 +1,25 @@
+{
+    "entries": [
+        {
+            "entryId": "",
+            "assetId": "",
+            "propertyId": "",
+            "propertyAlias": "",
+            "propertyValues": [
+                {
+                    "value": {
+                        "stringValue": "",
+                        "integerValue": 0,
+                        "doubleValue": null,
+                        "booleanValue": true
+                    },
+                    "timestamp": {
+                        "timeInSeconds": 0,
+                        "offsetInNanos": 0
+                    },
+                    "quality": "UNCERTAIN"
+                }
+            ]
+        }
+    ]
+}

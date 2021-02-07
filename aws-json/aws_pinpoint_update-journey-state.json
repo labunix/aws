@@ -1,0 +1,7 @@
+{
+    "ApplicationId": "",
+    "JourneyId": "",
+    "JourneyStateRequest": {
+        "State": "CLOSED"
+    }
+}

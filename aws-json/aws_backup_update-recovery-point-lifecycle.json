@@ -1,0 +1,8 @@
+{
+    "BackupVaultName": "",
+    "RecoveryPointArn": "",
+    "Lifecycle": {
+        "MoveToColdStorageAfterDays": 0,
+        "DeleteAfterDays": 0
+    }
+}

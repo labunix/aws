@@ -1,0 +1,26 @@
+{
+    "ClientToken": "",
+    "InstanceType": "",
+    "InstancePlatform": "Windows with SQL Server",
+    "AvailabilityZone": "",
+    "AvailabilityZoneId": "",
+    "Tenancy": "dedicated",
+    "InstanceCount": 0,
+    "EbsOptimized": true,
+    "EphemeralStorage": true,
+    "EndDate": "1970-01-01T00:00:00",
+    "EndDateType": "unlimited",
+    "InstanceMatchCriteria": "open",
+    "TagSpecifications": [
+        {
+            "ResourceType": "instance",
+            "Tags": [
+                {
+                    "Key": "",
+                    "Value": ""
+                }
+            ]
+        }
+    ],
+    "DryRun": true
+}

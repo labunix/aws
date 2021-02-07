@@ -1,0 +1,44 @@
+{
+    "continueAfterTimeout": true,
+    "database": "",
+    "includeResultMetadata": true,
+    "parameters": [
+        {
+            "name": "",
+            "typeHint": "DATE",
+            "value": {
+                "arrayValue": {
+                    "arrayValues": [
+                        {}
+                    ],
+                    "booleanValues": [
+                        true
+                    ],
+                    "doubleValues": [
+                        null
+                    ],
+                    "longValues": [
+                        0
+                    ],
+                    "stringValues": [
+                        ""
+                    ]
+                },
+                "blobValue": null,
+                "booleanValue": true,
+                "doubleValue": null,
+                "isNull": true,
+                "longValue": 0,
+                "stringValue": ""
+            }
+        }
+    ],
+    "resourceArn": "",
+    "resultSetOptions": {
+        "decimalReturnType": "DOUBLE_OR_LONG"
+    },
+    "schema": "",
+    "secretArn": "",
+    "sql": "",
+    "transactionId": ""
+}

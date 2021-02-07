@@ -1,0 +1,26 @@
+{
+    "CatalogId": "",
+    "Name": "",
+    "DatabaseInput": {
+        "Name": "",
+        "Description": "",
+        "LocationUri": "",
+        "Parameters": {
+            "KeyName": ""
+        },
+        "CreateTableDefaultPermissions": [
+            {
+                "Principal": {
+                    "DataLakePrincipalIdentifier": ""
+                },
+                "Permissions": [
+                    "INSERT"
+                ]
+            }
+        ],
+        "TargetDatabase": {
+            "CatalogId": "",
+            "DatabaseName": ""
+        }
+    }
+}

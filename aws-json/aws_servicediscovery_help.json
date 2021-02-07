@@ -1,0 +1,69 @@
+SERVICEDISCOVERY()                                          SERVICEDISCOVERY()
+
+
+
+NNAAMMEE
+       servicediscovery -
+
+DDEESSCCRRIIPPTTIIOONN
+       AWS Cloud Map lets you configure public DNS, private DNS, or HTTP name-
+       spaces that your microservice applications run in. When an instance  of
+       the  service  becomes  available, you can call the AWS Cloud Map API to
+       register the instance with AWS Cloud Map. For  public  or  private  DNS
+       namespaces,  AWS Cloud Map automatically creates DNS records and an op-
+       tional health check. Clients that submit public or private DNS queries,
+       or HTTP requests, for the service receive an answer that contains up to
+       eight healthy records.
+
+AAVVAAIILLAABBLLEE CCOOMMMMAANNDDSS
+       +o create-http-namespace
+
+       +o create-private-dns-namespace
+
+       +o create-public-dns-namespace
+
+       +o create-service
+
+       +o delete-namespace
+
+       +o delete-service
+
+       +o deregister-instance
+
+       +o discover-instances
+
+       +o get-instance
+
+       +o get-instances-health-status
+
+       +o get-namespace
+
+       +o get-operation
+
+       +o get-service
+
+       +o help
+
+       +o list-instances
+
+       +o list-namespaces
+
+       +o list-operations
+
+       +o list-services
+
+       +o list-tags-for-resource
+
+       +o register-instance
+
+       +o tag-resource
+
+       +o untag-resource
+
+       +o update-instance-custom-health-status
+
+       +o update-service
+
+
+
+                                                            SERVICEDISCOVERY()

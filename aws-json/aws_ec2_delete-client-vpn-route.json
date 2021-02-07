@@ -1,0 +1,6 @@
+{
+    "ClientVpnEndpointId": "",
+    "TargetVpcSubnetId": "",
+    "DestinationCidrBlock": "",
+    "DryRun": true
+}

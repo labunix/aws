@@ -1,0 +1,10 @@
+{
+    "ScheduleArn": "",
+    "S3BucketName": "",
+    "S3KeyPrefix": "",
+    "Format": "CSV_ZIP",
+    "ScheduleName": "",
+    "Recurrence": {
+        "StartDate": ""
+    }
+}

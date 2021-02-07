@@ -1,0 +1,11 @@
+{
+    "associationType": "RESOURCE",
+    "resourceShareArns": [
+        ""
+    ],
+    "resourceArn": "",
+    "principal": "",
+    "associationStatus": "DISASSOCIATING",
+    "nextToken": "",
+    "maxResults": 0
+}

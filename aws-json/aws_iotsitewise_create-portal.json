@@ -1,0 +1,15 @@
+{
+    "portalName": "",
+    "portalDescription": "",
+    "portalContactEmail": "",
+    "clientToken": "",
+    "portalLogoImageFile": {
+        "data": null,
+        "type": "PNG"
+    },
+    "roleArn": "",
+    "tags": {
+        "KeyName": ""
+    },
+    "portalAuthMode": "SSO"
+}

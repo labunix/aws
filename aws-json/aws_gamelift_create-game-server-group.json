@@ -1,0 +1,34 @@
+{
+    "GameServerGroupName": "",
+    "RoleArn": "",
+    "MinSize": 0,
+    "MaxSize": 0,
+    "LaunchTemplate": {
+        "LaunchTemplateId": "",
+        "LaunchTemplateName": "",
+        "Version": ""
+    },
+    "InstanceDefinitions": [
+        {
+            "InstanceType": "c4.large",
+            "WeightedCapacity": ""
+        }
+    ],
+    "AutoScalingPolicy": {
+        "EstimatedInstanceWarmup": 0,
+        "TargetTrackingConfiguration": {
+            "TargetValue": null
+        }
+    },
+    "BalancingStrategy": "SPOT_ONLY",
+    "GameServerProtectionPolicy": "NO_PROTECTION",
+    "VpcSubnets": [
+        ""
+    ],
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

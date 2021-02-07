@@ -1,0 +1,37 @@
+{
+    "appId": "",
+    "serverGroupReplicationConfigurations": [
+        {
+            "serverGroupId": "",
+            "serverReplicationConfigurations": [
+                {
+                    "server": {
+                        "serverId": "",
+                        "serverType": "VIRTUAL_MACHINE",
+                        "vmServer": {
+                            "vmServerAddress": {
+                                "vmManagerId": "",
+                                "vmId": ""
+                            },
+                            "vmName": "",
+                            "vmManagerName": "",
+                            "vmManagerType": "SCVMM",
+                            "vmPath": ""
+                        },
+                        "replicationJobId": "",
+                        "replicationJobTerminated": true
+                    },
+                    "serverReplicationParameters": {
+                        "seedTime": "1970-01-01T00:00:00",
+                        "frequency": 0,
+                        "runOnce": true,
+                        "licenseType": "AWS",
+                        "numberOfRecentAmisToKeep": 0,
+                        "encrypted": true,
+                        "kmsKeyId": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

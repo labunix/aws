@@ -1,0 +1,24 @@
+{
+    "LoggingConfiguration": {
+        "ResourceArn": "",
+        "LogDestinationConfigs": [
+            ""
+        ],
+        "RedactedFields": [
+            {
+                "SingleHeader": {
+                    "Name": ""
+                },
+                "SingleQueryArgument": {
+                    "Name": ""
+                },
+                "AllQueryArguments": {},
+                "UriPath": {},
+                "QueryString": {},
+                "Body": {},
+                "Method": {}
+            }
+        ],
+        "ManagedByFirewallManager": true
+    }
+}

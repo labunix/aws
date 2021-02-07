@@ -1,0 +1,24 @@
+{
+    "Description": "",
+    "Name": "",
+    "Steps": [
+        {
+            "Action": {
+                "Operation": "",
+                "Parameters": {
+                    "KeyName": ""
+                }
+            },
+            "ConditionExpressions": [
+                {
+                    "Condition": "",
+                    "Value": "",
+                    "TargetColumn": ""
+                }
+            ]
+        }
+    ],
+    "Tags": {
+        "KeyName": ""
+    }
+}

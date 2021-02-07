@@ -1,0 +1,56 @@
+{
+    "DomainName": "",
+    "AuthMode": "IAM",
+    "DefaultUserSettings": {
+        "ExecutionRole": "",
+        "SecurityGroups": [
+            ""
+        ],
+        "SharingSettings": {
+            "NotebookOutputOption": "Disabled",
+            "S3OutputPath": "",
+            "S3KmsKeyId": ""
+        },
+        "JupyterServerAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "ml.c5.2xlarge"
+            }
+        },
+        "KernelGatewayAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "system"
+            },
+            "CustomImages": [
+                {
+                    "ImageName": "",
+                    "ImageVersionNumber": 0,
+                    "AppImageConfigName": ""
+                }
+            ]
+        },
+        "TensorBoardAppSettings": {
+            "DefaultResourceSpec": {
+                "SageMakerImageArn": "",
+                "SageMakerImageVersionArn": "",
+                "InstanceType": "ml.m5.16xlarge"
+            }
+        }
+    },
+    "SubnetIds": [
+        ""
+    ],
+    "VpcId": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "AppNetworkAccessType": "PublicInternetOnly",
+    "HomeEfsFileSystemKmsKeyId": "",
+    "KmsKeyId": ""
+}

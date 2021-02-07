@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "ScheduleExpression": "",
+    "EventPattern": "",
+    "State": "DISABLED",
+    "Description": "",
+    "RoleArn": "",
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ],
+    "EventBusName": ""
+}

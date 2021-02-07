@@ -1,0 +1,11 @@
+{
+    "registrationStatus": "Deregistered",
+    "tagFilters": [
+        {
+            "Key": "",
+            "Value": "",
+            "Type": "KEY_ONLY"
+        }
+    ],
+    "nextToken": ""
+}

@@ -1,0 +1,12 @@
+{
+    "Filters": [
+        {
+            "Name": "configuration-type",
+            "Values": [
+                ""
+            ]
+        }
+    ],
+    "MaxResults": 0,
+    "NextToken": ""
+}

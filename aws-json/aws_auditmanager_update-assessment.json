@@ -1,0 +1,29 @@
+{
+    "assessmentId": "",
+    "assessmentName": "",
+    "assessmentDescription": "",
+    "scope": {
+        "awsAccounts": [
+            {
+                "id": "",
+                "emailAddress": "",
+                "name": ""
+            }
+        ],
+        "awsServices": [
+            {
+                "serviceName": ""
+            }
+        ]
+    },
+    "assessmentReportsDestination": {
+        "destinationType": "S3",
+        "destination": ""
+    },
+    "roles": [
+        {
+            "roleType": "PROCESS_OWNER",
+            "roleArn": ""
+        }
+    ]
+}

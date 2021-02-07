@@ -1,0 +1,13 @@
+{
+    "Id": "",
+    "TransmitMode": 0,
+    "PayloadData": "",
+    "WirelessMetadata": {
+        "LoRaWAN": {
+            "FPort": 0
+        },
+        "Sidewalk": {
+            "Seq": 0
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "webhook": {
+        "name": "",
+        "targetPipeline": "",
+        "targetAction": "",
+        "filters": [
+            {
+                "jsonPath": "",
+                "matchEquals": ""
+            }
+        ],
+        "authentication": "GITHUB_HMAC",
+        "authenticationConfiguration": {
+            "AllowedIPRange": "",
+            "SecretToken": ""
+        }
+    },
+    "tags": [
+        {
+            "key": "",
+            "value": ""
+        }
+    ]
+}

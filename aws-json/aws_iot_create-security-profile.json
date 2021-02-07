@@ -1,0 +1,67 @@
+{
+    "securityProfileName": "",
+    "securityProfileDescription": "",
+    "behaviors": [
+        {
+            "name": "",
+            "metric": "",
+            "metricDimension": {
+                "dimensionName": "",
+                "operator": "IN"
+            },
+            "criteria": {
+                "comparisonOperator": "less-than",
+                "value": {
+                    "count": 0,
+                    "cidrs": [
+                        ""
+                    ],
+                    "ports": [
+                        0
+                    ],
+                    "number": null,
+                    "numbers": [
+                        null
+                    ],
+                    "strings": [
+                        ""
+                    ]
+                },
+                "durationSeconds": 0,
+                "consecutiveDatapointsToAlarm": 0,
+                "consecutiveDatapointsToClear": 0,
+                "statisticalThreshold": {
+                    "statistic": ""
+                },
+                "mlDetectionConfig": {
+                    "confidenceLevel": "HIGH"
+                }
+            },
+            "suppressAlerts": true
+        }
+    ],
+    "alertTargets": {
+        "KeyName": {
+            "alertTargetArn": "",
+            "roleArn": ""
+        }
+    },
+    "additionalMetricsToRetain": [
+        ""
+    ],
+    "additionalMetricsToRetainV2": [
+        {
+            "metric": "",
+            "metricDimension": {
+                "dimensionName": "",
+                "operator": "IN"
+            }
+        }
+    ],
+    "tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

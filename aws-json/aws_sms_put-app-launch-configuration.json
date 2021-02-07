@@ -1,0 +1,50 @@
+{
+    "appId": "",
+    "roleName": "",
+    "autoLaunch": true,
+    "serverGroupLaunchConfigurations": [
+        {
+            "serverGroupId": "",
+            "launchOrder": 0,
+            "serverLaunchConfigurations": [
+                {
+                    "server": {
+                        "serverId": "",
+                        "serverType": "VIRTUAL_MACHINE",
+                        "vmServer": {
+                            "vmServerAddress": {
+                                "vmManagerId": "",
+                                "vmId": ""
+                            },
+                            "vmName": "",
+                            "vmManagerName": "",
+                            "vmManagerType": "HYPERV-MANAGER",
+                            "vmPath": ""
+                        },
+                        "replicationJobId": "",
+                        "replicationJobTerminated": true
+                    },
+                    "logicalId": "",
+                    "vpc": "",
+                    "subnet": "",
+                    "securityGroup": "",
+                    "ec2KeyName": "",
+                    "userData": {
+                        "s3Location": {
+                            "bucket": "",
+                            "key": ""
+                        }
+                    },
+                    "instanceType": "",
+                    "associatePublicIpAddress": true,
+                    "iamInstanceProfileName": "",
+                    "configureScript": {
+                        "bucket": "",
+                        "key": ""
+                    },
+                    "configureScriptType": "POWERSHELL_SCRIPT"
+                }
+            ]
+        }
+    ]
+}

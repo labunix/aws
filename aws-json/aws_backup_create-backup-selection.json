@@ -1,0 +1,18 @@
+{
+    "BackupPlanId": "",
+    "BackupSelection": {
+        "SelectionName": "",
+        "IamRoleArn": "",
+        "Resources": [
+            ""
+        ],
+        "ListOfTags": [
+            {
+                "ConditionType": "STRINGEQUALS",
+                "ConditionKey": "",
+                "ConditionValue": ""
+            }
+        ]
+    },
+    "CreatorRequestId": ""
+}

@@ -1,0 +1,181 @@
+{
+    "AlgorithmName": "",
+    "AlgorithmDescription": "",
+    "TrainingSpecification": {
+        "TrainingImage": "",
+        "TrainingImageDigest": "",
+        "SupportedHyperParameters": [
+            {
+                "Name": "",
+                "Description": "",
+                "Type": "FreeText",
+                "Range": {
+                    "IntegerParameterRangeSpecification": {
+                        "MinValue": "",
+                        "MaxValue": ""
+                    },
+                    "ContinuousParameterRangeSpecification": {
+                        "MinValue": "",
+                        "MaxValue": ""
+                    },
+                    "CategoricalParameterRangeSpecification": {
+                        "Values": [
+                            ""
+                        ]
+                    }
+                },
+                "IsTunable": true,
+                "IsRequired": true,
+                "DefaultValue": ""
+            }
+        ],
+        "SupportedTrainingInstanceTypes": [
+            "ml.c5.18xlarge"
+        ],
+        "SupportsDistributedTraining": true,
+        "MetricDefinitions": [
+            {
+                "Name": "",
+                "Regex": ""
+            }
+        ],
+        "TrainingChannels": [
+            {
+                "Name": "",
+                "Description": "",
+                "IsRequired": true,
+                "SupportedContentTypes": [
+                    ""
+                ],
+                "SupportedCompressionTypes": [
+                    "None"
+                ],
+                "SupportedInputModes": [
+                    "Pipe"
+                ]
+            }
+        ],
+        "SupportedTuningJobObjectiveMetrics": [
+            {
+                "Type": "Minimize",
+                "MetricName": ""
+            }
+        ]
+    },
+    "InferenceSpecification": {
+        "Containers": [
+            {
+                "ContainerHostname": "",
+                "Image": "",
+                "ImageDigest": "",
+                "ModelDataUrl": "",
+                "ProductId": ""
+            }
+        ],
+        "SupportedTransformInstanceTypes": [
+            "ml.c5.4xlarge"
+        ],
+        "SupportedRealtimeInferenceInstanceTypes": [
+            "ml.m5d.2xlarge"
+        ],
+        "SupportedContentTypes": [
+            ""
+        ],
+        "SupportedResponseMIMETypes": [
+            ""
+        ]
+    },
+    "ValidationSpecification": {
+        "ValidationRole": "",
+        "ValidationProfiles": [
+            {
+                "ProfileName": "",
+                "TrainingJobDefinition": {
+                    "TrainingInputMode": "Pipe",
+                    "HyperParameters": {
+                        "KeyName": ""
+                    },
+                    "InputDataConfig": [
+                        {
+                            "ChannelName": "",
+                            "DataSource": {
+                                "S3DataSource": {
+                                    "S3DataType": "S3Prefix",
+                                    "S3Uri": "",
+                                    "S3DataDistributionType": "FullyReplicated",
+                                    "AttributeNames": [
+                                        ""
+                                    ]
+                                },
+                                "FileSystemDataSource": {
+                                    "FileSystemId": "",
+                                    "FileSystemAccessMode": "rw",
+                                    "FileSystemType": "EFS",
+                                    "DirectoryPath": ""
+                                }
+                            },
+                            "ContentType": "",
+                            "CompressionType": "None",
+                            "RecordWrapperType": "None",
+                            "InputMode": "File",
+                            "ShuffleConfig": {
+                                "Seed": 0
+                            }
+                        }
+                    ],
+                    "OutputDataConfig": {
+                        "KmsKeyId": "",
+                        "S3OutputPath": ""
+                    },
+                    "ResourceConfig": {
+                        "InstanceType": "ml.g4dn.12xlarge",
+                        "InstanceCount": 0,
+                        "VolumeSizeInGB": 0,
+                        "VolumeKmsKeyId": ""
+                    },
+                    "StoppingCondition": {
+                        "MaxRuntimeInSeconds": 0,
+                        "MaxWaitTimeInSeconds": 0
+                    }
+                },
+                "TransformJobDefinition": {
+                    "MaxConcurrentTransforms": 0,
+                    "MaxPayloadInMB": 0,
+                    "BatchStrategy": "MultiRecord",
+                    "Environment": {
+                        "KeyName": ""
+                    },
+                    "TransformInput": {
+                        "DataSource": {
+                            "S3DataSource": {
+                                "S3DataType": "S3Prefix",
+                                "S3Uri": ""
+                            }
+                        },
+                        "ContentType": "",
+                        "CompressionType": "Gzip",
+                        "SplitType": "Line"
+                    },
+                    "TransformOutput": {
+                        "S3OutputPath": "",
+                        "Accept": "",
+                        "AssembleWith": "None",
+                        "KmsKeyId": ""
+                    },
+                    "TransformResources": {
+                        "InstanceType": "ml.p2.8xlarge",
+                        "InstanceCount": 0,
+                        "VolumeKmsKeyId": ""
+                    }
+                }
+            }
+        ]
+    },
+    "CertifyForMarketplace": true,
+    "Tags": [
+        {
+            "Key": "",
+            "Value": ""
+        }
+    ]
+}

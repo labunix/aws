@@ -1,0 +1,9 @@
+{
+    "AppId": "",
+    "LoginAuthConfig": {
+        "AwsCognitoIdentityPoolId": "",
+        "AwsCognitoRegion": "",
+        "AwsUserPoolsId": "",
+        "AwsUserPoolsWebClientId": ""
+    }
+}
