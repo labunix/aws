@@ -1,0 +1,206 @@
+#  aws acm wait
+certificate-validated
+#  aws acm-pca wait
+audit-report-created
+certificate-authority-csr-created
+certificate-issued
+#  aws appstream wait
+fleet-started
+fleet-stopped
+#  aws cloudformation wait
+change-set-create-complete
+stack-create-complete
+stack-delete-complete
+stack-exists
+stack-import-complete
+stack-rollback-complete
+stack-update-complete
+type-registration-complete
+#  aws cloudfront wait
+distribution-deployed
+invalidation-completed
+streaming-distribution-deployed
+#  aws cloudwatch wait
+alarm-exists
+composite-alarm-exists
+#  aws deploy wait
+deployment-successful
+#  aws dms wait
+endpoint-deleted
+replication-instance-available
+replication-instance-deleted
+replication-task-deleted
+replication-task-ready
+replication-task-running
+replication-task-stopped
+test-connection-succeeds
+#  aws docdb wait
+db-instance-available
+db-instance-deleted
+#  aws dynamodb wait
+table-exists
+table-not-exists
+#  aws ec2 wait
+bundle-task-complete
+conversion-task-cancelled
+conversion-task-completed
+conversion-task-deleted
+customer-gateway-available
+export-task-cancelled
+export-task-completed
+image-available
+image-exists
+instance-exists
+instance-running
+instance-status-ok
+instance-stopped
+instance-terminated
+key-pair-exists
+nat-gateway-available
+network-interface-available
+password-data-available
+security-group-exists
+snapshot-completed
+spot-instance-request-fulfilled
+subnet-available
+system-status-ok
+volume-available
+volume-deleted
+volume-in-use
+vpc-available
+vpc-exists
+vpc-peering-connection-deleted
+vpc-peering-connection-exists
+vpn-connection-available
+vpn-connection-deleted
+#  aws ecr wait
+image-scan-complete
+lifecycle-policy-preview-complete
+#  aws ecs wait
+services-inactive
+services-stable
+tasks-running
+tasks-stopped
+#  aws eks wait
+addon-active
+addon-deleted
+cluster-active
+cluster-deleted
+nodegroup-active
+nodegroup-deleted
+#  aws elasticache wait
+cache-cluster-available
+cache-cluster-deleted
+replication-group-available
+replication-group-deleted
+#  aws elasticbeanstalk wait
+environment-exists
+environment-terminated
+environment-updated
+#  aws elastictranscoder wait
+job-complete
+#  aws elb wait
+any-instance-in-service
+instance-deregistered
+instance-in-service
+#  aws elbv2 wait
+load-balancer-available
+load-balancer-exists
+load-balancers-deleted
+target-deregistered
+target-in-service
+#  aws emr wait
+cluster-running
+cluster-terminated
+step-complete
+#  aws glacier wait
+vault-exists
+vault-not-exists
+#  aws iam wait
+instance-profile-exists
+policy-exists
+role-exists
+user-exists
+#  aws iotsitewise wait
+asset-active
+asset-model-active
+asset-model-not-exists
+asset-not-exists
+portal-active
+portal-not-exists
+#  aws kinesis wait
+stream-exists
+stream-not-exists
+#  aws lambda wait
+function-active
+function-exists
+function-updated
+#  aws machinelearning wait
+batch-prediction-available
+data-source-available
+evaluation-available
+ml-model-available
+#  aws medialive wait
+channel-created
+channel-deleted
+channel-running
+channel-stopped
+input-attached
+input-deleted
+input-detached
+multiplex-created
+multiplex-deleted
+multiplex-running
+multiplex-stopped
+#  aws neptune wait
+db-instance-available
+db-instance-deleted
+#  aws opsworks wait
+app-exists
+deployment-successful
+instance-online
+instance-registered
+instance-stopped
+instance-terminated
+#  aws opsworks-cm wait
+node-associated
+#  aws rds wait
+db-cluster-snapshot-available
+db-cluster-snapshot-deleted
+db-instance-available
+db-instance-deleted
+db-snapshot-available
+db-snapshot-completed
+db-snapshot-deleted
+#  aws redshift wait
+cluster-available
+cluster-deleted
+cluster-restored
+snapshot-available
+#  aws rekognition wait
+project-version-running
+project-version-training-completed
+#  aws route53 wait
+resource-record-sets-changed
+#  aws s3api wait
+bucket-exists
+bucket-not-exists
+object-exists
+object-not-exists
+#  aws sagemaker wait
+endpoint-deleted
+endpoint-in-service
+notebook-instance-deleted
+notebook-instance-in-service
+notebook-instance-stopped
+processing-job-completed-or-stopped
+training-job-completed-or-stopped
+transform-job-completed-or-stopped
+#  aws schemas wait
+code-binding-exists
+#  aws ses wait
+identity-exists
+#  aws signer wait
+successful-signing-job
+#  aws ssm wait
+command-executed
